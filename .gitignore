@@ -1,0 +1,15 @@
+.idea/
+.DS_Store*
+*/*.DS_Store*
+*/*/*.DS_Store*
+*.pyc
+*/*.pyc
+*/*/*.pyc
+weights/
+mAP/ground-truth/*
+mAP/predicted/*
+log/test/*
+log/train/*
+modify note
+results/
+
