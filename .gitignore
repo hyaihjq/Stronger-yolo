@@ -6,8 +6,8 @@
 */*.pyc
 */*/*.pyc
 weights/
-mAP/ground-truth/*
-mAP/predicted/*
+mAP/ground-truth/
+mAP/predicted/
 log/test/*
 log/train/*
 modify note
