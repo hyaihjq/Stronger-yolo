@@ -12,7 +12,7 @@ Support for parallel training and testing <br>
 - [ ] SNIP<br>
 
 ## mAP on VOC2007<br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP.png)<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP.png)<br>
 ## Reference:<br>
 paper: <br>
 [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)<br>
