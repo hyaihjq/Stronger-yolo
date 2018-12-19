@@ -8,7 +8,7 @@ YOLO_v3 implemented with tensorflow <br>
 - [x] data augmentation<br>
 - [x] multi-scale training<br>
 - [ ] Single-Shot Object Detection with Enriched Semantics<br>
-- [ ] SNIP<br>
+- [ ] SNIPER<br>
 
 ## mAP on VOC2007<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP.png)<br>
