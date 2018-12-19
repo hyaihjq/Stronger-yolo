@@ -18,7 +18,7 @@ paper: <br>
 [Foca Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)<br>
 [Group Normalization](https://arxiv.org/abs/1803.08494)<br>
 [Single-Shot Object Detection with Enriched Semantics](https://arxiv.org/abs/1712.00433)<br>
-[An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189)<br>
+[SNIPER: Efficient Multi-Scale Training](https://arxiv.org/abs/1805.09300)<br>
 
 mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
