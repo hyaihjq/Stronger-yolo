@@ -1,7 +1,6 @@
 YOLO_v3
 =
 YOLO_v3 implemented with tensorflow <br>
-Support for parallel training and testing <br>
 
 - [x] Group Normalization<br>
 - [x] Focal loss<br>
