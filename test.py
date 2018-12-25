@@ -245,7 +245,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--map_calc', default='False', type=str)
     parser.add_argument('--test_2012', default='False', type=str)
-    parser.add_argument('--weights_file', default='yolo.ckpt-31-1.4781', type=str)
+    parser.add_argument('--weights_file', default='', type=str)
     parser.add_argument('--gpu', default='0', type=str)
     args = parser.parse_args()
     map_calc = args.map_calc
