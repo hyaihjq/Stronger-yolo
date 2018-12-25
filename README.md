@@ -10,6 +10,10 @@ YOLO_v3 implemented with tensorflow <br>
 - [x] Single-Shot Object Detection with Enriched Semantics<br>
 - [ ] SNIPER<br>
 
+weights
+=
+You should create a new folder named `weights` and put all the downloaded [weight files](https://drive.google.com/drive/my-drive) in the `weights` folder.
+
 ## mAP on VOC2007<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP.png)<br>
 ## Reference:<br>
