@@ -7,7 +7,7 @@ YOLO_v3 implemented with tensorflow <br>
 - [x] Soft-NMS(no useful)<br>
 - [x] data augmentation<br>
 - [x] multi-scale training<br>
-- [x] Single-Shot Object Detection with Enriched Semantics<br>
+- [x] Single-Shot Object Detection with Enriched Semantics(not release)<br>
 - [ ] SNIP<br>
 
 Usage
