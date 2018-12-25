@@ -10,7 +10,7 @@ IOU_LOSS_THRESH = 0.5
 BATCH_SIZE = 32
 LEARN_RATE_INIT = 1e-3
 MAX_LEARN_RATE_DECAY_TIME = 2
-MAX_WAVE_TIME = 3
+MAX_WAVE_TIME = 2
 MAX_PERIODS = 50
 ANCHORS = [[(1.25, 1.625), (2.0, 3.75), (4.125, 2.875)],            # Anchors for small obj
            [(1.875, 3.8125), (3.875, 2.8125), (3.6875, 7.4375)],    # Anchors for medium obj
@@ -18,7 +18,7 @@ ANCHORS = [[(1.25, 1.625), (2.0, 3.75), (4.125, 2.875)],            # Anchors fo
 ANCHOR_PER_SCALE = 3
 MOVING_AVE_DECAY = 0.9995
 SAVE_ITER = 1
-MAX_BBOX_PER_SCALE = 20
+MAX_BBOX_PER_SCALE = 50
 
 # test
 SCORE_THRESHOLD = 0.2    # The threshold of the probability of the classes

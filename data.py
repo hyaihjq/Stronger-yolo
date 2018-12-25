@@ -193,6 +193,10 @@ class Data(object):
             xind, yind = np.floor(bbox_xywh_scaled[best_detect, 0:2]).astype(np.int32)
 
             # (4)将best_anchor对应位置的数据标识为(x, y, w, h, 1, classes)
+            # 首先需要将该Anchor对应的标签清零，因为某个Anchor可能与多个bbox有最大IOU，
+            # 当输入图片尺寸为416时，与多个bbox有最大IOU的Anchor总共有248个
+            # 如果不清零，那么该Anchor可能会被标记为多类
+            label[best_detect][yind, xind, best_anchor, :] = 0
             label[best_detect][yind, xind, best_anchor, 0:4] = bbox_xywh
             label[best_detect][yind, xind, best_anchor, 4:5] = 1.0
             label[best_detect][yind, xind, best_anchor, 5 + bbox_class_ind] = 1.0
