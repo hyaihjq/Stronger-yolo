@@ -23,7 +23,7 @@ Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCt
 、[VOC 2007_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
 、[VOC 2007_test](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar), and put datasets into `data/VOC`,
  name as `2012_trainval`、`2007_trainval`、`2007_test` separately. 
-4. Train<br>
+3. Train<br>
 Download pretrained weight file [yolo_coco_initial.ckpt](https://drive.google.com/drive/folders/1tHhxpmEAM0G34g8YdcDVNJv9s57smJIz)
 ``` bash
 python voc_annotation.py
@@ -34,7 +34,7 @@ python train.py
 --frozen, default=True
 --learn_rate_init, default=0.001
 ```
-5. Test<br>
+4. Test<br>
 Download weight file [yolo_416_85%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
 ``` bash
 python test.py
