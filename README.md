@@ -19,9 +19,9 @@ git clone https://github.com/Stinky-Tofu/YOLO_v3.git
 2. Download datasets <br>
 Create a new folder named `data` in the directory where the `YOLO_V3` folder 
 is located, and then create a new folder named `VOC` in the `data/`.<br>
-Download [VOC 2012_trainval](﻿http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
-、[VOC 2007_trainval](﻿http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
-、[VOC 2007_test](﻿http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar), and put datasets into `data/VOC`,
+Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
+、[VOC 2007_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
+、[VOC 2007_test](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar), and put datasets into `data/VOC`,
  name as `2012_trainval`、`2007_trainval`、`2007_test` separately. 
 4. Train<br>
 Download pretrained weight file [yolo_coco_initial.ckpt](https://drive.google.com/drive/folders/1tHhxpmEAM0G34g8YdcDVNJv9s57smJIz)
@@ -45,7 +45,7 @@ python test.py
 
 
 ## mAP on VOC2007<br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP.png)<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP.png)<br>
 ## Reference:<br>
 paper: <br>
 [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)<br>
