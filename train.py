@@ -7,6 +7,8 @@ import tensorflow as tf
 import numpy as np
 import os
 import argparse
+import logging
+import time
 
 
 class YoloTrain(object):
@@ -20,7 +22,8 @@ class YoloTrain(object):
         self.__max_learn_rate_decay_time = cfg.MAX_LEARN_RATE_DECAY_TIME
         self.__weights_dir = cfg.WEIGHTS_DIR
         self.__weights_file = cfg.WEIGHTS_FILE
-        self.__log_dir = os.path.join(cfg.LOG_DIR, 'train')
+        self.__time = time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time()))
+        self.__log_dir = os.path.join(cfg.LOG_DIR, 'train', self.__time)
         self.__moving_ave_decay = cfg.MOVING_AVE_DECAY
         self.__save_iter = cfg.SAVE_ITER
         self.__max_bbox_per_scale = cfg.MAX_BBOX_PER_SCALE
@@ -42,9 +45,9 @@ class YoloTrain(object):
         self.__conv_sbbox, self.__conv_mbbox, self.__conv_lbbox, \
         self.__pred_sbbox, self.__pred_mbbox, self.__pred_lbbox = self.__yolo.build_nework(self.__input_data)
         self.__net_var = tf.global_variables()
-        print 'Load weights:'
+        logging.info('Load weights:')
         for var in self.__net_var:
-            print var.op.name
+            logging.info(var.op.name)
 
         self.__loss = self.__yolo.loss(self.__conv_sbbox, self.__conv_mbbox, self.__conv_lbbox,
                                        self.__pred_sbbox, self.__pred_mbbox, self.__pred_lbbox,
@@ -74,9 +77,9 @@ class YoloTrain(object):
                     self.__train_op_with_all_variables = tf.no_op()
 
             self.__train_op = self.__train_op_with_frozen_variables
-            print 'Default trian step0 is freeze the weight of darknet'
+            logging.info('Default trian step0 is freeze the weight of darknet')
             for var in self.__trainable_var_list:
-                print '\t' + str(var.op.name).ljust(50) + str(var.shape)
+                logging.info('\t' + str(var.op.name).ljust(50) + str(var.shape))
 
         with tf.name_scope('load_save'):
             self.__load = tf.train.Saver(self.__net_var)
@@ -93,7 +96,7 @@ class YoloTrain(object):
     def train(self, frozen=True):
         self.__sess.run(tf.global_variables_initializer())
         ckpt_path = os.path.join(self.__weights_dir, self.__weights_file)
-        print 'Restoring weights from:\t %s' % ckpt_path
+        logging.info('Restoring weights from:\t %s' % ckpt_path)
         self.__load.restore(self.__sess, ckpt_path)
 
         learn_rate_decay_time = 0
@@ -108,19 +111,19 @@ class YoloTrain(object):
                     learning_rate_value = self.__sess.run(
                         tf.assign(self.__learn_rate, self.__sess.run(self.__learn_rate) / 10.0)
                     )
-                    print 'The value of learn rate is:\t%f' % learning_rate_value
+                    logging.info('The value of learn rate is:\t%f' % learning_rate_value)
 
                 # 使用原始learn rate_init * 0.01微调至饱和后再用learn_rate_init * 0.01全部微调
                 learn_rate_decay_time += 1
                 if learn_rate_decay_time == (self.__max_learn_rate_decay_time + 1):
                     self.__train_op = self.__train_op_with_all_variables
-                    print 'Train all of weights'
-                    self.__train_data.batch_size_change(2)
-                    self.__test_data.batch_size_change(2)
+                    logging.info('Train all of weights')
+                    self.__train_data.batch_size_change(6)
+                    self.__test_data.batch_size_change(6)
 
             if not frozen:
                 self.__train_op = self.__train_op_with_all_variables
-                print 'Train all of weights'
+                logging.info('Train all of weights')
 
             print_loss_iter = len(self.__train_data) / 10
             total_train_loss = 0.0
@@ -141,6 +144,7 @@ class YoloTrain(object):
                         self.__training: False
                     }
                 )
+                print "keep running"
                 if np.isnan(loss_value):
                     raise ArithmeticError('The gradient is exploded')
                 total_train_loss += loss_value
@@ -149,7 +153,7 @@ class YoloTrain(object):
                 train_loss = total_train_loss / print_loss_iter
                 total_train_loss = 0.0
                 self.__summary_writer.add_summary(summary_value, period * len(self.__train_data) + step)
-                print 'Period:\t%d\tstep:\t%d\ttrain loss:\t%.4f' % (period, step, train_loss)
+                logging.info('Period:\t%d\tstep:\t%d\ttrain loss:\t%.4f' % (period, step, train_loss))
 
             if (period + 1) % self.__save_iter:
                 continue
@@ -171,12 +175,13 @@ class YoloTrain(object):
                         self.__training: False
                 }
                 )
+                print "keep running"
                 total_test_loss += loss_value
             test_loss = total_test_loss / len(self.__test_data)
-            print 'Period:\t%d\ttest loss:\t%.4f' % (period, test_loss)
+            logging.info('Period:\t%d\ttest loss:\t%.4f' % (period, test_loss))
             saved_model_name = os.path.join(self.__weights_dir, 'yolo.ckpt-%d-%.4f' % (period, test_loss))
             self.__save.save(self.__sess, saved_model_name)
-            print 'Saved model:\t%s' % saved_model_name
+            logging.info('Saved model:\t%s' % saved_model_name)
 
             test_loss_err_list.append(test_loss - test_loss_last)
             test_loss_last = test_loss
@@ -192,15 +197,19 @@ if __name__ == '__main__':
     parser.add_argument('--learn_rate_init', default='0.001', type=str)
     args = parser.parse_args()
 
+    log_time = time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time()))
+    logging.basicConfig(filename='log/train/' + log_time + '.log', format='%(filename)s %(asctime)s\t%(message)s',
+                        level=logging.DEBUG, datefmt='%Y-%m-%d %I:%M:%S', filemode='w')
+
     if args.gpu is not None:
         cfg.GPU = args.gpu
         os.environ['CUDA_VISIBLE_DEVICES'] = cfg.GPU
     if args.weights_file is not None:
         cfg.WEIGHTS_FILE = args.weights_file
     cfg.BATCH_SIZE = int(args.batch_size)
-    print 'Batch size is:\t%d' % cfg.BATCH_SIZE
+    logging.info('Batch size is:\t%d' % cfg.BATCH_SIZE)
     cfg.LEARN_RATE_INIT = float(args.learn_rate_init)
-    print 'Initial learn rate is:\t%f' % cfg.LEARN_RATE_INIT
+    logging.info('Initial learn rate is:\t%f' % cfg.LEARN_RATE_INIT)
     T = YoloTrain()
     assert args.frozen in ['True', 'False']
     if args.frozen == 'True':

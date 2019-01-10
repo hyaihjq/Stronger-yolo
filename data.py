@@ -12,6 +12,7 @@ import cv2
 from utils import data_aug
 import random
 import tensorflow as tf
+import logging
 
 
 class Data(object):
@@ -36,14 +37,14 @@ class Data(object):
         num_annotations = len(annotations)
         self.__annotations = annotations[: int(split_ratio * num_annotations)]
         self.__num_samples = len(self.__annotations)
-        print ('The number of image for %s is:' % dataset_type).ljust(50), self.__num_samples
+        logging.info(('The number of image for %s is:' % dataset_type).ljust(50) + str(self.__num_samples))
         self.__num_batchs = np.ceil(self.__num_samples / self.__batch_size)
         self.__batch_count = 0
 
     def batch_size_change(self, batch_size_new):
         self.__batch_size = batch_size_new
         self.__num_batchs = np.ceil(self.__num_samples / self.__batch_size)
-        print 'Use the new batch size: %d' % self.__batch_size
+        logging.info('Use the new batch size: %d' % self.__batch_size)
 
 
     def __load_annotations(self, dataset_type):

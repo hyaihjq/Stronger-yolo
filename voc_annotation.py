@@ -51,8 +51,8 @@ if __name__ == '__main__':
         os.remove(train_annotation_path)
     if os.path.exists(test_annotation_path):
         os.remove(test_annotation_path)
-    num1 = convert_voc_annotation(os.path.join(cfg.DATASET_PATH, '2012_trainval'), 'trainval', train_annotation_path)
-    num2 = convert_voc_annotation(os.path.join(cfg.DATASET_PATH, '2007_trainval'), 'trainval', train_annotation_path)
+    num1 = convert_voc_annotation(os.path.join(cfg.DATASET_PATH, '2012_trainval'), 'trainval', train_annotation_path, False)
+    num2 = convert_voc_annotation(os.path.join(cfg.DATASET_PATH, '2007_trainval'), 'trainval', train_annotation_path, False)
     num3 = convert_voc_annotation(os.path.join(cfg.DATASET_PATH, '2007_test'), 'test', test_annotation_path, False)
     print 'The number of image for train is:'.ljust(50), num1 + num2
     print 'The number of image for test is:'.ljust(50), num3
