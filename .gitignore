@@ -12,5 +12,4 @@ log/test/*
 log/train/*
 results/
 main.py
-._modify note
-.gitignore
+*.[^p][^y]
