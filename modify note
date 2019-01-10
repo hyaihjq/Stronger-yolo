@@ -1,0 +1,16 @@
+# 第一次修改
+1、加载YOLO_416中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
+2、需要配套的是将输入图片 image / 255.0，因为YOLO_416就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_416中的BN层
+3、使用了多尺度训练
+4、第一阶段使用32个batch size
+5、第二阶段使用2个batch size、这个主要是因为有608的size在，所以只能用这么大的batch size
+6、分别在第11、20个period降低了学习率、learn_rate_init=0.001
+7、去掉了测试集中difficult的bbox，mAP从81.59提高至85.05%
+
+#第二次修改
+1、加载YOLO_416中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
+2、需要配套的是将输入图片 image / 255.0，因为YOLO_416就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_416中的BN层
+3、不使用多尺度训练，训练尺寸为416
+4、第一阶段使用32个batch size、第二阶段使用6个batch size
+6、learn_rate_init=0.001，经历了两次学习率衰减，每次除10
+7、去掉了训练集中标记为difficult的bbox后，mAP从84.55%(未使用多尺度训练，没有去掉训练集中标记为difficult的bbox)提高至86.5%

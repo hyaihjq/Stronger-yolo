@@ -10,7 +10,7 @@ mAP/ground-truth/
 mAP/predicted/
 log/test/*
 log/train/*
-modify note
 results/
 main.py
-.*
+._modify note
+.gitignore
