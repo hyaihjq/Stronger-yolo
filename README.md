@@ -7,8 +7,8 @@ YOLO_v3 implemented with tensorflow <br>
 - [x] Soft-NMS(no useful)<br>
 - [x] data augmentation<br>
 - [x] multi-scale training<br>
-- [x] Single-Shot Object Detection with Enriched Semantics(not release)<br>
-- [ ] SNIP<br>
+- [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
+- [ ] Deformable convolutional networks<br>
 
 Usage
 =
@@ -53,6 +53,7 @@ paper: <br>
 [Group Normalization](https://arxiv.org/abs/1803.08494)<br>
 [Single-Shot Object Detection with Enriched Semantics](https://arxiv.org/abs/1712.00433)<br>
 [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189)<br>
+[Deformable convolutional networks](https://arxiv.org/abs/1811.11168)<br>
 
 mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
