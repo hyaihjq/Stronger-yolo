@@ -1,11 +1,15 @@
 # coding:utf-8
 
+import numpy as np
+
 # yolo
 # TRAIN_INPUT_SIZES = [320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
 TRAIN_INPUT_SIZES = [416]
 TEST_INPUT_SIZE = 416  # width=height
 STRIDES = [8, 16, 32]
 IOU_LOSS_THRESH = 0.5
+
+VALID_SCALES = [[0, 60], [0, np.inf], [60, np.inf]]
 
 # train
 BATCH_SIZE = 32

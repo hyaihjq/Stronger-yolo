@@ -31,6 +31,7 @@ class YoloTest(object):
         self.__annot_dir_path = cfg.ANNOT_DIR_PATH
         self.__moving_ave_decay = cfg.MOVING_AVE_DECAY
         self.__dataset_path = cfg.DATASET_PATH
+        self.__valid_scales = cfg.VALID_SCALES
 
         with tf.name_scope('input'):
             self.__input_data = tf.placeholder(dtype=tf.float32, name='input_data')
@@ -64,14 +65,25 @@ class YoloTest(object):
             }
         )
 
-        sbboxes = self.__convert_pred(pred_sbbox, (org_h, org_w))
-        mbboxes = self.__convert_pred(pred_mbbox, (org_h, org_w))
-        lbboxes = self.__convert_pred(pred_lbbox, (org_h, org_w))
+        sbboxes = self.__convert_pred(pred_sbbox, (org_h, org_w), self.__valid_scales[0])
+        mbboxes = self.__convert_pred(pred_mbbox, (org_h, org_w), self.__valid_scales[1])
+        lbboxes = self.__convert_pred(pred_lbbox, (org_h, org_w), self.__valid_scales[2])
+
+        # sbboxes = self.__valid_scale_filter(sbboxes, self.__valid_scales[0])
+        # mbboxes = self.__valid_scale_filter(mbboxes, self.__valid_scales[1])
+        # lbboxes = self.__valid_scale_filter(lbboxes, self.__valid_scales[2])
+
         bboxes = np.concatenate([sbboxes, mbboxes, lbboxes], axis=0)
         bboxes = utils.nms(bboxes,self.__score_threshold, self.__iou_threshold, method='nms')
         return bboxes
 
-    def __convert_pred(self, pred_bbox, org_img_shape):
+    def __valid_scale_filter(self, bboxes, valid_scale):
+        bboxes_scale = np.sqrt(np.multiply.reduce(bboxes[:, 2:4] - bboxes[:, 0:2], axis=-1))
+        scale_mask = np.logical_and((valid_scale[0] < bboxes_scale), (bboxes_scale < valid_scale[1]))
+        bboxes = bboxes[scale_mask]
+        return bboxes
+
+    def __convert_pred(self, pred_bbox, org_img_shape, valid_scale):
         """
         将yolo输出的bbox信息(x, y, w, h, confidence, probability)进行转换，
         其中(x, y, w, h)是预测bbox的中心坐标、宽、高，大小是相对于input_size的，
@@ -114,13 +126,20 @@ class YoloTest(object):
         pred_conf = pred_conf.reshape((-1,))
         pred_prob = pred_prob.reshape((-1,self.__num_classes))
 
+        # (4)去掉不在有效范围内的bbox
+        bboxes_scale = np.sqrt(np.multiply.reduce(pred_coor[:, 2:4] - pred_coor[:, 0:2], axis=-1))
+        scale_mask = np.logical_and((valid_scale[0] < bboxes_scale), (bboxes_scale < valid_scale[1]))
+
         # (4)将score低于score_threshold的bbox去掉
         classes = np.argmax(pred_prob, axis=-1)
         scores = pred_conf * pred_prob[np.arange(len(pred_coor)), classes]
         score_mask = scores > self.__score_threshold
-        coors = pred_coor[score_mask]
-        scores = scores[score_mask]
-        classes = classes[score_mask]
+
+        mask = np.logical_and(scale_mask, score_mask)
+
+        coors = pred_coor[mask]
+        scores = scores[mask]
+        classes = classes[mask]
 
         bboxes = np.concatenate([coors, scores[:, np.newaxis], classes[:, np.newaxis]], axis=-1)
 
