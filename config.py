@@ -30,7 +30,7 @@ SAVE_ITER = 1
 MAX_BBOX_PER_SCALE = 50
 
 # test
-SCORE_THRESHOLD = 0.2    # The threshold of the probability of the classes
+SCORE_THRESHOLD = 0.01    # The threshold of the probability of the classes
 IOU_THRESHOLD = 0.5     # The threshold of the IOU when implement NMS
 
 # compute environment
