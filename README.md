@@ -35,7 +35,7 @@ python train.py
 --learn_rate_init, default=0.001
 ```
 4. Test<br>
-Download weight file [yolo_416_85%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
+Download weight file [yolo_416_86.3%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
 ``` bash
 python test.py
 --map_calc, default=False
