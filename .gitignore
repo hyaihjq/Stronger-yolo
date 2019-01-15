@@ -10,3 +10,4 @@ mAP/ground-truth/
 mAP/predicted/
 results/
 main.py
+darknet2tf/
