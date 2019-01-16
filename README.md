@@ -2,13 +2,15 @@ YOLO_v3
 =
 YOLO_v3 implemented with tensorflow <br>
 
-- [x] Group Normalization<br>
-- [x] Focal loss<br>
-- [x] Soft-NMS(no useful)<br>
-- [x] data augmentation<br>
-- [x] multi-scale training<br>
+- [x] data augmentation(release)<br>
+- [x] multi-scale training(release)<br>
+- [x] Focal loss(increase 2 mAP, release)<br>
 - [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
+- [x] Soft-NMS(drop 0.5 mAP, release)<br>
+- [x] Group Normalization(didn't use it in project, release)<br>
 - [ ] Deformable convolutional networks<br>
+- [ ] Scale-Aware Trident Networks for Object Detection
+- [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
 Usage
 =
@@ -56,6 +58,8 @@ paper: <br>
 [Single-Shot Object Detection with Enriched Semantics](https://arxiv.org/abs/1712.00433)<br>
 [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189)<br>
 [Deformable convolutional networks](https://arxiv.org/abs/1811.11168)<br>
+[Scale-Aware Trident Networks for Object Detection](https://arxiv.org/abs/1901.01892)<br>
+[Understanding the Effective Receptive Field in Deep Convolutional Neural Networks](https://arxiv.org/abs/1701.04128)<br>
 
 mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
