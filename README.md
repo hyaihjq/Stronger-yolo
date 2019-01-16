@@ -1,4 +1,10 @@
-YOLO_v3
+Note
+=
+I'm solving scale invariant. 
+If you have a good paper, 
+you can email me by StinkyTofu95@gmail.com. Thanks!<br>
+
+YOLO_v3<br>
 =
 YOLO_v3 implemented with tensorflow <br>
 
