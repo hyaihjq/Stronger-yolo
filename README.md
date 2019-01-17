@@ -58,7 +58,7 @@ If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP.png)<br>
 VOC2012(score_threshold=0.01)<br>
-84.2% http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=4#KEY_YOLD<br>
+84.3% http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=4#KEY_YOLD<br>
 
 
 
