@@ -9,7 +9,7 @@ TEST_INPUT_SIZE = 416  # width=height
 STRIDES = [8, 16, 32]
 IOU_LOSS_THRESH = 0.5
 
-VALID_SCALES = [[0, 60], [0, np.inf], [60, np.inf]]
+VALID_SCALES = [[0, np.inf], [0, np.inf], [0, np.inf]]
 
 # train
 BATCH_SIZE = 32
