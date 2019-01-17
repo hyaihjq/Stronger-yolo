@@ -8,7 +8,7 @@
 weights/
 mAP/ground-truth/
 mAP/predicted/
-results*
+results.tgz
 results/
 main.py
 darknet2tf/
