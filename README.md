@@ -74,7 +74,7 @@ If you want to apply it, you can set the score threshold to 0.2.<br>
 1. Trained from yolov3-416 that pretrained on imagenet <br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
 2. Trained from darknet53 that pretrained on imagenet <br>
-#### The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation<br>
+**The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
 
 ## Reference:<br>
