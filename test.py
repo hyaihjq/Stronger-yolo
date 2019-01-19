@@ -265,14 +265,12 @@ if __name__ == '__main__':
     parser.add_argument('--map_calc', default='False', type=str)
     parser.add_argument('--test_2012', default='False', type=str)
     parser.add_argument('--weights_file', default='', type=str)
-    parser.add_argument('--gpu', default='0', type=str)
     args = parser.parse_args()
     map_calc = args.map_calc
     test_2012 = args.test_2012
     weights_file = args.weights_file
-    gpu = args.gpu
 
-    os.environ['CUDA_VISIBLE_DEVICES'] = gpu
+    os.environ['CUDA_VISIBLE_DEVICES'] = cfg.GPU
     cfg.WEIGHTS_FILE = weights_file
     weights_path = os.path.join(cfg.WEIGHTS_DIR, cfg.WEIGHTS_FILE) + '.index'
     if not os.path.exists(weights_path):

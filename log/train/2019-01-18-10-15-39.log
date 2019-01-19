@@ -1,0 +1,766 @@
+train.py 2019-01-18 10:15:39	Batch size for step1 is:	24
+train.py 2019-01-18 10:15:39	Batch size for step2 is:	2
+train.py 2019-01-18 10:15:39	Initial learn rate is:	0.001000
+data.py 2019-01-18 10:15:39	The number of image for train is:                 16551
+data.py 2019-01-18 10:15:39	The number of image for test is:                  4952
+train.py 2019-01-18 10:15:41	Load weights:
+train.py 2019-01-18 10:15:41	darknet/conv0/weight
+train.py 2019-01-18 10:15:41	darknet/conv0/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/conv0/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/conv0/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/conv0/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual0/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual0/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual0/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual0/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual0/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual0/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual0/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual0/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual0/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual0/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/conv4/weight
+train.py 2019-01-18 10:15:41	darknet/conv4/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/conv4/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/conv4/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/conv4/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual1/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual1/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual1/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual1/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual1/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual1/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual1/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual1/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual1/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual1/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual2/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual2/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual2/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual2/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual2/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual2/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual2/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual2/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual2/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual2/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/conv9/weight
+train.py 2019-01-18 10:15:41	darknet/conv9/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/conv9/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/conv9/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/conv9/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual3/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual3/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual3/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual3/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual3/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual3/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual3/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual3/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual3/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual3/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual4/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual4/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual4/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual4/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual4/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual4/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual4/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual4/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual4/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual4/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual5/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual5/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual5/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual5/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual5/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual5/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual5/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual5/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual5/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual5/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual6/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual6/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual6/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual6/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual6/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual6/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual6/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual6/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual6/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual6/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual7/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual7/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual7/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual7/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual7/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual7/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual7/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual7/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual7/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual7/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual8/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual8/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual8/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual8/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual8/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual8/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual8/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual8/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual8/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual8/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual9/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual9/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual9/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual9/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual9/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual9/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual9/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual9/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual9/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual9/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual10/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual10/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual10/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual10/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual10/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual10/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual10/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual10/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual10/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual10/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/conv26/weight
+train.py 2019-01-18 10:15:41	darknet/conv26/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/conv26/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/conv26/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/conv26/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual11/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual11/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual11/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual11/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual11/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual11/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual11/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual11/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual11/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual11/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual12/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual12/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual12/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual12/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual12/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual12/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual12/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual12/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual12/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual12/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual13/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual13/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual13/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual13/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual13/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual13/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual13/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual13/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual13/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual13/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual14/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual14/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual14/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual14/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual14/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual14/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual14/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual14/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual14/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual14/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual15/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual15/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual15/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual15/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual15/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual15/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual15/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual15/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual15/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual15/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual16/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual16/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual16/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual16/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual16/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual16/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual16/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual16/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual16/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual16/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual17/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual17/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual17/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual17/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual17/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual17/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual17/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual17/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual17/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual17/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual18/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual18/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual18/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual18/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual18/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual18/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual18/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual18/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual18/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual18/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/conv43/weight
+train.py 2019-01-18 10:15:41	darknet/conv43/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/conv43/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/conv43/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/conv43/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual19/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual19/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual19/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual19/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual19/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual19/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual19/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual19/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual19/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual19/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual20/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual20/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual20/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual20/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual20/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual20/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual20/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual20/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual20/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual20/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual21/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual21/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual21/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual21/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual21/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual21/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual21/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual21/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual21/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual21/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual22/conv1/weight
+train.py 2019-01-18 10:15:41	darknet/residual22/conv1/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual22/conv1/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual22/conv1/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual22/conv1/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	darknet/residual22/conv2/weight
+train.py 2019-01-18 10:15:41	darknet/residual22/conv2/batch_normalization/scale
+train.py 2019-01-18 10:15:41	darknet/residual22/conv2/batch_normalization/shift
+train.py 2019-01-18 10:15:41	darknet/residual22/conv2/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	darknet/residual22/conv2/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv52/weight
+train.py 2019-01-18 10:15:41	conv52/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv52/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv52/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv52/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv53/weight
+train.py 2019-01-18 10:15:41	conv53/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv53/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv53/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv53/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv54/weight
+train.py 2019-01-18 10:15:41	conv54/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv54/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv54/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv54/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv55/weight
+train.py 2019-01-18 10:15:41	conv55/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv55/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv55/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv55/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv56/weight
+train.py 2019-01-18 10:15:41	conv56/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv56/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv56/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv56/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv_lobj_branch/weight
+train.py 2019-01-18 10:15:41	conv_lobj_branch/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv_lobj_branch/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv_lobj_branch/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv_lobj_branch/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv_lbbox/weight
+train.py 2019-01-18 10:15:41	conv_lbbox/bias
+train.py 2019-01-18 10:15:41	conv57/weight
+train.py 2019-01-18 10:15:41	conv57/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv57/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv57/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv57/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv58/weight
+train.py 2019-01-18 10:15:41	conv58/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv58/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv58/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv58/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv59/weight
+train.py 2019-01-18 10:15:41	conv59/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv59/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv59/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv59/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv60/weight
+train.py 2019-01-18 10:15:41	conv60/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv60/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv60/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv60/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv61/weight
+train.py 2019-01-18 10:15:41	conv61/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv61/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv61/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv61/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv62/weight
+train.py 2019-01-18 10:15:41	conv62/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv62/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv62/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv62/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv_mobj_branch/weight
+train.py 2019-01-18 10:15:41	conv_mobj_branch/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv_mobj_branch/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv_mobj_branch/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv_mobj_branch/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv_mbbox/weight
+train.py 2019-01-18 10:15:41	conv_mbbox/bias
+train.py 2019-01-18 10:15:41	conv63/weight
+train.py 2019-01-18 10:15:41	conv63/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv63/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv63/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv63/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv64/weight
+train.py 2019-01-18 10:15:41	conv64/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv64/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv64/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv64/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv65/weight
+train.py 2019-01-18 10:15:41	conv65/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv65/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv65/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv65/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv66/weight
+train.py 2019-01-18 10:15:41	conv66/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv66/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv66/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv66/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv67/weight
+train.py 2019-01-18 10:15:41	conv67/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv67/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv67/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv67/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv68/weight
+train.py 2019-01-18 10:15:41	conv68/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv68/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv68/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv68/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv_sobj_branch/weight
+train.py 2019-01-18 10:15:41	conv_sobj_branch/batch_normalization/scale
+train.py 2019-01-18 10:15:41	conv_sobj_branch/batch_normalization/shift
+train.py 2019-01-18 10:15:41	conv_sobj_branch/batch_normalization/moving_mean
+train.py 2019-01-18 10:15:41	conv_sobj_branch/batch_normalization/moving_var
+train.py 2019-01-18 10:15:41	conv_sbbox/weight
+train.py 2019-01-18 10:15:41	conv_sbbox/bias
+train.py 2019-01-18 10:15:54	Default trian step0 is freeze the weight of darknet
+train.py 2019-01-18 10:15:54		conv_lbbox/weight                                 (1, 1, 1024, 75)
+train.py 2019-01-18 10:15:54		conv_lbbox/bias                                   (75,)
+train.py 2019-01-18 10:15:54		conv_mbbox/weight                                 (1, 1, 512, 75)
+train.py 2019-01-18 10:15:54		conv_mbbox/bias                                   (75,)
+train.py 2019-01-18 10:15:54		conv_sbbox/weight                                 (1, 1, 256, 75)
+train.py 2019-01-18 10:15:54		conv_sbbox/bias                                   (75,)
+train.py 2019-01-18 10:16:02	Restoring weights from:	 weights/yolo_coco_initial.ckpt
+tf_logging.py 2019-01-18 10:16:02	Restoring parameters from weights/yolo_coco_initial.ckpt
+train.py 2019-01-18 10:17:02	Period:	0	step:	67	train loss:	41.7160
+train.py 2019-01-18 10:18:02	Period:	0	step:	135	train loss:	4.9307
+train.py 2019-01-18 10:19:07	Period:	0	step:	203	train loss:	4.0434
+train.py 2019-01-18 10:20:05	Period:	0	step:	271	train loss:	3.4787
+train.py 2019-01-18 10:21:07	Period:	0	step:	339	train loss:	3.5579
+train.py 2019-01-18 10:21:57	Period:	0	step:	407	train loss:	3.1716
+train.py 2019-01-18 10:22:59	Period:	0	step:	475	train loss:	2.9576
+train.py 2019-01-18 10:23:43	Period:	0	step:	543	train loss:	3.0464
+train.py 2019-01-18 10:24:38	Period:	0	step:	611	train loss:	2.8174
+train.py 2019-01-18 10:25:39	Period:	0	step:	679	train loss:	2.8604
+train.py 2019-01-18 10:28:36	Period:	0	test loss:	2.7533
+train.py 2019-01-18 10:28:40	Saved model:	weights/yolo.ckpt-0-2.7533
+train.py 2019-01-18 10:29:49	Period:	1	step:	67	train loss:	2.7936
+train.py 2019-01-18 10:30:48	Period:	1	step:	135	train loss:	2.7892
+train.py 2019-01-18 10:31:38	Period:	1	step:	203	train loss:	2.7884
+train.py 2019-01-18 10:32:52	Period:	1	step:	271	train loss:	2.7138
+train.py 2019-01-18 10:33:59	Period:	1	step:	339	train loss:	2.7807
+train.py 2019-01-18 10:35:04	Period:	1	step:	407	train loss:	2.5541
+train.py 2019-01-18 10:35:55	Period:	1	step:	475	train loss:	2.5739
+train.py 2019-01-18 10:36:53	Period:	1	step:	543	train loss:	2.6218
+train.py 2019-01-18 10:37:45	Period:	1	step:	611	train loss:	2.6453
+train.py 2019-01-18 10:38:42	Period:	1	step:	679	train loss:	2.7848
+train.py 2019-01-18 10:41:49	Period:	1	test loss:	2.6021
+train.py 2019-01-18 10:41:52	Saved model:	weights/yolo.ckpt-1-2.6021
+train.py 2019-01-18 10:42:52	Period:	2	step:	67	train loss:	2.5670
+train.py 2019-01-18 10:43:53	Period:	2	step:	135	train loss:	2.6377
+train.py 2019-01-18 10:44:46	Period:	2	step:	203	train loss:	2.5151
+train.py 2019-01-18 10:45:51	Period:	2	step:	271	train loss:	2.6396
+train.py 2019-01-18 10:46:45	Period:	2	step:	339	train loss:	2.6170
+train.py 2019-01-18 10:47:31	Period:	2	step:	407	train loss:	2.5136
+train.py 2019-01-18 10:48:30	Period:	2	step:	475	train loss:	2.6497
+train.py 2019-01-18 10:49:36	Period:	2	step:	543	train loss:	2.6288
+train.py 2019-01-18 10:50:35	Period:	2	step:	611	train loss:	2.5463
+train.py 2019-01-18 10:51:37	Period:	2	step:	679	train loss:	2.4548
+train.py 2019-01-18 10:54:46	Period:	2	test loss:	2.5267
+train.py 2019-01-18 10:54:48	Saved model:	weights/yolo.ckpt-2-2.5267
+train.py 2019-01-18 10:55:40	Period:	3	step:	67	train loss:	2.5064
+train.py 2019-01-18 10:56:29	Period:	3	step:	135	train loss:	2.5540
+train.py 2019-01-18 10:57:28	Period:	3	step:	203	train loss:	2.6038
+train.py 2019-01-18 10:58:18	Period:	3	step:	271	train loss:	2.6005
+train.py 2019-01-18 10:59:17	Period:	3	step:	339	train loss:	2.4888
+train.py 2019-01-18 11:00:03	Period:	3	step:	407	train loss:	2.4528
+train.py 2019-01-18 11:01:05	Period:	3	step:	475	train loss:	2.5315
+train.py 2019-01-18 11:02:05	Period:	3	step:	543	train loss:	2.5242
+train.py 2019-01-18 11:03:00	Period:	3	step:	611	train loss:	2.4786
+train.py 2019-01-18 11:04:01	Period:	3	step:	679	train loss:	2.4812
+train.py 2019-01-18 11:06:43	Period:	3	test loss:	2.4443
+train.py 2019-01-18 11:06:46	Saved model:	weights/yolo.ckpt-3-2.4443
+train.py 2019-01-18 11:07:46	Period:	4	step:	67	train loss:	2.4550
+train.py 2019-01-18 11:08:33	Period:	4	step:	135	train loss:	2.5266
+train.py 2019-01-18 11:09:34	Period:	4	step:	203	train loss:	2.4884
+train.py 2019-01-18 11:10:44	Period:	4	step:	271	train loss:	2.3817
+train.py 2019-01-18 11:11:48	Period:	4	step:	339	train loss:	2.5626
+train.py 2019-01-18 11:12:48	Period:	4	step:	407	train loss:	2.5384
+train.py 2019-01-18 11:13:51	Period:	4	step:	475	train loss:	2.5131
+train.py 2019-01-18 11:14:37	Period:	4	step:	543	train loss:	2.5038
+train.py 2019-01-18 11:15:55	Period:	4	step:	611	train loss:	2.4053
+train.py 2019-01-18 11:16:56	Period:	4	step:	679	train loss:	2.5074
+train.py 2019-01-18 11:19:44	Period:	4	test loss:	2.4308
+train.py 2019-01-18 11:19:47	Saved model:	weights/yolo.ckpt-4-2.4308
+train.py 2019-01-18 11:20:54	Period:	5	step:	67	train loss:	2.4146
+train.py 2019-01-18 11:21:48	Period:	5	step:	135	train loss:	2.5198
+train.py 2019-01-18 11:22:40	Period:	5	step:	203	train loss:	2.5130
+train.py 2019-01-18 11:23:43	Period:	5	step:	271	train loss:	2.5611
+train.py 2019-01-18 11:24:40	Period:	5	step:	339	train loss:	2.4295
+train.py 2019-01-18 11:25:43	Period:	5	step:	407	train loss:	2.4074
+train.py 2019-01-18 11:26:35	Period:	5	step:	475	train loss:	2.4322
+train.py 2019-01-18 11:27:30	Period:	5	step:	543	train loss:	2.4688
+train.py 2019-01-18 11:28:25	Period:	5	step:	611	train loss:	2.4045
+train.py 2019-01-18 11:29:19	Period:	5	step:	679	train loss:	2.3961
+train.py 2019-01-18 11:32:33	Period:	5	test loss:	2.4611
+train.py 2019-01-18 11:32:35	Saved model:	weights/yolo.ckpt-5-2.4611
+train.py 2019-01-18 11:33:43	Period:	6	step:	67	train loss:	2.3823
+train.py 2019-01-18 11:34:32	Period:	6	step:	135	train loss:	2.5137
+train.py 2019-01-18 11:35:21	Period:	6	step:	203	train loss:	2.5073
+train.py 2019-01-18 11:36:07	Period:	6	step:	271	train loss:	2.3215
+train.py 2019-01-18 11:36:54	Period:	6	step:	339	train loss:	2.3766
+train.py 2019-01-18 11:37:58	Period:	6	step:	407	train loss:	2.4266
+train.py 2019-01-18 11:38:46	Period:	6	step:	475	train loss:	2.5002
+train.py 2019-01-18 11:39:36	Period:	6	step:	543	train loss:	2.3464
+train.py 2019-01-18 11:40:25	Period:	6	step:	611	train loss:	2.4775
+train.py 2019-01-18 11:41:18	Period:	6	step:	679	train loss:	2.4656
+train.py 2019-01-18 11:44:07	Period:	6	test loss:	2.4743
+train.py 2019-01-18 11:44:10	Saved model:	weights/yolo.ckpt-6-2.4743
+train.py 2019-01-18 11:44:11	The value of learn rate is:	0.000100
+train.py 2019-01-18 11:45:08	Period:	7	step:	67	train loss:	2.3525
+train.py 2019-01-18 11:46:11	Period:	7	step:	135	train loss:	2.3513
+train.py 2019-01-18 11:47:14	Period:	7	step:	203	train loss:	2.3247
+train.py 2019-01-18 11:48:11	Period:	7	step:	271	train loss:	2.2753
+train.py 2019-01-18 11:49:31	Period:	7	step:	339	train loss:	2.3103
+train.py 2019-01-18 11:50:40	Period:	7	step:	407	train loss:	2.2741
+train.py 2019-01-18 11:51:42	Period:	7	step:	475	train loss:	2.3756
+train.py 2019-01-18 11:52:40	Period:	7	step:	543	train loss:	2.3768
+train.py 2019-01-18 11:53:41	Period:	7	step:	611	train loss:	2.3896
+train.py 2019-01-18 11:54:40	Period:	7	step:	679	train loss:	2.3238
+train.py 2019-01-18 11:57:29	Period:	7	test loss:	2.3193
+train.py 2019-01-18 11:57:33	Saved model:	weights/yolo.ckpt-7-2.3193
+train.py 2019-01-18 11:58:41	Period:	8	step:	67	train loss:	2.2096
+train.py 2019-01-18 11:59:51	Period:	8	step:	135	train loss:	2.3397
+train.py 2019-01-18 12:00:59	Period:	8	step:	203	train loss:	2.3562
+train.py 2019-01-18 12:01:47	Period:	8	step:	271	train loss:	2.3188
+train.py 2019-01-18 12:02:47	Period:	8	step:	339	train loss:	2.3892
+train.py 2019-01-18 12:03:55	Period:	8	step:	407	train loss:	2.3256
+train.py 2019-01-18 12:05:03	Period:	8	step:	475	train loss:	2.3980
+train.py 2019-01-18 12:05:51	Period:	8	step:	543	train loss:	2.3338
+train.py 2019-01-18 12:06:42	Period:	8	step:	611	train loss:	2.2063
+train.py 2019-01-18 12:07:28	Period:	8	step:	679	train loss:	2.3238
+train.py 2019-01-18 12:10:23	Period:	8	test loss:	2.3317
+train.py 2019-01-18 12:10:26	Saved model:	weights/yolo.ckpt-8-2.3317
+train.py 2019-01-18 12:11:10	Period:	9	step:	67	train loss:	2.3611
+train.py 2019-01-18 12:12:05	Period:	9	step:	135	train loss:	2.3776
+train.py 2019-01-18 12:12:51	Period:	9	step:	203	train loss:	2.3345
+train.py 2019-01-18 12:13:49	Period:	9	step:	271	train loss:	2.2652
+train.py 2019-01-18 12:14:55	Period:	9	step:	339	train loss:	2.3844
+train.py 2019-01-18 12:16:01	Period:	9	step:	407	train loss:	2.2978
+train.py 2019-01-18 12:16:58	Period:	9	step:	475	train loss:	2.3173
+train.py 2019-01-18 12:17:53	Period:	9	step:	543	train loss:	2.2240
+train.py 2019-01-18 12:18:53	Period:	9	step:	611	train loss:	2.2663
+train.py 2019-01-18 12:19:55	Period:	9	step:	679	train loss:	2.2778
+train.py 2019-01-18 12:22:46	Period:	9	test loss:	2.3140
+train.py 2019-01-18 12:22:49	Saved model:	weights/yolo.ckpt-9-2.3140
+train.py 2019-01-18 12:23:37	Period:	10	step:	67	train loss:	2.2563
+train.py 2019-01-18 12:24:33	Period:	10	step:	135	train loss:	2.2445
+train.py 2019-01-18 12:25:27	Period:	10	step:	203	train loss:	2.3279
+train.py 2019-01-18 12:26:40	Period:	10	step:	271	train loss:	2.3517
+train.py 2019-01-18 12:27:38	Period:	10	step:	339	train loss:	2.3016
+train.py 2019-01-18 12:28:49	Period:	10	step:	407	train loss:	2.3531
+train.py 2019-01-18 12:29:53	Period:	10	step:	475	train loss:	2.4167
+train.py 2019-01-18 12:30:53	Period:	10	step:	543	train loss:	2.2981
+train.py 2019-01-18 12:31:46	Period:	10	step:	611	train loss:	2.2682
+train.py 2019-01-18 12:32:41	Period:	10	step:	679	train loss:	2.3070
+train.py 2019-01-18 12:35:50	Period:	10	test loss:	2.3354
+train.py 2019-01-18 12:35:53	Saved model:	weights/yolo.ckpt-10-2.3354
+train.py 2019-01-18 12:35:54	The value of learn rate is:	0.000010
+train.py 2019-01-18 12:36:49	Period:	11	step:	67	train loss:	2.3804
+train.py 2019-01-18 12:37:40	Period:	11	step:	135	train loss:	2.2864
+train.py 2019-01-18 12:38:31	Period:	11	step:	203	train loss:	2.3510
+train.py 2019-01-18 12:39:35	Period:	11	step:	271	train loss:	2.2658
+train.py 2019-01-18 12:40:23	Period:	11	step:	339	train loss:	2.2331
+train.py 2019-01-18 12:41:22	Period:	11	step:	407	train loss:	2.3042
+train.py 2019-01-18 12:42:10	Period:	11	step:	475	train loss:	2.3380
+train.py 2019-01-18 12:42:57	Period:	11	step:	543	train loss:	2.2606
+train.py 2019-01-18 12:44:15	Period:	11	step:	611	train loss:	2.2217
+train.py 2019-01-18 12:45:07	Period:	11	step:	679	train loss:	2.3935
+train.py 2019-01-18 12:48:15	Period:	11	test loss:	2.3196
+train.py 2019-01-18 12:48:18	Saved model:	weights/yolo.ckpt-11-2.3196
+train.py 2019-01-18 12:49:13	Period:	12	step:	67	train loss:	2.2372
+train.py 2019-01-18 12:50:17	Period:	12	step:	135	train loss:	2.2615
+train.py 2019-01-18 12:51:18	Period:	12	step:	203	train loss:	2.3501
+train.py 2019-01-18 12:52:26	Period:	12	step:	271	train loss:	2.3046
+train.py 2019-01-18 12:53:09	Period:	12	step:	339	train loss:	2.3224
+train.py 2019-01-18 12:54:27	Period:	12	step:	407	train loss:	2.3367
+train.py 2019-01-18 12:55:38	Period:	12	step:	475	train loss:	2.3612
+train.py 2019-01-18 12:56:38	Period:	12	step:	543	train loss:	2.2837
+train.py 2019-01-18 12:57:34	Period:	12	step:	611	train loss:	2.2667
+train.py 2019-01-18 12:58:33	Period:	12	step:	679	train loss:	2.2886
+train.py 2019-01-18 01:01:27	Period:	12	test loss:	2.3155
+train.py 2019-01-18 01:01:30	Saved model:	weights/yolo.ckpt-12-2.3155
+train.py 2019-01-18 01:02:21	Period:	13	step:	67	train loss:	2.2558
+train.py 2019-01-18 01:03:12	Period:	13	step:	135	train loss:	2.3071
+train.py 2019-01-18 01:04:18	Period:	13	step:	203	train loss:	2.3131
+train.py 2019-01-18 01:05:07	Period:	13	step:	271	train loss:	2.2214
+train.py 2019-01-18 01:06:01	Period:	13	step:	339	train loss:	2.2445
+train.py 2019-01-18 01:06:58	Period:	13	step:	407	train loss:	2.2764
+train.py 2019-01-18 01:07:57	Period:	13	step:	475	train loss:	2.3631
+train.py 2019-01-18 01:08:58	Period:	13	step:	543	train loss:	2.3901
+train.py 2019-01-18 01:09:53	Period:	13	step:	611	train loss:	2.2669
+train.py 2019-01-18 01:10:47	Period:	13	step:	679	train loss:	2.2827
+train.py 2019-01-18 01:13:43	Period:	13	test loss:	2.3110
+train.py 2019-01-18 01:13:46	Saved model:	weights/yolo.ckpt-13-2.3110
+train.py 2019-01-18 01:14:40	Period:	14	step:	67	train loss:	2.2793
+train.py 2019-01-18 01:15:36	Period:	14	step:	135	train loss:	2.1998
+train.py 2019-01-18 01:16:31	Period:	14	step:	203	train loss:	2.3078
+train.py 2019-01-18 01:17:26	Period:	14	step:	271	train loss:	2.2897
+train.py 2019-01-18 01:18:30	Period:	14	step:	339	train loss:	2.4083
+train.py 2019-01-18 01:19:31	Period:	14	step:	407	train loss:	2.2628
+train.py 2019-01-18 01:20:35	Period:	14	step:	475	train loss:	2.2755
+train.py 2019-01-18 01:21:33	Period:	14	step:	543	train loss:	2.2713
+train.py 2019-01-18 01:22:28	Period:	14	step:	611	train loss:	2.3072
+train.py 2019-01-18 01:23:15	Period:	14	step:	679	train loss:	2.1647
+train.py 2019-01-18 01:26:05	Period:	14	test loss:	2.2941
+train.py 2019-01-18 01:26:09	Saved model:	weights/yolo.ckpt-14-2.2941
+train.py 2019-01-18 01:27:18	Period:	15	step:	67	train loss:	2.3546
+train.py 2019-01-18 01:28:10	Period:	15	step:	135	train loss:	2.2713
+train.py 2019-01-18 01:29:09	Period:	15	step:	203	train loss:	2.2623
+train.py 2019-01-18 01:30:21	Period:	15	step:	271	train loss:	2.2648
+train.py 2019-01-18 01:31:09	Period:	15	step:	339	train loss:	2.2440
+train.py 2019-01-18 01:32:25	Period:	15	step:	407	train loss:	2.3722
+train.py 2019-01-18 01:33:35	Period:	15	step:	475	train loss:	2.3058
+train.py 2019-01-18 01:34:36	Period:	15	step:	543	train loss:	2.3345
+train.py 2019-01-18 01:35:37	Period:	15	step:	611	train loss:	2.2904
+train.py 2019-01-18 01:36:30	Period:	15	step:	679	train loss:	2.2976
+train.py 2019-01-18 01:39:08	Period:	15	test loss:	2.3165
+train.py 2019-01-18 01:39:12	Saved model:	weights/yolo.ckpt-15-2.3165
+train.py 2019-01-18 01:40:05	Period:	16	step:	67	train loss:	2.4000
+train.py 2019-01-18 01:40:50	Period:	16	step:	135	train loss:	2.2307
+train.py 2019-01-18 01:41:52	Period:	16	step:	203	train loss:	2.2584
+train.py 2019-01-18 01:42:51	Period:	16	step:	271	train loss:	2.4056
+train.py 2019-01-18 01:43:54	Period:	16	step:	339	train loss:	2.3677
+train.py 2019-01-18 01:44:53	Period:	16	step:	407	train loss:	2.3020
+train.py 2019-01-18 01:45:50	Period:	16	step:	475	train loss:	2.2328
+train.py 2019-01-18 01:46:56	Period:	16	step:	543	train loss:	2.2202
+train.py 2019-01-18 01:47:56	Period:	16	step:	611	train loss:	2.3264
+train.py 2019-01-18 01:48:49	Period:	16	step:	679	train loss:	2.1984
+train.py 2019-01-18 01:52:01	Period:	16	test loss:	2.3075
+train.py 2019-01-18 01:52:04	Saved model:	weights/yolo.ckpt-16-2.3075
+train.py 2019-01-18 01:53:11	Period:	17	step:	67	train loss:	2.3276
+train.py 2019-01-18 01:54:02	Period:	17	step:	135	train loss:	2.3710
+train.py 2019-01-18 01:54:48	Period:	17	step:	203	train loss:	2.1438
+train.py 2019-01-18 01:55:39	Period:	17	step:	271	train loss:	2.3060
+train.py 2019-01-18 01:56:23	Period:	17	step:	339	train loss:	2.3017
+train.py 2019-01-18 01:57:13	Period:	17	step:	407	train loss:	2.2473
+train.py 2019-01-18 01:58:13	Period:	17	step:	475	train loss:	2.3171
+train.py 2019-01-18 01:59:09	Period:	17	step:	543	train loss:	2.3661
+train.py 2019-01-18 02:00:03	Period:	17	step:	611	train loss:	2.3229
+train.py 2019-01-18 02:00:53	Period:	17	step:	679	train loss:	2.1973
+train.py 2019-01-18 02:03:36	Period:	17	test loss:	2.3061
+train.py 2019-01-18 02:03:39	Saved model:	weights/yolo.ckpt-17-2.3061
+train.py 2019-01-18 02:04:54	Period:	18	step:	67	train loss:	2.2571
+train.py 2019-01-18 02:05:44	Period:	18	step:	135	train loss:	2.2054
+train.py 2019-01-18 02:06:35	Period:	18	step:	203	train loss:	2.3593
+train.py 2019-01-18 02:07:37	Period:	18	step:	271	train loss:	2.3057
+train.py 2019-01-18 02:08:52	Period:	18	step:	339	train loss:	2.2531
+train.py 2019-01-18 02:09:44	Period:	18	step:	407	train loss:	2.2433
+train.py 2019-01-18 02:10:48	Period:	18	step:	475	train loss:	2.2253
+train.py 2019-01-18 02:11:53	Period:	18	step:	543	train loss:	2.3946
+train.py 2019-01-18 02:13:02	Period:	18	step:	611	train loss:	2.3871
+train.py 2019-01-18 02:13:59	Period:	18	step:	679	train loss:	2.3486
+train.py 2019-01-18 02:16:50	Period:	18	test loss:	2.2952
+train.py 2019-01-18 02:16:53	Saved model:	weights/yolo.ckpt-18-2.2952
+train.py 2019-01-18 02:17:51	Period:	19	step:	67	train loss:	2.2699
+train.py 2019-01-18 02:18:53	Period:	19	step:	135	train loss:	2.2611
+train.py 2019-01-18 02:19:56	Period:	19	step:	203	train loss:	2.3536
+train.py 2019-01-18 02:20:47	Period:	19	step:	271	train loss:	2.3433
+train.py 2019-01-18 02:21:46	Period:	19	step:	339	train loss:	2.2367
+train.py 2019-01-18 02:22:46	Period:	19	step:	407	train loss:	2.3177
+train.py 2019-01-18 02:23:53	Period:	19	step:	475	train loss:	2.3156
+train.py 2019-01-18 02:24:46	Period:	19	step:	543	train loss:	2.2981
+train.py 2019-01-18 02:25:43	Period:	19	step:	611	train loss:	2.2607
+train.py 2019-01-18 02:26:29	Period:	19	step:	679	train loss:	2.1669
+train.py 2019-01-18 02:29:16	Period:	19	test loss:	2.3007
+train.py 2019-01-18 02:29:19	Saved model:	weights/yolo.ckpt-19-2.3007
+train.py 2019-01-18 02:29:19	Train all of weights
+data.py 2019-01-18 02:29:19	Use the new batch size: 2
+data.py 2019-01-18 02:29:19	Use the new batch size: 2
+train.py 2019-01-18 02:33:14	Period:	20	step:	826	train loss:	2.5113
+train.py 2019-01-18 02:37:03	Period:	20	step:	1653	train loss:	2.3556
+train.py 2019-01-18 02:40:52	Period:	20	step:	2480	train loss:	2.4235
+train.py 2019-01-18 02:44:38	Period:	20	step:	3307	train loss:	2.4223
+train.py 2019-01-18 02:48:27	Period:	20	step:	4134	train loss:	2.4596
+train.py 2019-01-18 02:52:18	Period:	20	step:	4961	train loss:	2.3556
+train.py 2019-01-18 02:56:13	Period:	20	step:	5788	train loss:	2.3558
+train.py 2019-01-18 03:00:05	Period:	20	step:	6615	train loss:	2.4136
+train.py 2019-01-18 03:04:00	Period:	20	step:	7442	train loss:	2.3912
+train.py 2019-01-18 03:07:45	Period:	20	step:	8269	train loss:	2.2383
+train.py 2019-01-18 03:11:24	Period:	20	test loss:	2.3096
+train.py 2019-01-18 03:11:27	Saved model:	weights/yolo.ckpt-20-2.3096
+train.py 2019-01-18 03:15:16	Period:	21	step:	826	train loss:	2.3418
+train.py 2019-01-18 03:19:14	Period:	21	step:	1653	train loss:	2.2779
+train.py 2019-01-18 03:23:08	Period:	21	step:	2480	train loss:	2.3462
+train.py 2019-01-18 03:27:05	Period:	21	step:	3307	train loss:	2.2561
+train.py 2019-01-18 03:30:56	Period:	21	step:	4134	train loss:	2.2342
+train.py 2019-01-18 03:34:47	Period:	21	step:	4961	train loss:	2.1633
+train.py 2019-01-18 03:38:32	Period:	21	step:	5788	train loss:	2.3353
+train.py 2019-01-18 03:42:22	Period:	21	step:	6615	train loss:	2.3163
+train.py 2019-01-18 03:46:11	Period:	21	step:	7442	train loss:	2.3740
+train.py 2019-01-18 03:50:11	Period:	21	step:	8269	train loss:	2.1889
+train.py 2019-01-18 03:53:51	Period:	21	test loss:	2.3099
+train.py 2019-01-18 03:53:54	Saved model:	weights/yolo.ckpt-21-2.3099
+train.py 2019-01-18 03:57:42	Period:	22	step:	826	train loss:	2.1291
+train.py 2019-01-18 04:01:36	Period:	22	step:	1653	train loss:	2.1497
+train.py 2019-01-18 04:05:22	Period:	22	step:	2480	train loss:	2.1275
+train.py 2019-01-18 04:09:10	Period:	22	step:	3307	train loss:	2.2313
+train.py 2019-01-18 04:12:54	Period:	22	step:	4134	train loss:	2.2688
+train.py 2019-01-18 04:16:48	Period:	22	step:	4961	train loss:	2.2568
+train.py 2019-01-18 04:20:48	Period:	22	step:	5788	train loss:	2.1580
+train.py 2019-01-18 04:24:50	Period:	22	step:	6615	train loss:	2.2882
+train.py 2019-01-18 04:28:45	Period:	22	step:	7442	train loss:	2.2406
+train.py 2019-01-18 04:32:30	Period:	22	step:	8269	train loss:	2.3460
+train.py 2019-01-18 04:36:15	Period:	22	test loss:	2.2650
+train.py 2019-01-18 04:36:18	Saved model:	weights/yolo.ckpt-22-2.2650
+train.py 2019-01-18 04:40:14	Period:	23	step:	826	train loss:	2.1633
+train.py 2019-01-18 04:44:05	Period:	23	step:	1653	train loss:	2.2374
+train.py 2019-01-18 04:47:50	Period:	23	step:	2480	train loss:	2.1929
+train.py 2019-01-18 04:51:49	Period:	23	step:	3307	train loss:	2.1618
+train.py 2019-01-18 04:55:47	Period:	23	step:	4134	train loss:	2.1296
+train.py 2019-01-18 04:59:40	Period:	23	step:	4961	train loss:	2.1751
+train.py 2019-01-18 05:03:36	Period:	23	step:	5788	train loss:	2.1792
+train.py 2019-01-18 05:07:27	Period:	23	step:	6615	train loss:	2.1758
+train.py 2019-01-18 05:11:19	Period:	23	step:	7442	train loss:	2.0947
+train.py 2019-01-18 05:15:21	Period:	23	step:	8269	train loss:	2.1412
+train.py 2019-01-18 05:19:03	Period:	23	test loss:	2.2922
+train.py 2019-01-18 05:19:06	Saved model:	weights/yolo.ckpt-23-2.2922
+train.py 2019-01-18 05:22:49	Period:	24	step:	826	train loss:	2.0893
+train.py 2019-01-18 05:26:35	Period:	24	step:	1653	train loss:	2.1676
+train.py 2019-01-18 05:30:31	Period:	24	step:	2480	train loss:	2.0720
+train.py 2019-01-18 05:34:28	Period:	24	step:	3307	train loss:	2.1629
+train.py 2019-01-18 05:38:17	Period:	24	step:	4134	train loss:	2.1828
+train.py 2019-01-18 05:42:23	Period:	24	step:	4961	train loss:	2.1106
+train.py 2019-01-18 05:46:01	Period:	24	step:	5788	train loss:	2.0732
+train.py 2019-01-18 05:49:48	Period:	24	step:	6615	train loss:	2.1123
+train.py 2019-01-18 05:53:48	Period:	24	step:	7442	train loss:	2.1450
+train.py 2019-01-18 05:57:33	Period:	24	step:	8269	train loss:	2.1658
+train.py 2019-01-18 06:01:14	Period:	24	test loss:	2.3096
+train.py 2019-01-18 06:01:17	Saved model:	weights/yolo.ckpt-24-2.3096
+train.py 2019-01-18 06:05:12	Period:	25	step:	826	train loss:	2.0152
+train.py 2019-01-18 06:09:08	Period:	25	step:	1653	train loss:	2.1340
+train.py 2019-01-18 06:13:09	Period:	25	step:	2480	train loss:	2.0812
+train.py 2019-01-18 06:16:57	Period:	25	step:	3307	train loss:	2.1217
+train.py 2019-01-18 06:20:41	Period:	25	step:	4134	train loss:	2.0331
+train.py 2019-01-18 06:24:40	Period:	25	step:	4961	train loss:	2.0220
+train.py 2019-01-18 06:28:30	Period:	25	step:	5788	train loss:	2.0948
+train.py 2019-01-18 06:32:26	Period:	25	step:	6615	train loss:	2.2111
+train.py 2019-01-18 06:36:14	Period:	25	step:	7442	train loss:	2.1660
+train.py 2019-01-18 06:40:06	Period:	25	step:	8269	train loss:	2.1617
+train.py 2019-01-18 06:43:46	Period:	25	test loss:	2.2969
+train.py 2019-01-18 06:43:49	Saved model:	weights/yolo.ckpt-25-2.2969
+train.py 2019-01-18 06:47:43	Period:	26	step:	826	train loss:	2.0556
+train.py 2019-01-18 06:51:41	Period:	26	step:	1653	train loss:	2.1144
+train.py 2019-01-18 06:55:40	Period:	26	step:	2480	train loss:	2.1396
+train.py 2019-01-18 06:59:37	Period:	26	step:	3307	train loss:	1.9429
+train.py 2019-01-18 07:03:28	Period:	26	step:	4134	train loss:	2.0485
+train.py 2019-01-18 07:07:22	Period:	26	step:	4961	train loss:	2.0647
+train.py 2019-01-18 07:11:19	Period:	26	step:	5788	train loss:	1.9689
+train.py 2019-01-18 07:15:08	Period:	26	step:	6615	train loss:	2.0425
+train.py 2019-01-18 07:18:53	Period:	26	step:	7442	train loss:	2.0491
+train.py 2019-01-18 07:22:45	Period:	26	step:	8269	train loss:	2.1840
+train.py 2019-01-18 07:26:22	Period:	26	test loss:	2.3038
+train.py 2019-01-18 07:26:25	Saved model:	weights/yolo.ckpt-26-2.3038
+train.py 2019-01-18 07:30:16	Period:	27	step:	826	train loss:	2.0184
+train.py 2019-01-18 07:34:07	Period:	27	step:	1653	train loss:	2.0755
+train.py 2019-01-18 07:38:03	Period:	27	step:	2480	train loss:	2.1065
+train.py 2019-01-18 07:41:43	Period:	27	step:	3307	train loss:	1.9425
+train.py 2019-01-18 07:45:28	Period:	27	step:	4134	train loss:	2.0427
+train.py 2019-01-18 07:49:14	Period:	27	step:	4961	train loss:	2.0653
+train.py 2019-01-18 07:52:57	Period:	27	step:	5788	train loss:	2.0118
+train.py 2019-01-18 07:56:55	Period:	27	step:	6615	train loss:	2.0463
+train.py 2019-01-18 08:00:36	Period:	27	step:	7442	train loss:	1.9924
+train.py 2019-01-18 08:04:27	Period:	27	step:	8269	train loss:	2.1041
+train.py 2019-01-18 08:08:08	Period:	27	test loss:	2.3351
+train.py 2019-01-18 08:08:11	Saved model:	weights/yolo.ckpt-27-2.3351
+train.py 2019-01-18 08:12:05	Period:	28	step:	826	train loss:	2.0220
+train.py 2019-01-18 08:15:42	Period:	28	step:	1653	train loss:	1.9763
+train.py 2019-01-18 08:19:32	Period:	28	step:	2480	train loss:	1.9740
+train.py 2019-01-18 08:23:16	Period:	28	step:	3307	train loss:	2.0709
+train.py 2019-01-18 08:27:09	Period:	28	step:	4134	train loss:	2.0897
+train.py 2019-01-18 08:31:00	Period:	28	step:	4961	train loss:	2.0008
+train.py 2019-01-18 08:34:56	Period:	28	step:	5788	train loss:	2.0560
+train.py 2019-01-18 08:38:42	Period:	28	step:	6615	train loss:	1.9977
+train.py 2019-01-18 08:42:32	Period:	28	step:	7442	train loss:	1.9519
+train.py 2019-01-18 08:46:26	Period:	28	step:	8269	train loss:	2.0290
+train.py 2019-01-18 08:50:03	Period:	28	test loss:	2.3459
+train.py 2019-01-18 08:50:06	Saved model:	weights/yolo.ckpt-28-2.3459
+train.py 2019-01-18 08:53:57	Period:	29	step:	826	train loss:	1.9191
+train.py 2019-01-18 08:57:54	Period:	29	step:	1653	train loss:	1.9441
+train.py 2019-01-18 09:01:49	Period:	29	step:	2480	train loss:	1.9819
+train.py 2019-01-18 09:05:43	Period:	29	step:	3307	train loss:	1.9860
+train.py 2019-01-18 09:09:38	Period:	29	step:	4134	train loss:	2.0716
+train.py 2019-01-18 09:13:36	Period:	29	step:	4961	train loss:	2.0193
+train.py 2019-01-18 09:17:28	Period:	29	step:	5788	train loss:	2.0516
+train.py 2019-01-18 09:21:21	Period:	29	step:	6615	train loss:	2.0185
+train.py 2019-01-18 09:25:18	Period:	29	step:	7442	train loss:	1.9601
+train.py 2019-01-18 09:29:12	Period:	29	step:	8269	train loss:	1.9918
+train.py 2019-01-18 09:32:48	Period:	29	test loss:	2.3443
+train.py 2019-01-18 09:32:51	Saved model:	weights/yolo.ckpt-29-2.3443
+train.py 2019-01-18 09:36:33	Period:	30	step:	826	train loss:	1.9692
+train.py 2019-01-18 09:40:25	Period:	30	step:	1653	train loss:	1.9899
+train.py 2019-01-18 09:44:04	Period:	30	step:	2480	train loss:	1.9342
+train.py 2019-01-18 09:47:54	Period:	30	step:	3307	train loss:	2.0113
+train.py 2019-01-18 09:51:54	Period:	30	step:	4134	train loss:	1.9909
+train.py 2019-01-18 09:55:32	Period:	30	step:	4961	train loss:	1.9707
+train.py 2019-01-18 09:59:27	Period:	30	step:	5788	train loss:	2.0735
+train.py 2019-01-18 10:03:12	Period:	30	step:	6615	train loss:	1.9957
+train.py 2019-01-18 10:06:58	Period:	30	step:	7442	train loss:	1.9762
+train.py 2019-01-18 10:10:57	Period:	30	step:	8269	train loss:	1.9824
+train.py 2019-01-18 10:14:40	Period:	30	test loss:	2.3652
+train.py 2019-01-18 10:14:43	Saved model:	weights/yolo.ckpt-30-2.3652
+train.py 2019-01-18 10:18:36	Period:	31	step:	826	train loss:	1.8900
+train.py 2019-01-18 10:22:24	Period:	31	step:	1653	train loss:	1.9342
+train.py 2019-01-18 10:26:18	Period:	31	step:	2480	train loss:	1.9454
+train.py 2019-01-18 10:30:09	Period:	31	step:	3307	train loss:	1.9968
+train.py 2019-01-18 10:34:04	Period:	31	step:	4134	train loss:	1.9664
+train.py 2019-01-18 10:37:59	Period:	31	step:	4961	train loss:	1.9247
+train.py 2019-01-18 10:41:51	Period:	31	step:	5788	train loss:	1.9140
+train.py 2019-01-18 10:45:46	Period:	31	step:	6615	train loss:	2.0788

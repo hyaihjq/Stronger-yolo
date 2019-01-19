@@ -11,4 +11,4 @@ mAP/predicted/
 results.tgz
 results/
 main.py
-darknet2tf/
+yolov3_to_tf/
