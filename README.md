@@ -21,9 +21,9 @@ YOLO_v3 implemented with tensorflow <br>
 ## performance on VOC2007(score_threshold=0.01, test_input_size=544)<br>
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
-1. initial with yolov3-416<br>
+1. initial with yolov3-416.weights<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
-2. initial with darknet53<br>
+2. initial with darknet53.weights<br>
 **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
 
@@ -34,7 +34,7 @@ Usage
 git clone https://github.com/Stinky-Tofu/YOLO_v3.git
 ```
 2. prepare data<br>
-(1)download datasets<br>
+(1) download datasets<br>
 Create a new folder named `data` in the directory where the `YOLO_V3` folder 
 is located, and then create a new folder named `VOC` in the `data/`.<br>
 Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
@@ -49,13 +49,13 @@ Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCt
  |--|--2007_trainval<br>
  |--|--2007_test<br>
  
-(2)convert data format<br>
-You should set `DATASET_PATH` in `config.py` to the path of the VOC dataset, for example:<br>
-`DATASET_PATH = '/home/xzh/doc/code/python_code/data/VOC'`,and then<br>
- ```bash
- python voc_annotation.py
-```
-3. prepare initial weights<br>
+    (2) convert data format<br>
+    You should set `DATASET_PATH` in `config.py` to the path of the VOC dataset, for example:
+    `DATASET_PATH = '/home/xzh/doc/code/python_code/data/VOC'`,and then<br>
+    ```bash
+    python voc_annotation.py
+    ```
+3. prepare the initial weights<br>
 Download [YOLOv3-608.weights](https://pjreddie.com/media/files/yolov3.weights) firstly, 
 put the yolov3.weights into `yolov3_to_tf/`, and then 
 ```bash
@@ -76,7 +76,6 @@ python test.py
 --map_calc, default=False
 --weights_file, default=None
 ```
-
 
 ## Reference:<br>
 paper: <br>
