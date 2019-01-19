@@ -18,6 +18,15 @@ YOLO_v3 implemented with tensorflow <br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
+## performance on VOC2007(score_threshold=0.01, test_input_size=544)<br>
+If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
+If you want to apply it, you can set the score threshold to 0.2.<br>
+1. initial with yolov3-416<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
+2. initial with darknet53<br>
+**The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
+
 Usage
 =
 1. clone YOLO_v3 repository
@@ -68,14 +77,6 @@ python test.py
 --weights_file, default=None
 ```
 
-## performance on VOC2007(score_threshold=0.01, test_input_size=544)<br>
-If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
-If you want to apply it, you can set the score threshold to 0.2.<br>
-1. Trained from yolov3-416 that pretrained on imagenet <br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
-2. Trained from darknet53 that pretrained on imagenet <br>
-**The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
 
 ## Reference:<br>
 paper: <br>
