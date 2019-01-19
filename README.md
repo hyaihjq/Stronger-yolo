@@ -18,14 +18,14 @@ YOLO_v3 implemented with tensorflow <br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
-Train
+Usage
 =
 1. clone YOLO_v3 repository
 ``` bash
 git clone https://github.com/Stinky-Tofu/YOLO_v3.git
 ```
 2. prepare data<br>
-(1)download datasets
+(1)download datasets<br>
 Create a new folder named `data` in the directory where the `YOLO_V3` folder 
 is located, and then create a new folder named `VOC` in the `data/`.<br>
 Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
@@ -33,12 +33,12 @@ Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCt
 、[VOC 2007_test](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar), and put datasets into `data/VOC`,
  name as `2012_trainval`、`2007_trainval`、`2007_test` separately. <br>
  The file structure is as follows:<br>
- --YOLO_V3<br>
- --data<br>
- -->--VOC<br>
- -->-->--2012_trainval<br>
- -->-->--2007_trainval<br>
- -->-->--2007_test<br>
+ |--YOLO_V3<br>
+ |--data<br>
+ |--VOC<br>
+ |--|--2012_trainval<br>
+ |--|--2007_trainval<br>
+ |--|--2007_test<br>
  
 (2)convert data format<br>
 You should set `DATASET_PATH` in `config.py` to the path of the VOC dataset, for example:<br>
@@ -66,17 +66,18 @@ Download weight file [yolo_416_87.78%.ckpt](https://drive.google.com/drive/folde
 python test.py
 --map_calc, default=False
 --weights_file, default=None
---gpu, default=0
 ```
 
-## mAP
-VOC2007(score_threshold=0.01)<br>
+## performance
+1. fine tune from yolov3<br>
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP.png)<br>
-VOC2012(score_threshold=0.01)<br>
-84.3% http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=4#KEY_YOLD<br>
-
+VOC2007(score_threshold=0.01, test_input_size=416)<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
+2. fine tune from darknet53<br>
+VOC2007(score_threshold=0.01, test_input_size=544)<br>
+The same performance as the paper reimplemented by Tencent![](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo)<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
 
 
 ## Reference:<br>
