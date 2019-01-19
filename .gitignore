@@ -2,7 +2,7 @@
 log/
 mAP/ground-truth/
 mAP/predicted/
-results/
+results
 results.tgz
 weights/
 yolov3_to_tf/saved_model/
