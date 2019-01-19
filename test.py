@@ -6,6 +6,7 @@ import cv2
 import os
 import tensorflow as tf
 from model.yolo_v3 import YOLO_V3
+
 try:
     import xml.etree.cElementTree as ET
 except ImportError:
@@ -61,7 +62,7 @@ class YoloTest(object):
             [self.__pred_sbbox, self.__pred_mbbox, self.__pred_lbbox],
             feed_dict={
                 self.__input_data: yolo_input,
-                self.__training:False
+                self.__training: False
             }
         )
 
@@ -74,7 +75,7 @@ class YoloTest(object):
         # lbboxes = self.__valid_scale_filter(lbboxes, self.__valid_scales[2])
 
         bboxes = np.concatenate([sbboxes, mbboxes, lbboxes], axis=0)
-        bboxes = utils.nms(bboxes,self.__score_threshold, self.__iou_threshold, method='nms')
+        bboxes = utils.nms(bboxes, self.__score_threshold, self.__iou_threshold, method='nms')
         return bboxes
 
     def __valid_scale_filter(self, bboxes, valid_scale):
@@ -124,7 +125,7 @@ class YoloTest(object):
 
         pred_coor = pred_coor.reshape((-1, 4))
         pred_conf = pred_conf.reshape((-1,))
-        pred_prob = pred_prob.reshape((-1,self.__num_classes))
+        pred_prob = pred_prob.reshape((-1, self.__num_classes))
 
         # (4)去掉不在有效范围内的bbox
         bboxes_scale = np.sqrt(np.multiply.reduce(pred_coor[:, 2:4] - pred_coor[:, 0:2], axis=-1))
@@ -144,7 +145,6 @@ class YoloTest(object):
         bboxes = np.concatenate([coors, scores[:, np.newaxis], classes[:, np.newaxis]], axis=-1)
 
         return bboxes
-
 
     def detect_image(self, image):
         original_image = np.copy(image)
@@ -200,7 +200,7 @@ class YoloTest(object):
 
     def voc_2012_test(self):
         test_2012_path = os.path.join(self.__dataset_path, '2012_test')
-        img_inds_file = os.path.join(test_2012_path, 'ImageSets', 'Main',  'test.txt')
+        img_inds_file = os.path.join(test_2012_path, 'ImageSets', 'Main', 'test.txt')
         with file(img_inds_file, 'r') as f:
             txt = f.readlines()
             image_inds = [line.strip() for line in txt]
@@ -265,10 +265,12 @@ if __name__ == '__main__':
     parser.add_argument('--map_calc', default='False', type=str)
     parser.add_argument('--test_2012', default='False', type=str)
     parser.add_argument('--weights_file', default='', type=str)
+    parser.add_argument('--gpu', default='0', type=str)
     args = parser.parse_args()
     map_calc = args.map_calc
     test_2012 = args.test_2012
     weights_file = args.weights_file
+    cfg.GPU = args.gpu
 
     os.environ['CUDA_VISIBLE_DEVICES'] = cfg.GPU
     cfg.WEIGHTS_FILE = weights_file
@@ -283,7 +285,7 @@ if __name__ == '__main__':
         T.voc_2012_test()
     else:
         images = ['./data/' + image for image in os.listdir('./data')
-                  if (image[-3:] == 'jpg') and (image[0] != '.') ]
+                  if (image[-3:] == 'jpg') and (image[0] != '.')]
         image = cv2.imread(np.random.choice(images))
         image = T.detect_image(image)
         cv2.imwrite('detect_result.jpg', image)

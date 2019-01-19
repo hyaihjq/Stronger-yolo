@@ -75,6 +75,7 @@ Download weight file [yolo_416_87.78%.ckpt](https://drive.google.com/drive/folde
 python test.py
 --map_calc, default=False
 --weights_file, default=None
+--gpu, default=0
 ```
 
 ## Reference:<br>
