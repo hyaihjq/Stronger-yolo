@@ -18,31 +18,49 @@ YOLO_v3 implemented with tensorflow <br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
-Usage
+Train
 =
 1. clone YOLO_v3 repository
 ``` bash
 git clone https://github.com/Stinky-Tofu/YOLO_v3.git
 ```
-2. Download datasets <br>
+2. prepare data<br>
+(1)download datasets
 Create a new folder named `data` in the directory where the `YOLO_V3` folder 
 is located, and then create a new folder named `VOC` in the `data/`.<br>
 Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
 、[VOC 2007_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
 、[VOC 2007_test](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar), and put datasets into `data/VOC`,
- name as `2012_trainval`、`2007_trainval`、`2007_test` separately. 
-3. Train<br>
-Download pretrained weight file [yolo_coco_initial.ckpt](https://drive.google.com/drive/folders/1tHhxpmEAM0G34g8YdcDVNJv9s57smJIz)
-``` bash
-python voc_annotation.py
-python train.py
---weights_file, default=yolo_coco_initial.ckpt
---gpu, default=0
---batch_size, default=32
---frozen, default=True
---learn_rate_init, default=0.001
+ name as `2012_trainval`、`2007_trainval`、`2007_test` separately. <br>
+ The file structure is as follows:<br>
+ --YOLO_V3<br>
+ --data<br>
+ -->--VOC<br>
+ -->-->--2012_trainval<br>
+ -->-->--2007_trainval<br>
+ -->-->--2007_test<br>
+ 
+(2)convert data format<br>
+You should set `DATASET_PATH` in `config.py` to the path of the VOC dataset, for example:<br>
+`DATASET_PATH = '/home/xzh/doc/code/python_code/data/VOC'`,and then<br>
+ ```bash
+ python voc_annotation.py
 ```
-4. Test<br>
+3. prepare initial weights<br>
+Download [YOLOv3-608.weights](https://pjreddie.com/media/files/yolov3.weights) firstly, 
+put the yolov3.weights into `yolov3_to_tf/`, and then 
+```bash
+cd yolov3_to_tf
+python3 convert_weights.py --weights_file=yolov3.weights --dara_format=NHWC --ckpt_file=./saved_model/yolov3_608_coco_pretrained.ckpt
+cd ..
+python rename.py
+``` 
+
+4. Train<br>
+``` bash
+python train.py
+```
+5. Test<br>
 Download weight file [yolo_416_87.78%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
 ``` bash
 python test.py
@@ -50,7 +68,6 @@ python test.py
 --weights_file, default=None
 --gpu, default=0
 ```
-
 
 ## mAP
 VOC2007(score_threshold=0.01)<br>
