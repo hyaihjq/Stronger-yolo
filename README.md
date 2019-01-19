@@ -69,16 +69,15 @@ python test.py
 ```
 
 ## performance
-1. fine tune from yolov3<br>
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
+1. Trained from yolov3-416 that pretrained on imagenet <br>
 VOC2007(score_threshold=0.01, test_input_size=416)<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
-2. fine tune from darknet53<br>
+2. Trained from darknet53 that pretrained on imagenet <br>
 VOC2007(score_threshold=0.01, test_input_size=544)<br>
-The same performance as the paper reimplemented by Tencent![](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo)<br>
+####The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
-
 
 ## Reference:<br>
 paper: <br>
