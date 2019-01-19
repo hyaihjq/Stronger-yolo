@@ -44,10 +44,10 @@ Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCt
  The file structure is as follows:<br>
  |--YOLO_V3<br>
  |--data<br>
- |--VOC<br>
- |--|--2012_trainval<br>
- |--|--2007_trainval<br>
- |--|--2007_test<br>
+ |--|--VOC<br>
+ |--|--|--2012_trainval<br>
+ |--|--|--2007_trainval<br>
+ |--|--|--2007_test<br>
  
     (2) convert data format<br>
     You should set `DATASET_PATH` in `config.py` to the path of the VOC dataset, for example:
