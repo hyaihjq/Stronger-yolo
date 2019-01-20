@@ -1,5 +1,6 @@
 .idea/
-log/
+log/test/
+log/train/
 mAP/ground-truth/
 mAP/predicted/
 /results/
