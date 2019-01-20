@@ -12,4 +12,4 @@ yolov3_to_tf/yolov3.weights
 ._*
 *.DS_Store*
 *.pyc
-/main.py
+.gitignore
