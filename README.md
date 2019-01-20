@@ -18,9 +18,10 @@ YOLO_v3 implemented with tensorflow <br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
-## performance on VOC2007(score_threshold=0.01, test_input_size=544)<br>
+## performance on VOC2007
+**(score_threshold=0.01, iou_threshold=0.45, test_input_size=544)<br>
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
-If you want to apply it, you can set the score threshold to 0.2.<br>
+If you want to apply it, you can set the score threshold to 0.2.<br>**
 1. initial with yolov3-416.weights<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
 2. initial with darknet53.weights<br>
@@ -70,13 +71,26 @@ put the yolov3.weights into `yolov3_to_tf/`, and then
     python train.py
     ```
 5. Test<br>
-Download weight file [yolo_416_87.78%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
+    Download weight file [yolo_544_88.29%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
     ``` bash
     python test.py --gpu=0 --map_calc=True --weights_file=model_path.ckpt
     cd mAP
     python main.py -na -np
     ```
-
+6. Train for custom dataset<br>
+    (1) Generate your own annotation file `train_annotation.txt` 
+    and `test_annotation.txt`, one row for one image. <br>
+    Row format: image_path bbox0 bbox1 ...<br>
+    Bbox format: xmin,ymin,xmax,ymax,class_id(no space), for example:<br>
+    ```bash
+    /home/xzh/doc/code/python_code/data/VOC/2007_test/JPEGImages/000001.jpg 48,240,195,371,11 8,12,352,498,14
+    ```
+    (2) Put the `train_annotation.txt` and `test_annotation.txt` into `YOLO_V3/data/`<br>
+    (3) Start training<br>
+    ```bash
+    python train.py
+    ```
+     
 ## Reference:<br>
 paper: <br>
 - [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)<br>
