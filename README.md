@@ -79,19 +79,19 @@ Download weight file [yolo_416_87.78%.ckpt](https://drive.google.com/drive/folde
 
 ## Reference:<br>
 paper: <br>
-[YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)<br>
-[Foca Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)<br>
-[Group Normalization](https://arxiv.org/abs/1803.08494)<br>
-[Single-Shot Object Detection with Enriched Semantics](https://arxiv.org/abs/1712.00433)<br>
-[An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189)<br>
-[Deformable convolutional networks](https://arxiv.org/abs/1811.11168)<br>
-[Scale-Aware Trident Networks for Object Detection](https://arxiv.org/abs/1901.01892)<br>
-[Understanding the Effective Receptive Field in Deep Convolutional Neural Networks](https://arxiv.org/abs/1701.04128)<br>
+- [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)<br>
+- [Foca Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)<br>
+- [Group Normalization](https://arxiv.org/abs/1803.08494)<br>
+- [Single-Shot Object Detection with Enriched Semantics](https://arxiv.org/abs/1712.00433)<br>
+- [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189)<br>
+- [Deformable convolutional networks](https://arxiv.org/abs/1811.11168)<br>
+- [Scale-Aware Trident Networks for Object Detection](https://arxiv.org/abs/1901.01892)<br>
+- [Understanding the Effective Receptive Field in Deep Convolutional Neural Networks](https://arxiv.org/abs/1701.04128)<br>
 
 mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
 ## Requirements
-. Tensorflow <br>
-. Opencv <br>
-. Python <br>
-. Numpy<br>
+- Python2.7.12 <br>
+- Numpy1.14.5<br>
+- Tensorflow.1.8.0 <br>
+- Opencv3.4.1 <br>

@@ -1,20 +1,48 @@
-# 第一次修改
-1、加载YOLO_416中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
-2、需要配套的是将输入图片 image / 255.0，因为YOLO_416就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_416中的BN层
-3、使用了多尺度训练
-4、第一阶段使用32个batch size
-5、第二阶段使用2个batch size、这个主要是因为有608的size在，所以只能用这么大的batch size
-6、分别在第11、20个period降低了学习率、learn_rate_init=0.001
-7、去掉了测试集中difficult的bbox，mAP从81.59提高至85.05%
-
-#第二次修改
-1、加载YOLO_416中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
-2、需要配套的是将输入图片 image / 255.0，因为YOLO_416就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_416中的BN层
-3、不使用多尺度训练，训练尺寸为416
+2018-12-...  mAP=85.05%
+训练方法：
+1、加载YOLO_608中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
+   需要配套的是将输入图片 image / 255.0，因为YOLO_608就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_608中的BN层
+3、使用多尺度训练，训练尺寸为[320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
 4、第一阶段使用32个batch size、第二阶段使用6个batch size
-6、learn_rate_init=0.001，经历了两次学习率衰减，每次除10
-7、去掉了训练集中标记为difficult的bbox后，mAP从84.55%(未使用多尺度训练，没有去掉训练集中标记为difficult的bbox)提高至86.3%
+5、learn_rate_init=0.01，经历了两次学习率衰减，每次除10
+6、没有去掉训练集中标记为difficult的bbox
+测试方法：
+1、去掉了测试集中标记为difficult的bbox，mAP从81.59提高至85.05%
+2、score_threshold=0.2，iou_threshold=0.5
+3、测试尺寸为416
 
-#第三次修改
+2018-12-...  mAP=86.3%
+训练方法：
+1、加载YOLO_608中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
+   需要配套的是将输入图片 image / 255.0，因为YOLO_608就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_608中的BN层
+3、不使用多尺度训练，训练尺寸为[416]
+4、第一阶段使用32个batch size、第二阶段使用6个batch size
+5、learn_rate_init=0.01，经历了两次学习率衰减，每次除10
+6、去掉了训练集中标记为difficult的bbox，mAP从84.55%(未使用多尺度训练，没有去掉训练集中标记为difficult的bbox)提高至86.3%
+测试方法：
+1、去掉了测试集中标记为difficult的bbox
+2、score_threshold=0.2，iou_threshold=0.5
+3、测试尺寸为416
+
+2018-12-...  mAP=86.3%
 给三个检测分支加上合理尺度范围，没啥用
+
+2019-1-...  mAP=87.78%
+将score threshold修改为0.01，mAP从86.3%提高至87.78%
+
+2019-01-19-11-57-32  mAP=88.29%
+训练方法：
+1、加载YOLO_608中BN层的所有权重(mean、var、scale、shift)，在第一阶段除了三个输出层，其它层全部冻结不训练，第二阶段只冻结BN层mean、var
+   需要配套的是将输入图片 image / 255.0，因为YOLO_608就是使用这种输入，所以如果使用其他输入(比如说image / 128 - 1)那么将不适应YOLO_608中的BN层
+3、使用多尺度训练，训练尺寸为[320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
+4、第一阶段使用32个batch size、第二阶段使用6个batch size
+5、learn_rate_init=0.01，经历了两次学习率衰减，每次除10
+6、去掉了训练集中标记为difficult的bbox
+测试方法：
+1、去掉了测试集中标记为difficult的bbox
+2、score_threshold=0.01，iou_threshold=0.45
+3、测试尺寸为544
+4、使用的是第yolo.ckpt-24-2.2276
+
+
 
