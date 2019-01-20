@@ -22,7 +22,7 @@ YOLO_v3 implemented with tensorflow <br>
 (score_threshold=0.01, iou_threshold=0.45, test_input_size=544)<br>
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
-1. initial with yolov3-416.weights<br>
+1. initial with yolov3-608.weights<br>
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
 2. initial with darknet53.weights<br>
 **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
@@ -55,7 +55,7 @@ Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCt
     ```bash
     python voc_annotation.py
     ```
-3. prepare the initial weights<br>
+3. prepare initial weights<br>
 Download [YOLOv3-608.weights](https://pjreddie.com/media/files/yolov3.weights) firstly, 
 put the yolov3.weights into `yolov3_to_tf/`, and then 
     ```bash
@@ -82,15 +82,15 @@ put the yolov3.weights into `yolov3_to_tf/`, and then
 and `test_annotation.txt`, one row for one image. <br>
 Row format: image_path bbox0 bbox1 ...<br>
 Bbox format: xmin,ymin,xmax,ymax,class_id(no space), for example:<br>
-```bash
-/home/xzh/doc/code/python_code/data/VOC/2007_test/JPEGImages/000001.jpg 48,240,195,371,11 8,12,352,498,14
-```
-2. Put the `train_annotation.txt` and `test_annotation.txt` into `YOLO_V3/data/`<br>
-3. Configure config.py for your dataset<br>
-3. Start training<br>
-```bash
-python train.py
-```
+    ```bash
+    /home/xzh/doc/code/python_code/data/VOC/2007_test/JPEGImages/000001.jpg 48,240,195,371,11 8,12,352,498,14
+    ```
+2. Put the `train_annotation.txt` and `test_annotation.txt` into `YOLO_V3/data/`.<br>
+3. Configure config.py for your dataset.<br>
+3. Start training.<br>
+    ```bash
+    python train.py
+    ```
      
 ## Reference:<br>
 paper: <br>
