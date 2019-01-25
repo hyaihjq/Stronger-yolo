@@ -1,19 +1,24 @@
 Note
 =
-**I'm solving scale invariant. 
-If you have a good paper, 
-you can email me by StinkyTofu95@gmail.com. Thanks!**<br>
+**Don't update the code during the winter vacation, wish everyone have a happy new year in advance.**<br>
+**I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!**<br>
 
 YOLO_v3<br>
 =
-YOLO_v3 implemented with tensorflow <br>
-
-- [x] data augmentation(release)<br>
-- [x] multi-scale training(release)<br>
+Improve yolo_v3 with latest paper <br>
+<br>
+**update**<br>
+- [x] Modified the assign method of positive and negative samples(increase 0.6 mAP, release)
+<br>
+**previous**<br>
+- [x] Data augmentation(release)<br>
+- [x] Multi-scale training(release)<br>
 - [x] Focal loss(increase 2 mAP, release)<br>
 - [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
 - [x] Soft-NMS(drop 0.5 mAP, release)<br>
 - [x] Group Normalization(didn't use it in project, release)<br>
+<br>
+**to do**<br>
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
@@ -70,7 +75,7 @@ put the yolov3.weights into `yolov3_to_tf/`, and then
     python train.py
     ```
 5. Test<br>
-    Download weight file [yolo_544_88.29%.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
+    Download weight file [yolo_test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
     ``` bash
     python test.py --gpu=0 --map_calc=True --weights_file=model_path.ckpt
     cd mAP
