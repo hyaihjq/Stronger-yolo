@@ -23,10 +23,10 @@ YOLO_v3 implemented with tensorflow <br>
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
 1. initial with yolov3-608.weights<br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP0.png)<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP0.png)<br>
 2. initial with darknet53.weights<br>
 **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/results/mAP1.png)<br>
+![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP1.png)<br>
 
 ## Usage
 1. clone YOLO_v3 repository
