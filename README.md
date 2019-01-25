@@ -4,6 +4,7 @@ Note
 **I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!**<br>
 
 ## Improve yolo_v3 with latest paper <br>
+#### updated
 - [x] Data augmentation(release)<br>
 - [x] Multi-scale training(release)<br>
 - [x] Focal loss(increase 2 mAP, release)<br>
@@ -11,6 +12,7 @@ Note
 - [x] Soft-NMS(drop 0.5 mAP, release)<br>
 - [x] Group Normalization(didn't use it in project, release)<br>
 - [x] **Recently updated: Modified the assign method of positive and negative samples(increase 0.6 mAP, release)**<br>
+#### to do
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
