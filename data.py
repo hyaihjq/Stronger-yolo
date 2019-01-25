@@ -183,28 +183,51 @@ class Data(object):
 
             # (3)计算所有Anchor与该bbox的IOU，并获取最大IOU对应的best anchor
             iou = []
+            exist_positive = False
             for i in range(3):
                 anchors_xywh = np.zeros((self.__anchor_per_scale, 4))
                 anchors_xywh[:, 0:2] = np.floor(bbox_xywh_scaled[i, 0:2]).astype(np.int32) + 0.5
                 anchors_xywh[:, 2:4] = self.__anchors[i]
-                iou.append(utils.iou_calc2(bbox_xywh_scaled[i][np.newaxis, :], anchors_xywh))
-            best_anchor_ind = np.argmax(np.array(iou).reshape(-1), axis=-1)
-            best_detect = int(best_anchor_ind / self.__anchor_per_scale)
-            best_anchor = int(best_anchor_ind % self.__anchor_per_scale)
-            xind, yind = np.floor(bbox_xywh_scaled[best_detect, 0:2]).astype(np.int32)
 
-            # (4)将best_anchor对应位置的数据标识为(x, y, w, h, 1, classes)
-            # 首先需要将该Anchor对应的标签清零，因为某个Anchor可能与多个bbox有最大IOU，
-            # 当输入图片尺寸为416时，与多个bbox有最大IOU的Anchor总共有248个
-            # 如果不清零，那么该Anchor可能会被标记为多类
-            label[best_detect][yind, xind, best_anchor, :] = 0
-            label[best_detect][yind, xind, best_anchor, 0:4] = bbox_xywh
-            label[best_detect][yind, xind, best_anchor, 4:5] = 1.0
-            label[best_detect][yind, xind, best_anchor, 5 + bbox_class_ind] = 1.0
+                iou_scale = utils.iou_calc2(bbox_xywh_scaled[i][np.newaxis, :], anchors_xywh)
+                iou.append(iou_scale)
+                iou_mask = iou_scale > 0.3
 
-            bbox_ind = int(bbox_count[best_detect] % self.__max_bbox_per_scale)
-            bboxes_xywh[best_detect][bbox_ind, :4] = bbox_xywh
-            bbox_count[best_detect] += 1
+                if np.any(iou_mask):
+                    xind, yind = np.floor(bbox_xywh_scaled[i, 0:2]).astype(np.int32)
+
+                    # (4)将iou大于0.3的anchor对应位置的数据标识为(x, y, w, h, 1, classes)
+                    # 首先需要将该Anchor对应的标签清零，因为某个Anchor可能与多个bbox的IOU大于0.3
+                    # 如果不清零，那么该Anchor可能会被标记为多类
+                    label[i][yind, xind, iou_mask, :] = 0
+                    label[i][yind, xind, iou_mask, 0:4] = bbox_xywh
+                    label[i][yind, xind, iou_mask, 4:5] = 1.0
+                    label[i][yind, xind, iou_mask, 5 + bbox_class_ind] = 1.0
+
+                    bbox_ind = int(bbox_count[i] % self.__max_bbox_per_scale)
+                    bboxes_xywh[i][bbox_ind, :4] = bbox_xywh
+                    bbox_count[i] += 1
+
+                    exist_positive = True
+
+            if not exist_positive:
+                best_anchor_ind = np.argmax(np.array(iou).reshape(-1), axis=-1)
+                best_detect = int(best_anchor_ind / self.__anchor_per_scale)
+                best_anchor = int(best_anchor_ind % self.__anchor_per_scale)
+                xind, yind = np.floor(bbox_xywh_scaled[best_detect, 0:2]).astype(np.int32)
+
+                # (4)将best_anchor对应位置的数据标识为(x, y, w, h, 1, classes)
+                # 首先需要将该Anchor对应的标签清零，因为某个Anchor可能与多个bbox有最大IOU，
+                # 当输入图片尺寸为416时，与多个bbox有最大IOU的Anchor总共有248个
+                # 如果不清零，那么该Anchor可能会被标记为多类
+                label[best_detect][yind, xind, best_anchor, :] = 0
+                label[best_detect][yind, xind, best_anchor, 0:4] = bbox_xywh
+                label[best_detect][yind, xind, best_anchor, 4:5] = 1.0
+                label[best_detect][yind, xind, best_anchor, 5 + bbox_class_ind] = 1.0
+
+                bbox_ind = int(bbox_count[best_detect] % self.__max_bbox_per_scale)
+                bboxes_xywh[best_detect][bbox_ind, :4] = bbox_xywh
+                bbox_count[best_detect] += 1
         label_sbbox, label_mbbox, label_lbbox = label
         sbboxes, mbboxes, lbboxes = bboxes_xywh
         return label_sbbox, label_mbbox, label_lbbox, sbboxes, mbboxes, lbboxes

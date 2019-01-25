@@ -5,8 +5,7 @@ mAP/ground-truth/
 mAP/predicted/
 /results/
 /results.tgz
-weights/voc_fine_tune_initial*
-weights/yolo.ckpt-24-88.29%*
+weights/
 yolov3_to_tf/saved_model/
 yolov3_to_tf/yolov3.weights
 ._*
