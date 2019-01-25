@@ -10,7 +10,7 @@ Note
 - [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
 - [x] Soft-NMS(drop 0.5 mAP, release)<br>
 - [x] Group Normalization(didn't use it in project, release)<br>
-- [x] Modified the assign method of positive and negative samples(increase 0.6 mAP, release)<br>
+- [x] **Recently updated: Modified the assign method of positive and negative samples(increase 0.6 mAP, release)**<br>
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
