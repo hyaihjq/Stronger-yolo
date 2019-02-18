@@ -45,7 +45,7 @@ Note
     ```
 2. prepare data<br>
     (1) download datasets<br>
-        Create a new folder named `data` in the directory where the `YOLO_V3` folder 
+    Create a new folder named `data` in the directory where the `YOLO_V3` folder 
     is located, and then create a new folder named `VOC` in the `data/`.<br>
     Download [VOC 2012_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
     、[VOC 2007_trainval](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
@@ -65,7 +65,7 @@ Note
     python voc_annotation.py
     ```
 3. prepare initial weights<br>
-        Download [YOLOv3-608.weights](https://pjreddie.com/media/files/yolov3.weights) firstly, 
+    Download [YOLOv3-608.weights](https://pjreddie.com/media/files/yolov3.weights) firstly, 
     put the yolov3.weights into `yolov3_to_tf/`, and then 
     ```bash
     cd yolov3_to_tf
@@ -79,7 +79,7 @@ Note
     python train.py
     ```
 5. Test<br>
-        Download weight file [yolo_test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
+    Download weight file [yolo_test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
     If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
     If you want to apply it, you can set the score threshold to 0.2.<br>
     ``` bash
