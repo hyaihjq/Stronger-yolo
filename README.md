@@ -30,7 +30,7 @@ If you want to apply it, you can set the score threshold to 0.2.<br>
     
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP0.png)<br>
 2. initial with darknet53.weights<br>
-**The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
+    **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
 
     |    size     |  mAP  |
     |    :--:     | :---: |
