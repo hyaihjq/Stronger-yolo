@@ -1,6 +1,5 @@
 Note
 =
-**Don't update the code during the winter vacation, wish everyone have a happy new year in advance.**<br>
 **I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!**<br>
 
 ## Improve yolo_v3 with latest paper <br>
@@ -24,19 +23,19 @@ If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
 1. initial with yolov3-608.weights<br>
 
-|    size    |  mAP  | score |
-|    :--:    | :---: | :---: |
-|    544     | 88.91 |  0.01 |
-| multi test | 90.52 |  0.01 |
-
+    |    size     |  mAP  |
+    |    :--:     | :---: |
+    |    544      | 88.91 |
+    | multi scale | 90.52 |
+    
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP0.png)<br>
 2. initial with darknet53.weights<br>
 **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
 
-|    size    |  mAP  | score |
-|    :--:    | :---: | :---: |
-|    544     | 79.32 |  0.01 |
-| multi test | 81.89 |  0.01 |
+    |    size     |  mAP  |
+    |    :--:     | :---: |
+    |    544      | 79.32 |
+    | multi scale | 81.89 |
 
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP1.png)<br>
 
