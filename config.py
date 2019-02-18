@@ -8,8 +8,6 @@ TEST_INPUT_SIZE = 544
 STRIDES = [8, 16, 32]
 IOU_LOSS_THRESH = 0.5
 
-VALID_SCALES = [[0, np.inf], [0, np.inf], [0, np.inf]]
-
 # train
 BATCH_SIZE = 32
 BATCH_SIZE_STEP2 = 6
@@ -28,6 +26,8 @@ SAVE_ITER = 1
 MAX_BBOX_PER_SCALE = 150
 
 # test
+MULTI_TEST = False
+FLIP_TEST = False
 SCORE_THRESHOLD = 0.01    # The threshold of the probability of the classes
 IOU_THRESHOLD = 0.45     # The threshold of the IOU when implement NMS
 

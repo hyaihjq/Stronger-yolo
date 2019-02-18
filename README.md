@@ -11,7 +11,8 @@ Note
 - [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
 - [x] Soft-NMS(drop 0.5 mAP, release)<br>
 - [x] Group Normalization(didn't use it in project, release)<br>
-- [x] **Recently updated: Modified the assign method of positive and negative samples(increase 0.6 mAP, release)**<br>
+- [x] Recently updated: Modified the assign method of positive and negative samples(increase 0.6 mAP, release)<br>
+- [x] **Recently updated: Multi-scale testing(increase 2 mAP, release)**<br>
 #### to do
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
@@ -22,9 +23,21 @@ Note
 If you want to get a higher mAP, you can set the score threshold to 0.01.<br>
 If you want to apply it, you can set the score threshold to 0.2.<br>
 1. initial with yolov3-608.weights<br>
+
+|    size    |  mAP  | score |
+|    :--:    | :---: | :---: |
+|    544     | 88.91 |  0.01 |
+| multi test | 90.52 |  0.01 |
+
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP0.png)<br>
 2. initial with darknet53.weights<br>
 **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
+
+|    size    |  mAP  | score |
+|    :--:    | :---: | :---: |
+|    544     | 79.32 |  0.01 |
+| multi test | 81.89 |  0.01 |
+
 ![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP1.png)<br>
 
 ## Usage
