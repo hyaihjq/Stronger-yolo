@@ -10,7 +10,7 @@ Note
 - [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
 - [x] Soft-NMS(drop 0.5 mAP, release)<br>
 - [x] Group Normalization(didn't use it in project, release)<br>
-- [x] Recently updated: Modified the assign method of positive and negative samples(increase 0.6 mAP, release)<br>
+- [x] Modified the assign method of positive and negative samples(increase 0.6 mAP, release)<br>
 - [x] **Recently updated: Multi-scale testing(increase 2 mAP, release)**<br>
 #### to do
 - [ ] Deformable convolutional networks<br>
