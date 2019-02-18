@@ -79,9 +79,9 @@ Note
     python train.py
     ```
 5. Test<br>
-    Download weight file [yolo_test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)
-    If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
-    If you want to apply it, you can set the score threshold to 0.2.<br>
+    Download weight file [yolo_test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)<br>
+    **If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
+    If you want to apply it, you can set the score threshold to 0.2.<br>**
     ``` bash
     python test.py --gpu=0 --map_calc=True --weights_file=model_path.ckpt
     cd mAP
