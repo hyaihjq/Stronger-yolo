@@ -1,7 +1,5 @@
 # coding:utf-8
 
-import numpy as np
-
 # yolo
 TRAIN_INPUT_SIZES = [320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
 TEST_INPUT_SIZE = 544
