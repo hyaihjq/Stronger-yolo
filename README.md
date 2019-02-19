@@ -25,7 +25,7 @@ Note
     |    544      | 88.91 |
     | multi scale | 90.52 |
     
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP0.png)<br>
+![mAP](https://github.com/Stinky-Tofu/Stronger-yolo/blob/master/mAP/mAP0.png)<br>
 
 2. initial with darknet53.weights<br>
 
@@ -36,12 +36,12 @@ Note
     
     **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
 
-![mAP](https://github.com/Stinky-Tofu/YOLO_V3/blob/master/mAP/mAP1.png)<br>
+![mAP](https://github.com/Stinky-Tofu/Stronger-yolo/blob/master/mAP/mAP1.png)<br>
 
 ## Usage
 1. clone YOLO_v3 repository
     ``` bash
-    git clone https://github.com/Stinky-Tofu/YOLO_v3.git
+    git clone https://github.com/Stinky-Tofu/Stronger-yolo.git
     ```
 2. prepare data<br>
     (1) download datasets<br>
