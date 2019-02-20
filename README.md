@@ -29,7 +29,6 @@ Note
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
-
 ## Usage
 1. clone YOLO_v3 repository
     ``` bash
