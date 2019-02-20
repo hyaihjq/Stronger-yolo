@@ -3,40 +3,32 @@ Note
 **I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!**<br>
 
 ## Improve yolo_v3 with latest paper <br>
-#### updated
-- [x] Data augmentation(release)<br>
-- [x] Multi-scale training(release)<br>
-- [x] Focal loss(increase 2 mAP, release)<br>
-- [x] Single-Shot Object Detection with Enriched Semantics(incrase 1 mAP, not release)<br>
-- [x] Soft-NMS(drop 0.5 mAP, release)<br>
-- [x] Group Normalization(didn't use it in project, release)<br>
-- [x] Modified the assign method of positive and negative samples(increase 0.6 mAP, release)<br>
-- [x] **Recently updated: Multi-scale testing(increase 2 mAP, release)**<br>
+#### performance on VOC2007(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
+<table>
+   <tr><td>model</td><td>initial with yolov3.weights</td><td></td><td>initial with darknet.weights</td><td></td><td>release</td></tr>
+   <tr><td></td><td>mAP</td><td>delta</td><td>mAP</td><td>delta</td><td></td></tr>
+   <tr><td>baseline</td><td>84.3</td><td>0</td><td>72.3</td><td>0</td><td>yes</td></tr>
+   <tr><td>data agumentation</td><td>85.8</td><td>+1.5</td><td>75.9</td><td>+3.6</td><td>yes</td></tr>
+   <tr><td>multi scale train</td><td>86.3</td><td>+0.5</td><td>78.3</td><td>+2.4</td><td>yes</td></tr>
+   <tr><td>focal loss</td><td>88.3</td><td>+2.0</td><td>79.6</td><td>+1.3</td><td>yes</td></tr>
+   <tr><td>des</td><td>xxx</td><td>+1.0</td><td>xxx</td><td>xxx</td><td>no</td></tr>
+   <tr><td>group normalization</td><td>xxx</td><td>xxx</td><td>xxx</td><td>xxx</td><td>yes</td></tr>
+   <tr><td>soft nms</td><td>xxx</td><td>-0.6</td><td>xxx</td><td>-0.6</td><td>yes</td></tr>
+   <tr><td>modify positive and negative labels</td><td>88.9</td><td>+0.6</td><td>79.3</td><td>-0.3</td><td>yes</td></tr>
+   <tr><td>mix up</td><td>xxx</td><td>-0.3</td><td>80.7</td><td>+1.4</td><td>no</td></tr>
+   <tr><td>multi scale test</td><td>90.5</td><td>+1.6</td><td>82.8</td><td>+2.1</td><td>yes</td></tr>
+</table>
+<p align="center">evaluated at 544x544 on Pascal VOC 2007 test set</p>
+
+![mAP](https://github.com/Stinky-Tofu/Stronger-yolo/blob/master/mAP/mAP0.png)<br>
+
+![mAP](https://github.com/Stinky-Tofu/Stronger-yolo/blob/master/mAP/mAP1.png)<br>
+    
 #### to do
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
 
-## performance on VOC2007
-1. initial with yolov3-608.weights<br>
-
-    |    size     |  mAP  |
-    |    :--:     | :---: |
-    |    544      | 88.91 |
-    | multi scale | 90.52 |
-    
-![mAP](https://github.com/Stinky-Tofu/Stronger-yolo/blob/master/mAP/mAP0.png)<br>
-
-2. initial with darknet53.weights<br>
-
-    |    size     |  mAP  |
-    |    :--:     | :---: |
-    |    544      | 79.32 |
-    | multi scale | 81.89 |
-    
-    **The same performance as [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation**<br>
-
-![mAP](https://github.com/Stinky-Tofu/Stronger-yolo/blob/master/mAP/mAP1.png)<br>
 
 ## Usage
 1. clone YOLO_v3 repository
@@ -113,6 +105,7 @@ paper: <br>
 - [Deformable convolutional networks](https://arxiv.org/abs/1811.11168)<br>
 - [Scale-Aware Trident Networks for Object Detection](https://arxiv.org/abs/1901.01892)<br>
 - [Understanding the Effective Receptive Field in Deep Convolutional Neural Networks](https://arxiv.org/abs/1701.04128)<br>
+- [Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/pdf/1902.04103.pdf)<br>
 
 mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
