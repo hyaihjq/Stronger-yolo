@@ -7,7 +7,7 @@ Note
 <table>
    <tr><td>model</td><td>initial with yolov3.weights</td><td></td><td>initial with darknet.weights</td><td></td><td>release</td></tr>
    <tr><td></td><td>mAP</td><td>delta</td><td>mAP</td><td>delta</td><td></td></tr>
-   <tr><td>baseline</td><td>84.3</td><td>0</td><td>72.3</td><td>0</td><td>yes</td></tr>
+   <tr><td>baseline</td><td>84.3</td><td>0.0</td><td>72.3</td><td>0.0</td><td>yes</td></tr>
    <tr><td>data agumentation</td><td>85.8</td><td>+1.5</td><td>75.9</td><td>+3.6</td><td>yes</td></tr>
    <tr><td>multi scale train</td><td>86.3</td><td>+0.5</td><td>78.3</td><td>+2.4</td><td>yes</td></tr>
    <tr><td>focal loss</td><td>88.3</td><td>+2.0</td><td>79.6</td><td>+1.3</td><td>yes</td></tr>
@@ -16,7 +16,8 @@ Note
    <tr><td>soft nms</td><td>xxx</td><td>-0.6</td><td>xxx</td><td>-0.6</td><td>yes</td></tr>
    <tr><td>modify positive and negative labels</td><td>88.9</td><td>+0.6</td><td>79.3</td><td>-0.3</td><td>yes</td></tr>
    <tr><td>mix up</td><td>xxx</td><td>-0.3</td><td>80.7</td><td>+1.4</td><td>no</td></tr>
-   <tr><td>multi scale test</td><td>90.5</td><td>+1.6</td><td>82.8</td><td>+2.1</td><td>yes</td></tr>
+   <tr><td>label smooth</td><td>89.1</td><td>+0.2</td><td>xxx</td><td>xxx</td><td>yes</td></tr>
+   <tr><td>multi scale test</td><td>90.7</td><td>+1.6</td><td>82.8</td><td>+2.1</td><td>yes</td></tr>
 </table>
 <p align="center">evaluated at 544x544 on Pascal VOC 2007 test set</p>
 

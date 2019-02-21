@@ -297,5 +297,5 @@ class YOLO_V3(object):
         loss_lbbox = self.__loss_per_scale('loss_lbbox', conv_lbbox, pred_lbbox, label_lbbox, lbboxes,
                                            self.__anchors[2], self.__strides[2])
         with tf.name_scope('loss'):
-            loss = (loss_sbbox + loss_mbbox + loss_lbbox) / 3.0
+            loss = loss_sbbox + loss_mbbox + loss_lbbox
         return loss

@@ -174,6 +174,13 @@ class Data(object):
             bbox_coor = bbox[:4]
             bbox_class_ind = bbox[4]
 
+            # label smooth
+            onehot = np.zeros(self.__num_classes, dtype=np.float)
+            onehot[bbox_class_ind] = 1.0
+            uniform_distribution = np.full(self.__num_classes, 1.0 / self.__num_classes)
+            deta = 0.01
+            smooth_onehot = onehot * (1 - deta) + deta * uniform_distribution
+
             # (1)(xmin, ymin, xmax, ymax) -> (x, y, w, h)
             bbox_xywh = np.concatenate([(bbox_coor[2:] + bbox_coor[:2]) * 0.5, bbox_coor[2:] - bbox_coor[:2]], axis=-1)
 
@@ -202,7 +209,7 @@ class Data(object):
                     label[i][yind, xind, iou_mask, :] = 0
                     label[i][yind, xind, iou_mask, 0:4] = bbox_xywh
                     label[i][yind, xind, iou_mask, 4:5] = 1.0
-                    label[i][yind, xind, iou_mask, 5 + bbox_class_ind] = 1.0
+                    label[i][yind, xind, iou_mask, 5:] = smooth_onehot
 
                     bbox_ind = int(bbox_count[i] % self.__max_bbox_per_scale)
                     bboxes_xywh[i][bbox_ind, :4] = bbox_xywh
@@ -223,7 +230,7 @@ class Data(object):
                 label[best_detect][yind, xind, best_anchor, :] = 0
                 label[best_detect][yind, xind, best_anchor, 0:4] = bbox_xywh
                 label[best_detect][yind, xind, best_anchor, 4:5] = 1.0
-                label[best_detect][yind, xind, best_anchor, 5 + bbox_class_ind] = 1.0
+                label[best_detect][yind, xind, best_anchor, 5:] = smooth_onehot
 
                 bbox_ind = int(bbox_count[best_detect] % self.__max_bbox_per_scale)
                 bboxes_xywh[best_detect][bbox_ind, :4] = bbox_xywh

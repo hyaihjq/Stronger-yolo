@@ -12,7 +12,7 @@ BATCH_SIZE_STEP2 = 6
 LEARN_RATE_INIT = 1e-3
 MAX_LEARN_RATE_DECAY_TIME = 2
 MAX_WAVE_TIME = 2
-MAX_PERIODS = 50
+MAX_PERIODS = 25
 ANCHORS = [[(1.25, 1.625), (2.0, 3.75), (4.125, 2.875)],            # Anchors for small obj
            [(1.875, 3.8125), (3.875, 2.8125), (3.6875, 7.4375)],    # Anchors for medium obj
            [(3.625, 2.8125), (4.875, 6.1875), (11.65625, 10.1875)]] # Anchors for big obj
