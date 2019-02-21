@@ -16,8 +16,8 @@ Note
    <tr><td>soft nms</td><td>xxx</td><td>-0.6</td><td>xxx</td><td>-0.6</td><td>yes</td></tr>
    <tr><td>modify positive and negative labels</td><td>88.9</td><td>+0.6</td><td>79.3</td><td>-0.3</td><td>yes</td></tr>
    <tr><td>mix up</td><td>xxx</td><td>-0.3</td><td>80.7</td><td>+1.4</td><td>no</td></tr>
-   <tr><td>label smooth</td><td>89.1</td><td>+0.2</td><td>xxx</td><td>xxx</td><td>yes</td></tr>
-   <tr><td>multi scale test</td><td>90.7</td><td>+1.6</td><td>82.8</td><td>+2.1</td><td>yes</td></tr>
+   <tr><td>label smooth</td><td>89.1</td><td>+0.2</td><td>81.1</td><td>+0.4</td><td>yes</td></tr>
+   <tr><td>multi scale test</td><td>90.7</td><td>+1.6</td><td>83.5</td><td>+2.4</td><td>yes</td></tr>
 </table>
 <p align="center">evaluated at 544x544 on Pascal VOC 2007 test set</p>
 
