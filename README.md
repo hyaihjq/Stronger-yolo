@@ -1,6 +1,9 @@
 Note
 =
-**I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!**<br>
+**I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!<br>
+Because I'm looking for an internship, I suspend update the project. <br>
+If anyone is willing to recommend me to your company, thank you very much.<br>**
+
 
 ## Improve yolo_v3 with latest paper <br>
 #### performance on VOC2007(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
