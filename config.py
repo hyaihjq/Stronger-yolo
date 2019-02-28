@@ -7,20 +7,18 @@ STRIDES = [8, 16, 32]
 IOU_LOSS_THRESH = 0.5
 
 # train
-BATCH_SIZE = 32
-BATCH_SIZE_STEP2 = 6
-LEARN_RATE_INIT = 1e-3
-MAX_LEARN_RATE_DECAY_TIME = 2
-MAX_WAVE_TIME = 2
-MAX_PERIODS = 25
+BATCH_SIZE = 6
+LEARN_RATE_INIT = 1e-4
+LEARN_RATE_END = 1e-6
+WARMUP_PERIODS = 2
+PERIODS_FOR_STEP0 = 20
+MAX_PERIODS = 30
 ANCHORS = [[(1.25, 1.625), (2.0, 3.75), (4.125, 2.875)],            # Anchors for small obj
            [(1.875, 3.8125), (3.875, 2.8125), (3.6875, 7.4375)],    # Anchors for medium obj
            [(3.625, 2.8125), (4.875, 6.1875), (11.65625, 10.1875)]] # Anchors for big obj
-FROZEN = True
 
 ANCHOR_PER_SCALE = 3
 MOVING_AVE_DECAY = 0.9995
-SAVE_ITER = 1
 MAX_BBOX_PER_SCALE = 150
 
 # test
