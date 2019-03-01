@@ -114,7 +114,11 @@ paper: <br>
 mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
 ## Requirements
+software
 - Python2.7.12 <br>
 - Numpy1.14.5<br>
 - Tensorflow.1.8.0 <br>
 - Opencv3.4.1 <br>
+
+headware
+- 12G 1080Ti
