@@ -218,36 +218,21 @@ class YOLO_V3(object):
             input_size = stride * output_size
             conv = tf.reshape(conv, (batch_size, output_size, output_size,
                                      self.__anchor_per_scale, 5 + self.__num_classes))
-            conv_raw_dxdy = conv[:, :, :, :, 0:2]
-            conv_raw_dwdh = conv[:, :, :, :, 2:4]
             conv_raw_conf = conv[:, :, :, :, 4:5]
             conv_raw_prob = conv[:, :, :, :, 5:]
 
             pred_xywh = pred[:, :, :, :, 0:4]
             pred_conf = pred[:, :, :, :, 4:5]
 
-            label_xy = label[:, :, :, :, 0:2]
-            label_wh = label[:, :, :, :, 2:4]
+            label_xywh = label[:, :, :, :, 0:4]
             respond_bbox = label[:, :, :, :, 4:5]
             label_prob = label[:, :, :, :, 5:]
 
-            # (1)计算xywh损失
-            y = tf.tile(tf.range(output_size, dtype=tf.int32)[:, tf.newaxis], [1, output_size])
-            x = tf.tile(tf.range(output_size, dtype=tf.int32)[tf.newaxis, :], [output_size, 1])
-            xy_grid = tf.concat([x[:, :, tf.newaxis], y[:, :, tf.newaxis]], axis=-1)
-            xy_grid = tf.tile(xy_grid[tf.newaxis, :, :, tf.newaxis, :], [batch_size, 1, 1, self.__anchor_per_scale, 1])
-            xy_grid = tf.cast(xy_grid, tf.float32)
-
-            label_txty = 1.0 * label_xy / stride - xy_grid
-            label_raw_twth = tf.log((1.0 * label_wh / stride) / anchors)
-            label_raw_twth = tf.where(tf.is_inf(label_raw_twth), tf.zeros_like(label_raw_twth), label_raw_twth)
-
+            GIOU = utils.GIOU(pred_xywh, label_xywh)
+            GIOU = GIOU[..., np.newaxis]
             input_size = tf.cast(input_size, tf.float32)
-            bbox_loss_scale = 2.0 - 1.0 * label_wh[:, :, :, :, 0:1] * label_wh[:, :, :, :, 1:2] / (input_size ** 2)
-
-            xy_loss = respond_bbox * bbox_loss_scale * \
-                      tf.nn.sigmoid_cross_entropy_with_logits(labels=label_txty, logits=conv_raw_dxdy)
-            wh_loss = 0.5 * respond_bbox * bbox_loss_scale * tf.square(label_raw_twth - conv_raw_dwdh)
+            bbox_loss_scale = 2.0 - 1.0 * label_xywh[:, :, :, :, 2:3] * label_xywh[:, :, :, :, 3:4] / (input_size ** 2)
+            GIOU_loss = respond_bbox * bbox_loss_scale * (1.0 - GIOU)
 
             # (2)计算confidence损失
             iou = utils.iou_calc4(pred_xywh[:, :, :, :, np.newaxis, :],
@@ -266,7 +251,7 @@ class YOLO_V3(object):
 
             # (3)计算classes损失
             prob_loss = respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=label_prob, logits=conv_raw_prob)
-            loss = tf.concat([xy_loss, wh_loss, conf_loss, prob_loss], axis=-1)
+            loss = tf.concat([GIOU_loss, conf_loss, prob_loss], axis=-1)
             loss = tf.reduce_mean(tf.reduce_sum(loss, axis=[1, 2, 3, 4]))
             return loss
 

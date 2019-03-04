@@ -128,7 +128,44 @@ def iou_calc4(boxes1, boxes2):
     IOU = 1.0 * inter_area / union_area
     return IOU
 
+def GIOU(boxes1, boxes2):
+    """
+    :param boxes1: boxes1和boxes2的shape可以不相同，但是需要满足广播机制，且需要是Tensor
+    :param boxes2: 且需要保证最后一维为坐标维，以及坐标的存储结构为(xmin, ymin, xmax, ymax)
+    :return: 返回boxes1和boxes2的IOU，IOU的shape为boxes1和boxes2广播后的shape[:-1]
+    """
+    # 分别计算出boxes1和boxes2的左上角坐标、右下角坐标
+    # 存储结构为(xmin, ymin, xmax, ymax)，其中(xmin,ymin)是bbox的左上角坐标，(xmax,ymax)是bbox的右下角坐标
+    boxes1 = tf.concat([boxes1[..., :2] - boxes1[..., 2:] * 0.5,
+                        boxes1[..., :2] + boxes1[..., 2:] * 0.5], axis=-1)
+    boxes2 = tf.concat([boxes2[..., :2] - boxes2[..., 2:] * 0.5,
+                        boxes2[..., :2] + boxes2[..., 2:] * 0.5], axis=-1)
 
+    boxes1 = tf.concat([tf.minimum(boxes1[..., :2], boxes1[..., 2:]),
+                        tf.maximum(boxes1[..., :2], boxes1[..., 2:])], axis=-1)
+    boxes2 = tf.concat([tf.minimum(boxes2[..., :2], boxes2[..., 2:]),
+                        tf.maximum(boxes2[..., :2], boxes2[..., 2:])], axis=-1)
+
+    boxes1_area = (boxes1[..., 2] - boxes1[..., 0]) * (boxes1[..., 3] - boxes1[..., 1])
+    boxes2_area = (boxes2[..., 2] - boxes2[..., 0]) * (boxes2[..., 3] - boxes2[..., 1])
+
+    # 计算出boxes1与boxes1相交部分的左上角坐标、右下角坐标
+    intersection_left_up = tf.maximum(boxes1[..., :2], boxes2[..., :2])
+    intersection_right_down = tf.minimum(boxes1[..., 2:], boxes2[..., 2:])
+
+    # 因为两个boxes没有交集时，(right_down - left_up) < 0，所以maximum可以保证当两个boxes没有交集时，它们之间的iou为0
+    intersection = tf.maximum(intersection_right_down - intersection_left_up, 0.0)
+    inter_area = intersection[..., 0] * intersection[..., 1]
+    union_area = boxes1_area + boxes2_area - inter_area
+    IOU = 1.0 * inter_area / union_area
+
+    enclose_left_up = tf.minimum(boxes1[..., :2], boxes2[..., :2])
+    enclose_right_down = tf.maximum(boxes1[..., 2:], boxes2[..., 2:])
+    enclose = tf.maximum(enclose_right_down - enclose_left_up, 0.0)
+    enclose_area = enclose[..., 0] * enclose[..., 1]
+    GIOU = IOU - 1.0 * (enclose_area - union_area) / enclose_area
+
+    return GIOU
 
 def nms(bboxes, score_threshold, iou_threshold, sigma=0.3, method='nms'):
     """
