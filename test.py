@@ -174,7 +174,11 @@ class YoloTest(object):
                 image_name = image_path.split('/')[-1]
                 image = cv2.imread(image_path)
                 bbox_data_gt = np.array([map(int, box.split(',')) for box in annotation[1:]])
-                bboxes_gt, classes_gt = bbox_data_gt[:, :4], bbox_data_gt[:, 4]
+                if len(bbox_data_gt) == 0:
+                    bboxes_gt=[]
+                    classes_gt=[]
+                else:
+                    bboxes_gt, classes_gt = bbox_data_gt[:, :4], bbox_data_gt[:, 4]
                 ground_truth_path = os.path.join(ground_truth_dir_path, str(num) + '.txt')
 
                 print 'ground truth of %s:' % image_name
