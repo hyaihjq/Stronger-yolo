@@ -114,14 +114,14 @@ class YoloTrain(object):
         ckpt_path = os.path.join(self.__weights_dir, self.__weights_file)
         logging.info('Restoring weights from:\t %s' % ckpt_path)
         self.__load.restore(self.__sess, ckpt_path)
-
+        
+        print_loss_iter = self.__steps_per_period / 10
+        total_train_loss = 0.0
         for period in range(self.__max_periods):
             if period == self.__periods_for_step0:
                 self.__train_op = self.__train_op_with_all_variables
                 logging.info('Train all of weights')
-
-            print_loss_iter = self.__steps_per_period / 10
-            total_train_loss = 0.0
+            
             for batch_image, batch_label_sbbox, batch_label_mbbox, batch_label_lbbox,\
                 batch_sbboxes, batch_mbboxes, batch_lbboxes \
                     in self.__train_data:
@@ -143,7 +143,7 @@ class YoloTrain(object):
                     raise ArithmeticError('The gradient is exploded')
                 total_train_loss += loss_val
 
-                if int(global_step_val) % self.__steps_per_period  % print_loss_iter:
+                if int(global_step_val) % print_loss_iter != 0:
                     continue
 
                 train_loss = total_train_loss / print_loss_iter

@@ -304,7 +304,7 @@ if __name__ == '__main__':
     elif test_2012:
         T.voc_2012_test()
     else:
-        images = ['./data/' + image for image in os.listdir('./data')
+        images = ['./data/' + image for image in os.listdir('./data/test_data')
                   if (image[-3:] == 'jpg') and (image[0] != '.')]
         image = cv2.imread(np.random.choice(images))
         image = T.detect_image(image)
