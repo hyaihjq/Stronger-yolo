@@ -21,7 +21,7 @@ If anyone is willing to recommend me to your company, thank you very much.<br>**
    <tr><td>label smooth</td><td>88.6</td><td>+0.3</td><td>81.1</td><td>+0.4</td><td>yes</td></tr>
    <tr><td>cosine learning rate</td><td>88.6</td><td>+0.0</td><td>82.1</td><td>+1.0</td><td>yes</td></tr>
    <tr><td>GIOU</td><td>88.8</td><td>+0.2</td><td>82.3</td><td>+0.2</td><td>yes</td></tr>
-   <tr><td>remove anchor running</td><td>xxx</td><td>xxx</td><td>xxx</td><td>xxx</td><td>no</td></tr>
+   <tr><td>remove anchor(running)</td><td>xxx</td><td>xxx</td><td>xxx</td><td>xxx</td><td>no</td></tr>
    <tr><td>multi scale test</td><td>90.7</td><td>+1.9</td><td>84.1</td><td>+1.8</td><td>yes</td></tr>
 </table>
 <p align="center">evaluated at 544x544 on Pascal VOC 2007 test set</p>
@@ -34,6 +34,7 @@ If anyone is willing to recommend me to your company, thank you very much.<br>**
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
+- [ ] Anchor is a shit, let's remove it
 
 ## Usage
 1. clone YOLO_v3 repository
