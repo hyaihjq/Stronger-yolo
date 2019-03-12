@@ -34,7 +34,6 @@ If you have any problem, please read README.md carefully<br>**
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection
 - [ ] Understanding the Effective Receptive Field in Deep Convolutional Neural Networks<br>
-- [ ] Anchor is a shit, let's remove it
 
 ## Usage
 1. clone YOLO_v3 repository
