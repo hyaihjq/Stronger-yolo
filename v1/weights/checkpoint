@@ -1,0 +1,4 @@
+model_checkpoint_path: "yolo.ckpt-2-10.0768"
+all_model_checkpoint_paths: "yolo.ckpt-0-44.5747"
+all_model_checkpoint_paths: "yolo.ckpt-1-14.3082"
+all_model_checkpoint_paths: "yolo.ckpt-2-10.0768"
