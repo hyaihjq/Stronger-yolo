@@ -1,4 +1,4 @@
-## performance<br>
+## Performance<br>
 test datasets: Pascal VOC 2007<br>
 test size: 544<br>
 test code: [mAP](https://github.com/Cartucho/mAP) (not use 07 metric)<br>
@@ -57,11 +57,11 @@ test score threshold: 0.01<br>
     python rename.py
     ``` 
 
-4. Train<br>
+4. train<br>
     ``` bash
     python train.py
     ```
-5. Test<br>
+5. test<br>
     Download weight file [stronger-yolo-v1-test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)<br>
     **If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
     If you want to use it in actual projects, or if you want speed, you can set the score threshold to 0.2.<br>**

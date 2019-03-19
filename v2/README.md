@@ -1,4 +1,4 @@
-## performance(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
+## Performance(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
 test datasets: Pascal VOC 2007<br>
 test size: 544<br>
 test code: [Faster rcnn](https://github.com/rbgirshick/py-faster-rcnn/blob/master/lib/datasets/voc_eval.py) (not use 07 metric)<br>
@@ -20,7 +20,7 @@ test score threshold: 0.01<br>
    <tr><td>multi scale test</td><td>85.8</td><td>2.5</td><td>yes</td></tr>
 </table>
 
-#### to do
+## To do
 - [ ] Deformable convolutional networks<br>
 - [ ] Scale-Aware Trident Networks for Object Detection<br>
 - [ ] Model compression<br>
@@ -64,11 +64,11 @@ test score threshold: 0.01<br>
     python3 convert_weights.py --weights_file=darknet53_448.weights --dara_format=NHWC
     ``` 
 
-4. Train<br>
+4. train<br>
     ``` bash
     nohup python train.py &
     ```
-5. Test<br>
+5. test<br>
     Download weight file [stronger-yolo-v2-test.ckpt](https://drive.google.com/drive/folders/1HOwQ7RBefHrPDzYY3rlOWW1qiJ_7X7xz)<br>
     **If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
     If you want to use it in actual projects, or if you want speed, you can set the score threshold to 0.2.<br>**
