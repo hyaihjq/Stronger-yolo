@@ -1,11 +1,4 @@
-Note
-=
-**I will stop updating this project and keep updating v2.<br>
-I'm looking for an internship, if anyone is willing to recommend me to your company, thank you very much.<br>
-If you have any problem, please read README.md carefully<br>**
-
-## Initial with yolov3.weights <br>
-#### performance<br>
+## performance<br>
 test datasets: Pascal VOC 2007<br>
 test size: 544<br>
 test code: [mAP](https://github.com/Cartucho/mAP) (not use 07 metric)<br>
@@ -90,8 +83,6 @@ paper: <br>
 - [Understanding the Effective Receptive Field in Deep Convolutional Neural Networks](https://arxiv.org/abs/1701.04128)<br>
 - [Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/pdf/1902.04103.pdf)<br>
 - [Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630)<br>
-
-mAP calculate: [mean Average Precision](https://github.com/Cartucho/mAP)<br>
  
 ## Requirements
 software

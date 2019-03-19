@@ -1,12 +1,4 @@
-Note
-=
-**I'm solving scale invariant. If you have a good paper, you can email me by StinkyTofu95@gmail.com. Thanks!<br>
-I'm looking for an internship, if anyone is willing to recommend me to your company, thank you very much.<br>
-If you have any problem, please read README.md carefully<br>**
-
-
-## Initial with darknet53.weights <br>
-#### performance(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
+## performance(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
 test datasets: Pascal VOC 2007<br>
 test size: 544<br>
 test code: [Faster rcnn](https://github.com/rbgirshick/py-faster-rcnn/blob/master/lib/datasets/voc_eval.py) (not use 07 metric)<br>
