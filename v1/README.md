@@ -52,7 +52,7 @@ test score threshold: 0.01<br>
     put the yolov3.weights into `yolov3_to_tf/`, and then 
     ```bash
     cd yolov3_to_tf
-    python3 convert_weights.py --weights_file=yolov3.weights --dara_format=NHWC --ckpt_file=./saved_model/yolov3_608_coco_pretrained.ckpt
+    python3 convert_weights.py --weights_file=yolov3.weights --data_format=NHWC --ckpt_file=./saved_model/yolov3_608_coco_pretrained.ckpt
     cd ..
     python rename.py
     ``` 
@@ -91,5 +91,5 @@ software
 - Tensorflow.1.8.0 <br>
 - Opencv3.4.1 <br>
 
-headware
+hardware
 - 12G 1080Ti
