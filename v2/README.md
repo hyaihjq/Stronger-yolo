@@ -61,7 +61,7 @@ test score threshold: 0.01<br>
     put the yolov3.weights into `darknet2tf/`, and then 
     ```bash
     cd darknet2tf
-    python3 convert_weights.py --weights_file=darknet53_448.weights --dara_format=NHWC
+    python3 convert_weights.py --weights_file=darknet53_448.weights --data_format=NHWC
     ``` 
 
 4. train<br>
@@ -96,5 +96,5 @@ software
 - Tensorflow.1.8.0 <br>
 - Opencv3.4.1 <br>
 
-headware
+hardware
 - 12G 1080Ti
