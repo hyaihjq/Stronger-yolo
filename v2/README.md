@@ -21,12 +21,7 @@ test score threshold: 0.01<br>
 </table>
 
 ## To do
-<<<<<<< HEAD
 - [ ] MobileNet<br>
-=======
-- [ ] Deformable convolutional networks<br>
-- [ ] Scale-Aware Trident Networks for Object Detection<br>
->>>>>>> 680cf85778891aebea749d1f7c20285ad92b8aa9
 - [ ] Model compression<br>
 
 ## Usage
