@@ -1,0 +1,1665 @@
+train.py 2019-03-24 03:39:54	Using GPU:1
+data.py 2019-03-24 03:39:54	The number of image for train is:                 16551
+tf_logging.py 2019-03-24 03:40:01	Restoring parameters from darknet2tf/saved_model/darknet53.ckpt
+train.py 2019-03-24 03:40:02	Number of weights that will load:	260
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv0/weight                                  
+train.py 2019-03-24 03:40:02		darknet/Conv/weights                                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv0/batch_normalization/scale               
+train.py 2019-03-24 03:40:02		darknet/Conv/BatchNorm/gamma                                          
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv0/batch_normalization/shift               
+train.py 2019-03-24 03:40:02		darknet/Conv/BatchNorm/beta                                           
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv0/batch_normalization/moving_mean         
+train.py 2019-03-24 03:40:02		darknet/Conv/BatchNorm/moving_mean                                    
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv0/batch_normalization/moving_var          
+train.py 2019-03-24 03:40:02		darknet/Conv/BatchNorm/moving_variance                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv1/weight                                  
+train.py 2019-03-24 03:40:02		darknet/Conv_1/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv1/batch_normalization/scale               
+train.py 2019-03-24 03:40:02		darknet/Conv_1/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv1/batch_normalization/shift               
+train.py 2019-03-24 03:40:02		darknet/Conv_1/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv1/batch_normalization/moving_mean         
+train.py 2019-03-24 03:40:02		darknet/Conv_1/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage0/conv1/batch_normalization/moving_var          
+train.py 2019-03-24 03:40:02		darknet/Conv_1/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_2/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_2/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_2/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_2/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_2/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_3/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_3/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_3/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_3/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/residual0/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_3/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/conv0/weight                                  
+train.py 2019-03-24 03:40:02		darknet/Conv_4/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/conv0/batch_normalization/scale               
+train.py 2019-03-24 03:40:02		darknet/Conv_4/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/conv0/batch_normalization/shift               
+train.py 2019-03-24 03:40:02		darknet/Conv_4/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/conv0/batch_normalization/moving_mean         
+train.py 2019-03-24 03:40:02		darknet/Conv_4/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage1/conv0/batch_normalization/moving_var          
+train.py 2019-03-24 03:40:02		darknet/Conv_4/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_5/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_5/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_5/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_5/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_5/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_6/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_6/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_6/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_6/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual0/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_6/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_7/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_7/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_7/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_7/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_7/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_8/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_8/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_8/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_8/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/residual1/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_8/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/conv0/weight                                  
+train.py 2019-03-24 03:40:02		darknet/Conv_9/weights                                                
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/conv0/batch_normalization/scale               
+train.py 2019-03-24 03:40:02		darknet/Conv_9/BatchNorm/gamma                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/conv0/batch_normalization/shift               
+train.py 2019-03-24 03:40:02		darknet/Conv_9/BatchNorm/beta                                         
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/conv0/batch_normalization/moving_mean         
+train.py 2019-03-24 03:40:02		darknet/Conv_9/BatchNorm/moving_mean                                  
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage2/conv0/batch_normalization/moving_var          
+train.py 2019-03-24 03:40:02		darknet/Conv_9/BatchNorm/moving_variance                              
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_10/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_10/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_10/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_10/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_10/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_11/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_11/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_11/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_11/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual0/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_11/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_12/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_12/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_12/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_12/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_12/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_13/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_13/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_13/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_13/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual1/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_13/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_14/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_14/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_14/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_14/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_14/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_15/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_15/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_15/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_15/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual2/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_15/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_16/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_16/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_16/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_16/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_16/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_17/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_17/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_17/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_17/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual3/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_17/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_18/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_18/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_18/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_18/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_18/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_19/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_19/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_19/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_19/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual4/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_19/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_20/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_20/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_20/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_20/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_20/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_21/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_21/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_21/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_21/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual5/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_21/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_22/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_22/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_22/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_22/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_22/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_23/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_23/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_23/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_23/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual6/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_23/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_24/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_24/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_24/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_24/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_24/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_25/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_25/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_25/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_25/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/residual7/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_25/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/conv0/weight                                  
+train.py 2019-03-24 03:40:02		darknet/Conv_26/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/conv0/batch_normalization/scale               
+train.py 2019-03-24 03:40:02		darknet/Conv_26/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/conv0/batch_normalization/shift               
+train.py 2019-03-24 03:40:02		darknet/Conv_26/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/conv0/batch_normalization/moving_mean         
+train.py 2019-03-24 03:40:02		darknet/Conv_26/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage3/conv0/batch_normalization/moving_var          
+train.py 2019-03-24 03:40:02		darknet/Conv_26/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_27/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_27/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_27/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_27/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_27/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_28/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_28/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_28/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_28/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual0/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_28/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_29/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_29/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_29/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_29/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_29/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_30/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_30/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_30/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_30/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual1/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_30/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_31/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_31/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_31/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_31/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_31/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_32/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_32/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_32/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_32/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual2/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_32/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_33/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_33/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_33/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_33/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_33/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_34/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_34/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_34/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_34/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual3/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_34/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_35/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_35/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_35/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_35/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_35/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_36/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_36/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_36/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_36/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual4/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_36/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_37/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_37/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_37/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_37/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_37/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_38/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_38/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_38/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_38/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual5/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_38/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_39/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_39/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_39/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_39/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_39/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_40/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_40/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_40/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_40/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual6/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_40/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_41/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_41/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_41/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_41/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_41/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_42/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_42/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_42/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_42/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/residual7/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_42/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/conv0/weight                                  
+train.py 2019-03-24 03:40:02		darknet/Conv_43/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/conv0/batch_normalization/scale               
+train.py 2019-03-24 03:40:02		darknet/Conv_43/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/conv0/batch_normalization/shift               
+train.py 2019-03-24 03:40:02		darknet/Conv_43/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/conv0/batch_normalization/moving_mean         
+train.py 2019-03-24 03:40:02		darknet/Conv_43/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage4/conv0/batch_normalization/moving_var          
+train.py 2019-03-24 03:40:02		darknet/Conv_43/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_44/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_44/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_44/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_44/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_44/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_45/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_45/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_45/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_45/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual0/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_45/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_46/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_46/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_46/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_46/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_46/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_47/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_47/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_47/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_47/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual1/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_47/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_48/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_48/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_48/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_48/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_48/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_49/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_49/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_49/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_49/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual2/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_49/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv1/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_50/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv1/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_50/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv1/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_50/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv1/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_50/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv1/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_50/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv2/weight                        
+train.py 2019-03-24 03:40:02		darknet/Conv_51/weights                                               
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv2/batch_normalization/scale     
+train.py 2019-03-24 03:40:02		darknet/Conv_51/BatchNorm/gamma                                       
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv2/batch_normalization/shift     
+train.py 2019-03-24 03:40:02		darknet/Conv_51/BatchNorm/beta                                        
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv2/batch_normalization/moving_mean
+train.py 2019-03-24 03:40:02		darknet/Conv_51/BatchNorm/moving_mean                                 
+train.py 2019-03-24 03:40:02		yolov3/darknet53/stage5/residual3/conv2/batch_normalization/moving_var
+train.py 2019-03-24 03:40:02		darknet/Conv_51/BatchNorm/moving_variance                             
+train.py 2019-03-24 03:40:29	Restoring weights from:	 darknet2tf/saved_model/darknet53.ckpt
+tf_logging.py 2019-03-24 03:40:29	Restoring parameters from darknet2tf/saved_model/darknet53.ckpt
+train.py 2019-03-24 03:43:48	Period:	0	step:	275	train_loss:	2273.8739
+train.py 2019-03-24 03:46:42	Period:	0	step:	550	train_loss:	1295.7955
+train.py 2019-03-24 03:49:32	Period:	0	step:	825	train_loss:	882.5441
+train.py 2019-03-24 03:52:18	Period:	0	step:	1100	train_loss:	560.4140
+train.py 2019-03-24 03:55:10	Period:	0	step:	1375	train_loss:	369.8001
+train.py 2019-03-24 03:58:05	Period:	0	step:	1650	train_loss:	236.1382
+train.py 2019-03-24 04:01:00	Period:	0	step:	1925	train_loss:	154.3774
+train.py 2019-03-24 04:03:56	Period:	0	step:	2200	train_loss:	107.2921
+train.py 2019-03-24 04:06:46	Period:	0	step:	2475	train_loss:	77.9793
+train.py 2019-03-24 04:09:41	Period:	0	step:	2750	train_loss:	63.3899
+train.py 2019-03-24 04:12:37	Period:	1	step:	3025	train_loss:	54.1017
+train.py 2019-03-24 04:15:27	Period:	1	step:	3300	train_loss:	43.7871
+train.py 2019-03-24 04:18:22	Period:	1	step:	3575	train_loss:	38.9390
+train.py 2019-03-24 04:21:16	Period:	1	step:	3850	train_loss:	35.4743
+train.py 2019-03-24 04:24:03	Period:	1	step:	4125	train_loss:	34.1121
+train.py 2019-03-24 04:26:50	Period:	1	step:	4400	train_loss:	31.8684
+train.py 2019-03-24 04:29:34	Period:	1	step:	4675	train_loss:	30.4675
+train.py 2019-03-24 04:32:19	Period:	1	step:	4950	train_loss:	29.7797
+train.py 2019-03-24 04:35:08	Period:	1	step:	5225	train_loss:	27.5518
+train.py 2019-03-24 04:37:57	Period:	1	step:	5500	train_loss:	26.6337
+train.py 2019-03-24 04:40:48	Period:	2	step:	5775	train_loss:	27.4428
+train.py 2019-03-24 04:43:34	Period:	2	step:	6050	train_loss:	28.4660
+train.py 2019-03-24 04:46:22	Period:	2	step:	6325	train_loss:	27.8664
+train.py 2019-03-24 04:49:08	Period:	2	step:	6600	train_loss:	27.6825
+train.py 2019-03-24 04:51:57	Period:	2	step:	6875	train_loss:	25.3547
+train.py 2019-03-24 04:54:44	Period:	2	step:	7150	train_loss:	26.2176
+train.py 2019-03-24 04:57:31	Period:	2	step:	7425	train_loss:	26.7212
+train.py 2019-03-24 05:00:15	Period:	2	step:	7700	train_loss:	25.4703
+train.py 2019-03-24 05:03:06	Period:	2	step:	7975	train_loss:	26.2077
+train.py 2019-03-24 05:05:53	Period:	2	step:	8250	train_loss:	25.5194
+train.py 2019-03-24 05:08:39	Period:	3	step:	8525	train_loss:	25.6849
+train.py 2019-03-24 05:11:28	Period:	3	step:	8800	train_loss:	24.8250
+train.py 2019-03-24 05:14:17	Period:	3	step:	9075	train_loss:	25.0172
+train.py 2019-03-24 05:17:04	Period:	3	step:	9350	train_loss:	24.1119
+train.py 2019-03-24 05:19:52	Period:	3	step:	9625	train_loss:	24.6252
+train.py 2019-03-24 05:22:43	Period:	3	step:	9900	train_loss:	24.6256
+train.py 2019-03-24 05:25:30	Period:	3	step:	10175	train_loss:	25.1623
+train.py 2019-03-24 05:28:15	Period:	3	step:	10450	train_loss:	24.7640
+train.py 2019-03-24 05:31:03	Period:	3	step:	10725	train_loss:	25.4941
+train.py 2019-03-24 05:33:51	Period:	3	step:	11000	train_loss:	23.8328
+train.py 2019-03-24 05:36:43	Period:	4	step:	11275	train_loss:	24.0509
+train.py 2019-03-24 05:39:34	Period:	4	step:	11550	train_loss:	24.1356
+train.py 2019-03-24 05:42:20	Period:	4	step:	11825	train_loss:	23.1938
+train.py 2019-03-24 05:45:08	Period:	4	step:	12100	train_loss:	23.4760
+train.py 2019-03-24 05:47:57	Period:	4	step:	12375	train_loss:	23.5490
+train.py 2019-03-24 05:50:47	Period:	4	step:	12650	train_loss:	24.7667
+train.py 2019-03-24 05:53:37	Period:	4	step:	12925	train_loss:	23.9976
+train.py 2019-03-24 05:56:21	Period:	4	step:	13200	train_loss:	22.9722
+train.py 2019-03-24 05:59:11	Period:	4	step:	13475	train_loss:	23.1134
+train.py 2019-03-24 06:01:56	Period:	4	step:	13750	train_loss:	24.1089
+train.py 2019-03-24 06:04:48	Period:	5	step:	14025	train_loss:	21.7189
+train.py 2019-03-24 06:07:39	Period:	5	step:	14300	train_loss:	22.6802
+train.py 2019-03-24 06:10:27	Period:	5	step:	14575	train_loss:	21.7678
+train.py 2019-03-24 06:13:19	Period:	5	step:	14850	train_loss:	22.7928
+train.py 2019-03-24 06:16:07	Period:	5	step:	15125	train_loss:	23.0739
+train.py 2019-03-24 06:18:53	Period:	5	step:	15400	train_loss:	22.2750
+train.py 2019-03-24 06:21:42	Period:	5	step:	15675	train_loss:	22.2397
+train.py 2019-03-24 06:24:26	Period:	5	step:	15950	train_loss:	21.7996
+train.py 2019-03-24 06:27:13	Period:	5	step:	16225	train_loss:	20.9073
+train.py 2019-03-24 06:30:00	Period:	5	step:	16500	train_loss:	22.6411
+train.py 2019-03-24 06:32:46	Period:	6	step:	16775	train_loss:	21.4428
+train.py 2019-03-24 06:35:31	Period:	6	step:	17050	train_loss:	22.1299
+train.py 2019-03-24 06:38:22	Period:	6	step:	17325	train_loss:	21.0131
+train.py 2019-03-24 06:41:08	Period:	6	step:	17600	train_loss:	21.1751
+train.py 2019-03-24 06:43:56	Period:	6	step:	17875	train_loss:	21.7337
+train.py 2019-03-24 06:46:48	Period:	6	step:	18150	train_loss:	21.5233
+train.py 2019-03-24 06:49:34	Period:	6	step:	18425	train_loss:	21.1392
+train.py 2019-03-24 06:52:25	Period:	6	step:	18700	train_loss:	19.3136
+train.py 2019-03-24 06:55:06	Period:	6	step:	18975	train_loss:	20.9797
+train.py 2019-03-24 06:57:53	Period:	6	step:	19250	train_loss:	20.5850
+train.py 2019-03-24 07:00:42	Period:	7	step:	19525	train_loss:	20.9699
+train.py 2019-03-24 07:03:29	Period:	7	step:	19800	train_loss:	21.0119
+train.py 2019-03-24 07:06:15	Period:	7	step:	20075	train_loss:	19.7842
+train.py 2019-03-24 07:09:03	Period:	7	step:	20350	train_loss:	19.7549
+train.py 2019-03-24 07:11:53	Period:	7	step:	20625	train_loss:	20.9522
+train.py 2019-03-24 07:14:37	Period:	7	step:	20900	train_loss:	19.4982
+train.py 2019-03-24 07:17:18	Period:	7	step:	21175	train_loss:	21.2948
+train.py 2019-03-24 07:20:07	Period:	7	step:	21450	train_loss:	20.2957
+train.py 2019-03-24 07:22:54	Period:	7	step:	21725	train_loss:	19.1936
+train.py 2019-03-24 07:25:40	Period:	7	step:	22000	train_loss:	20.4504
+train.py 2019-03-24 07:28:31	Period:	8	step:	22275	train_loss:	20.3171
+train.py 2019-03-24 07:31:16	Period:	8	step:	22550	train_loss:	19.7897
+train.py 2019-03-24 07:34:03	Period:	8	step:	22825	train_loss:	20.0859
+train.py 2019-03-24 07:36:51	Period:	8	step:	23100	train_loss:	19.3584
+train.py 2019-03-24 07:39:38	Period:	8	step:	23375	train_loss:	19.1699
+train.py 2019-03-24 07:42:26	Period:	8	step:	23650	train_loss:	19.1886
+train.py 2019-03-24 07:45:09	Period:	8	step:	23925	train_loss:	18.4691
+train.py 2019-03-24 07:47:58	Period:	8	step:	24200	train_loss:	19.7765
+train.py 2019-03-24 07:50:44	Period:	8	step:	24475	train_loss:	20.1757
+train.py 2019-03-24 07:53:33	Period:	8	step:	24750	train_loss:	19.3010
+train.py 2019-03-24 07:56:25	Period:	9	step:	25025	train_loss:	18.4197
+train.py 2019-03-24 07:59:19	Period:	9	step:	25300	train_loss:	18.8037
+train.py 2019-03-24 08:02:12	Period:	9	step:	25575	train_loss:	19.2143
+train.py 2019-03-24 08:05:04	Period:	9	step:	25850	train_loss:	19.0465
+train.py 2019-03-24 08:07:54	Period:	9	step:	26125	train_loss:	19.2145
+train.py 2019-03-24 08:10:41	Period:	9	step:	26400	train_loss:	19.4410
+train.py 2019-03-24 08:13:32	Period:	9	step:	26675	train_loss:	18.0085
+train.py 2019-03-24 08:16:21	Period:	9	step:	26950	train_loss:	18.5291
+train.py 2019-03-24 08:19:12	Period:	9	step:	27225	train_loss:	18.5170
+train.py 2019-03-24 08:22:04	Period:	9	step:	27500	train_loss:	18.1317
+train.py 2019-03-24 08:24:53	Period:	10	step:	27775	train_loss:	18.7294
+train.py 2019-03-24 08:27:35	Period:	10	step:	28050	train_loss:	17.6636
+train.py 2019-03-24 08:30:18	Period:	10	step:	28325	train_loss:	18.3359
+train.py 2019-03-24 08:33:07	Period:	10	step:	28600	train_loss:	18.5772
+train.py 2019-03-24 08:35:58	Period:	10	step:	28875	train_loss:	17.8353
+train.py 2019-03-24 08:38:47	Period:	10	step:	29150	train_loss:	17.8290
+train.py 2019-03-24 08:41:30	Period:	10	step:	29425	train_loss:	17.5241
+train.py 2019-03-24 08:44:15	Period:	10	step:	29700	train_loss:	18.0060
+train.py 2019-03-24 08:46:59	Period:	10	step:	29975	train_loss:	18.2860
+train.py 2019-03-24 08:49:51	Period:	10	step:	30250	train_loss:	18.0637
+train.py 2019-03-24 08:52:41	Period:	11	step:	30525	train_loss:	18.1810
+train.py 2019-03-24 08:55:26	Period:	11	step:	30800	train_loss:	17.3461
+train.py 2019-03-24 08:58:13	Period:	11	step:	31075	train_loss:	16.9153
+train.py 2019-03-24 09:00:59	Period:	11	step:	31350	train_loss:	18.4345
+train.py 2019-03-24 09:03:51	Period:	11	step:	31625	train_loss:	18.1013
+train.py 2019-03-24 09:06:37	Period:	11	step:	31900	train_loss:	17.1865
+train.py 2019-03-24 09:09:26	Period:	11	step:	32175	train_loss:	17.6034
+train.py 2019-03-24 09:12:14	Period:	11	step:	32450	train_loss:	17.7748
+train.py 2019-03-24 09:14:57	Period:	11	step:	32725	train_loss:	17.6529
+train.py 2019-03-24 09:17:37	Period:	11	step:	33000	train_loss:	17.6917
+train.py 2019-03-24 09:20:25	Period:	12	step:	33275	train_loss:	17.7364
+train.py 2019-03-24 09:23:15	Period:	12	step:	33550	train_loss:	17.9092
+train.py 2019-03-24 09:26:01	Period:	12	step:	33825	train_loss:	16.3468
+train.py 2019-03-24 09:28:52	Period:	12	step:	34100	train_loss:	17.5071
+train.py 2019-03-24 09:31:38	Period:	12	step:	34375	train_loss:	16.9415
+train.py 2019-03-24 09:34:26	Period:	12	step:	34650	train_loss:	17.0961
+train.py 2019-03-24 09:37:21	Period:	12	step:	34925	train_loss:	17.3648
+train.py 2019-03-24 09:40:07	Period:	12	step:	35200	train_loss:	17.5023
+train.py 2019-03-24 09:43:01	Period:	12	step:	35475	train_loss:	17.3751
+train.py 2019-03-24 09:45:39	Period:	12	step:	35750	train_loss:	16.6797
+train.py 2019-03-24 09:48:26	Period:	13	step:	36025	train_loss:	16.9091
+train.py 2019-03-24 09:51:20	Period:	13	step:	36300	train_loss:	16.0464
+train.py 2019-03-24 09:54:03	Period:	13	step:	36575	train_loss:	16.1387
+train.py 2019-03-24 09:56:46	Period:	13	step:	36850	train_loss:	16.2029
+train.py 2019-03-24 09:59:33	Period:	13	step:	37125	train_loss:	17.2739
+train.py 2019-03-24 10:02:17	Period:	13	step:	37400	train_loss:	16.3153
+train.py 2019-03-24 10:05:01	Period:	13	step:	37675	train_loss:	16.3476
+train.py 2019-03-24 10:07:47	Period:	13	step:	37950	train_loss:	17.2036
+train.py 2019-03-24 10:10:35	Period:	13	step:	38225	train_loss:	16.7966
+train.py 2019-03-24 10:13:24	Period:	13	step:	38500	train_loss:	17.1635
+train.py 2019-03-24 10:16:11	Period:	14	step:	38775	train_loss:	16.8963
+train.py 2019-03-24 10:18:57	Period:	14	step:	39050	train_loss:	15.8485
+train.py 2019-03-24 10:21:47	Period:	14	step:	39325	train_loss:	16.2366
+train.py 2019-03-24 10:24:35	Period:	14	step:	39600	train_loss:	15.8037
+train.py 2019-03-24 10:27:21	Period:	14	step:	39875	train_loss:	16.5680
+train.py 2019-03-24 10:30:03	Period:	14	step:	40150	train_loss:	16.1368
+train.py 2019-03-24 10:32:45	Period:	14	step:	40425	train_loss:	16.3906
+train.py 2019-03-24 10:35:29	Period:	14	step:	40700	train_loss:	15.4656
+train.py 2019-03-24 10:38:15	Period:	14	step:	40975	train_loss:	16.0645
+train.py 2019-03-24 10:41:01	Period:	14	step:	41250	train_loss:	16.3682
+train.py 2019-03-24 10:43:49	Period:	15	step:	41525	train_loss:	15.5132
+train.py 2019-03-24 10:46:35	Period:	15	step:	41800	train_loss:	16.2670
+train.py 2019-03-24 10:49:17	Period:	15	step:	42075	train_loss:	14.7916
+train.py 2019-03-24 10:52:02	Period:	15	step:	42350	train_loss:	16.4734
+train.py 2019-03-24 10:54:47	Period:	15	step:	42625	train_loss:	15.4604
+train.py 2019-03-24 10:57:37	Period:	15	step:	42900	train_loss:	15.9946
+train.py 2019-03-24 11:00:24	Period:	15	step:	43175	train_loss:	16.3114
+train.py 2019-03-24 11:03:15	Period:	15	step:	43450	train_loss:	15.8415
+train.py 2019-03-24 11:06:06	Period:	15	step:	43725	train_loss:	16.4302
+train.py 2019-03-24 11:08:54	Period:	15	step:	44000	train_loss:	15.8616
+train.py 2019-03-24 11:11:41	Period:	16	step:	44275	train_loss:	15.8141
+train.py 2019-03-24 11:14:33	Period:	16	step:	44550	train_loss:	15.1522
+train.py 2019-03-24 11:17:19	Period:	16	step:	44825	train_loss:	15.5366
+train.py 2019-03-24 11:20:01	Period:	16	step:	45100	train_loss:	15.0098
+train.py 2019-03-24 11:22:49	Period:	16	step:	45375	train_loss:	16.2151
+train.py 2019-03-24 11:25:35	Period:	16	step:	45650	train_loss:	15.7849
+train.py 2019-03-24 11:28:22	Period:	16	step:	45925	train_loss:	15.3332
+train.py 2019-03-24 11:31:10	Period:	16	step:	46200	train_loss:	15.3575
+train.py 2019-03-24 11:33:55	Period:	16	step:	46475	train_loss:	15.0909
+train.py 2019-03-24 11:36:41	Period:	16	step:	46750	train_loss:	16.2030
+train.py 2019-03-24 11:39:26	Period:	17	step:	47025	train_loss:	14.8897
+train.py 2019-03-24 11:42:12	Period:	17	step:	47300	train_loss:	15.2763
+train.py 2019-03-24 11:44:55	Period:	17	step:	47575	train_loss:	15.4325
+train.py 2019-03-24 11:47:43	Period:	17	step:	47850	train_loss:	14.9703
+train.py 2019-03-24 11:50:33	Period:	17	step:	48125	train_loss:	15.1554
+train.py 2019-03-24 11:53:21	Period:	17	step:	48400	train_loss:	15.0952
+train.py 2019-03-24 11:56:16	Period:	17	step:	48675	train_loss:	15.5826
+train.py 2019-03-24 11:59:06	Period:	17	step:	48950	train_loss:	15.4468
+train.py 2019-03-25 12:01:48	Period:	17	step:	49225	train_loss:	15.0330
+train.py 2019-03-25 12:04:34	Period:	17	step:	49500	train_loss:	15.1056
+train.py 2019-03-25 12:07:16	Period:	18	step:	49775	train_loss:	14.5085
+train.py 2019-03-25 12:10:01	Period:	18	step:	50050	train_loss:	14.7551
+train.py 2019-03-25 12:12:49	Period:	18	step:	50325	train_loss:	14.8776
+train.py 2019-03-25 12:15:33	Period:	18	step:	50600	train_loss:	15.4470
+train.py 2019-03-25 12:18:23	Period:	18	step:	50875	train_loss:	15.1136
+train.py 2019-03-25 12:21:16	Period:	18	step:	51150	train_loss:	14.2876
+train.py 2019-03-25 12:24:00	Period:	18	step:	51425	train_loss:	15.0583
+train.py 2019-03-25 12:26:48	Period:	18	step:	51700	train_loss:	14.9533
+train.py 2019-03-25 12:29:36	Period:	18	step:	51975	train_loss:	14.7567
+train.py 2019-03-25 12:32:18	Period:	18	step:	52250	train_loss:	14.7312
+train.py 2019-03-25 12:35:09	Period:	19	step:	52525	train_loss:	14.6597
+train.py 2019-03-25 12:37:58	Period:	19	step:	52800	train_loss:	14.4203
+train.py 2019-03-25 12:40:46	Period:	19	step:	53075	train_loss:	15.0482
+train.py 2019-03-25 12:43:35	Period:	19	step:	53350	train_loss:	14.3662
+train.py 2019-03-25 12:46:22	Period:	19	step:	53625	train_loss:	14.0615
+train.py 2019-03-25 12:49:09	Period:	19	step:	53900	train_loss:	13.7986
+train.py 2019-03-25 12:51:56	Period:	19	step:	54175	train_loss:	14.3541
+train.py 2019-03-25 12:54:45	Period:	19	step:	54450	train_loss:	14.2753
+train.py 2019-03-25 12:57:26	Period:	19	step:	54725	train_loss:	14.1049
+train.py 2019-03-25 01:00:15	Period:	19	step:	55000	train_loss:	14.4695
+train.py 2019-03-25 01:03:04	Period:	20	step:	55275	train_loss:	14.4530
+train.py 2019-03-25 01:05:52	Period:	20	step:	55550	train_loss:	13.5971
+train.py 2019-03-25 01:08:40	Period:	20	step:	55825	train_loss:	13.7416
+train.py 2019-03-25 01:11:27	Period:	20	step:	56100	train_loss:	13.6923
+train.py 2019-03-25 01:14:11	Period:	20	step:	56375	train_loss:	14.4875
+train.py 2019-03-25 01:16:56	Period:	20	step:	56650	train_loss:	13.8712
+train.py 2019-03-25 01:19:36	Period:	20	step:	56925	train_loss:	14.2320
+train.py 2019-03-25 01:22:24	Period:	20	step:	57200	train_loss:	13.9220
+train.py 2019-03-25 01:25:12	Period:	20	step:	57475	train_loss:	14.0361
+train.py 2019-03-25 01:28:01	Period:	20	step:	57750	train_loss:	14.2457
+train.py 2019-03-25 01:30:52	Period:	21	step:	58025	train_loss:	13.8931
+train.py 2019-03-25 01:33:39	Period:	21	step:	58300	train_loss:	13.3265
+train.py 2019-03-25 01:36:28	Period:	21	step:	58575	train_loss:	13.8176
+train.py 2019-03-25 01:39:17	Period:	21	step:	58850	train_loss:	13.3952
+train.py 2019-03-25 01:42:03	Period:	21	step:	59125	train_loss:	13.0760
+train.py 2019-03-25 01:44:48	Period:	21	step:	59400	train_loss:	13.9878
+train.py 2019-03-25 01:47:31	Period:	21	step:	59675	train_loss:	13.2597
+train.py 2019-03-25 01:50:22	Period:	21	step:	59950	train_loss:	13.5113
+train.py 2019-03-25 01:53:08	Period:	21	step:	60225	train_loss:	14.4712
+train.py 2019-03-25 01:55:46	Period:	21	step:	60500	train_loss:	13.6017
+train.py 2019-03-25 02:04:37	AP for sheep = 0.7998
+train.py 2019-03-25 02:04:37	AP for horse = 0.8566
+train.py 2019-03-25 02:04:37	AP for bicycle = 0.8528
+train.py 2019-03-25 02:04:37	AP for aeroplane = 0.8150
+train.py 2019-03-25 02:04:37	AP for cow = 0.7209
+train.py 2019-03-25 02:04:37	AP for sofa = 0.6874
+train.py 2019-03-25 02:04:37	AP for bus = 0.8202
+train.py 2019-03-25 02:04:37	AP for dog = 0.7743
+train.py 2019-03-25 02:04:37	AP for cat = 0.8303
+train.py 2019-03-25 02:04:37	AP for person = 0.8487
+train.py 2019-03-25 02:04:37	AP for train = 0.8111
+train.py 2019-03-25 02:04:37	AP for diningtable = 0.7384
+train.py 2019-03-25 02:04:37	AP for bottle = 0.6633
+train.py 2019-03-25 02:04:37	AP for car = 0.8935
+train.py 2019-03-25 02:04:37	AP for pottedplant = 0.4674
+train.py 2019-03-25 02:04:37	AP for tvmonitor = 0.7384
+train.py 2019-03-25 02:04:37	AP for chair = 0.6068
+train.py 2019-03-25 02:04:37	AP for bird = 0.7624
+train.py 2019-03-25 02:04:37	AP for boat = 0.6172
+train.py 2019-03-25 02:04:37	AP for motorbike = 0.8225
+train.py 2019-03-25 02:04:37	mAP = 0.7563
+train.py 2019-03-25 02:04:41	Saved model:	weights/yolo.ckpt-21-0.7563
+train.py 2019-03-25 02:05:42	Period:	22	step:	60775	train_loss:	14.0020
+train.py 2019-03-25 02:08:24	Period:	22	step:	61050	train_loss:	13.5506
+train.py 2019-03-25 02:11:06	Period:	22	step:	61325	train_loss:	12.9777
+train.py 2019-03-25 02:13:48	Period:	22	step:	61600	train_loss:	13.5844
+train.py 2019-03-25 02:16:38	Period:	22	step:	61875	train_loss:	13.0251
+train.py 2019-03-25 02:19:23	Period:	22	step:	62150	train_loss:	13.2105
+train.py 2019-03-25 02:22:13	Period:	22	step:	62425	train_loss:	13.4017
+train.py 2019-03-25 02:24:58	Period:	22	step:	62700	train_loss:	14.2262
+train.py 2019-03-25 02:27:40	Period:	22	step:	62975	train_loss:	13.3785
+train.py 2019-03-25 02:30:26	Period:	22	step:	63250	train_loss:	14.1114
+train.py 2019-03-25 02:39:08	AP for sheep = 0.7807
+train.py 2019-03-25 02:39:08	AP for horse = 0.8602
+train.py 2019-03-25 02:39:08	AP for bicycle = 0.8607
+train.py 2019-03-25 02:39:08	AP for aeroplane = 0.8368
+train.py 2019-03-25 02:39:08	AP for cow = 0.7634
+train.py 2019-03-25 02:39:08	AP for sofa = 0.7472
+train.py 2019-03-25 02:39:08	AP for bus = 0.8237
+train.py 2019-03-25 02:39:08	AP for dog = 0.7447
+train.py 2019-03-25 02:39:08	AP for cat = 0.8482
+train.py 2019-03-25 02:39:08	AP for person = 0.8476
+train.py 2019-03-25 02:39:08	AP for train = 0.8373
+train.py 2019-03-25 02:39:08	AP for diningtable = 0.7548
+train.py 2019-03-25 02:39:08	AP for bottle = 0.6573
+train.py 2019-03-25 02:39:08	AP for car = 0.8930
+train.py 2019-03-25 02:39:08	AP for pottedplant = 0.4703
+train.py 2019-03-25 02:39:08	AP for tvmonitor = 0.7577
+train.py 2019-03-25 02:39:08	AP for chair = 0.6050
+train.py 2019-03-25 02:39:08	AP for bird = 0.7501
+train.py 2019-03-25 02:39:08	AP for boat = 0.6383
+train.py 2019-03-25 02:39:08	AP for motorbike = 0.8632
+train.py 2019-03-25 02:39:08	mAP = 0.7670
+train.py 2019-03-25 02:39:12	Saved model:	weights/yolo.ckpt-22-0.7670
+train.py 2019-03-25 02:40:07	Period:	23	step:	63525	train_loss:	14.0966
+train.py 2019-03-25 02:42:54	Period:	23	step:	63800	train_loss:	13.5445
+train.py 2019-03-25 02:45:40	Period:	23	step:	64075	train_loss:	13.4545
+train.py 2019-03-25 02:48:27	Period:	23	step:	64350	train_loss:	13.1794
+train.py 2019-03-25 02:51:15	Period:	23	step:	64625	train_loss:	13.0163
+train.py 2019-03-25 02:53:59	Period:	23	step:	64900	train_loss:	13.3655
+train.py 2019-03-25 02:56:44	Period:	23	step:	65175	train_loss:	13.4314
+train.py 2019-03-25 02:59:27	Period:	23	step:	65450	train_loss:	13.3438
+train.py 2019-03-25 03:02:12	Period:	23	step:	65725	train_loss:	12.3445
+train.py 2019-03-25 03:04:55	Period:	23	step:	66000	train_loss:	12.9029
+train.py 2019-03-25 03:13:11	AP for sheep = 0.7681
+train.py 2019-03-25 03:13:11	AP for horse = 0.8412
+train.py 2019-03-25 03:13:11	AP for bicycle = 0.8365
+train.py 2019-03-25 03:13:11	AP for aeroplane = 0.8282
+train.py 2019-03-25 03:13:11	AP for cow = 0.7276
+train.py 2019-03-25 03:13:11	AP for sofa = 0.7185
+train.py 2019-03-25 03:13:11	AP for bus = 0.8537
+train.py 2019-03-25 03:13:11	AP for dog = 0.8253
+train.py 2019-03-25 03:13:11	AP for cat = 0.8549
+train.py 2019-03-25 03:13:11	AP for person = 0.8542
+train.py 2019-03-25 03:13:11	AP for train = 0.8352
+train.py 2019-03-25 03:13:11	AP for diningtable = 0.7070
+train.py 2019-03-25 03:13:11	AP for bottle = 0.6692
+train.py 2019-03-25 03:13:11	AP for car = 0.8978
+train.py 2019-03-25 03:13:11	AP for pottedplant = 0.4728
+train.py 2019-03-25 03:13:11	AP for tvmonitor = 0.7561
+train.py 2019-03-25 03:13:11	AP for chair = 0.6124
+train.py 2019-03-25 03:13:11	AP for bird = 0.7511
+train.py 2019-03-25 03:13:11	AP for boat = 0.6360
+train.py 2019-03-25 03:13:11	AP for motorbike = 0.8452
+train.py 2019-03-25 03:13:11	mAP = 0.7645
+train.py 2019-03-25 03:13:14	Saved model:	weights/yolo.ckpt-23-0.7645
+train.py 2019-03-25 03:14:06	Period:	24	step:	66275	train_loss:	12.6156
+train.py 2019-03-25 03:16:55	Period:	24	step:	66550	train_loss:	12.7219
+train.py 2019-03-25 03:19:43	Period:	24	step:	66825	train_loss:	12.8059
+train.py 2019-03-25 03:22:26	Period:	24	step:	67100	train_loss:	12.6228
+train.py 2019-03-25 03:25:13	Period:	24	step:	67375	train_loss:	12.3755
+train.py 2019-03-25 03:27:55	Period:	24	step:	67650	train_loss:	12.5763
+train.py 2019-03-25 03:30:39	Period:	24	step:	67925	train_loss:	13.0904
+train.py 2019-03-25 03:33:32	Period:	24	step:	68200	train_loss:	12.8190
+train.py 2019-03-25 03:36:14	Period:	24	step:	68475	train_loss:	12.8401
+train.py 2019-03-25 03:38:54	Period:	24	step:	68750	train_loss:	12.8845
+train.py 2019-03-25 03:47:19	AP for sheep = 0.7980
+train.py 2019-03-25 03:47:19	AP for horse = 0.8885
+train.py 2019-03-25 03:47:19	AP for bicycle = 0.8798
+train.py 2019-03-25 03:47:19	AP for aeroplane = 0.8167
+train.py 2019-03-25 03:47:19	AP for cow = 0.7668
+train.py 2019-03-25 03:47:19	AP for sofa = 0.7115
+train.py 2019-03-25 03:47:19	AP for bus = 0.8580
+train.py 2019-03-25 03:47:19	AP for dog = 0.8101
+train.py 2019-03-25 03:47:19	AP for cat = 0.8700
+train.py 2019-03-25 03:47:19	AP for person = 0.8496
+train.py 2019-03-25 03:47:19	AP for train = 0.8468
+train.py 2019-03-25 03:47:19	AP for diningtable = 0.7428
+train.py 2019-03-25 03:47:19	AP for bottle = 0.6545
+train.py 2019-03-25 03:47:19	AP for car = 0.9077
+train.py 2019-03-25 03:47:19	AP for pottedplant = 0.5120
+train.py 2019-03-25 03:47:19	AP for tvmonitor = 0.7675
+train.py 2019-03-25 03:47:19	AP for chair = 0.6243
+train.py 2019-03-25 03:47:19	AP for bird = 0.7746
+train.py 2019-03-25 03:47:19	AP for boat = 0.6673
+train.py 2019-03-25 03:47:19	AP for motorbike = 0.8594
+train.py 2019-03-25 03:47:19	mAP = 0.7803
+train.py 2019-03-25 03:47:23	Saved model:	weights/yolo.ckpt-24-0.7803
+train.py 2019-03-25 03:48:05	Period:	25	step:	69025	train_loss:	12.7609
+train.py 2019-03-25 03:50:53	Period:	25	step:	69300	train_loss:	12.8131
+train.py 2019-03-25 03:53:40	Period:	25	step:	69575	train_loss:	12.8988
+train.py 2019-03-25 03:56:25	Period:	25	step:	69850	train_loss:	13.0153
+train.py 2019-03-25 03:59:10	Period:	25	step:	70125	train_loss:	12.6081
+train.py 2019-03-25 04:02:00	Period:	25	step:	70400	train_loss:	12.6946
+train.py 2019-03-25 04:04:50	Period:	25	step:	70675	train_loss:	12.6506
+train.py 2019-03-25 04:07:32	Period:	25	step:	70950	train_loss:	12.6479
+train.py 2019-03-25 04:10:20	Period:	25	step:	71225	train_loss:	12.3617
+train.py 2019-03-25 04:13:04	Period:	25	step:	71500	train_loss:	12.5027
+train.py 2019-03-25 04:22:16	AP for sheep = 0.7528
+train.py 2019-03-25 04:22:16	AP for horse = 0.8796
+train.py 2019-03-25 04:22:16	AP for bicycle = 0.8734
+train.py 2019-03-25 04:22:16	AP for aeroplane = 0.8111
+train.py 2019-03-25 04:22:16	AP for cow = 0.6996
+train.py 2019-03-25 04:22:16	AP for sofa = 0.7426
+train.py 2019-03-25 04:22:16	AP for bus = 0.8551
+train.py 2019-03-25 04:22:16	AP for dog = 0.8025
+train.py 2019-03-25 04:22:16	AP for cat = 0.8509
+train.py 2019-03-25 04:22:16	AP for person = 0.8568
+train.py 2019-03-25 04:22:16	AP for train = 0.8303
+train.py 2019-03-25 04:22:16	AP for diningtable = 0.7414
+train.py 2019-03-25 04:22:16	AP for bottle = 0.6696
+train.py 2019-03-25 04:22:16	AP for car = 0.9051
+train.py 2019-03-25 04:22:16	AP for pottedplant = 0.4490
+train.py 2019-03-25 04:22:16	AP for tvmonitor = 0.7596
+train.py 2019-03-25 04:22:16	AP for chair = 0.6326
+train.py 2019-03-25 04:22:16	AP for bird = 0.7628
+train.py 2019-03-25 04:22:16	AP for boat = 0.6785
+train.py 2019-03-25 04:22:16	AP for motorbike = 0.8631
+train.py 2019-03-25 04:22:16	mAP = 0.7708
+train.py 2019-03-25 04:22:19	Saved model:	weights/yolo.ckpt-25-0.7708
+train.py 2019-03-25 04:23:01	Period:	26	step:	71775	train_loss:	13.2257
+train.py 2019-03-25 04:25:43	Period:	26	step:	72050	train_loss:	11.9181
+train.py 2019-03-25 04:28:24	Period:	26	step:	72325	train_loss:	12.1052
+train.py 2019-03-25 04:31:09	Period:	26	step:	72600	train_loss:	12.2722
+train.py 2019-03-25 04:33:51	Period:	26	step:	72875	train_loss:	12.9918
+train.py 2019-03-25 04:36:37	Period:	26	step:	73150	train_loss:	12.1748
+train.py 2019-03-25 04:39:18	Period:	26	step:	73425	train_loss:	12.5501
+train.py 2019-03-25 04:42:07	Period:	26	step:	73700	train_loss:	12.3597
+train.py 2019-03-25 04:44:53	Period:	26	step:	73975	train_loss:	12.1289
+train.py 2019-03-25 04:47:33	Period:	26	step:	74250	train_loss:	12.5953
+train.py 2019-03-25 04:55:53	AP for sheep = 0.7742
+train.py 2019-03-25 04:55:53	AP for horse = 0.8827
+train.py 2019-03-25 04:55:53	AP for bicycle = 0.8818
+train.py 2019-03-25 04:55:53	AP for aeroplane = 0.8411
+train.py 2019-03-25 04:55:53	AP for cow = 0.7693
+train.py 2019-03-25 04:55:53	AP for sofa = 0.7166
+train.py 2019-03-25 04:55:53	AP for bus = 0.8065
+train.py 2019-03-25 04:55:53	AP for dog = 0.8359
+train.py 2019-03-25 04:55:53	AP for cat = 0.8531
+train.py 2019-03-25 04:55:53	AP for person = 0.8594
+train.py 2019-03-25 04:55:53	AP for train = 0.8070
+train.py 2019-03-25 04:55:53	AP for diningtable = 0.7613
+train.py 2019-03-25 04:55:53	AP for bottle = 0.6750
+train.py 2019-03-25 04:55:53	AP for car = 0.9049
+train.py 2019-03-25 04:55:53	AP for pottedplant = 0.4880
+train.py 2019-03-25 04:55:53	AP for tvmonitor = 0.7633
+train.py 2019-03-25 04:55:53	AP for chair = 0.6477
+train.py 2019-03-25 04:55:53	AP for bird = 0.7679
+train.py 2019-03-25 04:55:53	AP for boat = 0.6786
+train.py 2019-03-25 04:55:53	AP for motorbike = 0.8477
+train.py 2019-03-25 04:55:53	mAP = 0.7781
+train.py 2019-03-25 04:55:56	Saved model:	weights/yolo.ckpt-26-0.7781
+train.py 2019-03-25 04:56:36	Period:	27	step:	74525	train_loss:	12.2428
+train.py 2019-03-25 04:59:21	Period:	27	step:	74800	train_loss:	12.1491
+train.py 2019-03-25 05:01:58	Period:	27	step:	75075	train_loss:	12.3772
+train.py 2019-03-25 05:04:42	Period:	27	step:	75350	train_loss:	11.9997
+train.py 2019-03-25 05:07:32	Period:	27	step:	75625	train_loss:	12.5664
+train.py 2019-03-25 05:10:23	Period:	27	step:	75900	train_loss:	12.3310
+train.py 2019-03-25 05:13:13	Period:	27	step:	76175	train_loss:	11.8933
+train.py 2019-03-25 05:15:57	Period:	27	step:	76450	train_loss:	12.1320
+train.py 2019-03-25 05:18:46	Period:	27	step:	76725	train_loss:	11.4595
+train.py 2019-03-25 05:21:34	Period:	27	step:	77000	train_loss:	12.2419
+train.py 2019-03-25 05:30:33	AP for sheep = 0.7808
+train.py 2019-03-25 05:30:33	AP for horse = 0.8734
+train.py 2019-03-25 05:30:33	AP for bicycle = 0.8781
+train.py 2019-03-25 05:30:33	AP for aeroplane = 0.8580
+train.py 2019-03-25 05:30:33	AP for cow = 0.7138
+train.py 2019-03-25 05:30:33	AP for sofa = 0.7400
+train.py 2019-03-25 05:30:33	AP for bus = 0.8487
+train.py 2019-03-25 05:30:33	AP for dog = 0.8270
+train.py 2019-03-25 05:30:33	AP for cat = 0.8660
+train.py 2019-03-25 05:30:33	AP for person = 0.8584
+train.py 2019-03-25 05:30:33	AP for train = 0.8407
+train.py 2019-03-25 05:30:33	AP for diningtable = 0.7360
+train.py 2019-03-25 05:30:33	AP for bottle = 0.6796
+train.py 2019-03-25 05:30:33	AP for car = 0.9092
+train.py 2019-03-25 05:30:33	AP for pottedplant = 0.4957
+train.py 2019-03-25 05:30:33	AP for tvmonitor = 0.7567
+train.py 2019-03-25 05:30:33	AP for chair = 0.6196
+train.py 2019-03-25 05:30:33	AP for bird = 0.7813
+train.py 2019-03-25 05:30:33	AP for boat = 0.6726
+train.py 2019-03-25 05:30:33	AP for motorbike = 0.8262
+train.py 2019-03-25 05:30:33	mAP = 0.7781
+train.py 2019-03-25 05:30:37	Saved model:	weights/yolo.ckpt-27-0.7781
+train.py 2019-03-25 05:31:08	Period:	28	step:	77275	train_loss:	12.6335
+train.py 2019-03-25 05:33:52	Period:	28	step:	77550	train_loss:	11.9490
+train.py 2019-03-25 05:36:35	Period:	28	step:	77825	train_loss:	11.9648
+train.py 2019-03-25 05:39:21	Period:	28	step:	78100	train_loss:	12.0291
+train.py 2019-03-25 05:42:05	Period:	28	step:	78375	train_loss:	12.0790
+train.py 2019-03-25 05:44:51	Period:	28	step:	78650	train_loss:	11.7384
+train.py 2019-03-25 05:47:37	Period:	28	step:	78925	train_loss:	12.4622
+train.py 2019-03-25 05:50:23	Period:	28	step:	79200	train_loss:	11.5599
+train.py 2019-03-25 05:53:10	Period:	28	step:	79475	train_loss:	12.2525
+train.py 2019-03-25 05:55:54	Period:	28	step:	79750	train_loss:	11.7866
+train.py 2019-03-25 06:04:36	AP for sheep = 0.8269
+train.py 2019-03-25 06:04:36	AP for horse = 0.8820
+train.py 2019-03-25 06:04:36	AP for bicycle = 0.8775
+train.py 2019-03-25 06:04:36	AP for aeroplane = 0.8720
+train.py 2019-03-25 06:04:36	AP for cow = 0.8394
+train.py 2019-03-25 06:04:36	AP for sofa = 0.7720
+train.py 2019-03-25 06:04:36	AP for bus = 0.8742
+train.py 2019-03-25 06:04:36	AP for dog = 0.8504
+train.py 2019-03-25 06:04:36	AP for cat = 0.8783
+train.py 2019-03-25 06:04:36	AP for person = 0.8624
+train.py 2019-03-25 06:04:36	AP for train = 0.8606
+train.py 2019-03-25 06:04:36	AP for diningtable = 0.7579
+train.py 2019-03-25 06:04:36	AP for bottle = 0.6973
+train.py 2019-03-25 06:04:36	AP for car = 0.9116
+train.py 2019-03-25 06:04:36	AP for pottedplant = 0.5329
+train.py 2019-03-25 06:04:36	AP for tvmonitor = 0.7887
+train.py 2019-03-25 06:04:36	AP for chair = 0.6254
+train.py 2019-03-25 06:04:36	AP for bird = 0.7791
+train.py 2019-03-25 06:04:36	AP for boat = 0.7011
+train.py 2019-03-25 06:04:36	AP for motorbike = 0.8625
+train.py 2019-03-25 06:04:36	mAP = 0.8026
+train.py 2019-03-25 06:04:39	Saved model:	weights/yolo.ckpt-28-0.8026
+train.py 2019-03-25 06:05:08	Period:	29	step:	80025	train_loss:	11.9151
+train.py 2019-03-25 06:07:58	Period:	29	step:	80300	train_loss:	11.9087
+train.py 2019-03-25 06:10:38	Period:	29	step:	80575	train_loss:	11.2665
+train.py 2019-03-25 06:13:26	Period:	29	step:	80850	train_loss:	11.4228
+train.py 2019-03-25 06:16:11	Period:	29	step:	81125	train_loss:	11.4031
+train.py 2019-03-25 06:18:57	Period:	29	step:	81400	train_loss:	11.4156
+train.py 2019-03-25 06:21:50	Period:	29	step:	81675	train_loss:	11.8699
+train.py 2019-03-25 06:24:37	Period:	29	step:	81950	train_loss:	11.7613
+train.py 2019-03-25 06:27:23	Period:	29	step:	82225	train_loss:	11.7441
+train.py 2019-03-25 06:30:04	Period:	29	step:	82500	train_loss:	11.8951
+train.py 2019-03-25 06:38:48	AP for sheep = 0.8049
+train.py 2019-03-25 06:38:48	AP for horse = 0.8829
+train.py 2019-03-25 06:38:48	AP for bicycle = 0.8723
+train.py 2019-03-25 06:38:48	AP for aeroplane = 0.8718
+train.py 2019-03-25 06:38:48	AP for cow = 0.8094
+train.py 2019-03-25 06:38:48	AP for sofa = 0.7603
+train.py 2019-03-25 06:38:48	AP for bus = 0.8770
+train.py 2019-03-25 06:38:48	AP for dog = 0.8416
+train.py 2019-03-25 06:38:48	AP for cat = 0.8833
+train.py 2019-03-25 06:38:48	AP for person = 0.8586
+train.py 2019-03-25 06:38:48	AP for train = 0.8538
+train.py 2019-03-25 06:38:48	AP for diningtable = 0.7469
+train.py 2019-03-25 06:38:48	AP for bottle = 0.7000
+train.py 2019-03-25 06:38:48	AP for car = 0.9193
+train.py 2019-03-25 06:38:48	AP for pottedplant = 0.4988
+train.py 2019-03-25 06:38:48	AP for tvmonitor = 0.7894
+train.py 2019-03-25 06:38:48	AP for chair = 0.6651
+train.py 2019-03-25 06:38:48	AP for bird = 0.8092
+train.py 2019-03-25 06:38:48	AP for boat = 0.6834
+train.py 2019-03-25 06:38:48	AP for motorbike = 0.8685
+train.py 2019-03-25 06:38:48	mAP = 0.7998
+train.py 2019-03-25 06:38:52	Saved model:	weights/yolo.ckpt-29-0.7998
+train.py 2019-03-25 06:39:14	Period:	30	step:	82775	train_loss:	11.0407
+train.py 2019-03-25 06:41:57	Period:	30	step:	83050	train_loss:	11.5231
+train.py 2019-03-25 06:44:43	Period:	30	step:	83325	train_loss:	11.1324
+train.py 2019-03-25 06:47:31	Period:	30	step:	83600	train_loss:	11.4435
+train.py 2019-03-25 06:50:20	Period:	30	step:	83875	train_loss:	11.0190
+train.py 2019-03-25 06:53:01	Period:	30	step:	84150	train_loss:	11.0848
+train.py 2019-03-25 06:55:48	Period:	30	step:	84425	train_loss:	11.7898
+train.py 2019-03-25 06:58:38	Period:	30	step:	84700	train_loss:	11.0662
+train.py 2019-03-25 07:01:26	Period:	30	step:	84975	train_loss:	11.0915
+train.py 2019-03-25 07:04:14	Period:	30	step:	85250	train_loss:	11.6553
+train.py 2019-03-25 07:13:02	AP for sheep = 0.8347
+train.py 2019-03-25 07:13:02	AP for horse = 0.8909
+train.py 2019-03-25 07:13:02	AP for bicycle = 0.8804
+train.py 2019-03-25 07:13:02	AP for aeroplane = 0.8734
+train.py 2019-03-25 07:13:02	AP for cow = 0.8269
+train.py 2019-03-25 07:13:02	AP for sofa = 0.7469
+train.py 2019-03-25 07:13:02	AP for bus = 0.8667
+train.py 2019-03-25 07:13:02	AP for dog = 0.8431
+train.py 2019-03-25 07:13:02	AP for cat = 0.8852
+train.py 2019-03-25 07:13:02	AP for person = 0.8616
+train.py 2019-03-25 07:13:02	AP for train = 0.8490
+train.py 2019-03-25 07:13:02	AP for diningtable = 0.7522
+train.py 2019-03-25 07:13:02	AP for bottle = 0.6996
+train.py 2019-03-25 07:13:02	AP for car = 0.9142
+train.py 2019-03-25 07:13:02	AP for pottedplant = 0.5214
+train.py 2019-03-25 07:13:02	AP for tvmonitor = 0.7801
+train.py 2019-03-25 07:13:02	AP for chair = 0.6357
+train.py 2019-03-25 07:13:02	AP for bird = 0.7968
+train.py 2019-03-25 07:13:02	AP for boat = 0.6761
+train.py 2019-03-25 07:13:02	AP for motorbike = 0.8495
+train.py 2019-03-25 07:13:02	mAP = 0.7992
+train.py 2019-03-25 07:13:05	Saved model:	weights/yolo.ckpt-30-0.7992
+train.py 2019-03-25 07:13:22	Period:	31	step:	85525	train_loss:	10.8652
+train.py 2019-03-25 07:16:03	Period:	31	step:	85800	train_loss:	11.3619
+train.py 2019-03-25 07:18:44	Period:	31	step:	86075	train_loss:	10.5613
+train.py 2019-03-25 07:21:31	Period:	31	step:	86350	train_loss:	11.0019
+train.py 2019-03-25 07:24:21	Period:	31	step:	86625	train_loss:	11.4099
+train.py 2019-03-25 07:27:05	Period:	31	step:	86900	train_loss:	11.2420
+train.py 2019-03-25 07:29:56	Period:	31	step:	87175	train_loss:	11.4288
+train.py 2019-03-25 07:32:41	Period:	31	step:	87450	train_loss:	11.4565
+train.py 2019-03-25 07:35:29	Period:	31	step:	87725	train_loss:	11.2667
+train.py 2019-03-25 07:38:12	Period:	31	step:	88000	train_loss:	11.6332
+train.py 2019-03-25 07:46:46	AP for sheep = 0.8036
+train.py 2019-03-25 07:46:46	AP for horse = 0.8872
+train.py 2019-03-25 07:46:46	AP for bicycle = 0.8803
+train.py 2019-03-25 07:46:46	AP for aeroplane = 0.8553
+train.py 2019-03-25 07:46:46	AP for cow = 0.8248
+train.py 2019-03-25 07:46:46	AP for sofa = 0.7263
+train.py 2019-03-25 07:46:46	AP for bus = 0.8966
+train.py 2019-03-25 07:46:46	AP for dog = 0.8468
+train.py 2019-03-25 07:46:46	AP for cat = 0.8718
+train.py 2019-03-25 07:46:46	AP for person = 0.8718
+train.py 2019-03-25 07:46:46	AP for train = 0.8596
+train.py 2019-03-25 07:46:46	AP for diningtable = 0.7556
+train.py 2019-03-25 07:46:46	AP for bottle = 0.7021
+train.py 2019-03-25 07:46:46	AP for car = 0.9186
+train.py 2019-03-25 07:46:46	AP for pottedplant = 0.5349
+train.py 2019-03-25 07:46:46	AP for tvmonitor = 0.7934
+train.py 2019-03-25 07:46:46	AP for chair = 0.6520
+train.py 2019-03-25 07:46:46	AP for bird = 0.7955
+train.py 2019-03-25 07:46:46	AP for boat = 0.7120
+train.py 2019-03-25 07:46:46	AP for motorbike = 0.8496
+train.py 2019-03-25 07:46:46	mAP = 0.8019
+train.py 2019-03-25 07:46:49	Saved model:	weights/yolo.ckpt-31-0.8019
+train.py 2019-03-25 07:47:02	Period:	32	step:	88275	train_loss:	11.1042
+train.py 2019-03-25 07:49:47	Period:	32	step:	88550	train_loss:	11.1323
+train.py 2019-03-25 07:52:28	Period:	32	step:	88825	train_loss:	10.6532
+train.py 2019-03-25 07:55:10	Period:	32	step:	89100	train_loss:	11.2387
+train.py 2019-03-25 07:57:52	Period:	32	step:	89375	train_loss:	11.1363
+train.py 2019-03-25 08:00:42	Period:	32	step:	89650	train_loss:	11.3823
+train.py 2019-03-25 08:03:29	Period:	32	step:	89925	train_loss:	10.7163
+train.py 2019-03-25 08:06:15	Period:	32	step:	90200	train_loss:	11.3634
+train.py 2019-03-25 08:09:03	Period:	32	step:	90475	train_loss:	10.6457
+train.py 2019-03-25 08:11:47	Period:	32	step:	90750	train_loss:	11.2474
+train.py 2019-03-25 08:20:39	AP for sheep = 0.8146
+train.py 2019-03-25 08:20:39	AP for horse = 0.8884
+train.py 2019-03-25 08:20:39	AP for bicycle = 0.8764
+train.py 2019-03-25 08:20:39	AP for aeroplane = 0.8733
+train.py 2019-03-25 08:20:39	AP for cow = 0.8189
+train.py 2019-03-25 08:20:39	AP for sofa = 0.7638
+train.py 2019-03-25 08:20:39	AP for bus = 0.8769
+train.py 2019-03-25 08:20:39	AP for dog = 0.8431
+train.py 2019-03-25 08:20:39	AP for cat = 0.8695
+train.py 2019-03-25 08:20:39	AP for person = 0.8716
+train.py 2019-03-25 08:20:39	AP for train = 0.8357
+train.py 2019-03-25 08:20:39	AP for diningtable = 0.7691
+train.py 2019-03-25 08:20:39	AP for bottle = 0.7109
+train.py 2019-03-25 08:20:39	AP for car = 0.9139
+train.py 2019-03-25 08:20:39	AP for pottedplant = 0.5272
+train.py 2019-03-25 08:20:39	AP for tvmonitor = 0.7938
+train.py 2019-03-25 08:20:39	AP for chair = 0.6372
+train.py 2019-03-25 08:20:39	AP for bird = 0.7871
+train.py 2019-03-25 08:20:39	AP for boat = 0.6475
+train.py 2019-03-25 08:20:39	AP for motorbike = 0.8350
+train.py 2019-03-25 08:20:39	mAP = 0.7977
+train.py 2019-03-25 08:20:43	Saved model:	weights/yolo.ckpt-32-0.7977
+train.py 2019-03-25 08:20:50	Period:	33	step:	91025	train_loss:	10.6259
+train.py 2019-03-25 08:23:34	Period:	33	step:	91300	train_loss:	10.9058
+train.py 2019-03-25 08:26:18	Period:	33	step:	91575	train_loss:	10.5856
+train.py 2019-03-25 08:29:00	Period:	33	step:	91850	train_loss:	10.8104
+train.py 2019-03-25 08:31:43	Period:	33	step:	92125	train_loss:	10.6754
+train.py 2019-03-25 08:34:23	Period:	33	step:	92400	train_loss:	10.8957
+train.py 2019-03-25 08:37:10	Period:	33	step:	92675	train_loss:	11.3627
+train.py 2019-03-25 08:39:56	Period:	33	step:	92950	train_loss:	11.4326
+train.py 2019-03-25 08:42:40	Period:	33	step:	93225	train_loss:	10.7553
+train.py 2019-03-25 08:45:29	Period:	33	step:	93500	train_loss:	11.1825
+train.py 2019-03-25 08:54:15	AP for sheep = 0.7986
+train.py 2019-03-25 08:54:15	AP for horse = 0.8953
+train.py 2019-03-25 08:54:15	AP for bicycle = 0.8720
+train.py 2019-03-25 08:54:15	AP for aeroplane = 0.8824
+train.py 2019-03-25 08:54:15	AP for cow = 0.8344
+train.py 2019-03-25 08:54:15	AP for sofa = 0.7428
+train.py 2019-03-25 08:54:15	AP for bus = 0.8810
+train.py 2019-03-25 08:54:15	AP for dog = 0.8340
+train.py 2019-03-25 08:54:15	AP for cat = 0.8866
+train.py 2019-03-25 08:54:15	AP for person = 0.8665
+train.py 2019-03-25 08:54:15	AP for train = 0.8523
+train.py 2019-03-25 08:54:15	AP for diningtable = 0.7308
+train.py 2019-03-25 08:54:15	AP for bottle = 0.7342
+train.py 2019-03-25 08:54:15	AP for car = 0.9126
+train.py 2019-03-25 08:54:15	AP for pottedplant = 0.5086
+train.py 2019-03-25 08:54:15	AP for tvmonitor = 0.8033
+train.py 2019-03-25 08:54:15	AP for chair = 0.6547
+train.py 2019-03-25 08:54:15	AP for bird = 0.7920
+train.py 2019-03-25 08:54:15	AP for boat = 0.6766
+train.py 2019-03-25 08:54:15	AP for motorbike = 0.8611
+train.py 2019-03-25 08:54:15	mAP = 0.8010
+train.py 2019-03-25 08:54:19	Saved model:	weights/yolo.ckpt-33-0.8010
+train.py 2019-03-25 08:54:21	Period:	34	step:	93775	train_loss:	10.4051
+train.py 2019-03-25 08:57:09	Period:	34	step:	94050	train_loss:	10.8184
+train.py 2019-03-25 08:59:56	Period:	34	step:	94325	train_loss:	10.6994
+train.py 2019-03-25 09:02:42	Period:	34	step:	94600	train_loss:	10.9250
+train.py 2019-03-25 09:05:30	Period:	34	step:	94875	train_loss:	10.8501
+train.py 2019-03-25 09:08:15	Period:	34	step:	95150	train_loss:	10.6599
+train.py 2019-03-25 09:11:01	Period:	34	step:	95425	train_loss:	10.9502
+train.py 2019-03-25 09:13:49	Period:	34	step:	95700	train_loss:	10.7493
+train.py 2019-03-25 09:16:33	Period:	34	step:	95975	train_loss:	10.6695
+train.py 2019-03-25 09:19:10	Period:	34	step:	96250	train_loss:	10.7452
+train.py 2019-03-25 09:21:54	Period:	34	step:	96525	train_loss:	11.0322
+train.py 2019-03-25 09:28:01	AP for sheep = 0.8307
+train.py 2019-03-25 09:28:01	AP for horse = 0.8962
+train.py 2019-03-25 09:28:01	AP for bicycle = 0.8747
+train.py 2019-03-25 09:28:01	AP for aeroplane = 0.8910
+train.py 2019-03-25 09:28:01	AP for cow = 0.8251
+train.py 2019-03-25 09:28:01	AP for sofa = 0.7758
+train.py 2019-03-25 09:28:01	AP for bus = 0.8896
+train.py 2019-03-25 09:28:01	AP for dog = 0.8633
+train.py 2019-03-25 09:28:01	AP for cat = 0.8840
+train.py 2019-03-25 09:28:01	AP for person = 0.8742
+train.py 2019-03-25 09:28:01	AP for train = 0.8600
+train.py 2019-03-25 09:28:01	AP for diningtable = 0.7764
+train.py 2019-03-25 09:28:01	AP for bottle = 0.7210
+train.py 2019-03-25 09:28:01	AP for car = 0.9200
+train.py 2019-03-25 09:28:01	AP for pottedplant = 0.5090
+train.py 2019-03-25 09:28:01	AP for tvmonitor = 0.8102
+train.py 2019-03-25 09:28:01	AP for chair = 0.6741
+train.py 2019-03-25 09:28:01	AP for bird = 0.8014
+train.py 2019-03-25 09:28:01	AP for boat = 0.6764
+train.py 2019-03-25 09:28:01	AP for motorbike = 0.8799
+train.py 2019-03-25 09:28:01	mAP = 0.8117
+train.py 2019-03-25 09:28:05	Saved model:	weights/yolo.ckpt-34-0.8117
+train.py 2019-03-25 09:30:51	Period:	35	step:	96800	train_loss:	10.4914
+train.py 2019-03-25 09:33:37	Period:	35	step:	97075	train_loss:	10.2567
+train.py 2019-03-25 09:36:25	Period:	35	step:	97350	train_loss:	10.7978
+train.py 2019-03-25 09:39:16	Period:	35	step:	97625	train_loss:	10.3958
+train.py 2019-03-25 09:42:05	Period:	35	step:	97900	train_loss:	10.2885
+train.py 2019-03-25 09:44:57	Period:	35	step:	98175	train_loss:	10.8464
+train.py 2019-03-25 09:47:42	Period:	35	step:	98450	train_loss:	10.7845
+train.py 2019-03-25 09:50:28	Period:	35	step:	98725	train_loss:	10.5843
+train.py 2019-03-25 09:53:16	Period:	35	step:	99000	train_loss:	10.6664
+train.py 2019-03-25 09:55:56	Period:	35	step:	99275	train_loss:	10.3679
+train.py 2019-03-25 10:01:47	AP for sheep = 0.8281
+train.py 2019-03-25 10:01:47	AP for horse = 0.8989
+train.py 2019-03-25 10:01:47	AP for bicycle = 0.8924
+train.py 2019-03-25 10:01:47	AP for aeroplane = 0.8918
+train.py 2019-03-25 10:01:47	AP for cow = 0.8506
+train.py 2019-03-25 10:01:47	AP for sofa = 0.7735
+train.py 2019-03-25 10:01:47	AP for bus = 0.8812
+train.py 2019-03-25 10:01:47	AP for dog = 0.8593
+train.py 2019-03-25 10:01:47	AP for cat = 0.8909
+train.py 2019-03-25 10:01:47	AP for person = 0.8742
+train.py 2019-03-25 10:01:47	AP for train = 0.8680
+train.py 2019-03-25 10:01:47	AP for diningtable = 0.7767
+train.py 2019-03-25 10:01:47	AP for bottle = 0.7280
+train.py 2019-03-25 10:01:47	AP for car = 0.9149
+train.py 2019-03-25 10:01:47	AP for pottedplant = 0.5297
+train.py 2019-03-25 10:01:47	AP for tvmonitor = 0.8106
+train.py 2019-03-25 10:01:47	AP for chair = 0.6602
+train.py 2019-03-25 10:01:47	AP for bird = 0.8155
+train.py 2019-03-25 10:01:47	AP for boat = 0.6918
+train.py 2019-03-25 10:01:47	AP for motorbike = 0.8661
+train.py 2019-03-25 10:01:47	mAP = 0.8151
+train.py 2019-03-25 10:01:50	Saved model:	weights/yolo.ckpt-35-0.8151
+train.py 2019-03-25 10:04:27	Period:	36	step:	99550	train_loss:	10.4924
+train.py 2019-03-25 10:07:12	Period:	36	step:	99825	train_loss:	10.2670
+train.py 2019-03-25 10:10:04	Period:	36	step:	100100	train_loss:	10.6620
+train.py 2019-03-25 10:12:59	Period:	36	step:	100375	train_loss:	10.4347
+train.py 2019-03-25 10:15:42	Period:	36	step:	100650	train_loss:	10.4895
+train.py 2019-03-25 10:18:28	Period:	36	step:	100925	train_loss:	9.6195
+train.py 2019-03-25 10:21:16	Period:	36	step:	101200	train_loss:	10.3672
+train.py 2019-03-25 10:23:59	Period:	36	step:	101475	train_loss:	10.6459
+train.py 2019-03-25 10:26:50	Period:	36	step:	101750	train_loss:	10.5862
+train.py 2019-03-25 10:29:40	Period:	36	step:	102025	train_loss:	10.1499
+train.py 2019-03-25 10:35:55	AP for sheep = 0.8508
+train.py 2019-03-25 10:35:55	AP for horse = 0.8920
+train.py 2019-03-25 10:35:55	AP for bicycle = 0.8874
+train.py 2019-03-25 10:35:55	AP for aeroplane = 0.8928
+train.py 2019-03-25 10:35:55	AP for cow = 0.8648
+train.py 2019-03-25 10:35:55	AP for sofa = 0.7927
+train.py 2019-03-25 10:35:55	AP for bus = 0.8866
+train.py 2019-03-25 10:35:55	AP for dog = 0.8611
+train.py 2019-03-25 10:35:55	AP for cat = 0.8822
+train.py 2019-03-25 10:35:55	AP for person = 0.8666
+train.py 2019-03-25 10:35:55	AP for train = 0.8703
+train.py 2019-03-25 10:35:55	AP for diningtable = 0.7953
+train.py 2019-03-25 10:35:55	AP for bottle = 0.7280
+train.py 2019-03-25 10:35:55	AP for car = 0.9203
+train.py 2019-03-25 10:35:55	AP for pottedplant = 0.5322
+train.py 2019-03-25 10:35:55	AP for tvmonitor = 0.8140
+train.py 2019-03-25 10:35:55	AP for chair = 0.6518
+train.py 2019-03-25 10:35:55	AP for bird = 0.8096
+train.py 2019-03-25 10:35:55	AP for boat = 0.6837
+train.py 2019-03-25 10:35:55	AP for motorbike = 0.8630
+train.py 2019-03-25 10:35:55	mAP = 0.8173
+train.py 2019-03-25 10:35:59	Saved model:	weights/yolo.ckpt-36-0.8173
+train.py 2019-03-25 10:38:40	Period:	37	step:	102300	train_loss:	10.1072
+train.py 2019-03-25 10:41:33	Period:	37	step:	102575	train_loss:	10.2593
+train.py 2019-03-25 10:44:25	Period:	37	step:	102850	train_loss:	10.3924
+train.py 2019-03-25 10:47:10	Period:	37	step:	103125	train_loss:	10.4673
+train.py 2019-03-25 10:49:59	Period:	37	step:	103400	train_loss:	10.5647
+train.py 2019-03-25 10:52:51	Period:	37	step:	103675	train_loss:	10.6873
+train.py 2019-03-25 10:55:38	Period:	37	step:	103950	train_loss:	10.2851
+train.py 2019-03-25 10:58:29	Period:	37	step:	104225	train_loss:	10.0332
+train.py 2019-03-25 11:01:13	Period:	37	step:	104500	train_loss:	9.8202
+train.py 2019-03-25 11:03:56	Period:	37	step:	104775	train_loss:	10.4348
+train.py 2019-03-25 11:10:19	AP for sheep = 0.8236
+train.py 2019-03-25 11:10:19	AP for horse = 0.8810
+train.py 2019-03-25 11:10:19	AP for bicycle = 0.8974
+train.py 2019-03-25 11:10:19	AP for aeroplane = 0.8838
+train.py 2019-03-25 11:10:19	AP for cow = 0.8438
+train.py 2019-03-25 11:10:19	AP for sofa = 0.7686
+train.py 2019-03-25 11:10:19	AP for bus = 0.8990
+train.py 2019-03-25 11:10:19	AP for dog = 0.8581
+train.py 2019-03-25 11:10:19	AP for cat = 0.8848
+train.py 2019-03-25 11:10:19	AP for person = 0.8725
+train.py 2019-03-25 11:10:19	AP for train = 0.8666
+train.py 2019-03-25 11:10:19	AP for diningtable = 0.7864
+train.py 2019-03-25 11:10:19	AP for bottle = 0.7257
+train.py 2019-03-25 11:10:19	AP for car = 0.9176
+train.py 2019-03-25 11:10:19	AP for pottedplant = 0.5390
+train.py 2019-03-25 11:10:19	AP for tvmonitor = 0.8187
+train.py 2019-03-25 11:10:19	AP for chair = 0.6440
+train.py 2019-03-25 11:10:19	AP for bird = 0.8123
+train.py 2019-03-25 11:10:19	AP for boat = 0.6823
+train.py 2019-03-25 11:10:19	AP for motorbike = 0.8790
+train.py 2019-03-25 11:10:19	mAP = 0.8142
+train.py 2019-03-25 11:10:23	Saved model:	weights/yolo.ckpt-37-0.8142
+train.py 2019-03-25 11:12:49	Period:	38	step:	105050	train_loss:	10.1645
+train.py 2019-03-25 11:15:36	Period:	38	step:	105325	train_loss:	9.7889
+train.py 2019-03-25 11:18:19	Period:	38	step:	105600	train_loss:	10.3108
+train.py 2019-03-25 11:21:06	Period:	38	step:	105875	train_loss:	10.4993
+train.py 2019-03-25 11:23:53	Period:	38	step:	106150	train_loss:	10.3960
+train.py 2019-03-25 11:26:41	Period:	38	step:	106425	train_loss:	10.2523
+train.py 2019-03-25 11:29:28	Period:	38	step:	106700	train_loss:	9.5621
+train.py 2019-03-25 11:32:13	Period:	38	step:	106975	train_loss:	10.6927
+train.py 2019-03-25 11:34:57	Period:	38	step:	107250	train_loss:	10.4453
+train.py 2019-03-25 11:37:45	Period:	38	step:	107525	train_loss:	10.1371
+train.py 2019-03-25 11:44:06	AP for sheep = 0.8301
+train.py 2019-03-25 11:44:06	AP for horse = 0.8976
+train.py 2019-03-25 11:44:06	AP for bicycle = 0.8893
+train.py 2019-03-25 11:44:06	AP for aeroplane = 0.8954
+train.py 2019-03-25 11:44:06	AP for cow = 0.8246
+train.py 2019-03-25 11:44:06	AP for sofa = 0.7705
+train.py 2019-03-25 11:44:06	AP for bus = 0.8909
+train.py 2019-03-25 11:44:06	AP for dog = 0.8574
+train.py 2019-03-25 11:44:06	AP for cat = 0.8774
+train.py 2019-03-25 11:44:06	AP for person = 0.8768
+train.py 2019-03-25 11:44:06	AP for train = 0.8769
+train.py 2019-03-25 11:44:06	AP for diningtable = 0.7956
+train.py 2019-03-25 11:44:06	AP for bottle = 0.7151
+train.py 2019-03-25 11:44:06	AP for car = 0.9153
+train.py 2019-03-25 11:44:06	AP for pottedplant = 0.5293
+train.py 2019-03-25 11:44:06	AP for tvmonitor = 0.8016
+train.py 2019-03-25 11:44:06	AP for chair = 0.6719
+train.py 2019-03-25 11:44:06	AP for bird = 0.8057
+train.py 2019-03-25 11:44:06	AP for boat = 0.6915
+train.py 2019-03-25 11:44:06	AP for motorbike = 0.8801
+train.py 2019-03-25 11:44:06	mAP = 0.8146
+train.py 2019-03-25 11:44:10	Saved model:	weights/yolo.ckpt-38-0.8146
+train.py 2019-03-25 11:46:35	Period:	39	step:	107800	train_loss:	9.7411
+train.py 2019-03-25 11:49:22	Period:	39	step:	108075	train_loss:	10.0365
+train.py 2019-03-25 11:52:10	Period:	39	step:	108350	train_loss:	10.1458
+train.py 2019-03-25 11:54:57	Period:	39	step:	108625	train_loss:	9.9694
+train.py 2019-03-25 11:57:45	Period:	39	step:	108900	train_loss:	10.5101
+train.py 2019-03-25 12:00:32	Period:	39	step:	109175	train_loss:	9.8871
+train.py 2019-03-25 12:03:20	Period:	39	step:	109450	train_loss:	9.9122
+train.py 2019-03-25 12:06:10	Period:	39	step:	109725	train_loss:	10.3157
+train.py 2019-03-25 12:09:01	Period:	39	step:	110000	train_loss:	9.8990
+train.py 2019-03-25 12:11:52	Period:	39	step:	110275	train_loss:	9.6710
+train.py 2019-03-25 12:18:10	AP for sheep = 0.8432
+train.py 2019-03-25 12:18:10	AP for horse = 0.8914
+train.py 2019-03-25 12:18:10	AP for bicycle = 0.9000
+train.py 2019-03-25 12:18:10	AP for aeroplane = 0.8946
+train.py 2019-03-25 12:18:10	AP for cow = 0.8539
+train.py 2019-03-25 12:18:10	AP for sofa = 0.7818
+train.py 2019-03-25 12:18:10	AP for bus = 0.8900
+train.py 2019-03-25 12:18:10	AP for dog = 0.8630
+train.py 2019-03-25 12:18:10	AP for cat = 0.8862
+train.py 2019-03-25 12:18:10	AP for person = 0.8806
+train.py 2019-03-25 12:18:10	AP for train = 0.8659
+train.py 2019-03-25 12:18:10	AP for diningtable = 0.7949
+train.py 2019-03-25 12:18:10	AP for bottle = 0.7128
+train.py 2019-03-25 12:18:10	AP for car = 0.9191
+train.py 2019-03-25 12:18:10	AP for pottedplant = 0.5111
+train.py 2019-03-25 12:18:10	AP for tvmonitor = 0.8150
+train.py 2019-03-25 12:18:10	AP for chair = 0.6832
+train.py 2019-03-25 12:18:10	AP for bird = 0.8131
+train.py 2019-03-25 12:18:10	AP for boat = 0.6928
+train.py 2019-03-25 12:18:10	AP for motorbike = 0.8799
+train.py 2019-03-25 12:18:10	mAP = 0.8186
+train.py 2019-03-25 12:18:14	Saved model:	weights/yolo.ckpt-39-0.8186
+train.py 2019-03-25 12:20:35	Period:	40	step:	110550	train_loss:	9.7988
+train.py 2019-03-25 12:23:26	Period:	40	step:	110825	train_loss:	9.9430
+train.py 2019-03-25 12:26:12	Period:	40	step:	111100	train_loss:	9.9205
+train.py 2019-03-25 12:29:02	Period:	40	step:	111375	train_loss:	10.2550
+train.py 2019-03-25 12:31:48	Period:	40	step:	111650	train_loss:	9.8742
+train.py 2019-03-25 12:34:36	Period:	40	step:	111925	train_loss:	9.8799
+train.py 2019-03-25 12:37:24	Period:	40	step:	112200	train_loss:	10.0788
+train.py 2019-03-25 12:40:10	Period:	40	step:	112475	train_loss:	9.7069
+train.py 2019-03-25 12:42:55	Period:	40	step:	112750	train_loss:	10.5407
+train.py 2019-03-25 12:45:44	Period:	40	step:	113025	train_loss:	9.8476
+train.py 2019-03-25 12:51:55	AP for sheep = 0.8459
+train.py 2019-03-25 12:51:55	AP for horse = 0.9065
+train.py 2019-03-25 12:51:55	AP for bicycle = 0.8906
+train.py 2019-03-25 12:51:55	AP for aeroplane = 0.8988
+train.py 2019-03-25 12:51:55	AP for cow = 0.8455
+train.py 2019-03-25 12:51:55	AP for sofa = 0.7869
+train.py 2019-03-25 12:51:55	AP for bus = 0.9048
+train.py 2019-03-25 12:51:55	AP for dog = 0.8619
+train.py 2019-03-25 12:51:55	AP for cat = 0.8891
+train.py 2019-03-25 12:51:55	AP for person = 0.8824
+train.py 2019-03-25 12:51:55	AP for train = 0.8701
+train.py 2019-03-25 12:51:55	AP for diningtable = 0.7730
+train.py 2019-03-25 12:51:55	AP for bottle = 0.7252
+train.py 2019-03-25 12:51:55	AP for car = 0.9131
+train.py 2019-03-25 12:51:55	AP for pottedplant = 0.5451
+train.py 2019-03-25 12:51:55	AP for tvmonitor = 0.8119
+train.py 2019-03-25 12:51:55	AP for chair = 0.6665
+train.py 2019-03-25 12:51:55	AP for bird = 0.8087
+train.py 2019-03-25 12:51:55	AP for boat = 0.7101
+train.py 2019-03-25 12:51:55	AP for motorbike = 0.8776
+train.py 2019-03-25 12:51:55	mAP = 0.8207
+train.py 2019-03-25 12:51:59	Saved model:	weights/yolo.ckpt-40-0.8207
+train.py 2019-03-25 12:54:15	Period:	41	step:	113300	train_loss:	10.2814
+train.py 2019-03-25 12:57:01	Period:	41	step:	113575	train_loss:	9.6660
+train.py 2019-03-25 12:59:52	Period:	41	step:	113850	train_loss:	9.9594
+train.py 2019-03-25 01:02:41	Period:	41	step:	114125	train_loss:	9.6166
+train.py 2019-03-25 01:05:25	Period:	41	step:	114400	train_loss:	10.1183
+train.py 2019-03-25 01:08:12	Period:	41	step:	114675	train_loss:	9.3636
+train.py 2019-03-25 01:10:59	Period:	41	step:	114950	train_loss:	10.1490
+train.py 2019-03-25 01:13:49	Period:	41	step:	115225	train_loss:	10.0044
+train.py 2019-03-25 01:16:35	Period:	41	step:	115500	train_loss:	9.5571
+train.py 2019-03-25 01:19:25	Period:	41	step:	115775	train_loss:	9.6511
+train.py 2019-03-25 01:25:52	AP for sheep = 0.8280
+train.py 2019-03-25 01:25:52	AP for horse = 0.8902
+train.py 2019-03-25 01:25:52	AP for bicycle = 0.8981
+train.py 2019-03-25 01:25:52	AP for aeroplane = 0.8966
+train.py 2019-03-25 01:25:52	AP for cow = 0.8684
+train.py 2019-03-25 01:25:52	AP for sofa = 0.7961
+train.py 2019-03-25 01:25:52	AP for bus = 0.8928
+train.py 2019-03-25 01:25:52	AP for dog = 0.8588
+train.py 2019-03-25 01:25:52	AP for cat = 0.8915
+train.py 2019-03-25 01:25:52	AP for person = 0.8791
+train.py 2019-03-25 01:25:52	AP for train = 0.8736
+train.py 2019-03-25 01:25:52	AP for diningtable = 0.7715
+train.py 2019-03-25 01:25:52	AP for bottle = 0.7228
+train.py 2019-03-25 01:25:52	AP for car = 0.9152
+train.py 2019-03-25 01:25:52	AP for pottedplant = 0.5352
+train.py 2019-03-25 01:25:52	AP for tvmonitor = 0.8157
+train.py 2019-03-25 01:25:52	AP for chair = 0.6694
+train.py 2019-03-25 01:25:52	AP for bird = 0.8141
+train.py 2019-03-25 01:25:52	AP for boat = 0.7091
+train.py 2019-03-25 01:25:52	AP for motorbike = 0.8646
+train.py 2019-03-25 01:25:52	mAP = 0.8195
+train.py 2019-03-25 01:25:56	Saved model:	weights/yolo.ckpt-41-0.8195
+train.py 2019-03-25 01:28:09	Period:	42	step:	116050	train_loss:	10.1544
+train.py 2019-03-25 01:30:53	Period:	42	step:	116325	train_loss:	10.1533
+train.py 2019-03-25 01:33:39	Period:	42	step:	116600	train_loss:	10.0909
+train.py 2019-03-25 01:36:28	Period:	42	step:	116875	train_loss:	9.7664
+train.py 2019-03-25 01:39:14	Period:	42	step:	117150	train_loss:	9.4186
+train.py 2019-03-25 01:42:09	Period:	42	step:	117425	train_loss:	9.7257
+train.py 2019-03-25 01:44:56	Period:	42	step:	117700	train_loss:	9.7356
+train.py 2019-03-25 01:47:47	Period:	42	step:	117975	train_loss:	9.4997
+train.py 2019-03-25 01:50:41	Period:	42	step:	118250	train_loss:	9.8069
+train.py 2019-03-25 01:53:29	Period:	42	step:	118525	train_loss:	9.8982
+train.py 2019-03-25 01:59:49	AP for sheep = 0.8508
+train.py 2019-03-25 01:59:49	AP for horse = 0.8964
+train.py 2019-03-25 01:59:49	AP for bicycle = 0.8879
+train.py 2019-03-25 01:59:49	AP for aeroplane = 0.9164
+train.py 2019-03-25 01:59:49	AP for cow = 0.8701
+train.py 2019-03-25 01:59:49	AP for sofa = 0.7866
+train.py 2019-03-25 01:59:49	AP for bus = 0.9076
+train.py 2019-03-25 01:59:49	AP for dog = 0.8753
+train.py 2019-03-25 01:59:49	AP for cat = 0.8883
+train.py 2019-03-25 01:59:49	AP for person = 0.8740
+train.py 2019-03-25 01:59:49	AP for train = 0.8730
+train.py 2019-03-25 01:59:49	AP for diningtable = 0.7702
+train.py 2019-03-25 01:59:49	AP for bottle = 0.7265
+train.py 2019-03-25 01:59:49	AP for car = 0.9212
+train.py 2019-03-25 01:59:49	AP for pottedplant = 0.5293
+train.py 2019-03-25 01:59:49	AP for tvmonitor = 0.8187
+train.py 2019-03-25 01:59:49	AP for chair = 0.6717
+train.py 2019-03-25 01:59:49	AP for bird = 0.8106
+train.py 2019-03-25 01:59:49	AP for boat = 0.6996
+train.py 2019-03-25 01:59:49	AP for motorbike = 0.8793
+train.py 2019-03-25 01:59:49	mAP = 0.8227
+train.py 2019-03-25 01:59:53	Saved model:	weights/yolo.ckpt-42-0.8227
+train.py 2019-03-25 02:01:58	Period:	43	step:	118800	train_loss:	9.9327
+train.py 2019-03-25 02:04:46	Period:	43	step:	119075	train_loss:	9.3481
+train.py 2019-03-25 02:07:40	Period:	43	step:	119350	train_loss:	9.8850
+train.py 2019-03-25 02:10:29	Period:	43	step:	119625	train_loss:	9.3043
+train.py 2019-03-25 02:13:21	Period:	43	step:	119900	train_loss:	9.9555
+train.py 2019-03-25 02:16:09	Period:	43	step:	120175	train_loss:	9.4221
+train.py 2019-03-25 02:18:54	Period:	43	step:	120450	train_loss:	9.6908
+train.py 2019-03-25 02:21:40	Period:	43	step:	120725	train_loss:	9.4576
+train.py 2019-03-25 02:24:27	Period:	43	step:	121000	train_loss:	9.3988
+train.py 2019-03-25 02:27:12	Period:	43	step:	121275	train_loss:	9.6952
+train.py 2019-03-25 02:33:30	AP for sheep = 0.8419
+train.py 2019-03-25 02:33:30	AP for horse = 0.8980
+train.py 2019-03-25 02:33:30	AP for bicycle = 0.8852
+train.py 2019-03-25 02:33:30	AP for aeroplane = 0.9007
+train.py 2019-03-25 02:33:30	AP for cow = 0.8675
+train.py 2019-03-25 02:33:30	AP for sofa = 0.7696
+train.py 2019-03-25 02:33:30	AP for bus = 0.9061
+train.py 2019-03-25 02:33:30	AP for dog = 0.8581
+train.py 2019-03-25 02:33:30	AP for cat = 0.8910
+train.py 2019-03-25 02:33:30	AP for person = 0.8769
+train.py 2019-03-25 02:33:30	AP for train = 0.8744
+train.py 2019-03-25 02:33:30	AP for diningtable = 0.7735
+train.py 2019-03-25 02:33:30	AP for bottle = 0.7222
+train.py 2019-03-25 02:33:30	AP for car = 0.9218
+train.py 2019-03-25 02:33:30	AP for pottedplant = 0.5490
+train.py 2019-03-25 02:33:30	AP for tvmonitor = 0.8195
+train.py 2019-03-25 02:33:30	AP for chair = 0.6520
+train.py 2019-03-25 02:33:30	AP for bird = 0.8099
+train.py 2019-03-25 02:33:30	AP for boat = 0.6990
+train.py 2019-03-25 02:33:30	AP for motorbike = 0.8719
+train.py 2019-03-25 02:33:30	mAP = 0.8194
+train.py 2019-03-25 02:33:34	Saved model:	weights/yolo.ckpt-43-0.8194
+train.py 2019-03-25 02:35:34	Period:	44	step:	121550	train_loss:	9.5853
+train.py 2019-03-25 02:38:23	Period:	44	step:	121825	train_loss:	9.7994
+train.py 2019-03-25 02:41:08	Period:	44	step:	122100	train_loss:	9.9982
+train.py 2019-03-25 02:43:48	Period:	44	step:	122375	train_loss:	9.9930
+train.py 2019-03-25 02:46:36	Period:	44	step:	122650	train_loss:	10.2738
+train.py 2019-03-25 02:49:22	Period:	44	step:	122925	train_loss:	9.4953
+train.py 2019-03-25 02:52:12	Period:	44	step:	123200	train_loss:	9.5328
+train.py 2019-03-25 02:54:54	Period:	44	step:	123475	train_loss:	9.3648
+train.py 2019-03-25 02:57:45	Period:	44	step:	123750	train_loss:	8.9673
+train.py 2019-03-25 03:00:28	Period:	44	step:	124025	train_loss:	9.4077
+train.py 2019-03-25 03:07:01	AP for sheep = 0.8539
+train.py 2019-03-25 03:07:01	AP for horse = 0.8926
+train.py 2019-03-25 03:07:01	AP for bicycle = 0.8843
+train.py 2019-03-25 03:07:01	AP for aeroplane = 0.9080
+train.py 2019-03-25 03:07:01	AP for cow = 0.8640
+train.py 2019-03-25 03:07:01	AP for sofa = 0.7712
+train.py 2019-03-25 03:07:01	AP for bus = 0.9040
+train.py 2019-03-25 03:07:01	AP for dog = 0.8776
+train.py 2019-03-25 03:07:01	AP for cat = 0.8909
+train.py 2019-03-25 03:07:01	AP for person = 0.8827
+train.py 2019-03-25 03:07:01	AP for train = 0.8778
+train.py 2019-03-25 03:07:01	AP for diningtable = 0.7908
+train.py 2019-03-25 03:07:01	AP for bottle = 0.7274
+train.py 2019-03-25 03:07:01	AP for car = 0.9185
+train.py 2019-03-25 03:07:01	AP for pottedplant = 0.5320
+train.py 2019-03-25 03:07:01	AP for tvmonitor = 0.8243
+train.py 2019-03-25 03:07:01	AP for chair = 0.6665
+train.py 2019-03-25 03:07:01	AP for bird = 0.8175
+train.py 2019-03-25 03:07:01	AP for boat = 0.7007
+train.py 2019-03-25 03:07:01	AP for motorbike = 0.8751
+train.py 2019-03-25 03:07:01	mAP = 0.8230
+train.py 2019-03-25 03:07:05	Saved model:	weights/yolo.ckpt-44-0.8230
+train.py 2019-03-25 03:09:04	Period:	45	step:	124300	train_loss:	10.0358
+train.py 2019-03-25 03:11:49	Period:	45	step:	124575	train_loss:	9.8258
+train.py 2019-03-25 03:14:38	Period:	45	step:	124850	train_loss:	9.6164
+train.py 2019-03-25 03:17:22	Period:	45	step:	125125	train_loss:	9.4723
+train.py 2019-03-25 03:20:07	Period:	45	step:	125400	train_loss:	9.4800
+train.py 2019-03-25 03:22:57	Period:	45	step:	125675	train_loss:	10.0442
+train.py 2019-03-25 03:25:47	Period:	45	step:	125950	train_loss:	9.3411
+train.py 2019-03-25 03:28:38	Period:	45	step:	126225	train_loss:	10.0814
+train.py 2019-03-25 03:31:25	Period:	45	step:	126500	train_loss:	9.3881
+train.py 2019-03-25 03:34:13	Period:	45	step:	126775	train_loss:	9.6900
+train.py 2019-03-25 03:40:44	AP for sheep = 0.8551
+train.py 2019-03-25 03:40:44	AP for horse = 0.9027
+train.py 2019-03-25 03:40:44	AP for bicycle = 0.8913
+train.py 2019-03-25 03:40:44	AP for aeroplane = 0.9136
+train.py 2019-03-25 03:40:44	AP for cow = 0.8610
+train.py 2019-03-25 03:40:44	AP for sofa = 0.7877
+train.py 2019-03-25 03:40:44	AP for bus = 0.9045
+train.py 2019-03-25 03:40:44	AP for dog = 0.8696
+train.py 2019-03-25 03:40:44	AP for cat = 0.8873
+train.py 2019-03-25 03:40:44	AP for person = 0.8811
+train.py 2019-03-25 03:40:44	AP for train = 0.8810
+train.py 2019-03-25 03:40:44	AP for diningtable = 0.7811
+train.py 2019-03-25 03:40:44	AP for bottle = 0.7147
+train.py 2019-03-25 03:40:44	AP for car = 0.9202
+train.py 2019-03-25 03:40:44	AP for pottedplant = 0.5336
+train.py 2019-03-25 03:40:44	AP for tvmonitor = 0.8252
+train.py 2019-03-25 03:40:44	AP for chair = 0.6736
+train.py 2019-03-25 03:40:44	AP for bird = 0.8130
+train.py 2019-03-25 03:40:44	AP for boat = 0.7009
+train.py 2019-03-25 03:40:44	AP for motorbike = 0.8779
+train.py 2019-03-25 03:40:44	mAP = 0.8237
+train.py 2019-03-25 03:40:47	Saved model:	weights/yolo.ckpt-45-0.8237
+train.py 2019-03-25 03:42:35	Period:	46	step:	127050	train_loss:	9.5900
+train.py 2019-03-25 03:45:27	Period:	46	step:	127325	train_loss:	8.8113
+train.py 2019-03-25 03:48:15	Period:	46	step:	127600	train_loss:	10.0615
+train.py 2019-03-25 03:51:02	Period:	46	step:	127875	train_loss:	9.1541
+train.py 2019-03-25 03:53:53	Period:	46	step:	128150	train_loss:	9.6577
+train.py 2019-03-25 03:56:44	Period:	46	step:	128425	train_loss:	9.2603
+train.py 2019-03-25 03:59:29	Period:	46	step:	128700	train_loss:	9.4531
+train.py 2019-03-25 04:02:21	Period:	46	step:	128975	train_loss:	9.5095
+train.py 2019-03-25 04:05:09	Period:	46	step:	129250	train_loss:	9.5807
+train.py 2019-03-25 04:07:58	Period:	46	step:	129525	train_loss:	9.4380
+train.py 2019-03-25 04:14:38	AP for sheep = 0.8528
+train.py 2019-03-25 04:14:38	AP for horse = 0.8930
+train.py 2019-03-25 04:14:38	AP for bicycle = 0.8941
+train.py 2019-03-25 04:14:38	AP for aeroplane = 0.9201
+train.py 2019-03-25 04:14:38	AP for cow = 0.8846
+train.py 2019-03-25 04:14:38	AP for sofa = 0.7766
+train.py 2019-03-25 04:14:38	AP for bus = 0.8949
+train.py 2019-03-25 04:14:38	AP for dog = 0.8719
+train.py 2019-03-25 04:14:38	AP for cat = 0.8930
+train.py 2019-03-25 04:14:38	AP for person = 0.8826
+train.py 2019-03-25 04:14:38	AP for train = 0.8842
+train.py 2019-03-25 04:14:38	AP for diningtable = 0.7852
+train.py 2019-03-25 04:14:38	AP for bottle = 0.7336
+train.py 2019-03-25 04:14:38	AP for car = 0.9198
+train.py 2019-03-25 04:14:38	AP for pottedplant = 0.5370
+train.py 2019-03-25 04:14:38	AP for tvmonitor = 0.8256
+train.py 2019-03-25 04:14:38	AP for chair = 0.6701
+train.py 2019-03-25 04:14:38	AP for bird = 0.8170
+train.py 2019-03-25 04:14:38	AP for boat = 0.7108
+train.py 2019-03-25 04:14:38	AP for motorbike = 0.8753
+train.py 2019-03-25 04:14:38	mAP = 0.8261
+train.py 2019-03-25 04:14:41	Saved model:	weights/yolo.ckpt-46-0.8261
+train.py 2019-03-25 04:16:25	Period:	47	step:	129800	train_loss:	9.4137
+train.py 2019-03-25 04:19:14	Period:	47	step:	130075	train_loss:	9.7606
+train.py 2019-03-25 04:21:57	Period:	47	step:	130350	train_loss:	9.7039
+train.py 2019-03-25 04:24:45	Period:	47	step:	130625	train_loss:	9.3829
+train.py 2019-03-25 04:27:33	Period:	47	step:	130900	train_loss:	9.7053
+train.py 2019-03-25 04:30:24	Period:	47	step:	131175	train_loss:	9.4369
+train.py 2019-03-25 04:33:12	Period:	47	step:	131450	train_loss:	9.5157
+train.py 2019-03-25 04:35:58	Period:	47	step:	131725	train_loss:	9.6576
+train.py 2019-03-25 04:38:45	Period:	47	step:	132000	train_loss:	9.6202
+train.py 2019-03-25 04:41:34	Period:	47	step:	132275	train_loss:	9.0527
+train.py 2019-03-25 04:48:16	AP for sheep = 0.8521
+train.py 2019-03-25 04:48:16	AP for horse = 0.8936
+train.py 2019-03-25 04:48:16	AP for bicycle = 0.8891
+train.py 2019-03-25 04:48:16	AP for aeroplane = 0.9198
+train.py 2019-03-25 04:48:16	AP for cow = 0.8732
+train.py 2019-03-25 04:48:16	AP for sofa = 0.7782
+train.py 2019-03-25 04:48:16	AP for bus = 0.9092
+train.py 2019-03-25 04:48:16	AP for dog = 0.8800
+train.py 2019-03-25 04:48:16	AP for cat = 0.8959
+train.py 2019-03-25 04:48:16	AP for person = 0.8807
+train.py 2019-03-25 04:48:16	AP for train = 0.8804
+train.py 2019-03-25 04:48:16	AP for diningtable = 0.7802
+train.py 2019-03-25 04:48:16	AP for bottle = 0.7332
+train.py 2019-03-25 04:48:16	AP for car = 0.9210
+train.py 2019-03-25 04:48:16	AP for pottedplant = 0.5395
+train.py 2019-03-25 04:48:16	AP for tvmonitor = 0.8293
+train.py 2019-03-25 04:48:16	AP for chair = 0.6732
+train.py 2019-03-25 04:48:16	AP for bird = 0.8168
+train.py 2019-03-25 04:48:16	AP for boat = 0.7211
+train.py 2019-03-25 04:48:16	AP for motorbike = 0.8802
+train.py 2019-03-25 04:48:16	mAP = 0.8273
+train.py 2019-03-25 04:48:20	Saved model:	weights/yolo.ckpt-47-0.8273
+train.py 2019-03-25 04:49:58	Period:	48	step:	132550	train_loss:	9.5207
+train.py 2019-03-25 04:52:52	Period:	48	step:	132825	train_loss:	9.5940
+train.py 2019-03-25 04:55:37	Period:	48	step:	133100	train_loss:	9.6673
+train.py 2019-03-25 04:58:33	Period:	48	step:	133375	train_loss:	9.5136
+train.py 2019-03-25 05:01:25	Period:	48	step:	133650	train_loss:	9.6749
+train.py 2019-03-25 05:04:13	Period:	48	step:	133925	train_loss:	9.1232
+train.py 2019-03-25 05:07:03	Period:	48	step:	134200	train_loss:	9.6739
+train.py 2019-03-25 05:09:50	Period:	48	step:	134475	train_loss:	9.4661
+train.py 2019-03-25 05:12:39	Period:	48	step:	134750	train_loss:	9.5492
+train.py 2019-03-25 05:15:32	Period:	48	step:	135025	train_loss:	9.4709
+train.py 2019-03-25 05:22:12	AP for sheep = 0.8446
+train.py 2019-03-25 05:22:12	AP for horse = 0.8958
+train.py 2019-03-25 05:22:12	AP for bicycle = 0.8908
+train.py 2019-03-25 05:22:12	AP for aeroplane = 0.9117
+train.py 2019-03-25 05:22:12	AP for cow = 0.8780
+train.py 2019-03-25 05:22:12	AP for sofa = 0.7702
+train.py 2019-03-25 05:22:12	AP for bus = 0.9035
+train.py 2019-03-25 05:22:12	AP for dog = 0.8732
+train.py 2019-03-25 05:22:12	AP for cat = 0.8900
+train.py 2019-03-25 05:22:12	AP for person = 0.8818
+train.py 2019-03-25 05:22:12	AP for train = 0.8822
+train.py 2019-03-25 05:22:12	AP for diningtable = 0.7832
+train.py 2019-03-25 05:22:12	AP for bottle = 0.7334
+train.py 2019-03-25 05:22:12	AP for car = 0.9211
+train.py 2019-03-25 05:22:12	AP for pottedplant = 0.5414
+train.py 2019-03-25 05:22:12	AP for tvmonitor = 0.8283
+train.py 2019-03-25 05:22:12	AP for chair = 0.6670
+train.py 2019-03-25 05:22:12	AP for bird = 0.8158
+train.py 2019-03-25 05:22:12	AP for boat = 0.7185
+train.py 2019-03-25 05:22:12	AP for motorbike = 0.8770
+train.py 2019-03-25 05:22:12	mAP = 0.8254
+train.py 2019-03-25 05:22:15	Saved model:	weights/yolo.ckpt-48-0.8254
+train.py 2019-03-25 05:23:53	Period:	49	step:	135300	train_loss:	9.4267
+train.py 2019-03-25 05:26:45	Period:	49	step:	135575	train_loss:	9.3463
+train.py 2019-03-25 05:29:35	Period:	49	step:	135850	train_loss:	9.0735
+train.py 2019-03-25 05:32:24	Period:	49	step:	136125	train_loss:	9.4378
+train.py 2019-03-25 05:35:12	Period:	49	step:	136400	train_loss:	9.4017
+train.py 2019-03-25 05:37:57	Period:	49	step:	136675	train_loss:	9.5282
+train.py 2019-03-25 05:40:47	Period:	49	step:	136950	train_loss:	9.9817
+train.py 2019-03-25 05:43:35	Period:	49	step:	137225	train_loss:	9.7162
+train.py 2019-03-25 05:46:19	Period:	49	step:	137500	train_loss:	9.5331
+train.py 2019-03-25 05:49:04	Period:	49	step:	137775	train_loss:	9.8930
+train.py 2019-03-25 05:55:50	AP for sheep = 0.8513
+train.py 2019-03-25 05:55:50	AP for horse = 0.8954
+train.py 2019-03-25 05:55:50	AP for bicycle = 0.8921
+train.py 2019-03-25 05:55:50	AP for aeroplane = 0.9172
+train.py 2019-03-25 05:55:50	AP for cow = 0.8801
+train.py 2019-03-25 05:55:50	AP for sofa = 0.7819
+train.py 2019-03-25 05:55:50	AP for bus = 0.9027
+train.py 2019-03-25 05:55:50	AP for dog = 0.8752
+train.py 2019-03-25 05:55:50	AP for cat = 0.8935
+train.py 2019-03-25 05:55:50	AP for person = 0.8823
+train.py 2019-03-25 05:55:50	AP for train = 0.8808
+train.py 2019-03-25 05:55:50	AP for diningtable = 0.7847
+train.py 2019-03-25 05:55:50	AP for bottle = 0.7315
+train.py 2019-03-25 05:55:50	AP for car = 0.9220
+train.py 2019-03-25 05:55:50	AP for pottedplant = 0.5505
+train.py 2019-03-25 05:55:50	AP for tvmonitor = 0.8241
+train.py 2019-03-25 05:55:50	AP for chair = 0.6715
+train.py 2019-03-25 05:55:50	AP for bird = 0.8164
+train.py 2019-03-25 05:55:50	AP for boat = 0.7097
+train.py 2019-03-25 05:55:50	AP for motorbike = 0.8750
+train.py 2019-03-25 05:55:50	mAP = 0.8269
+train.py 2019-03-25 05:55:53	Saved model:	weights/yolo.ckpt-49-0.8269

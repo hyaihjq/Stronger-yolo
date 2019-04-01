@@ -21,8 +21,7 @@ test score threshold: 0.01<br>
 </table>
 
 ## To do
-- [ ] Deformable convolutional networks<br>
-- [ ] Scale-Aware Trident Networks for Object Detection<br>
+- [ ] MobileNet<br>
 - [ ] Model compression<br>
 
 ## Usage
@@ -96,5 +95,5 @@ software
 - Tensorflow.1.8.0 <br>
 - Opencv3.4.1 <br>
 
-headware
+hardware
 - 12G 1080Ti

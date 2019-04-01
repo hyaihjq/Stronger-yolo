@@ -142,30 +142,30 @@ class YOLOV3(object):
             input_size = stride * output_size
             conv = tf.reshape(conv, (batch_size, output_size, output_size,
                                      self.__gt_per_grid, 5 + self.__num_classes))
-            conv_raw_conf = conv[:, :, :, :, 4:5]
-            conv_raw_prob = conv[:, :, :, :, 5:]
+            conv_raw_conf = conv[..., 4:5]
+            conv_raw_prob = conv[..., 5:]
 
-            pred_coor = pred[:, :, :, :, 0:4]
-            pred_conf = pred[:, :, :, :, 4:5]
+            pred_coor = pred[..., 0:4]
+            pred_conf = pred[..., 4:5]
 
-            label_coor = label[:, :, :, :, 0:4]
-            respond_bbox = label[:, :, :, :, 4:5]
-            label_prob = label[:, :, :, :, 5:-1]
-            label_mixw = label[:, :, :, :, -1:]
+            label_coor = label[..., 0:4]
+            respond_bbox = label[..., 4:5]
+            label_prob = label[..., 5:-1]
+            label_mixw = label[..., -1:]
 
             # 计算GIOU损失
             GIOU = tools.GIOU(pred_coor, label_coor)
             GIOU = GIOU[..., np.newaxis]
             input_size = tf.cast(input_size, tf.float32)
             bbox_wh = label_coor[..., 2:] - label_coor[..., :2]
-            bbox_loss_scale = 2.0 - 1.0 * bbox_wh[0] * bbox_wh[1] / (input_size ** 2)
+            bbox_loss_scale = 2.0 - 1.0 * bbox_wh[..., 0:1] * bbox_wh[..., 1:2] / (input_size ** 2)
             GIOU_loss = respond_bbox * bbox_loss_scale * (1.0 - GIOU)
 
             # (2)计算confidence损失
             iou = tools.iou_calc3(pred_coor[:, :, :, :, np.newaxis, :],
                                   bboxes[:, np.newaxis, np.newaxis, np.newaxis, :, : ])
             max_iou = tf.reduce_max(iou, axis=-1)
-            max_iou = max_iou[:, :, :, :, np.newaxis]
+            max_iou = max_iou[..., np.newaxis]
             respond_bgd = (1.0 - respond_bbox) * tf.cast(max_iou < self.__iou_loss_thresh, tf.float32)
 
             conf_focal = self.__focal(respond_bbox, pred_conf)

@@ -32,7 +32,6 @@ class Data(object):
         self.__num_classes = len(self.__classes)
         self.__gt_per_grid = cfg.GT_PER_GRID
         self.__class_to_ind = dict(zip(self.__classes, range(self.__num_classes)))
-        self.__max_bbox_per_scale = cfg.MAX_BBOX_PER_SCALE
 
         annotations = self.__load_annotations(dataset_type)
         num_annotations = len(annotations)
@@ -88,9 +87,12 @@ class Data(object):
                                           self.__gt_per_grid, 6 + self.__num_classes))
             batch_label_lbbox = np.zeros((self.__batch_size, self.__train_output_sizes[2], self.__train_output_sizes[2],
                                           self.__gt_per_grid, 6 + self.__num_classes))
-            batch_sbboxes = np.zeros((self.__batch_size, self.__max_bbox_per_scale, 4))
-            batch_mbboxes = np.zeros((self.__batch_size, self.__max_bbox_per_scale, 4))
-            batch_lbboxes = np.zeros((self.__batch_size, self.__max_bbox_per_scale, 4))
+            temp_batch_sbboxes = []
+            temp_batch_mbboxes = []
+            temp_batch_lbboxes = []
+            max_sbbox_per_img = 0
+            max_mbbox_per_img = 0
+            max_lbbox_per_img = 0
             num = 0
             if self.__batch_count < self.__num_batchs:
                 while num < self.__batch_size:
@@ -123,10 +125,24 @@ class Data(object):
                     batch_label_sbbox[num, :, :, :, :] = label_sbbox
                     batch_label_mbbox[num, :, :, :, :] = label_mbbox
                     batch_label_lbbox[num, :, :, :, :] = label_lbbox
-                    batch_sbboxes[num, :, :] = sbboxes
-                    batch_mbboxes[num, :, :] = mbboxes
-                    batch_lbboxes[num, :, :] = lbboxes
+
+                    zeros = np.zeros((1, 4), dtype=np.float32)
+                    sbboxes = sbboxes if len(sbboxes) != 0 else zeros
+                    mbboxes = mbboxes if len(mbboxes) != 0 else zeros
+                    lbboxes = lbboxes if len(lbboxes) != 0 else zeros
+                    temp_batch_sbboxes.append(sbboxes)
+                    temp_batch_mbboxes.append(mbboxes)
+                    temp_batch_lbboxes.append(lbboxes)
+                    max_sbbox_per_img = max(max_sbbox_per_img, len(sbboxes))
+                    max_mbbox_per_img = max(max_mbbox_per_img, len(mbboxes))
+                    max_lbbox_per_img = max(max_lbbox_per_img, len(lbboxes))
                     num += 1
+                batch_sbboxes = np.array([np.concatenate([sbboxes, np.zeros((max_sbbox_per_img + 1 - len(sbboxes), 4), dtype=np.float32)], axis=0)
+                                          for sbboxes in temp_batch_sbboxes])
+                batch_mbboxes = np.array([np.concatenate([mbboxes, np.zeros((max_mbbox_per_img + 1 - len(mbboxes), 4), dtype=np.float32)], axis=0)
+                                          for mbboxes in temp_batch_mbboxes])
+                batch_lbboxes = np.array([np.concatenate([lbboxes, np.zeros((max_lbbox_per_img + 1 - len(lbboxes), 4), dtype=np.float32)], axis=0)
+                                          for lbboxes in temp_batch_lbboxes])
                 self.__batch_count += 1
                 return batch_image, batch_label_sbbox, batch_label_mbbox, batch_label_lbbox, \
                        batch_sbboxes, batch_mbboxes, batch_lbboxes
@@ -173,22 +189,23 @@ class Data(object):
         lbboxes：shape为(max_bbox_per_scale, 4)
         存储的坐标为(xmin, ymin, xmax, ymax)，大小都是bbox纠正后的原始大小
         """
-        label = [np.zeros((self.__train_output_sizes[i], self.__train_output_sizes[i], self.__gt_per_grid,
-                           6 + self.__num_classes)) for i in range(3)]
+        label = [np.zeros((self.__train_output_sizes[i], self.__train_output_sizes[i],
+                           self.__gt_per_grid, 6 + self.__num_classes)) for i in range(3)]
         # mixup weight位默认为1.0
         for i in range(3):
             label[i][:, :, :, -1] = 1.0
-        bboxes_count = [np.zeros((self.__train_output_sizes[i], self.__train_output_sizes[i]))
-                        for i in range(3)]
-
-        bboxes_coor = [np.zeros((self.__max_bbox_per_scale, 4)) for _ in range(3)]
-        bbox_count = np.zeros((3,))
+        bboxes_coor = [[] for _ in range(3)]
+        bboxes_count = [np.zeros((self.__train_output_sizes[i], self.__train_output_sizes[i])) for i in range(3)]
 
         for bbox in bboxes:
+            # (1)获取bbox在原图上的顶点坐标、类别索引、mix up权重、中心坐标、高宽、尺度
             bbox_coor = bbox[:4]
             bbox_class_ind = int(bbox[4])
             bbox_mixw = bbox[5]
-            
+            bbox_xywh = np.concatenate([(bbox_coor[2:] + bbox_coor[:2]) * 0.5,
+                                        bbox_coor[2:] - bbox_coor[:2]], axis=-1)
+            bbox_scale = np.sqrt(np.multiply.reduce(bbox_xywh[2:]))
+
             # label smooth
             onehot = np.zeros(self.__num_classes, dtype=np.float)
             onehot[bbox_class_ind] = 1.0
@@ -196,31 +213,23 @@ class Data(object):
             deta = 0.01
             smooth_onehot = onehot * (1 - deta) + deta * uniform_distribution
 
-            bbox_scale = np.sqrt(np.multiply.reduce(bbox_coor[2:] - bbox_coor[:2]))
-            # (xmin, ymin, xmax, ymax) -> (x_center, y_center)
-            bbox_center = (bbox_coor[2:] + bbox_coor[:2]) * 0.5
-
             if bbox_scale <= 30:
-                best_detect = 0
+                match_branch = 0
             elif (30 < bbox_scale) and (bbox_scale <= 90):
-                best_detect = 1
+                match_branch = 1
             else:
-                best_detect = 2
+                match_branch = 2
 
-            xind, yind = np.floor(1.0 * bbox_center / self.__strides[best_detect]).astype(np.int32)
-            gt_count = int(bboxes_count[best_detect][yind, xind] % self.__gt_per_grid)
-            if bboxes_count[best_detect][yind, xind] == 0:
-                gt_count = [True for _ in range(self.__gt_per_grid)]
-            label[best_detect][yind, xind, gt_count, :] = 0
-            label[best_detect][yind, xind, gt_count, 0:4] = bbox_coor
-            label[best_detect][yind, xind, gt_count, 4:5] = 1.0
-            label[best_detect][yind, xind, gt_count, 5:-1] = smooth_onehot
-            label[best_detect][yind, xind, gt_count, -1] = bbox_mixw
-            bboxes_count[best_detect][yind, xind] += 1
-
-            bbox_ind = int(bbox_count[best_detect] % self.__max_bbox_per_scale)
-            bboxes_coor[best_detect][bbox_ind, :4] = bbox_coor
-            bbox_count[best_detect] += 1
+            xind, yind = np.floor(1.0 * bbox_xywh[:2] / self.__strides[match_branch]).astype(np.int32)
+            gt_count = int(bboxes_count[match_branch][yind, xind])
+            if gt_count < self.__gt_per_grid:
+                if gt_count == 0:
+                    gt_count = slice(None)
+                bbox_label = np.concatenate([bbox_coor, [1.0], smooth_onehot, [bbox_mixw]], axis=-1)
+                label[match_branch][yind, xind, gt_count, :] = 0
+                label[match_branch][yind, xind, gt_count, :] = bbox_label
+                bboxes_count[match_branch][yind, xind] += 1
+                bboxes_coor[match_branch].append(bbox_coor)
         label_sbbox, label_mbbox, label_lbbox = label
         sbboxes, mbboxes, lbboxes = bboxes_coor
         return label_sbbox, label_mbbox, label_lbbox, sbboxes, mbboxes, lbboxes
@@ -231,17 +240,6 @@ class Data(object):
 
 if __name__ == '__main__':
     data_obj = Data('train')
-    for batch_image, batch_label_sbbox, batch_label_mbbox, batch_label_lbbox, \
-                       batch_sbboxes, batch_mbboxes, batch_lbboxes in data_obj:
-        print batch_image.shape
-        print batch_label_sbbox.shape
-        print batch_label_mbbox.shape
-        print batch_label_lbbox.shape
-        print batch_sbboxes.shape
-        print batch_mbboxes.shape
-        print batch_lbboxes.shape
-
-    data_obj = Data('test')
     for batch_image, batch_label_sbbox, batch_label_mbbox, batch_label_lbbox, \
                        batch_sbboxes, batch_mbboxes, batch_lbboxes in data_obj:
         print batch_image.shape

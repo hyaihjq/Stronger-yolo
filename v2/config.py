@@ -15,7 +15,6 @@ MAX_PERIODS = 50
 
 GT_PER_GRID = 3
 MOVING_AVE_DECAY = 0.9995
-MAX_BBOX_PER_SCALE = 150
 
 # test
 SCORE_THRESHOLD = 0.01    # The threshold of the probability of the classes
