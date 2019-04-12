@@ -21,7 +21,7 @@ IOU_THRESHOLD = 0.45     # The threshold of the IOU when implement NMS
 
 # name and path
 DATASET_PATH = '/home/xzh/doc/code/python_code/data/VOC'
-PROJECT_PATH = '/home/xzh/doc/code/python_code/Stronger-yolo-lite/v2'
+PROJECT_PATH = '/home/xzh/doc/code/python_code/Stronger-yolo/v3'
 WEIGHTS_DIR = 'weights'
 WEIGHTS_INIT = 'weights/mobilenet_v2_1.0_224.ckpt'
 LOG_DIR = 'log'
