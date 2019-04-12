@@ -36,12 +36,16 @@ test CPU: E5-2678 v3 @ 2.50GHz
     |--|--|--2012_trainval<br>
     |--|--|--2007_trainval<br>
     |--|--|--2007_test<br>
-
-3. train<br>
+3. prepare initial weights<br>
+    Download [mobilenet_v2_1.0_224.weights](https://storage.googleapis.com/mobilenet_v2/checkpoints/mobilenet_v2_1.0_224.tgz) firstly, 
+    put the initial weight into `weights/`.
+    
+4. train<br>
     ``` bash
     nohup python train.py --gpu=0 &
     ```
 5. test<br>
+    Download test weight [yolov3-lite.ckpt](https://drive.google.com/drive/folders/16Go8A676NzQD3DQF4Um8Yan2tjWd_94o).<br>
     **If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
     If you want to use it in actual projects, or if you want speed, you can set the score threshold to 0.2.<br>**
     ``` bash

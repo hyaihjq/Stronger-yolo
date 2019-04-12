@@ -54,7 +54,7 @@ test score threshold: 0.01<br>
     ```
 3. prepare initial weights<br>
     Download [darknet53_448.weights](https://pjreddie.com/media/files/darknet53_448.weights) firstly, 
-    put the yolov3.weights into `darknet2tf/`, and then 
+    put the initial weights into `darknet2tf/`, and then 
     ```bash
     cd darknet2tf
     python3 convert_weights.py --weights_file=darknet53_448.weights --data_format=NHWC

@@ -1,0 +1,2184 @@
+data.py 2019-04-11 11:32:19	The number of image for train is:                 16551
+deprecation.py 2019-04-11 11:32:19	From /usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+deprecation.py 2019-04-11 11:32:23	From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_1/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_1/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_2/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_2/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_3/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_3/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_4/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_4/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_5/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_5/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_6/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_6/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_7/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_7/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_8/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_8/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_9/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_9/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_10/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_10/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_11/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_11/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_12/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_12/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_13/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_13/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_14/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_14/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_15/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_15/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/expand/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/expand/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/expand/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/expand/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/expand/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/expand/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/depthwise/depthwise_weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/depthwise/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/depthwise/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/depthwise/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/depthwise/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/project/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/project/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/project/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/project/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/project/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/expanded_conv_16/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/expanded_conv_16/project/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv_1/weights
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv_1/weights
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv_1/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv_1/BatchNorm/gamma
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv_1/BatchNorm/beta
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv_1/BatchNorm/beta
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv_1/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv_1/BatchNorm/moving_mean
+train.py 2019-04-11 11:32:36		YoloV3/MobilenetV2/Conv_1/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:36		MobilenetV2/Conv_1/BatchNorm/moving_variance
+train.py 2019-04-11 11:32:42	Restoring weights from:	 weights/mobilenet_v2_1.0_224.ckpt
+deprecation.py 2019-04-11 11:32:42	From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+saver.py 2019-04-11 11:32:42	Restoring parameters from weights/mobilenet_v2_1.0_224.ckpt
+train.py 2019-04-11 11:34:49	Learn rate:	0.000007	period:	0	step:	206	train_loss:	2438.3013
+train.py 2019-04-11 11:36:33	Learn rate:	0.000013	period:	0	step:	412	train_loss:	1737.6803
+train.py 2019-04-11 11:38:17	Learn rate:	0.000020	period:	0	step:	618	train_loss:	947.2917
+train.py 2019-04-11 11:40:00	Learn rate:	0.000027	period:	0	step:	824	train_loss:	543.5129
+train.py 2019-04-11 11:41:44	Learn rate:	0.000033	period:	0	step:	1030	train_loss:	336.9980
+train.py 2019-04-11 11:43:29	Learn rate:	0.000040	period:	0	step:	1236	train_loss:	215.1531
+train.py 2019-04-11 11:45:15	Learn rate:	0.000046	period:	0	step:	1442	train_loss:	147.1321
+train.py 2019-04-11 11:47:05	Learn rate:	0.000053	period:	0	step:	1648	train_loss:	101.8535
+train.py 2019-04-11 11:48:52	Learn rate:	0.000060	period:	0	step:	1854	train_loss:	73.6423
+train.py 2019-04-11 11:50:39	Learn rate:	0.000066	period:	0	step:	2060	train_loss:	66.8970
+train.py 2019-04-11 11:52:25	Learn rate:	0.000073	period:	1	step:	2266	train_loss:	52.9337
+train.py 2019-04-11 11:54:09	Learn rate:	0.000080	period:	1	step:	2472	train_loss:	46.9942
+train.py 2019-04-11 11:55:49	Learn rate:	0.000086	period:	1	step:	2678	train_loss:	42.7521
+train.py 2019-04-11 11:57:33	Learn rate:	0.000093	period:	1	step:	2884	train_loss:	39.7286
+train.py 2019-04-11 11:59:19	Learn rate:	0.000100	period:	1	step:	3090	train_loss:	36.3017
+train.py 2019-04-11 12:01:05	Learn rate:	0.000106	period:	1	step:	3296	train_loss:	33.5906
+train.py 2019-04-11 12:02:50	Learn rate:	0.000113	period:	1	step:	3502	train_loss:	32.9608
+train.py 2019-04-11 12:04:32	Learn rate:	0.000120	period:	1	step:	3708	train_loss:	31.9182
+train.py 2019-04-11 12:06:18	Learn rate:	0.000126	period:	1	step:	3914	train_loss:	30.4142
+train.py 2019-04-11 12:07:58	Learn rate:	0.000133	period:	1	step:	4120	train_loss:	31.2182
+train.py 2019-04-11 12:09:47	Learn rate:	0.000133	period:	2	step:	4326	train_loss:	30.4139
+train.py 2019-04-11 12:11:31	Learn rate:	0.000133	period:	2	step:	4532	train_loss:	27.4406
+train.py 2019-04-11 12:13:18	Learn rate:	0.000133	period:	2	step:	4738	train_loss:	29.1771
+train.py 2019-04-11 12:15:00	Learn rate:	0.000133	period:	2	step:	4944	train_loss:	29.0754
+train.py 2019-04-11 12:16:41	Learn rate:	0.000133	period:	2	step:	5150	train_loss:	27.4639
+train.py 2019-04-11 12:18:25	Learn rate:	0.000133	period:	2	step:	5356	train_loss:	26.5980
+train.py 2019-04-11 12:20:08	Learn rate:	0.000133	period:	2	step:	5562	train_loss:	26.0227
+train.py 2019-04-11 12:21:52	Learn rate:	0.000133	period:	2	step:	5768	train_loss:	26.7440
+train.py 2019-04-11 12:23:39	Learn rate:	0.000133	period:	2	step:	5974	train_loss:	27.1731
+train.py 2019-04-11 12:25:23	Learn rate:	0.000133	period:	2	step:	6180	train_loss:	25.0734
+train.py 2019-04-11 12:27:08	Learn rate:	0.000133	period:	3	step:	6386	train_loss:	24.7282
+train.py 2019-04-11 12:28:52	Learn rate:	0.000133	period:	3	step:	6592	train_loss:	25.9416
+train.py 2019-04-11 12:30:33	Learn rate:	0.000133	period:	3	step:	6798	train_loss:	24.7594
+train.py 2019-04-11 12:32:21	Learn rate:	0.000133	period:	3	step:	7004	train_loss:	25.0913
+train.py 2019-04-11 12:34:14	Learn rate:	0.000133	period:	3	step:	7210	train_loss:	24.5692
+train.py 2019-04-11 12:36:07	Learn rate:	0.000133	period:	3	step:	7416	train_loss:	24.5217
+train.py 2019-04-11 12:38:04	Learn rate:	0.000133	period:	3	step:	7622	train_loss:	24.0999
+train.py 2019-04-11 12:39:54	Learn rate:	0.000133	period:	3	step:	7828	train_loss:	24.2098
+train.py 2019-04-11 12:41:34	Learn rate:	0.000133	period:	3	step:	8034	train_loss:	24.1762
+train.py 2019-04-11 12:43:15	Learn rate:	0.000133	period:	3	step:	8240	train_loss:	24.2356
+train.py 2019-04-11 12:45:01	Learn rate:	0.000133	period:	4	step:	8446	train_loss:	23.3466
+train.py 2019-04-11 12:46:47	Learn rate:	0.000133	period:	4	step:	8652	train_loss:	22.5854
+train.py 2019-04-11 12:48:35	Learn rate:	0.000133	period:	4	step:	8858	train_loss:	23.1209
+train.py 2019-04-11 12:50:32	Learn rate:	0.000133	period:	4	step:	9064	train_loss:	23.1773
+train.py 2019-04-11 12:52:12	Learn rate:	0.000133	period:	4	step:	9270	train_loss:	23.1535
+train.py 2019-04-11 12:53:57	Learn rate:	0.000133	period:	4	step:	9476	train_loss:	23.1904
+train.py 2019-04-11 12:55:46	Learn rate:	0.000133	period:	4	step:	9682	train_loss:	23.0423
+train.py 2019-04-11 12:57:36	Learn rate:	0.000133	period:	4	step:	9888	train_loss:	23.2016
+train.py 2019-04-11 12:59:19	Learn rate:	0.000133	period:	4	step:	10094	train_loss:	22.0675
+train.py 2019-04-11 01:01:10	Learn rate:	0.000133	period:	4	step:	10300	train_loss:	22.2355
+train.py 2019-04-11 01:03:06	Learn rate:	0.000133	period:	5	step:	10506	train_loss:	21.7646
+train.py 2019-04-11 01:04:49	Learn rate:	0.000133	period:	5	step:	10712	train_loss:	22.0149
+train.py 2019-04-11 01:06:30	Learn rate:	0.000132	period:	5	step:	10918	train_loss:	22.0407
+train.py 2019-04-11 01:08:13	Learn rate:	0.000132	period:	5	step:	11124	train_loss:	21.9310
+train.py 2019-04-11 01:09:59	Learn rate:	0.000132	period:	5	step:	11330	train_loss:	21.8708
+train.py 2019-04-11 01:11:41	Learn rate:	0.000132	period:	5	step:	11536	train_loss:	21.5131
+train.py 2019-04-11 01:13:25	Learn rate:	0.000132	period:	5	step:	11742	train_loss:	21.4707
+train.py 2019-04-11 01:15:11	Learn rate:	0.000132	period:	5	step:	11948	train_loss:	22.4342
+train.py 2019-04-11 01:16:54	Learn rate:	0.000132	period:	5	step:	12154	train_loss:	22.0921
+train.py 2019-04-11 01:18:38	Learn rate:	0.000132	period:	5	step:	12360	train_loss:	23.3862
+train.py 2019-04-11 01:20:27	Learn rate:	0.000132	period:	6	step:	12566	train_loss:	21.5297
+train.py 2019-04-11 01:22:13	Learn rate:	0.000132	period:	6	step:	12772	train_loss:	21.7125
+train.py 2019-04-11 01:24:05	Learn rate:	0.000132	period:	6	step:	12978	train_loss:	20.5293
+train.py 2019-04-11 01:25:50	Learn rate:	0.000132	period:	6	step:	13184	train_loss:	22.2437
+train.py 2019-04-11 01:27:31	Learn rate:	0.000132	period:	6	step:	13390	train_loss:	21.2103
+train.py 2019-04-11 01:29:13	Learn rate:	0.000132	period:	6	step:	13596	train_loss:	22.1948
+train.py 2019-04-11 01:31:01	Learn rate:	0.000132	period:	6	step:	13802	train_loss:	21.5572
+train.py 2019-04-11 01:32:45	Learn rate:	0.000132	period:	6	step:	14008	train_loss:	21.1265
+train.py 2019-04-11 01:34:29	Learn rate:	0.000131	period:	6	step:	14214	train_loss:	20.4371
+train.py 2019-04-11 01:36:16	Learn rate:	0.000131	period:	6	step:	14420	train_loss:	20.1374
+train.py 2019-04-11 01:38:03	Learn rate:	0.000131	period:	7	step:	14626	train_loss:	20.6306
+train.py 2019-04-11 01:39:50	Learn rate:	0.000131	period:	7	step:	14832	train_loss:	19.8073
+train.py 2019-04-11 01:41:36	Learn rate:	0.000131	period:	7	step:	15038	train_loss:	21.3396
+train.py 2019-04-11 01:43:19	Learn rate:	0.000131	period:	7	step:	15244	train_loss:	20.5017
+train.py 2019-04-11 01:44:57	Learn rate:	0.000131	period:	7	step:	15450	train_loss:	20.9458
+train.py 2019-04-11 01:46:45	Learn rate:	0.000131	period:	7	step:	15656	train_loss:	20.3551
+train.py 2019-04-11 01:48:28	Learn rate:	0.000131	period:	7	step:	15862	train_loss:	20.5701
+train.py 2019-04-11 01:50:10	Learn rate:	0.000131	period:	7	step:	16068	train_loss:	20.1418
+train.py 2019-04-11 01:51:53	Learn rate:	0.000131	period:	7	step:	16274	train_loss:	20.8127
+train.py 2019-04-11 01:53:36	Learn rate:	0.000131	period:	7	step:	16480	train_loss:	20.9894
+train.py 2019-04-11 01:55:27	Learn rate:	0.000130	period:	8	step:	16686	train_loss:	20.7650
+train.py 2019-04-11 01:57:12	Learn rate:	0.000130	period:	8	step:	16892	train_loss:	20.2565
+train.py 2019-04-11 01:58:53	Learn rate:	0.000130	period:	8	step:	17098	train_loss:	19.8407
+train.py 2019-04-11 02:00:36	Learn rate:	0.000130	period:	8	step:	17304	train_loss:	19.7814
+train.py 2019-04-11 02:02:17	Learn rate:	0.000130	period:	8	step:	17510	train_loss:	19.9281
+train.py 2019-04-11 02:04:03	Learn rate:	0.000130	period:	8	step:	17716	train_loss:	21.7965
+train.py 2019-04-11 02:05:48	Learn rate:	0.000130	period:	8	step:	17922	train_loss:	19.6644
+train.py 2019-04-11 02:07:34	Learn rate:	0.000130	period:	8	step:	18128	train_loss:	20.1459
+train.py 2019-04-11 02:09:23	Learn rate:	0.000130	period:	8	step:	18334	train_loss:	19.6169
+train.py 2019-04-11 02:11:09	Learn rate:	0.000130	period:	8	step:	18540	train_loss:	20.4679
+train.py 2019-04-11 02:12:59	Learn rate:	0.000129	period:	9	step:	18746	train_loss:	19.4795
+train.py 2019-04-11 02:14:44	Learn rate:	0.000129	period:	9	step:	18952	train_loss:	19.3343
+train.py 2019-04-11 02:16:28	Learn rate:	0.000129	period:	9	step:	19158	train_loss:	19.4509
+train.py 2019-04-11 02:18:17	Learn rate:	0.000129	period:	9	step:	19364	train_loss:	20.1867
+train.py 2019-04-11 02:20:00	Learn rate:	0.000129	period:	9	step:	19570	train_loss:	20.3133
+train.py 2019-04-11 02:21:40	Learn rate:	0.000129	period:	9	step:	19776	train_loss:	19.0860
+train.py 2019-04-11 02:23:25	Learn rate:	0.000129	period:	9	step:	19982	train_loss:	19.4808
+train.py 2019-04-11 02:25:09	Learn rate:	0.000129	period:	9	step:	20188	train_loss:	19.4802
+train.py 2019-04-11 02:26:50	Learn rate:	0.000128	period:	9	step:	20394	train_loss:	18.9577
+train.py 2019-04-11 02:28:36	Learn rate:	0.000128	period:	9	step:	20600	train_loss:	19.8940
+train.py 2019-04-11 02:30:27	Learn rate:	0.000128	period:	10	step:	20806	train_loss:	19.2215
+train.py 2019-04-11 02:32:12	Learn rate:	0.000128	period:	10	step:	21012	train_loss:	18.6394
+train.py 2019-04-11 02:33:57	Learn rate:	0.000128	period:	10	step:	21218	train_loss:	18.8920
+train.py 2019-04-11 02:35:40	Learn rate:	0.000128	period:	10	step:	21424	train_loss:	19.1130
+train.py 2019-04-11 02:37:24	Learn rate:	0.000128	period:	10	step:	21630	train_loss:	19.8887
+train.py 2019-04-11 02:39:05	Learn rate:	0.000128	period:	10	step:	21836	train_loss:	18.9148
+train.py 2019-04-11 02:40:48	Learn rate:	0.000127	period:	10	step:	22042	train_loss:	18.7106
+train.py 2019-04-11 02:42:32	Learn rate:	0.000127	period:	10	step:	22248	train_loss:	19.4446
+train.py 2019-04-11 02:44:18	Learn rate:	0.000127	period:	10	step:	22454	train_loss:	18.8696
+train.py 2019-04-11 02:46:02	Learn rate:	0.000127	period:	10	step:	22660	train_loss:	19.9912
+train.py 2019-04-11 02:47:49	Learn rate:	0.000127	period:	11	step:	22866	train_loss:	18.4837
+train.py 2019-04-11 02:49:29	Learn rate:	0.000127	period:	11	step:	23072	train_loss:	18.7148
+train.py 2019-04-11 02:51:12	Learn rate:	0.000127	period:	11	step:	23278	train_loss:	17.7682
+train.py 2019-04-11 02:53:01	Learn rate:	0.000126	period:	11	step:	23484	train_loss:	18.5369
+train.py 2019-04-11 02:54:52	Learn rate:	0.000126	period:	11	step:	23690	train_loss:	17.9259
+train.py 2019-04-11 02:56:50	Learn rate:	0.000126	period:	11	step:	23896	train_loss:	19.1344
+train.py 2019-04-11 02:58:48	Learn rate:	0.000126	period:	11	step:	24102	train_loss:	19.2944
+train.py 2019-04-11 03:00:52	Learn rate:	0.000126	period:	11	step:	24308	train_loss:	17.9491
+train.py 2019-04-11 03:02:50	Learn rate:	0.000126	period:	11	step:	24514	train_loss:	18.7344
+train.py 2019-04-11 03:04:54	Learn rate:	0.000126	period:	11	step:	24720	train_loss:	18.8524
+train.py 2019-04-11 03:06:52	Learn rate:	0.000125	period:	12	step:	24926	train_loss:	19.0662
+train.py 2019-04-11 03:08:36	Learn rate:	0.000125	period:	12	step:	25132	train_loss:	18.7866
+train.py 2019-04-11 03:10:19	Learn rate:	0.000125	period:	12	step:	25338	train_loss:	18.1507
+train.py 2019-04-11 03:12:02	Learn rate:	0.000125	period:	12	step:	25544	train_loss:	17.6726
+train.py 2019-04-11 03:13:47	Learn rate:	0.000125	period:	12	step:	25750	train_loss:	18.0526
+train.py 2019-04-11 03:15:31	Learn rate:	0.000125	period:	12	step:	25956	train_loss:	18.3494
+train.py 2019-04-11 03:17:15	Learn rate:	0.000124	period:	12	step:	26162	train_loss:	18.4168
+train.py 2019-04-11 03:19:08	Learn rate:	0.000124	period:	12	step:	26368	train_loss:	19.2866
+train.py 2019-04-11 03:20:58	Learn rate:	0.000124	period:	12	step:	26574	train_loss:	17.5425
+train.py 2019-04-11 03:22:50	Learn rate:	0.000124	period:	12	step:	26780	train_loss:	17.5095
+train.py 2019-04-11 03:24:51	Learn rate:	0.000124	period:	13	step:	26986	train_loss:	18.2339
+train.py 2019-04-11 03:26:41	Learn rate:	0.000124	period:	13	step:	27192	train_loss:	16.9270
+train.py 2019-04-11 03:28:34	Learn rate:	0.000124	period:	13	step:	27398	train_loss:	17.6787
+train.py 2019-04-11 03:30:31	Learn rate:	0.000123	period:	13	step:	27604	train_loss:	17.3787
+train.py 2019-04-11 03:32:16	Learn rate:	0.000123	period:	13	step:	27810	train_loss:	17.4096
+train.py 2019-04-11 03:33:57	Learn rate:	0.000123	period:	13	step:	28016	train_loss:	17.9354
+train.py 2019-04-11 03:35:41	Learn rate:	0.000123	period:	13	step:	28222	train_loss:	18.4859
+train.py 2019-04-11 03:37:24	Learn rate:	0.000123	period:	13	step:	28428	train_loss:	18.4255
+train.py 2019-04-11 03:39:09	Learn rate:	0.000122	period:	13	step:	28634	train_loss:	18.3059
+train.py 2019-04-11 03:40:55	Learn rate:	0.000122	period:	13	step:	28840	train_loss:	18.1078
+train.py 2019-04-11 03:42:43	Learn rate:	0.000122	period:	14	step:	29046	train_loss:	18.4820
+train.py 2019-04-11 03:44:24	Learn rate:	0.000122	period:	14	step:	29252	train_loss:	17.9602
+train.py 2019-04-11 03:46:09	Learn rate:	0.000122	period:	14	step:	29458	train_loss:	17.2049
+train.py 2019-04-11 03:47:54	Learn rate:	0.000122	period:	14	step:	29664	train_loss:	17.1539
+train.py 2019-04-11 03:49:52	Learn rate:	0.000121	period:	14	step:	29870	train_loss:	18.0533
+train.py 2019-04-11 03:51:46	Learn rate:	0.000121	period:	14	step:	30076	train_loss:	18.1731
+train.py 2019-04-11 03:53:43	Learn rate:	0.000121	period:	14	step:	30282	train_loss:	17.4951
+train.py 2019-04-11 03:55:42	Learn rate:	0.000121	period:	14	step:	30488	train_loss:	17.5823
+train.py 2019-04-11 03:57:41	Learn rate:	0.000121	period:	14	step:	30694	train_loss:	17.8212
+train.py 2019-04-11 03:59:35	Learn rate:	0.000120	period:	14	step:	30900	train_loss:	16.8422
+train.py 2019-04-11 04:01:23	Learn rate:	0.000120	period:	15	step:	31106	train_loss:	17.2172
+train.py 2019-04-11 04:03:18	Learn rate:	0.000120	period:	15	step:	31312	train_loss:	17.1999
+train.py 2019-04-11 04:05:16	Learn rate:	0.000120	period:	15	step:	31518	train_loss:	17.4306
+train.py 2019-04-11 04:07:10	Learn rate:	0.000120	period:	15	step:	31724	train_loss:	17.4437
+train.py 2019-04-11 04:09:06	Learn rate:	0.000119	period:	15	step:	31930	train_loss:	17.2331
+train.py 2019-04-11 04:11:02	Learn rate:	0.000119	period:	15	step:	32136	train_loss:	16.9850
+train.py 2019-04-11 04:12:50	Learn rate:	0.000119	period:	15	step:	32342	train_loss:	17.7235
+train.py 2019-04-11 04:14:33	Learn rate:	0.000119	period:	15	step:	32548	train_loss:	17.4518
+train.py 2019-04-11 04:16:13	Learn rate:	0.000119	period:	15	step:	32754	train_loss:	17.9033
+train.py 2019-04-11 04:18:02	Learn rate:	0.000118	period:	15	step:	32960	train_loss:	17.9373
+train.py 2019-04-11 04:19:50	Learn rate:	0.000118	period:	16	step:	33166	train_loss:	16.5812
+train.py 2019-04-11 04:21:37	Learn rate:	0.000118	period:	16	step:	33372	train_loss:	17.1550
+train.py 2019-04-11 04:23:25	Learn rate:	0.000118	period:	16	step:	33578	train_loss:	17.1210
+train.py 2019-04-11 04:25:12	Learn rate:	0.000118	period:	16	step:	33784	train_loss:	16.9378
+train.py 2019-04-11 04:27:08	Learn rate:	0.000117	period:	16	step:	33990	train_loss:	16.5290
+train.py 2019-04-11 04:29:04	Learn rate:	0.000117	period:	16	step:	34196	train_loss:	16.8664
+train.py 2019-04-11 04:30:59	Learn rate:	0.000117	period:	16	step:	34402	train_loss:	16.7743
+train.py 2019-04-11 04:33:01	Learn rate:	0.000117	period:	16	step:	34608	train_loss:	17.0644
+train.py 2019-04-11 04:34:55	Learn rate:	0.000117	period:	16	step:	34814	train_loss:	17.6006
+train.py 2019-04-11 04:36:52	Learn rate:	0.000116	period:	16	step:	35020	train_loss:	16.8588
+train.py 2019-04-11 04:38:44	Learn rate:	0.000116	period:	17	step:	35226	train_loss:	17.4193
+train.py 2019-04-11 04:40:29	Learn rate:	0.000116	period:	17	step:	35432	train_loss:	16.7551
+train.py 2019-04-11 04:42:20	Learn rate:	0.000116	period:	17	step:	35638	train_loss:	16.8047
+train.py 2019-04-11 04:44:04	Learn rate:	0.000115	period:	17	step:	35844	train_loss:	16.1842
+train.py 2019-04-11 04:45:51	Learn rate:	0.000115	period:	17	step:	36050	train_loss:	16.1574
+train.py 2019-04-11 04:47:35	Learn rate:	0.000115	period:	17	step:	36256	train_loss:	16.8196
+train.py 2019-04-11 04:49:22	Learn rate:	0.000115	period:	17	step:	36462	train_loss:	17.1648
+train.py 2019-04-11 04:51:06	Learn rate:	0.000115	period:	17	step:	36668	train_loss:	16.8453
+train.py 2019-04-11 04:52:48	Learn rate:	0.000114	period:	17	step:	36874	train_loss:	16.6212
+train.py 2019-04-11 04:54:34	Learn rate:	0.000114	period:	17	step:	37080	train_loss:	16.5245
+train.py 2019-04-11 04:56:18	Learn rate:	0.000114	period:	18	step:	37286	train_loss:	17.5825
+train.py 2019-04-11 04:58:01	Learn rate:	0.000114	period:	18	step:	37492	train_loss:	16.5797
+train.py 2019-04-11 04:59:49	Learn rate:	0.000113	period:	18	step:	37698	train_loss:	15.8315
+train.py 2019-04-11 05:01:29	Learn rate:	0.000113	period:	18	step:	37904	train_loss:	16.4342
+train.py 2019-04-11 05:03:15	Learn rate:	0.000113	period:	18	step:	38110	train_loss:	16.9669
+train.py 2019-04-11 05:04:56	Learn rate:	0.000113	period:	18	step:	38316	train_loss:	16.5926
+train.py 2019-04-11 05:06:40	Learn rate:	0.000112	period:	18	step:	38522	train_loss:	16.2159
+train.py 2019-04-11 05:08:25	Learn rate:	0.000112	period:	18	step:	38728	train_loss:	16.9768
+train.py 2019-04-11 05:10:12	Learn rate:	0.000112	period:	18	step:	38934	train_loss:	15.5340
+train.py 2019-04-11 05:12:04	Learn rate:	0.000112	period:	18	step:	39140	train_loss:	16.4838
+train.py 2019-04-11 05:13:51	Learn rate:	0.000112	period:	19	step:	39346	train_loss:	16.7409
+train.py 2019-04-11 05:15:33	Learn rate:	0.000111	period:	19	step:	39552	train_loss:	16.3905
+train.py 2019-04-11 05:17:15	Learn rate:	0.000111	period:	19	step:	39758	train_loss:	16.0678
+train.py 2019-04-11 05:19:00	Learn rate:	0.000111	period:	19	step:	39964	train_loss:	16.6377
+train.py 2019-04-11 05:20:47	Learn rate:	0.000111	period:	19	step:	40170	train_loss:	16.3538
+train.py 2019-04-11 05:22:33	Learn rate:	0.000110	period:	19	step:	40376	train_loss:	16.7572
+train.py 2019-04-11 05:24:25	Learn rate:	0.000110	period:	19	step:	40582	train_loss:	16.1363
+train.py 2019-04-11 05:26:11	Learn rate:	0.000110	period:	19	step:	40788	train_loss:	15.8979
+train.py 2019-04-11 05:27:56	Learn rate:	0.000110	period:	19	step:	40994	train_loss:	16.2567
+train.py 2019-04-11 05:29:37	Learn rate:	0.000109	period:	19	step:	41200	train_loss:	16.4238
+train.py 2019-04-11 05:31:29	Learn rate:	0.000109	period:	20	step:	41406	train_loss:	16.4621
+train.py 2019-04-11 05:33:26	Learn rate:	0.000109	period:	20	step:	41612	train_loss:	16.3505
+train.py 2019-04-11 05:35:25	Learn rate:	0.000109	period:	20	step:	41818	train_loss:	16.2646
+train.py 2019-04-11 05:37:20	Learn rate:	0.000108	period:	20	step:	42024	train_loss:	15.6703
+train.py 2019-04-11 05:39:16	Learn rate:	0.000108	period:	20	step:	42230	train_loss:	16.4104
+train.py 2019-04-11 05:41:07	Learn rate:	0.000108	period:	20	step:	42436	train_loss:	16.5802
+train.py 2019-04-11 05:42:54	Learn rate:	0.000108	period:	20	step:	42642	train_loss:	16.1331
+train.py 2019-04-11 05:44:42	Learn rate:	0.000107	period:	20	step:	42848	train_loss:	15.9916
+train.py 2019-04-11 05:46:25	Learn rate:	0.000107	period:	20	step:	43054	train_loss:	16.1679
+train.py 2019-04-11 05:48:08	Learn rate:	0.000107	period:	20	step:	43260	train_loss:	15.8912
+train.py 2019-04-11 05:49:55	Learn rate:	0.000107	period:	21	step:	43466	train_loss:	15.9214
+train.py 2019-04-11 05:51:40	Learn rate:	0.000106	period:	21	step:	43672	train_loss:	15.8317
+train.py 2019-04-11 05:53:21	Learn rate:	0.000106	period:	21	step:	43878	train_loss:	14.9266
+train.py 2019-04-11 05:55:05	Learn rate:	0.000106	period:	21	step:	44084	train_loss:	15.7135
+train.py 2019-04-11 05:56:49	Learn rate:	0.000105	period:	21	step:	44290	train_loss:	15.8835
+train.py 2019-04-11 05:58:31	Learn rate:	0.000105	period:	21	step:	44496	train_loss:	15.5049
+train.py 2019-04-11 06:00:13	Learn rate:	0.000105	period:	21	step:	44702	train_loss:	16.2359
+train.py 2019-04-11 06:01:59	Learn rate:	0.000105	period:	21	step:	44908	train_loss:	16.3269
+train.py 2019-04-11 06:03:51	Learn rate:	0.000104	period:	21	step:	45114	train_loss:	15.9911
+train.py 2019-04-11 06:05:36	Learn rate:	0.000104	period:	21	step:	45320	train_loss:	15.9284
+train.py 2019-04-11 06:12:52	AP for sheep = 0.7782
+train.py 2019-04-11 06:12:52	AP for horse = 0.8370
+train.py 2019-04-11 06:12:52	AP for bicycle = 0.7829
+train.py 2019-04-11 06:12:52	AP for aeroplane = 0.7734
+train.py 2019-04-11 06:12:52	AP for cow = 0.7395
+train.py 2019-04-11 06:12:52	AP for sofa = 0.6753
+train.py 2019-04-11 06:12:52	AP for bus = 0.7705
+train.py 2019-04-11 06:12:52	AP for dog = 0.8158
+train.py 2019-04-11 06:12:52	AP for cat = 0.8222
+train.py 2019-04-11 06:12:52	AP for person = 0.8110
+train.py 2019-04-11 06:12:52	AP for train = 0.7903
+train.py 2019-04-11 06:12:52	AP for diningtable = 0.7217
+train.py 2019-04-11 06:12:52	AP for bottle = 0.5934
+train.py 2019-04-11 06:12:52	AP for car = 0.8413
+train.py 2019-04-11 06:12:52	AP for pottedplant = 0.4364
+train.py 2019-04-11 06:12:52	AP for tvmonitor = 0.7272
+train.py 2019-04-11 06:12:52	AP for chair = 0.5285
+train.py 2019-04-11 06:12:52	AP for bird = 0.7055
+train.py 2019-04-11 06:12:52	AP for boat = 0.6092
+train.py 2019-04-11 06:12:52	AP for motorbike = 0.7867
+train.py 2019-04-11 06:12:52	mAP = 0.7273
+train.py 2019-04-11 06:12:54	Saved model:	weights/yolo.ckpt-21-0.7273
+train.py 2019-04-11 06:13:10	Learn rate:	0.000104	period:	22	step:	45526	train_loss:	15.3074
+train.py 2019-04-11 06:14:52	Learn rate:	0.000104	period:	22	step:	45732	train_loss:	15.1185
+train.py 2019-04-11 06:16:37	Learn rate:	0.000103	period:	22	step:	45938	train_loss:	16.0839
+train.py 2019-04-11 06:18:22	Learn rate:	0.000103	period:	22	step:	46144	train_loss:	15.9539
+train.py 2019-04-11 06:20:07	Learn rate:	0.000103	period:	22	step:	46350	train_loss:	16.0811
+train.py 2019-04-11 06:21:49	Learn rate:	0.000103	period:	22	step:	46556	train_loss:	15.6889
+train.py 2019-04-11 06:23:28	Learn rate:	0.000102	period:	22	step:	46762	train_loss:	14.6201
+train.py 2019-04-11 06:25:11	Learn rate:	0.000102	period:	22	step:	46968	train_loss:	16.7697
+train.py 2019-04-11 06:26:52	Learn rate:	0.000102	period:	22	step:	47174	train_loss:	16.1310
+train.py 2019-04-11 06:28:36	Learn rate:	0.000101	period:	22	step:	47380	train_loss:	15.7468
+train.py 2019-04-11 06:35:34	AP for sheep = 0.7729
+train.py 2019-04-11 06:35:34	AP for horse = 0.8532
+train.py 2019-04-11 06:35:34	AP for bicycle = 0.8293
+train.py 2019-04-11 06:35:34	AP for aeroplane = 0.7655
+train.py 2019-04-11 06:35:34	AP for cow = 0.8171
+train.py 2019-04-11 06:35:34	AP for sofa = 0.7023
+train.py 2019-04-11 06:35:34	AP for bus = 0.7727
+train.py 2019-04-11 06:35:34	AP for dog = 0.8076
+train.py 2019-04-11 06:35:34	AP for cat = 0.8313
+train.py 2019-04-11 06:35:34	AP for person = 0.8040
+train.py 2019-04-11 06:35:34	AP for train = 0.8231
+train.py 2019-04-11 06:35:34	AP for diningtable = 0.6851
+train.py 2019-04-11 06:35:34	AP for bottle = 0.5498
+train.py 2019-04-11 06:35:34	AP for car = 0.8637
+train.py 2019-04-11 06:35:34	AP for pottedplant = 0.4153
+train.py 2019-04-11 06:35:34	AP for tvmonitor = 0.7349
+train.py 2019-04-11 06:35:34	AP for chair = 0.4961
+train.py 2019-04-11 06:35:34	AP for bird = 0.7340
+train.py 2019-04-11 06:35:34	AP for boat = 0.6036
+train.py 2019-04-11 06:35:34	AP for motorbike = 0.7903
+train.py 2019-04-11 06:35:34	mAP = 0.7326
+train.py 2019-04-11 06:35:36	Saved model:	weights/yolo.ckpt-22-0.7326
+train.py 2019-04-11 06:35:48	Learn rate:	0.000101	period:	23	step:	47586	train_loss:	15.9323
+train.py 2019-04-11 06:37:32	Learn rate:	0.000101	period:	23	step:	47792	train_loss:	15.0626
+train.py 2019-04-11 06:39:11	Learn rate:	0.000101	period:	23	step:	47998	train_loss:	15.4875
+train.py 2019-04-11 06:40:54	Learn rate:	0.000100	period:	23	step:	48204	train_loss:	15.4999
+train.py 2019-04-11 06:42:42	Learn rate:	0.000100	period:	23	step:	48410	train_loss:	15.3171
+train.py 2019-04-11 06:44:26	Learn rate:	0.000100	period:	23	step:	48616	train_loss:	15.7464
+train.py 2019-04-11 06:46:09	Learn rate:	0.000099	period:	23	step:	48822	train_loss:	15.3405
+train.py 2019-04-11 06:47:55	Learn rate:	0.000099	period:	23	step:	49028	train_loss:	15.8630
+train.py 2019-04-11 06:49:37	Learn rate:	0.000099	period:	23	step:	49234	train_loss:	15.3832
+train.py 2019-04-11 06:51:21	Learn rate:	0.000099	period:	23	step:	49440	train_loss:	15.5054
+train.py 2019-04-11 06:59:27	AP for sheep = 0.7482
+train.py 2019-04-11 06:59:27	AP for horse = 0.8212
+train.py 2019-04-11 06:59:27	AP for bicycle = 0.8127
+train.py 2019-04-11 06:59:27	AP for aeroplane = 0.7763
+train.py 2019-04-11 06:59:27	AP for cow = 0.7601
+train.py 2019-04-11 06:59:27	AP for sofa = 0.6900
+train.py 2019-04-11 06:59:27	AP for bus = 0.8158
+train.py 2019-04-11 06:59:27	AP for dog = 0.7854
+train.py 2019-04-11 06:59:27	AP for cat = 0.8170
+train.py 2019-04-11 06:59:27	AP for person = 0.8078
+train.py 2019-04-11 06:59:27	AP for train = 0.8431
+train.py 2019-04-11 06:59:27	AP for diningtable = 0.7262
+train.py 2019-04-11 06:59:27	AP for bottle = 0.5854
+train.py 2019-04-11 06:59:27	AP for car = 0.8597
+train.py 2019-04-11 06:59:27	AP for pottedplant = 0.4242
+train.py 2019-04-11 06:59:27	AP for tvmonitor = 0.7667
+train.py 2019-04-11 06:59:27	AP for chair = 0.5277
+train.py 2019-04-11 06:59:27	AP for bird = 0.7087
+train.py 2019-04-11 06:59:27	AP for boat = 0.6002
+train.py 2019-04-11 06:59:27	AP for motorbike = 0.7869
+train.py 2019-04-11 06:59:27	mAP = 0.7332
+train.py 2019-04-11 06:59:30	Saved model:	weights/yolo.ckpt-23-0.7332
+train.py 2019-04-11 06:59:37	Learn rate:	0.000098	period:	24	step:	49646	train_loss:	16.1834
+train.py 2019-04-11 07:01:20	Learn rate:	0.000098	period:	24	step:	49852	train_loss:	15.7908
+train.py 2019-04-11 07:03:09	Learn rate:	0.000098	period:	24	step:	50058	train_loss:	15.5307
+train.py 2019-04-11 07:05:05	Learn rate:	0.000097	period:	24	step:	50264	train_loss:	15.3436
+train.py 2019-04-11 07:06:56	Learn rate:	0.000097	period:	24	step:	50470	train_loss:	14.3041
+train.py 2019-04-11 07:08:53	Learn rate:	0.000097	period:	24	step:	50676	train_loss:	15.5193
+train.py 2019-04-11 07:10:48	Learn rate:	0.000097	period:	24	step:	50882	train_loss:	15.4753
+train.py 2019-04-11 07:12:44	Learn rate:	0.000096	period:	24	step:	51088	train_loss:	15.6453
+train.py 2019-04-11 07:14:34	Learn rate:	0.000096	period:	24	step:	51294	train_loss:	14.8609
+train.py 2019-04-11 07:16:18	Learn rate:	0.000096	period:	24	step:	51500	train_loss:	15.6591
+train.py 2019-04-11 07:23:41	AP for sheep = 0.7678
+train.py 2019-04-11 07:23:41	AP for horse = 0.8275
+train.py 2019-04-11 07:23:41	AP for bicycle = 0.8105
+train.py 2019-04-11 07:23:41	AP for aeroplane = 0.7637
+train.py 2019-04-11 07:23:41	AP for cow = 0.7590
+train.py 2019-04-11 07:23:41	AP for sofa = 0.6863
+train.py 2019-04-11 07:23:41	AP for bus = 0.8072
+train.py 2019-04-11 07:23:41	AP for dog = 0.7622
+train.py 2019-04-11 07:23:41	AP for cat = 0.8063
+train.py 2019-04-11 07:23:41	AP for person = 0.8125
+train.py 2019-04-11 07:23:41	AP for train = 0.7963
+train.py 2019-04-11 07:23:41	AP for diningtable = 0.7251
+train.py 2019-04-11 07:23:41	AP for bottle = 0.6040
+train.py 2019-04-11 07:23:41	AP for car = 0.8643
+train.py 2019-04-11 07:23:41	AP for pottedplant = 0.4056
+train.py 2019-04-11 07:23:41	AP for tvmonitor = 0.7339
+train.py 2019-04-11 07:23:41	AP for chair = 0.5137
+train.py 2019-04-11 07:23:41	AP for bird = 0.7424
+train.py 2019-04-11 07:23:41	AP for boat = 0.6186
+train.py 2019-04-11 07:23:41	AP for motorbike = 0.8171
+train.py 2019-04-11 07:23:41	mAP = 0.7312
+train.py 2019-04-11 07:23:43	Saved model:	weights/yolo.ckpt-24-0.7312
+train.py 2019-04-11 07:23:48	Learn rate:	0.000095	period:	25	step:	51706	train_loss:	15.6844
+train.py 2019-04-11 07:25:33	Learn rate:	0.000095	period:	25	step:	51912	train_loss:	15.1830
+train.py 2019-04-11 07:27:17	Learn rate:	0.000095	period:	25	step:	52118	train_loss:	15.0304
+train.py 2019-04-11 07:29:01	Learn rate:	0.000095	period:	25	step:	52324	train_loss:	14.8326
+train.py 2019-04-11 07:30:44	Learn rate:	0.000094	period:	25	step:	52530	train_loss:	16.0526
+train.py 2019-04-11 07:32:27	Learn rate:	0.000094	period:	25	step:	52736	train_loss:	15.3844
+train.py 2019-04-11 07:34:06	Learn rate:	0.000094	period:	25	step:	52942	train_loss:	15.1469
+train.py 2019-04-11 07:35:48	Learn rate:	0.000093	period:	25	step:	53148	train_loss:	15.5847
+train.py 2019-04-11 07:37:33	Learn rate:	0.000093	period:	25	step:	53354	train_loss:	15.5704
+train.py 2019-04-11 07:39:15	Learn rate:	0.000093	period:	25	step:	53560	train_loss:	15.3674
+train.py 2019-04-11 07:40:59	Learn rate:	0.000092	period:	25	step:	53766	train_loss:	14.6831
+train.py 2019-04-11 07:46:31	AP for sheep = 0.7551
+train.py 2019-04-11 07:46:31	AP for horse = 0.8552
+train.py 2019-04-11 07:46:31	AP for bicycle = 0.8442
+train.py 2019-04-11 07:46:31	AP for aeroplane = 0.7584
+train.py 2019-04-11 07:46:31	AP for cow = 0.7633
+train.py 2019-04-11 07:46:31	AP for sofa = 0.6892
+train.py 2019-04-11 07:46:31	AP for bus = 0.7860
+train.py 2019-04-11 07:46:31	AP for dog = 0.8088
+train.py 2019-04-11 07:46:31	AP for cat = 0.8498
+train.py 2019-04-11 07:46:31	AP for person = 0.8092
+train.py 2019-04-11 07:46:31	AP for train = 0.7979
+train.py 2019-04-11 07:46:31	AP for diningtable = 0.7649
+train.py 2019-04-11 07:46:31	AP for bottle = 0.5645
+train.py 2019-04-11 07:46:31	AP for car = 0.8537
+train.py 2019-04-11 07:46:31	AP for pottedplant = 0.4566
+train.py 2019-04-11 07:46:31	AP for tvmonitor = 0.7481
+train.py 2019-04-11 07:46:31	AP for chair = 0.5273
+train.py 2019-04-11 07:46:31	AP for bird = 0.6989
+train.py 2019-04-11 07:46:31	AP for boat = 0.5982
+train.py 2019-04-11 07:46:31	AP for motorbike = 0.7725
+train.py 2019-04-11 07:46:31	mAP = 0.7351
+train.py 2019-04-11 07:46:33	Saved model:	weights/yolo.ckpt-25-0.7351
+train.py 2019-04-11 07:48:16	Learn rate:	0.000092	period:	26	step:	53972	train_loss:	14.8500
+train.py 2019-04-11 07:50:00	Learn rate:	0.000092	period:	26	step:	54178	train_loss:	15.0936
+train.py 2019-04-11 07:51:44	Learn rate:	0.000092	period:	26	step:	54384	train_loss:	14.9002
+train.py 2019-04-11 07:53:26	Learn rate:	0.000091	period:	26	step:	54590	train_loss:	15.4031
+train.py 2019-04-11 07:55:05	Learn rate:	0.000091	period:	26	step:	54796	train_loss:	15.2309
+train.py 2019-04-11 07:56:53	Learn rate:	0.000091	period:	26	step:	55002	train_loss:	14.7714
+train.py 2019-04-11 07:58:35	Learn rate:	0.000090	period:	26	step:	55208	train_loss:	14.7163
+train.py 2019-04-11 08:00:19	Learn rate:	0.000090	period:	26	step:	55414	train_loss:	14.7861
+train.py 2019-04-11 08:01:59	Learn rate:	0.000090	period:	26	step:	55620	train_loss:	14.8781
+train.py 2019-04-11 08:03:40	Learn rate:	0.000089	period:	26	step:	55826	train_loss:	14.6489
+train.py 2019-04-11 08:09:11	AP for sheep = 0.7622
+train.py 2019-04-11 08:09:11	AP for horse = 0.8529
+train.py 2019-04-11 08:09:11	AP for bicycle = 0.8532
+train.py 2019-04-11 08:09:11	AP for aeroplane = 0.7771
+train.py 2019-04-11 08:09:11	AP for cow = 0.7957
+train.py 2019-04-11 08:09:11	AP for sofa = 0.6779
+train.py 2019-04-11 08:09:11	AP for bus = 0.7920
+train.py 2019-04-11 08:09:11	AP for dog = 0.8031
+train.py 2019-04-11 08:09:11	AP for cat = 0.8282
+train.py 2019-04-11 08:09:11	AP for person = 0.8191
+train.py 2019-04-11 08:09:11	AP for train = 0.8305
+train.py 2019-04-11 08:09:11	AP for diningtable = 0.7276
+train.py 2019-04-11 08:09:11	AP for bottle = 0.5724
+train.py 2019-04-11 08:09:11	AP for car = 0.8624
+train.py 2019-04-11 08:09:11	AP for pottedplant = 0.4517
+train.py 2019-04-11 08:09:11	AP for tvmonitor = 0.7082
+train.py 2019-04-11 08:09:11	AP for chair = 0.5098
+train.py 2019-04-11 08:09:11	AP for bird = 0.7188
+train.py 2019-04-11 08:09:11	AP for boat = 0.6041
+train.py 2019-04-11 08:09:11	AP for motorbike = 0.8122
+train.py 2019-04-11 08:09:11	mAP = 0.7380
+train.py 2019-04-11 08:09:14	Saved model:	weights/yolo.ckpt-26-0.7380
+train.py 2019-04-11 08:10:50	Learn rate:	0.000089	period:	27	step:	56032	train_loss:	14.6331
+train.py 2019-04-11 08:12:37	Learn rate:	0.000089	period:	27	step:	56238	train_loss:	14.8618
+train.py 2019-04-11 08:14:22	Learn rate:	0.000089	period:	27	step:	56444	train_loss:	15.1567
+train.py 2019-04-11 08:16:06	Learn rate:	0.000088	period:	27	step:	56650	train_loss:	14.5861
+train.py 2019-04-11 08:17:47	Learn rate:	0.000088	period:	27	step:	56856	train_loss:	15.2122
+train.py 2019-04-11 08:19:28	Learn rate:	0.000088	period:	27	step:	57062	train_loss:	14.5048
+train.py 2019-04-11 08:21:08	Learn rate:	0.000087	period:	27	step:	57268	train_loss:	15.2447
+train.py 2019-04-11 08:22:53	Learn rate:	0.000087	period:	27	step:	57474	train_loss:	14.4829
+train.py 2019-04-11 08:24:38	Learn rate:	0.000087	period:	27	step:	57680	train_loss:	14.7880
+train.py 2019-04-11 08:26:20	Learn rate:	0.000086	period:	27	step:	57886	train_loss:	14.8672
+train.py 2019-04-11 08:32:13	AP for sheep = 0.7121
+train.py 2019-04-11 08:32:13	AP for horse = 0.8672
+train.py 2019-04-11 08:32:13	AP for bicycle = 0.8540
+train.py 2019-04-11 08:32:13	AP for aeroplane = 0.7975
+train.py 2019-04-11 08:32:13	AP for cow = 0.8056
+train.py 2019-04-11 08:32:13	AP for sofa = 0.6951
+train.py 2019-04-11 08:32:13	AP for bus = 0.8104
+train.py 2019-04-11 08:32:13	AP for dog = 0.8300
+train.py 2019-04-11 08:32:13	AP for cat = 0.8324
+train.py 2019-04-11 08:32:13	AP for person = 0.8203
+train.py 2019-04-11 08:32:13	AP for train = 0.8133
+train.py 2019-04-11 08:32:13	AP for diningtable = 0.7258
+train.py 2019-04-11 08:32:13	AP for bottle = 0.6000
+train.py 2019-04-11 08:32:13	AP for car = 0.8701
+train.py 2019-04-11 08:32:13	AP for pottedplant = 0.4698
+train.py 2019-04-11 08:32:13	AP for tvmonitor = 0.7457
+train.py 2019-04-11 08:32:13	AP for chair = 0.5636
+train.py 2019-04-11 08:32:13	AP for bird = 0.7238
+train.py 2019-04-11 08:32:13	AP for boat = 0.5873
+train.py 2019-04-11 08:32:13	AP for motorbike = 0.8316
+train.py 2019-04-11 08:32:13	mAP = 0.7478
+train.py 2019-04-11 08:32:15	Saved model:	weights/yolo.ckpt-27-0.7478
+train.py 2019-04-11 08:33:49	Learn rate:	0.000086	period:	28	step:	58092	train_loss:	14.1287
+train.py 2019-04-11 08:35:36	Learn rate:	0.000086	period:	28	step:	58298	train_loss:	14.1666
+train.py 2019-04-11 08:37:18	Learn rate:	0.000085	period:	28	step:	58504	train_loss:	13.9714
+train.py 2019-04-11 08:39:02	Learn rate:	0.000085	period:	28	step:	58710	train_loss:	14.8543
+train.py 2019-04-11 08:40:47	Learn rate:	0.000085	period:	28	step:	58916	train_loss:	15.2380
+train.py 2019-04-11 08:42:28	Learn rate:	0.000085	period:	28	step:	59122	train_loss:	15.2186
+train.py 2019-04-11 08:44:11	Learn rate:	0.000084	period:	28	step:	59328	train_loss:	14.9148
+train.py 2019-04-11 08:45:55	Learn rate:	0.000084	period:	28	step:	59534	train_loss:	14.7836
+train.py 2019-04-11 08:47:37	Learn rate:	0.000084	period:	28	step:	59740	train_loss:	14.4999
+train.py 2019-04-11 08:49:18	Learn rate:	0.000083	period:	28	step:	59946	train_loss:	14.9111
+train.py 2019-04-11 08:55:14	AP for sheep = 0.7874
+train.py 2019-04-11 08:55:14	AP for horse = 0.8523
+train.py 2019-04-11 08:55:14	AP for bicycle = 0.8308
+train.py 2019-04-11 08:55:14	AP for aeroplane = 0.7963
+train.py 2019-04-11 08:55:14	AP for cow = 0.7815
+train.py 2019-04-11 08:55:14	AP for sofa = 0.6842
+train.py 2019-04-11 08:55:14	AP for bus = 0.8085
+train.py 2019-04-11 08:55:14	AP for dog = 0.8018
+train.py 2019-04-11 08:55:14	AP for cat = 0.8296
+train.py 2019-04-11 08:55:14	AP for person = 0.8128
+train.py 2019-04-11 08:55:14	AP for train = 0.8118
+train.py 2019-04-11 08:55:14	AP for diningtable = 0.7179
+train.py 2019-04-11 08:55:14	AP for bottle = 0.5918
+train.py 2019-04-11 08:55:14	AP for car = 0.8659
+train.py 2019-04-11 08:55:14	AP for pottedplant = 0.4344
+train.py 2019-04-11 08:55:14	AP for tvmonitor = 0.7310
+train.py 2019-04-11 08:55:14	AP for chair = 0.5352
+train.py 2019-04-11 08:55:14	AP for bird = 0.7328
+train.py 2019-04-11 08:55:14	AP for boat = 0.5830
+train.py 2019-04-11 08:55:14	AP for motorbike = 0.8020
+train.py 2019-04-11 08:55:14	mAP = 0.7396
+train.py 2019-04-11 08:55:16	Saved model:	weights/yolo.ckpt-28-0.7396
+train.py 2019-04-11 08:56:41	Learn rate:	0.000083	period:	29	step:	60152	train_loss:	13.7024
+train.py 2019-04-11 08:58:23	Learn rate:	0.000083	period:	29	step:	60358	train_loss:	14.1023
+train.py 2019-04-11 09:00:00	Learn rate:	0.000082	period:	29	step:	60564	train_loss:	13.9469
+train.py 2019-04-11 09:01:51	Learn rate:	0.000082	period:	29	step:	60770	train_loss:	14.2282
+train.py 2019-04-11 09:03:37	Learn rate:	0.000082	period:	29	step:	60976	train_loss:	14.3496
+train.py 2019-04-11 09:05:25	Learn rate:	0.000081	period:	29	step:	61182	train_loss:	14.1706
+train.py 2019-04-11 09:07:11	Learn rate:	0.000081	period:	29	step:	61388	train_loss:	14.7404
+train.py 2019-04-11 09:08:59	Learn rate:	0.000081	period:	29	step:	61594	train_loss:	14.2902
+train.py 2019-04-11 09:10:43	Learn rate:	0.000080	period:	29	step:	61800	train_loss:	13.7168
+train.py 2019-04-11 09:12:24	Learn rate:	0.000080	period:	29	step:	62006	train_loss:	14.4179
+train.py 2019-04-11 09:18:21	AP for sheep = 0.7890
+train.py 2019-04-11 09:18:21	AP for horse = 0.8514
+train.py 2019-04-11 09:18:21	AP for bicycle = 0.8606
+train.py 2019-04-11 09:18:21	AP for aeroplane = 0.7453
+train.py 2019-04-11 09:18:21	AP for cow = 0.7759
+train.py 2019-04-11 09:18:21	AP for sofa = 0.6940
+train.py 2019-04-11 09:18:21	AP for bus = 0.8089
+train.py 2019-04-11 09:18:21	AP for dog = 0.8020
+train.py 2019-04-11 09:18:21	AP for cat = 0.8055
+train.py 2019-04-11 09:18:21	AP for person = 0.8102
+train.py 2019-04-11 09:18:21	AP for train = 0.8301
+train.py 2019-04-11 09:18:21	AP for diningtable = 0.7097
+train.py 2019-04-11 09:18:21	AP for bottle = 0.5887
+train.py 2019-04-11 09:18:21	AP for car = 0.8683
+train.py 2019-04-11 09:18:21	AP for pottedplant = 0.4573
+train.py 2019-04-11 09:18:21	AP for tvmonitor = 0.7547
+train.py 2019-04-11 09:18:21	AP for chair = 0.5361
+train.py 2019-04-11 09:18:21	AP for bird = 0.6909
+train.py 2019-04-11 09:18:21	AP for boat = 0.6240
+train.py 2019-04-11 09:18:21	AP for motorbike = 0.7946
+train.py 2019-04-11 09:18:21	mAP = 0.7399
+train.py 2019-04-11 09:18:23	Saved model:	weights/yolo.ckpt-29-0.7399
+train.py 2019-04-11 09:19:50	Learn rate:	0.000080	period:	30	step:	62212	train_loss:	15.4606
+train.py 2019-04-11 09:21:33	Learn rate:	0.000079	period:	30	step:	62418	train_loss:	14.2190
+train.py 2019-04-11 09:23:14	Learn rate:	0.000079	period:	30	step:	62624	train_loss:	14.1036
+train.py 2019-04-11 09:24:54	Learn rate:	0.000079	period:	30	step:	62830	train_loss:	13.6859
+train.py 2019-04-11 09:26:35	Learn rate:	0.000079	period:	30	step:	63036	train_loss:	14.1292
+train.py 2019-04-11 09:28:15	Learn rate:	0.000078	period:	30	step:	63242	train_loss:	14.1054
+train.py 2019-04-11 09:29:57	Learn rate:	0.000078	period:	30	step:	63448	train_loss:	14.3153
+train.py 2019-04-11 09:31:44	Learn rate:	0.000078	period:	30	step:	63654	train_loss:	14.7808
+train.py 2019-04-11 09:33:29	Learn rate:	0.000077	period:	30	step:	63860	train_loss:	14.3338
+train.py 2019-04-11 09:35:14	Learn rate:	0.000077	period:	30	step:	64066	train_loss:	14.4462
+train.py 2019-04-11 09:40:55	AP for sheep = 0.7268
+train.py 2019-04-11 09:40:55	AP for horse = 0.8242
+train.py 2019-04-11 09:40:55	AP for bicycle = 0.7440
+train.py 2019-04-11 09:40:55	AP for aeroplane = 0.7310
+train.py 2019-04-11 09:40:55	AP for cow = 0.6838
+train.py 2019-04-11 09:40:55	AP for sofa = 0.6534
+train.py 2019-04-11 09:40:55	AP for bus = 0.7275
+train.py 2019-04-11 09:40:55	AP for dog = 0.7543
+train.py 2019-04-11 09:40:55	AP for cat = 0.7878
+train.py 2019-04-11 09:40:55	AP for person = 0.7684
+train.py 2019-04-11 09:40:55	AP for train = 0.7623
+train.py 2019-04-11 09:40:55	AP for diningtable = 0.6791
+train.py 2019-04-11 09:40:55	AP for bottle = 0.5514
+train.py 2019-04-11 09:40:55	AP for car = 0.8058
+train.py 2019-04-11 09:40:55	AP for pottedplant = 0.4121
+train.py 2019-04-11 09:40:55	AP for tvmonitor = 0.6936
+train.py 2019-04-11 09:40:55	AP for chair = 0.4927
+train.py 2019-04-11 09:40:55	AP for bird = 0.6790
+train.py 2019-04-11 09:40:55	AP for boat = 0.5505
+train.py 2019-04-11 09:40:55	AP for motorbike = 0.7604
+train.py 2019-04-11 09:40:55	mAP = 0.6894
+train.py 2019-04-11 09:40:58	Saved model:	weights/yolo.ckpt-30-0.6894
+train.py 2019-04-11 09:42:17	Learn rate:	0.000077	period:	31	step:	64272	train_loss:	14.1954
+train.py 2019-04-11 09:44:01	Learn rate:	0.000076	period:	31	step:	64478	train_loss:	13.9768
+train.py 2019-04-11 09:45:43	Learn rate:	0.000076	period:	31	step:	64684	train_loss:	14.1708
+train.py 2019-04-11 09:47:27	Learn rate:	0.000076	period:	31	step:	64890	train_loss:	14.1398
+train.py 2019-04-11 09:49:13	Learn rate:	0.000075	period:	31	step:	65096	train_loss:	14.0703
+train.py 2019-04-11 09:50:59	Learn rate:	0.000075	period:	31	step:	65302	train_loss:	13.5187
+train.py 2019-04-11 09:52:44	Learn rate:	0.000075	period:	31	step:	65508	train_loss:	14.2257
+train.py 2019-04-11 09:54:32	Learn rate:	0.000074	period:	31	step:	65714	train_loss:	14.0607
+train.py 2019-04-11 09:56:16	Learn rate:	0.000074	period:	31	step:	65920	train_loss:	13.6195
+train.py 2019-04-11 09:57:57	Learn rate:	0.000074	period:	31	step:	66126	train_loss:	14.3938
+train.py 2019-04-11 10:04:16	AP for sheep = 0.7652
+train.py 2019-04-11 10:04:16	AP for horse = 0.8669
+train.py 2019-04-11 10:04:16	AP for bicycle = 0.8449
+train.py 2019-04-11 10:04:16	AP for aeroplane = 0.7888
+train.py 2019-04-11 10:04:16	AP for cow = 0.7725
+train.py 2019-04-11 10:04:16	AP for sofa = 0.6792
+train.py 2019-04-11 10:04:16	AP for bus = 0.7940
+train.py 2019-04-11 10:04:16	AP for dog = 0.8419
+train.py 2019-04-11 10:04:16	AP for cat = 0.8548
+train.py 2019-04-11 10:04:16	AP for person = 0.8217
+train.py 2019-04-11 10:04:16	AP for train = 0.8011
+train.py 2019-04-11 10:04:16	AP for diningtable = 0.7384
+train.py 2019-04-11 10:04:16	AP for bottle = 0.6208
+train.py 2019-04-11 10:04:16	AP for car = 0.8498
+train.py 2019-04-11 10:04:16	AP for pottedplant = 0.4993
+train.py 2019-04-11 10:04:16	AP for tvmonitor = 0.7532
+train.py 2019-04-11 10:04:16	AP for chair = 0.5435
+train.py 2019-04-11 10:04:16	AP for bird = 0.7259
+train.py 2019-04-11 10:04:16	AP for boat = 0.5697
+train.py 2019-04-11 10:04:16	AP for motorbike = 0.8144
+train.py 2019-04-11 10:04:16	mAP = 0.7473
+train.py 2019-04-11 10:04:18	Saved model:	weights/yolo.ckpt-31-0.7473
+train.py 2019-04-11 10:05:38	Learn rate:	0.000073	period:	32	step:	66332	train_loss:	13.6710
+train.py 2019-04-11 10:07:19	Learn rate:	0.000073	period:	32	step:	66538	train_loss:	13.9039
+train.py 2019-04-11 10:09:02	Learn rate:	0.000073	period:	32	step:	66744	train_loss:	13.9614
+train.py 2019-04-11 10:10:47	Learn rate:	0.000072	period:	32	step:	66950	train_loss:	14.1959
+train.py 2019-04-11 10:12:32	Learn rate:	0.000072	period:	32	step:	67156	train_loss:	13.7857
+train.py 2019-04-11 10:14:18	Learn rate:	0.000072	period:	32	step:	67362	train_loss:	14.4070
+train.py 2019-04-11 10:15:59	Learn rate:	0.000071	period:	32	step:	67568	train_loss:	13.1741
+train.py 2019-04-11 10:17:42	Learn rate:	0.000071	period:	32	step:	67774	train_loss:	13.8200
+train.py 2019-04-11 10:19:25	Learn rate:	0.000071	period:	32	step:	67980	train_loss:	14.1437
+train.py 2019-04-11 10:21:12	Learn rate:	0.000071	period:	32	step:	68186	train_loss:	13.9879
+train.py 2019-04-11 10:26:34	AP for sheep = 0.7560
+train.py 2019-04-11 10:26:34	AP for horse = 0.8866
+train.py 2019-04-11 10:26:34	AP for bicycle = 0.8466
+train.py 2019-04-11 10:26:34	AP for aeroplane = 0.8037
+train.py 2019-04-11 10:26:34	AP for cow = 0.7678
+train.py 2019-04-11 10:26:34	AP for sofa = 0.7262
+train.py 2019-04-11 10:26:34	AP for bus = 0.8119
+train.py 2019-04-11 10:26:34	AP for dog = 0.8291
+train.py 2019-04-11 10:26:34	AP for cat = 0.8307
+train.py 2019-04-11 10:26:34	AP for person = 0.8275
+train.py 2019-04-11 10:26:34	AP for train = 0.8352
+train.py 2019-04-11 10:26:34	AP for diningtable = 0.7366
+train.py 2019-04-11 10:26:34	AP for bottle = 0.6028
+train.py 2019-04-11 10:26:34	AP for car = 0.8678
+train.py 2019-04-11 10:26:34	AP for pottedplant = 0.4999
+train.py 2019-04-11 10:26:34	AP for tvmonitor = 0.7493
+train.py 2019-04-11 10:26:34	AP for chair = 0.5587
+train.py 2019-04-11 10:26:34	AP for bird = 0.7223
+train.py 2019-04-11 10:26:34	AP for boat = 0.6109
+train.py 2019-04-11 10:26:34	AP for motorbike = 0.8332
+train.py 2019-04-11 10:26:34	mAP = 0.7551
+train.py 2019-04-11 10:26:36	Saved model:	weights/yolo.ckpt-32-0.7551
+train.py 2019-04-11 10:27:49	Learn rate:	0.000070	period:	33	step:	68392	train_loss:	14.0650
+train.py 2019-04-11 10:29:31	Learn rate:	0.000070	period:	33	step:	68598	train_loss:	13.9488
+train.py 2019-04-11 10:31:14	Learn rate:	0.000070	period:	33	step:	68804	train_loss:	13.9796
+train.py 2019-04-11 10:32:59	Learn rate:	0.000069	period:	33	step:	69010	train_loss:	13.3240
+train.py 2019-04-11 10:34:45	Learn rate:	0.000069	period:	33	step:	69216	train_loss:	14.1426
+train.py 2019-04-11 10:36:30	Learn rate:	0.000069	period:	33	step:	69422	train_loss:	13.6583
+train.py 2019-04-11 10:38:17	Learn rate:	0.000068	period:	33	step:	69628	train_loss:	13.6286
+train.py 2019-04-11 10:39:59	Learn rate:	0.000068	period:	33	step:	69834	train_loss:	13.4476
+train.py 2019-04-11 10:41:45	Learn rate:	0.000068	period:	33	step:	70040	train_loss:	13.5197
+train.py 2019-04-11 10:43:29	Learn rate:	0.000067	period:	33	step:	70246	train_loss:	13.6549
+train.py 2019-04-11 10:50:05	AP for sheep = 0.7617
+train.py 2019-04-11 10:50:05	AP for horse = 0.8666
+train.py 2019-04-11 10:50:05	AP for bicycle = 0.8518
+train.py 2019-04-11 10:50:05	AP for aeroplane = 0.8029
+train.py 2019-04-11 10:50:05	AP for cow = 0.8126
+train.py 2019-04-11 10:50:05	AP for sofa = 0.7060
+train.py 2019-04-11 10:50:05	AP for bus = 0.8152
+train.py 2019-04-11 10:50:05	AP for dog = 0.8068
+train.py 2019-04-11 10:50:05	AP for cat = 0.8302
+train.py 2019-04-11 10:50:05	AP for person = 0.8199
+train.py 2019-04-11 10:50:05	AP for train = 0.8176
+train.py 2019-04-11 10:50:05	AP for diningtable = 0.7394
+train.py 2019-04-11 10:50:05	AP for bottle = 0.6110
+train.py 2019-04-11 10:50:05	AP for car = 0.8653
+train.py 2019-04-11 10:50:05	AP for pottedplant = 0.5046
+train.py 2019-04-11 10:50:05	AP for tvmonitor = 0.7672
+train.py 2019-04-11 10:50:05	AP for chair = 0.5593
+train.py 2019-04-11 10:50:05	AP for bird = 0.7260
+train.py 2019-04-11 10:50:05	AP for boat = 0.6052
+train.py 2019-04-11 10:50:05	AP for motorbike = 0.8255
+train.py 2019-04-11 10:50:05	mAP = 0.7547
+train.py 2019-04-11 10:50:08	Saved model:	weights/yolo.ckpt-33-0.7547
+train.py 2019-04-11 10:51:21	Learn rate:	0.000067	period:	34	step:	70452	train_loss:	13.7865
+train.py 2019-04-11 10:53:04	Learn rate:	0.000067	period:	34	step:	70658	train_loss:	13.5342
+train.py 2019-04-11 10:54:45	Learn rate:	0.000066	period:	34	step:	70864	train_loss:	14.0201
+train.py 2019-04-11 10:56:28	Learn rate:	0.000066	period:	34	step:	71070	train_loss:	13.4919
+train.py 2019-04-11 10:58:10	Learn rate:	0.000066	period:	34	step:	71276	train_loss:	13.9561
+train.py 2019-04-11 10:59:57	Learn rate:	0.000065	period:	34	step:	71482	train_loss:	13.1677
+train.py 2019-04-11 11:01:40	Learn rate:	0.000065	period:	34	step:	71688	train_loss:	13.4365
+train.py 2019-04-11 11:03:25	Learn rate:	0.000065	period:	34	step:	71894	train_loss:	13.4150
+train.py 2019-04-11 11:05:10	Learn rate:	0.000064	period:	34	step:	72100	train_loss:	14.1502
+train.py 2019-04-11 11:06:50	Learn rate:	0.000064	period:	34	step:	72306	train_loss:	14.0073
+train.py 2019-04-11 11:13:06	AP for sheep = 0.7979
+train.py 2019-04-11 11:13:06	AP for horse = 0.8659
+train.py 2019-04-11 11:13:06	AP for bicycle = 0.8318
+train.py 2019-04-11 11:13:06	AP for aeroplane = 0.8021
+train.py 2019-04-11 11:13:06	AP for cow = 0.7589
+train.py 2019-04-11 11:13:06	AP for sofa = 0.7203
+train.py 2019-04-11 11:13:06	AP for bus = 0.8050
+train.py 2019-04-11 11:13:06	AP for dog = 0.8384
+train.py 2019-04-11 11:13:06	AP for cat = 0.8520
+train.py 2019-04-11 11:13:06	AP for person = 0.8341
+train.py 2019-04-11 11:13:06	AP for train = 0.8150
+train.py 2019-04-11 11:13:06	AP for diningtable = 0.7562
+train.py 2019-04-11 11:13:06	AP for bottle = 0.5781
+train.py 2019-04-11 11:13:06	AP for car = 0.8684
+train.py 2019-04-11 11:13:06	AP for pottedplant = 0.4764
+train.py 2019-04-11 11:13:06	AP for tvmonitor = 0.7688
+train.py 2019-04-11 11:13:06	AP for chair = 0.5593
+train.py 2019-04-11 11:13:06	AP for bird = 0.7079
+train.py 2019-04-11 11:13:06	AP for boat = 0.6088
+train.py 2019-04-11 11:13:06	AP for motorbike = 0.8339
+train.py 2019-04-11 11:13:06	mAP = 0.7540
+train.py 2019-04-11 11:13:09	Saved model:	weights/yolo.ckpt-34-0.7540
+train.py 2019-04-11 11:14:16	Learn rate:	0.000064	period:	35	step:	72512	train_loss:	13.4906
+train.py 2019-04-11 11:15:56	Learn rate:	0.000063	period:	35	step:	72718	train_loss:	13.2515
+train.py 2019-04-11 11:17:40	Learn rate:	0.000063	period:	35	step:	72924	train_loss:	13.4065
+train.py 2019-04-11 11:19:20	Learn rate:	0.000063	period:	35	step:	73130	train_loss:	13.3782
+train.py 2019-04-11 11:21:04	Learn rate:	0.000062	period:	35	step:	73336	train_loss:	13.4073
+train.py 2019-04-11 11:22:49	Learn rate:	0.000062	period:	35	step:	73542	train_loss:	14.2556
+train.py 2019-04-11 11:24:26	Learn rate:	0.000062	period:	35	step:	73748	train_loss:	13.5612
+train.py 2019-04-11 11:26:13	Learn rate:	0.000061	period:	35	step:	73954	train_loss:	14.0981
+train.py 2019-04-11 11:27:51	Learn rate:	0.000061	period:	35	step:	74160	train_loss:	13.4376
+train.py 2019-04-11 11:29:33	Learn rate:	0.000061	period:	35	step:	74366	train_loss:	13.1815
+train.py 2019-04-11 11:36:23	AP for sheep = 0.7999
+train.py 2019-04-11 11:36:23	AP for horse = 0.8691
+train.py 2019-04-11 11:36:23	AP for bicycle = 0.8531
+train.py 2019-04-11 11:36:23	AP for aeroplane = 0.7897
+train.py 2019-04-11 11:36:23	AP for cow = 0.7961
+train.py 2019-04-11 11:36:23	AP for sofa = 0.7147
+train.py 2019-04-11 11:36:23	AP for bus = 0.8034
+train.py 2019-04-11 11:36:23	AP for dog = 0.8174
+train.py 2019-04-11 11:36:23	AP for cat = 0.8414
+train.py 2019-04-11 11:36:23	AP for person = 0.8307
+train.py 2019-04-11 11:36:23	AP for train = 0.8238
+train.py 2019-04-11 11:36:23	AP for diningtable = 0.7289
+train.py 2019-04-11 11:36:23	AP for bottle = 0.5851
+train.py 2019-04-11 11:36:23	AP for car = 0.8690
+train.py 2019-04-11 11:36:23	AP for pottedplant = 0.4812
+train.py 2019-04-11 11:36:23	AP for tvmonitor = 0.7684
+train.py 2019-04-11 11:36:23	AP for chair = 0.5591
+train.py 2019-04-11 11:36:23	AP for bird = 0.7345
+train.py 2019-04-11 11:36:23	AP for boat = 0.6174
+train.py 2019-04-11 11:36:23	AP for motorbike = 0.8339
+train.py 2019-04-11 11:36:23	mAP = 0.7558
+train.py 2019-04-11 11:36:25	Saved model:	weights/yolo.ckpt-35-0.7558
+train.py 2019-04-11 11:37:28	Learn rate:	0.000060	period:	36	step:	74572	train_loss:	13.0828
+train.py 2019-04-11 11:39:12	Learn rate:	0.000060	period:	36	step:	74778	train_loss:	13.4479
+train.py 2019-04-11 11:40:56	Learn rate:	0.000060	period:	36	step:	74984	train_loss:	13.6988
+train.py 2019-04-11 11:42:40	Learn rate:	0.000060	period:	36	step:	75190	train_loss:	13.2582
+train.py 2019-04-11 11:44:24	Learn rate:	0.000059	period:	36	step:	75396	train_loss:	13.2952
+train.py 2019-04-11 11:46:03	Learn rate:	0.000059	period:	36	step:	75602	train_loss:	12.6757
+train.py 2019-04-11 11:47:48	Learn rate:	0.000059	period:	36	step:	75808	train_loss:	13.6061
+train.py 2019-04-11 11:49:33	Learn rate:	0.000058	period:	36	step:	76014	train_loss:	13.6154
+train.py 2019-04-11 11:51:18	Learn rate:	0.000058	period:	36	step:	76220	train_loss:	13.2448
+train.py 2019-04-11 11:53:04	Learn rate:	0.000058	period:	36	step:	76426	train_loss:	13.8423
+train.py 2019-04-11 11:58:50	AP for sheep = 0.8299
+train.py 2019-04-11 11:58:50	AP for horse = 0.8737
+train.py 2019-04-11 11:58:50	AP for bicycle = 0.8604
+train.py 2019-04-11 11:58:50	AP for aeroplane = 0.7875
+train.py 2019-04-11 11:58:50	AP for cow = 0.8158
+train.py 2019-04-11 11:58:50	AP for sofa = 0.7216
+train.py 2019-04-11 11:58:50	AP for bus = 0.8118
+train.py 2019-04-11 11:58:50	AP for dog = 0.8118
+train.py 2019-04-11 11:58:50	AP for cat = 0.8643
+train.py 2019-04-11 11:58:50	AP for person = 0.8335
+train.py 2019-04-11 11:58:50	AP for train = 0.8200
+train.py 2019-04-11 11:58:50	AP for diningtable = 0.7371
+train.py 2019-04-11 11:58:50	AP for bottle = 0.5887
+train.py 2019-04-11 11:58:50	AP for car = 0.8680
+train.py 2019-04-11 11:58:50	AP for pottedplant = 0.4539
+train.py 2019-04-11 11:58:50	AP for tvmonitor = 0.7599
+train.py 2019-04-11 11:58:50	AP for chair = 0.5588
+train.py 2019-04-11 11:58:50	AP for bird = 0.7271
+train.py 2019-04-11 11:58:50	AP for boat = 0.6085
+train.py 2019-04-11 11:58:50	AP for motorbike = 0.8363
+train.py 2019-04-11 11:58:50	mAP = 0.7584
+train.py 2019-04-11 11:58:52	Saved model:	weights/yolo.ckpt-36-0.7584
+train.py 2019-04-11 11:59:51	Learn rate:	0.000057	period:	37	step:	76632	train_loss:	12.9476
+train.py 2019-04-12 12:01:29	Learn rate:	0.000057	period:	37	step:	76838	train_loss:	13.2499
+train.py 2019-04-12 12:03:14	Learn rate:	0.000057	period:	37	step:	77044	train_loss:	13.0924
+train.py 2019-04-12 12:04:57	Learn rate:	0.000056	period:	37	step:	77250	train_loss:	13.5843
+train.py 2019-04-12 12:06:42	Learn rate:	0.000056	period:	37	step:	77456	train_loss:	13.0451
+train.py 2019-04-12 12:08:25	Learn rate:	0.000056	period:	37	step:	77662	train_loss:	13.8680
+train.py 2019-04-12 12:10:03	Learn rate:	0.000055	period:	37	step:	77868	train_loss:	11.8435
+train.py 2019-04-12 12:11:45	Learn rate:	0.000055	period:	37	step:	78074	train_loss:	13.0754
+train.py 2019-04-12 12:13:29	Learn rate:	0.000055	period:	37	step:	78280	train_loss:	13.2179
+train.py 2019-04-12 12:15:12	Learn rate:	0.000054	period:	37	step:	78486	train_loss:	12.9324
+train.py 2019-04-12 12:21:43	AP for sheep = 0.8117
+train.py 2019-04-12 12:21:43	AP for horse = 0.8784
+train.py 2019-04-12 12:21:43	AP for bicycle = 0.8515
+train.py 2019-04-12 12:21:43	AP for aeroplane = 0.8235
+train.py 2019-04-12 12:21:43	AP for cow = 0.7725
+train.py 2019-04-12 12:21:43	AP for sofa = 0.6949
+train.py 2019-04-12 12:21:43	AP for bus = 0.7942
+train.py 2019-04-12 12:21:43	AP for dog = 0.8188
+train.py 2019-04-12 12:21:43	AP for cat = 0.8757
+train.py 2019-04-12 12:21:43	AP for person = 0.8275
+train.py 2019-04-12 12:21:43	AP for train = 0.8171
+train.py 2019-04-12 12:21:43	AP for diningtable = 0.7329
+train.py 2019-04-12 12:21:43	AP for bottle = 0.5988
+train.py 2019-04-12 12:21:43	AP for car = 0.8582
+train.py 2019-04-12 12:21:43	AP for pottedplant = 0.4744
+train.py 2019-04-12 12:21:43	AP for tvmonitor = 0.7455
+train.py 2019-04-12 12:21:43	AP for chair = 0.5389
+train.py 2019-04-12 12:21:43	AP for bird = 0.7421
+train.py 2019-04-12 12:21:43	AP for boat = 0.5863
+train.py 2019-04-12 12:21:43	AP for motorbike = 0.8409
+train.py 2019-04-12 12:21:43	mAP = 0.7542
+train.py 2019-04-12 12:21:46	Saved model:	weights/yolo.ckpt-37-0.7542
+train.py 2019-04-12 12:22:40	Learn rate:	0.000054	period:	38	step:	78692	train_loss:	13.5162
+train.py 2019-04-12 12:24:21	Learn rate:	0.000054	period:	38	step:	78898	train_loss:	12.7469
+train.py 2019-04-12 12:26:03	Learn rate:	0.000053	period:	38	step:	79104	train_loss:	12.5579
+train.py 2019-04-12 12:27:48	Learn rate:	0.000053	period:	38	step:	79310	train_loss:	13.7528
+train.py 2019-04-12 12:29:31	Learn rate:	0.000053	period:	38	step:	79516	train_loss:	12.7339
+train.py 2019-04-12 12:31:14	Learn rate:	0.000053	period:	38	step:	79722	train_loss:	13.6913
+train.py 2019-04-12 12:32:56	Learn rate:	0.000052	period:	38	step:	79928	train_loss:	13.5457
+train.py 2019-04-12 12:34:35	Learn rate:	0.000052	period:	38	step:	80134	train_loss:	13.5519
+train.py 2019-04-12 12:36:21	Learn rate:	0.000052	period:	38	step:	80340	train_loss:	13.2821
+train.py 2019-04-12 12:38:02	Learn rate:	0.000051	period:	38	step:	80546	train_loss:	13.2010
+train.py 2019-04-12 12:44:18	AP for sheep = 0.8154
+train.py 2019-04-12 12:44:18	AP for horse = 0.8738
+train.py 2019-04-12 12:44:18	AP for bicycle = 0.8680
+train.py 2019-04-12 12:44:18	AP for aeroplane = 0.8296
+train.py 2019-04-12 12:44:18	AP for cow = 0.7762
+train.py 2019-04-12 12:44:18	AP for sofa = 0.6844
+train.py 2019-04-12 12:44:18	AP for bus = 0.8316
+train.py 2019-04-12 12:44:18	AP for dog = 0.8126
+train.py 2019-04-12 12:44:18	AP for cat = 0.8807
+train.py 2019-04-12 12:44:18	AP for person = 0.8344
+train.py 2019-04-12 12:44:18	AP for train = 0.8332
+train.py 2019-04-12 12:44:18	AP for diningtable = 0.7349
+train.py 2019-04-12 12:44:18	AP for bottle = 0.6067
+train.py 2019-04-12 12:44:18	AP for car = 0.8662
+train.py 2019-04-12 12:44:18	AP for pottedplant = 0.4929
+train.py 2019-04-12 12:44:18	AP for tvmonitor = 0.7650
+train.py 2019-04-12 12:44:18	AP for chair = 0.5692
+train.py 2019-04-12 12:44:18	AP for bird = 0.7518
+train.py 2019-04-12 12:44:18	AP for boat = 0.5983
+train.py 2019-04-12 12:44:18	AP for motorbike = 0.8312
+train.py 2019-04-12 12:44:18	mAP = 0.7628
+train.py 2019-04-12 12:44:20	Saved model:	weights/yolo.ckpt-38-0.7628
+train.py 2019-04-12 12:45:14	Learn rate:	0.000051	period:	39	step:	80752	train_loss:	12.8943
+train.py 2019-04-12 12:47:01	Learn rate:	0.000051	period:	39	step:	80958	train_loss:	13.6237
+train.py 2019-04-12 12:48:46	Learn rate:	0.000050	period:	39	step:	81164	train_loss:	13.1266
+train.py 2019-04-12 12:50:26	Learn rate:	0.000050	period:	39	step:	81370	train_loss:	13.0183
+train.py 2019-04-12 12:52:07	Learn rate:	0.000050	period:	39	step:	81576	train_loss:	13.7025
+train.py 2019-04-12 12:53:55	Learn rate:	0.000049	period:	39	step:	81782	train_loss:	12.5484
+train.py 2019-04-12 12:55:39	Learn rate:	0.000049	period:	39	step:	81988	train_loss:	13.3872
+train.py 2019-04-12 12:57:21	Learn rate:	0.000049	period:	39	step:	82194	train_loss:	12.9234
+train.py 2019-04-12 12:59:07	Learn rate:	0.000048	period:	39	step:	82400	train_loss:	13.2475
+train.py 2019-04-12 01:00:53	Learn rate:	0.000048	period:	39	step:	82606	train_loss:	12.7203
+train.py 2019-04-12 01:07:01	AP for sheep = 0.7908
+train.py 2019-04-12 01:07:01	AP for horse = 0.8751
+train.py 2019-04-12 01:07:01	AP for bicycle = 0.8808
+train.py 2019-04-12 01:07:01	AP for aeroplane = 0.8027
+train.py 2019-04-12 01:07:01	AP for cow = 0.7985
+train.py 2019-04-12 01:07:01	AP for sofa = 0.7067
+train.py 2019-04-12 01:07:01	AP for bus = 0.8301
+train.py 2019-04-12 01:07:01	AP for dog = 0.8323
+train.py 2019-04-12 01:07:01	AP for cat = 0.8705
+train.py 2019-04-12 01:07:01	AP for person = 0.8350
+train.py 2019-04-12 01:07:01	AP for train = 0.8447
+train.py 2019-04-12 01:07:01	AP for diningtable = 0.7409
+train.py 2019-04-12 01:07:01	AP for bottle = 0.6030
+train.py 2019-04-12 01:07:01	AP for car = 0.8585
+train.py 2019-04-12 01:07:01	AP for pottedplant = 0.4679
+train.py 2019-04-12 01:07:01	AP for tvmonitor = 0.7668
+train.py 2019-04-12 01:07:01	AP for chair = 0.5778
+train.py 2019-04-12 01:07:01	AP for bird = 0.7509
+train.py 2019-04-12 01:07:01	AP for boat = 0.5990
+train.py 2019-04-12 01:07:01	AP for motorbike = 0.8331
+train.py 2019-04-12 01:07:01	mAP = 0.7633
+train.py 2019-04-12 01:07:03	Saved model:	weights/yolo.ckpt-39-0.7633
+train.py 2019-04-12 01:07:50	Learn rate:	0.000048	period:	40	step:	82812	train_loss:	13.2085
+train.py 2019-04-12 01:09:34	Learn rate:	0.000048	period:	40	step:	83018	train_loss:	12.8191
+train.py 2019-04-12 01:11:20	Learn rate:	0.000047	period:	40	step:	83224	train_loss:	13.0726
+train.py 2019-04-12 01:13:01	Learn rate:	0.000047	period:	40	step:	83430	train_loss:	12.4758
+train.py 2019-04-12 01:14:45	Learn rate:	0.000047	period:	40	step:	83636	train_loss:	12.7512
+train.py 2019-04-12 01:16:31	Learn rate:	0.000046	period:	40	step:	83842	train_loss:	13.4695
+train.py 2019-04-12 01:18:13	Learn rate:	0.000046	period:	40	step:	84048	train_loss:	12.5772
+train.py 2019-04-12 01:19:56	Learn rate:	0.000046	period:	40	step:	84254	train_loss:	13.2929
+train.py 2019-04-12 01:21:39	Learn rate:	0.000045	period:	40	step:	84460	train_loss:	13.3989
+train.py 2019-04-12 01:23:21	Learn rate:	0.000045	period:	40	step:	84666	train_loss:	12.6407
+train.py 2019-04-12 01:29:33	AP for sheep = 0.7964
+train.py 2019-04-12 01:29:33	AP for horse = 0.8770
+train.py 2019-04-12 01:29:33	AP for bicycle = 0.8607
+train.py 2019-04-12 01:29:33	AP for aeroplane = 0.8177
+train.py 2019-04-12 01:29:33	AP for cow = 0.8073
+train.py 2019-04-12 01:29:33	AP for sofa = 0.7251
+train.py 2019-04-12 01:29:33	AP for bus = 0.8249
+train.py 2019-04-12 01:29:33	AP for dog = 0.8335
+train.py 2019-04-12 01:29:33	AP for cat = 0.8766
+train.py 2019-04-12 01:29:33	AP for person = 0.8398
+train.py 2019-04-12 01:29:33	AP for train = 0.8506
+train.py 2019-04-12 01:29:33	AP for diningtable = 0.7275
+train.py 2019-04-12 01:29:33	AP for bottle = 0.5914
+train.py 2019-04-12 01:29:33	AP for car = 0.8708
+train.py 2019-04-12 01:29:33	AP for pottedplant = 0.5038
+train.py 2019-04-12 01:29:33	AP for tvmonitor = 0.7609
+train.py 2019-04-12 01:29:33	AP for chair = 0.5609
+train.py 2019-04-12 01:29:33	AP for bird = 0.7458
+train.py 2019-04-12 01:29:33	AP for boat = 0.5995
+train.py 2019-04-12 01:29:33	AP for motorbike = 0.8310
+train.py 2019-04-12 01:29:33	mAP = 0.7651
+train.py 2019-04-12 01:29:36	Saved model:	weights/yolo.ckpt-40-0.7651
+train.py 2019-04-12 01:30:19	Learn rate:	0.000045	period:	41	step:	84872	train_loss:	12.2863
+train.py 2019-04-12 01:32:04	Learn rate:	0.000044	period:	41	step:	85078	train_loss:	11.9237
+train.py 2019-04-12 01:33:42	Learn rate:	0.000044	period:	41	step:	85284	train_loss:	12.6496
+train.py 2019-04-12 01:35:28	Learn rate:	0.000044	period:	41	step:	85490	train_loss:	12.8508
+train.py 2019-04-12 01:37:09	Learn rate:	0.000044	period:	41	step:	85696	train_loss:	13.1803
+train.py 2019-04-12 01:38:48	Learn rate:	0.000043	period:	41	step:	85902	train_loss:	12.7081
+train.py 2019-04-12 01:40:35	Learn rate:	0.000043	period:	41	step:	86108	train_loss:	12.9096
+train.py 2019-04-12 01:42:16	Learn rate:	0.000043	period:	41	step:	86314	train_loss:	12.1982
+train.py 2019-04-12 01:43:58	Learn rate:	0.000042	period:	41	step:	86520	train_loss:	13.0621
+train.py 2019-04-12 01:45:41	Learn rate:	0.000042	period:	41	step:	86726	train_loss:	13.3588
+train.py 2019-04-12 01:51:53	AP for sheep = 0.8053
+train.py 2019-04-12 01:51:53	AP for horse = 0.8887
+train.py 2019-04-12 01:51:53	AP for bicycle = 0.8484
+train.py 2019-04-12 01:51:53	AP for aeroplane = 0.8457
+train.py 2019-04-12 01:51:53	AP for cow = 0.8090
+train.py 2019-04-12 01:51:53	AP for sofa = 0.7217
+train.py 2019-04-12 01:51:53	AP for bus = 0.8345
+train.py 2019-04-12 01:51:53	AP for dog = 0.8276
+train.py 2019-04-12 01:51:53	AP for cat = 0.8696
+train.py 2019-04-12 01:51:53	AP for person = 0.8435
+train.py 2019-04-12 01:51:53	AP for train = 0.8592
+train.py 2019-04-12 01:51:53	AP for diningtable = 0.7314
+train.py 2019-04-12 01:51:53	AP for bottle = 0.6077
+train.py 2019-04-12 01:51:53	AP for car = 0.8778
+train.py 2019-04-12 01:51:53	AP for pottedplant = 0.4951
+train.py 2019-04-12 01:51:53	AP for tvmonitor = 0.7594
+train.py 2019-04-12 01:51:53	AP for chair = 0.5730
+train.py 2019-04-12 01:51:53	AP for bird = 0.7662
+train.py 2019-04-12 01:51:53	AP for boat = 0.6225
+train.py 2019-04-12 01:51:53	AP for motorbike = 0.8465
+train.py 2019-04-12 01:51:53	mAP = 0.7716
+train.py 2019-04-12 01:51:55	Saved model:	weights/yolo.ckpt-41-0.7716
+train.py 2019-04-12 01:52:34	Learn rate:	0.000042	period:	42	step:	86932	train_loss:	12.5609
+train.py 2019-04-12 01:54:16	Learn rate:	0.000041	period:	42	step:	87138	train_loss:	12.4097
+train.py 2019-04-12 01:56:01	Learn rate:	0.000041	period:	42	step:	87344	train_loss:	12.0965
+train.py 2019-04-12 01:57:44	Learn rate:	0.000041	period:	42	step:	87550	train_loss:	12.5897
+train.py 2019-04-12 01:59:26	Learn rate:	0.000041	period:	42	step:	87756	train_loss:	12.2460
+train.py 2019-04-12 02:01:12	Learn rate:	0.000040	period:	42	step:	87962	train_loss:	12.2622
+train.py 2019-04-12 02:02:56	Learn rate:	0.000040	period:	42	step:	88168	train_loss:	12.8411
+train.py 2019-04-12 02:04:35	Learn rate:	0.000040	period:	42	step:	88374	train_loss:	13.0177
+train.py 2019-04-12 02:06:17	Learn rate:	0.000039	period:	42	step:	88580	train_loss:	12.7862
+train.py 2019-04-12 02:07:57	Learn rate:	0.000039	period:	42	step:	88786	train_loss:	12.6462
+train.py 2019-04-12 02:14:21	AP for sheep = 0.8083
+train.py 2019-04-12 02:14:21	AP for horse = 0.8781
+train.py 2019-04-12 02:14:21	AP for bicycle = 0.8562
+train.py 2019-04-12 02:14:21	AP for aeroplane = 0.8382
+train.py 2019-04-12 02:14:21	AP for cow = 0.7869
+train.py 2019-04-12 02:14:21	AP for sofa = 0.7072
+train.py 2019-04-12 02:14:21	AP for bus = 0.8273
+train.py 2019-04-12 02:14:21	AP for dog = 0.8205
+train.py 2019-04-12 02:14:21	AP for cat = 0.8664
+train.py 2019-04-12 02:14:21	AP for person = 0.8362
+train.py 2019-04-12 02:14:21	AP for train = 0.8530
+train.py 2019-04-12 02:14:21	AP for diningtable = 0.7211
+train.py 2019-04-12 02:14:21	AP for bottle = 0.6163
+train.py 2019-04-12 02:14:21	AP for car = 0.8772
+train.py 2019-04-12 02:14:21	AP for pottedplant = 0.5059
+train.py 2019-04-12 02:14:21	AP for tvmonitor = 0.7815
+train.py 2019-04-12 02:14:21	AP for chair = 0.5568
+train.py 2019-04-12 02:14:21	AP for bird = 0.7694
+train.py 2019-04-12 02:14:21	AP for boat = 0.6550
+train.py 2019-04-12 02:14:21	AP for motorbike = 0.8633
+train.py 2019-04-12 02:14:21	mAP = 0.7712
+train.py 2019-04-12 02:14:23	Saved model:	weights/yolo.ckpt-42-0.7712
+train.py 2019-04-12 02:14:55	Learn rate:	0.000039	period:	43	step:	88992	train_loss:	13.2057
+train.py 2019-04-12 02:16:38	Learn rate:	0.000038	period:	43	step:	89198	train_loss:	13.0252
+train.py 2019-04-12 02:18:21	Learn rate:	0.000038	period:	43	step:	89404	train_loss:	11.8926
+train.py 2019-04-12 02:20:06	Learn rate:	0.000038	period:	43	step:	89610	train_loss:	12.0967
+train.py 2019-04-12 02:21:46	Learn rate:	0.000038	period:	43	step:	89816	train_loss:	12.5219
+train.py 2019-04-12 02:23:25	Learn rate:	0.000037	period:	43	step:	90022	train_loss:	13.1055
+train.py 2019-04-12 02:25:03	Learn rate:	0.000037	period:	43	step:	90228	train_loss:	12.2192
+train.py 2019-04-12 02:26:48	Learn rate:	0.000037	period:	43	step:	90434	train_loss:	12.0261
+train.py 2019-04-12 02:28:31	Learn rate:	0.000036	period:	43	step:	90640	train_loss:	12.8150
+train.py 2019-04-12 02:30:16	Learn rate:	0.000036	period:	43	step:	90846	train_loss:	12.2059
+train.py 2019-04-12 02:36:44	AP for sheep = 0.8180
+train.py 2019-04-12 02:36:44	AP for horse = 0.8792
+train.py 2019-04-12 02:36:44	AP for bicycle = 0.8629
+train.py 2019-04-12 02:36:44	AP for aeroplane = 0.8304
+train.py 2019-04-12 02:36:44	AP for cow = 0.8043
+train.py 2019-04-12 02:36:44	AP for sofa = 0.6986
+train.py 2019-04-12 02:36:44	AP for bus = 0.8517
+train.py 2019-04-12 02:36:44	AP for dog = 0.8359
+train.py 2019-04-12 02:36:44	AP for cat = 0.8459
+train.py 2019-04-12 02:36:44	AP for person = 0.8321
+train.py 2019-04-12 02:36:44	AP for train = 0.8423
+train.py 2019-04-12 02:36:44	AP for diningtable = 0.7292
+train.py 2019-04-12 02:36:44	AP for bottle = 0.6315
+train.py 2019-04-12 02:36:44	AP for car = 0.8662
+train.py 2019-04-12 02:36:44	AP for pottedplant = 0.4744
+train.py 2019-04-12 02:36:44	AP for tvmonitor = 0.7647
+train.py 2019-04-12 02:36:44	AP for chair = 0.5560
+train.py 2019-04-12 02:36:44	AP for bird = 0.7650
+train.py 2019-04-12 02:36:44	AP for boat = 0.5995
+train.py 2019-04-12 02:36:44	AP for motorbike = 0.8331
+train.py 2019-04-12 02:36:44	mAP = 0.7660
+train.py 2019-04-12 02:36:47	Saved model:	weights/yolo.ckpt-43-0.7660
+train.py 2019-04-12 02:37:18	Learn rate:	0.000036	period:	44	step:	91052	train_loss:	12.8301
+train.py 2019-04-12 02:39:02	Learn rate:	0.000036	period:	44	step:	91258	train_loss:	13.0661
+train.py 2019-04-12 02:40:43	Learn rate:	0.000035	period:	44	step:	91464	train_loss:	12.8126
+train.py 2019-04-12 02:42:29	Learn rate:	0.000035	period:	44	step:	91670	train_loss:	12.0889
+train.py 2019-04-12 02:44:09	Learn rate:	0.000035	period:	44	step:	91876	train_loss:	12.2715
+train.py 2019-04-12 02:45:53	Learn rate:	0.000034	period:	44	step:	92082	train_loss:	12.2532
+train.py 2019-04-12 02:47:32	Learn rate:	0.000034	period:	44	step:	92288	train_loss:	12.9371
+train.py 2019-04-12 02:49:15	Learn rate:	0.000034	period:	44	step:	92494	train_loss:	12.5463
+train.py 2019-04-12 02:51:03	Learn rate:	0.000034	period:	44	step:	92700	train_loss:	12.9713
+train.py 2019-04-12 02:52:49	Learn rate:	0.000033	period:	44	step:	92906	train_loss:	12.4993
+train.py 2019-04-12 02:59:08	AP for sheep = 0.7982
+train.py 2019-04-12 02:59:08	AP for horse = 0.8823
+train.py 2019-04-12 02:59:08	AP for bicycle = 0.8607
+train.py 2019-04-12 02:59:08	AP for aeroplane = 0.8475
+train.py 2019-04-12 02:59:08	AP for cow = 0.8363
+train.py 2019-04-12 02:59:08	AP for sofa = 0.7105
+train.py 2019-04-12 02:59:08	AP for bus = 0.8305
+train.py 2019-04-12 02:59:08	AP for dog = 0.8406
+train.py 2019-04-12 02:59:08	AP for cat = 0.8657
+train.py 2019-04-12 02:59:08	AP for person = 0.8281
+train.py 2019-04-12 02:59:08	AP for train = 0.8410
+train.py 2019-04-12 02:59:08	AP for diningtable = 0.7467
+train.py 2019-04-12 02:59:08	AP for bottle = 0.5939
+train.py 2019-04-12 02:59:08	AP for car = 0.8658
+train.py 2019-04-12 02:59:08	AP for pottedplant = 0.5099
+train.py 2019-04-12 02:59:08	AP for tvmonitor = 0.7675
+train.py 2019-04-12 02:59:08	AP for chair = 0.5489
+train.py 2019-04-12 02:59:08	AP for bird = 0.7607
+train.py 2019-04-12 02:59:08	AP for boat = 0.6180
+train.py 2019-04-12 02:59:08	AP for motorbike = 0.8262
+train.py 2019-04-12 02:59:08	mAP = 0.7690
+train.py 2019-04-12 02:59:11	Saved model:	weights/yolo.ckpt-44-0.7690
+train.py 2019-04-12 02:59:35	Learn rate:	0.000033	period:	45	step:	93112	train_loss:	13.0011
+train.py 2019-04-12 03:01:20	Learn rate:	0.000033	period:	45	step:	93318	train_loss:	12.7172
+train.py 2019-04-12 03:03:04	Learn rate:	0.000033	period:	45	step:	93524	train_loss:	12.7794
+train.py 2019-04-12 03:04:47	Learn rate:	0.000032	period:	45	step:	93730	train_loss:	12.4971
+train.py 2019-04-12 03:06:30	Learn rate:	0.000032	period:	45	step:	93936	train_loss:	12.5492
+train.py 2019-04-12 03:08:13	Learn rate:	0.000032	period:	45	step:	94142	train_loss:	12.0701
+train.py 2019-04-12 03:09:56	Learn rate:	0.000031	period:	45	step:	94348	train_loss:	12.5884
+train.py 2019-04-12 03:11:39	Learn rate:	0.000031	period:	45	step:	94554	train_loss:	12.2122
+train.py 2019-04-12 03:13:21	Learn rate:	0.000031	period:	45	step:	94760	train_loss:	12.8269
+train.py 2019-04-12 03:15:03	Learn rate:	0.000031	period:	45	step:	94966	train_loss:	11.9927
+train.py 2019-04-12 03:21:19	AP for sheep = 0.7992
+train.py 2019-04-12 03:21:19	AP for horse = 0.8858
+train.py 2019-04-12 03:21:19	AP for bicycle = 0.8757
+train.py 2019-04-12 03:21:19	AP for aeroplane = 0.8473
+train.py 2019-04-12 03:21:19	AP for cow = 0.8148
+train.py 2019-04-12 03:21:19	AP for sofa = 0.7289
+train.py 2019-04-12 03:21:19	AP for bus = 0.8273
+train.py 2019-04-12 03:21:19	AP for dog = 0.8432
+train.py 2019-04-12 03:21:19	AP for cat = 0.8623
+train.py 2019-04-12 03:21:19	AP for person = 0.8367
+train.py 2019-04-12 03:21:19	AP for train = 0.8484
+train.py 2019-04-12 03:21:19	AP for diningtable = 0.7501
+train.py 2019-04-12 03:21:19	AP for bottle = 0.6086
+train.py 2019-04-12 03:21:19	AP for car = 0.8799
+train.py 2019-04-12 03:21:19	AP for pottedplant = 0.5138
+train.py 2019-04-12 03:21:19	AP for tvmonitor = 0.7745
+train.py 2019-04-12 03:21:19	AP for chair = 0.5563
+train.py 2019-04-12 03:21:19	AP for bird = 0.7552
+train.py 2019-04-12 03:21:19	AP for boat = 0.6168
+train.py 2019-04-12 03:21:19	AP for motorbike = 0.8278
+train.py 2019-04-12 03:21:19	mAP = 0.7726
+train.py 2019-04-12 03:21:21	Saved model:	weights/yolo.ckpt-45-0.7726
+train.py 2019-04-12 03:21:44	Learn rate:	0.000030	period:	46	step:	95172	train_loss:	12.7935
+train.py 2019-04-12 03:23:30	Learn rate:	0.000030	period:	46	step:	95378	train_loss:	11.4222
+train.py 2019-04-12 03:25:14	Learn rate:	0.000030	period:	46	step:	95584	train_loss:	12.7656
+train.py 2019-04-12 03:26:56	Learn rate:	0.000030	period:	46	step:	95790	train_loss:	12.4176
+train.py 2019-04-12 03:28:38	Learn rate:	0.000029	period:	46	step:	95996	train_loss:	12.0272
+train.py 2019-04-12 03:30:22	Learn rate:	0.000029	period:	46	step:	96202	train_loss:	11.8608
+train.py 2019-04-12 03:32:05	Learn rate:	0.000029	period:	46	step:	96408	train_loss:	12.5827
+train.py 2019-04-12 03:33:49	Learn rate:	0.000028	period:	46	step:	96614	train_loss:	12.5467
+train.py 2019-04-12 03:35:28	Learn rate:	0.000028	period:	46	step:	96820	train_loss:	12.8056
+train.py 2019-04-12 03:37:11	Learn rate:	0.000028	period:	46	step:	97026	train_loss:	12.3897
+train.py 2019-04-12 03:43:29	AP for sheep = 0.8025
+train.py 2019-04-12 03:43:29	AP for horse = 0.8890
+train.py 2019-04-12 03:43:29	AP for bicycle = 0.8528
+train.py 2019-04-12 03:43:29	AP for aeroplane = 0.8417
+train.py 2019-04-12 03:43:29	AP for cow = 0.8236
+train.py 2019-04-12 03:43:29	AP for sofa = 0.7291
+train.py 2019-04-12 03:43:29	AP for bus = 0.8245
+train.py 2019-04-12 03:43:29	AP for dog = 0.8594
+train.py 2019-04-12 03:43:29	AP for cat = 0.8694
+train.py 2019-04-12 03:43:29	AP for person = 0.8380
+train.py 2019-04-12 03:43:29	AP for train = 0.8399
+train.py 2019-04-12 03:43:29	AP for diningtable = 0.7650
+train.py 2019-04-12 03:43:29	AP for bottle = 0.6238
+train.py 2019-04-12 03:43:29	AP for car = 0.8786
+train.py 2019-04-12 03:43:29	AP for pottedplant = 0.4937
+train.py 2019-04-12 03:43:29	AP for tvmonitor = 0.7743
+train.py 2019-04-12 03:43:29	AP for chair = 0.5330
+train.py 2019-04-12 03:43:29	AP for bird = 0.7646
+train.py 2019-04-12 03:43:29	AP for boat = 0.6167
+train.py 2019-04-12 03:43:29	AP for motorbike = 0.8436
+train.py 2019-04-12 03:43:29	mAP = 0.7732
+train.py 2019-04-12 03:43:31	Saved model:	weights/yolo.ckpt-46-0.7732
+train.py 2019-04-12 03:43:49	Learn rate:	0.000028	period:	47	step:	97232	train_loss:	11.9784
+train.py 2019-04-12 03:45:34	Learn rate:	0.000027	period:	47	step:	97438	train_loss:	12.5285
+train.py 2019-04-12 03:47:17	Learn rate:	0.000027	period:	47	step:	97644	train_loss:	12.5204
+train.py 2019-04-12 03:48:59	Learn rate:	0.000027	period:	47	step:	97850	train_loss:	11.8039
+train.py 2019-04-12 03:50:41	Learn rate:	0.000027	period:	47	step:	98056	train_loss:	12.2462
+train.py 2019-04-12 03:52:21	Learn rate:	0.000026	period:	47	step:	98262	train_loss:	12.4161
+train.py 2019-04-12 03:54:00	Learn rate:	0.000026	period:	47	step:	98468	train_loss:	12.6143
+train.py 2019-04-12 03:55:41	Learn rate:	0.000026	period:	47	step:	98674	train_loss:	12.2134
+train.py 2019-04-12 03:57:24	Learn rate:	0.000026	period:	47	step:	98880	train_loss:	12.1724
+train.py 2019-04-12 03:59:03	Learn rate:	0.000025	period:	47	step:	99086	train_loss:	12.7444
+train.py 2019-04-12 04:05:24	AP for sheep = 0.8109
+train.py 2019-04-12 04:05:24	AP for horse = 0.8819
+train.py 2019-04-12 04:05:24	AP for bicycle = 0.8564
+train.py 2019-04-12 04:05:24	AP for aeroplane = 0.8329
+train.py 2019-04-12 04:05:24	AP for cow = 0.8096
+train.py 2019-04-12 04:05:24	AP for sofa = 0.7234
+train.py 2019-04-12 04:05:24	AP for bus = 0.8350
+train.py 2019-04-12 04:05:24	AP for dog = 0.8504
+train.py 2019-04-12 04:05:24	AP for cat = 0.8681
+train.py 2019-04-12 04:05:24	AP for person = 0.8314
+train.py 2019-04-12 04:05:24	AP for train = 0.8589
+train.py 2019-04-12 04:05:24	AP for diningtable = 0.7416
+train.py 2019-04-12 04:05:24	AP for bottle = 0.5809
+train.py 2019-04-12 04:05:24	AP for car = 0.8779
+train.py 2019-04-12 04:05:24	AP for pottedplant = 0.5036
+train.py 2019-04-12 04:05:24	AP for tvmonitor = 0.7714
+train.py 2019-04-12 04:05:24	AP for chair = 0.5340
+train.py 2019-04-12 04:05:24	AP for bird = 0.7573
+train.py 2019-04-12 04:05:24	AP for boat = 0.6083
+train.py 2019-04-12 04:05:24	AP for motorbike = 0.8367
+train.py 2019-04-12 04:05:24	mAP = 0.7685
+train.py 2019-04-12 04:05:26	Saved model:	weights/yolo.ckpt-47-0.7685
+train.py 2019-04-12 04:05:40	Learn rate:	0.000025	period:	48	step:	99292	train_loss:	11.6149
+train.py 2019-04-12 04:07:25	Learn rate:	0.000025	period:	48	step:	99498	train_loss:	11.7688
+train.py 2019-04-12 04:09:10	Learn rate:	0.000025	period:	48	step:	99704	train_loss:	11.6019
+train.py 2019-04-12 04:10:53	Learn rate:	0.000024	period:	48	step:	99910	train_loss:	12.1377
+train.py 2019-04-12 04:12:33	Learn rate:	0.000024	period:	48	step:	100116	train_loss:	12.5746
+train.py 2019-04-12 04:14:16	Learn rate:	0.000024	period:	48	step:	100322	train_loss:	11.7865
+train.py 2019-04-12 04:16:04	Learn rate:	0.000024	period:	48	step:	100528	train_loss:	12.1521
+train.py 2019-04-12 04:17:47	Learn rate:	0.000023	period:	48	step:	100734	train_loss:	12.1571
+train.py 2019-04-12 04:19:31	Learn rate:	0.000023	period:	48	step:	100940	train_loss:	12.4902
+train.py 2019-04-12 04:21:14	Learn rate:	0.000023	period:	48	step:	101146	train_loss:	11.9465
+train.py 2019-04-12 04:27:30	AP for sheep = 0.8301
+train.py 2019-04-12 04:27:30	AP for horse = 0.8922
+train.py 2019-04-12 04:27:30	AP for bicycle = 0.8511
+train.py 2019-04-12 04:27:30	AP for aeroplane = 0.8443
+train.py 2019-04-12 04:27:30	AP for cow = 0.8075
+train.py 2019-04-12 04:27:30	AP for sofa = 0.7177
+train.py 2019-04-12 04:27:30	AP for bus = 0.8345
+train.py 2019-04-12 04:27:30	AP for dog = 0.8561
+train.py 2019-04-12 04:27:30	AP for cat = 0.8794
+train.py 2019-04-12 04:27:30	AP for person = 0.8408
+train.py 2019-04-12 04:27:30	AP for train = 0.8437
+train.py 2019-04-12 04:27:30	AP for diningtable = 0.7387
+train.py 2019-04-12 04:27:30	AP for bottle = 0.6155
+train.py 2019-04-12 04:27:30	AP for car = 0.8821
+train.py 2019-04-12 04:27:30	AP for pottedplant = 0.5073
+train.py 2019-04-12 04:27:30	AP for tvmonitor = 0.7797
+train.py 2019-04-12 04:27:30	AP for chair = 0.5449
+train.py 2019-04-12 04:27:30	AP for bird = 0.7800
+train.py 2019-04-12 04:27:30	AP for boat = 0.6503
+train.py 2019-04-12 04:27:30	AP for motorbike = 0.8401
+train.py 2019-04-12 04:27:30	mAP = 0.7768
+train.py 2019-04-12 04:27:32	Saved model:	weights/yolo.ckpt-48-0.7768
+train.py 2019-04-12 04:27:44	Learn rate:	0.000023	period:	49	step:	101352	train_loss:	12.3948
+train.py 2019-04-12 04:29:27	Learn rate:	0.000022	period:	49	step:	101558	train_loss:	11.9908
+train.py 2019-04-12 04:31:14	Learn rate:	0.000022	period:	49	step:	101764	train_loss:	11.7708
+train.py 2019-04-12 04:32:54	Learn rate:	0.000022	period:	49	step:	101970	train_loss:	12.6077
+train.py 2019-04-12 04:34:38	Learn rate:	0.000022	period:	49	step:	102176	train_loss:	11.5810
+train.py 2019-04-12 04:36:17	Learn rate:	0.000022	period:	49	step:	102382	train_loss:	12.2695
+train.py 2019-04-12 04:37:55	Learn rate:	0.000021	period:	49	step:	102588	train_loss:	11.8682
+train.py 2019-04-12 04:39:37	Learn rate:	0.000021	period:	49	step:	102794	train_loss:	12.3256
+train.py 2019-04-12 04:41:15	Learn rate:	0.000021	period:	49	step:	103000	train_loss:	11.6300
+train.py 2019-04-12 04:42:54	Learn rate:	0.000021	period:	49	step:	103206	train_loss:	12.1739
+train.py 2019-04-12 04:49:16	AP for sheep = 0.8256
+train.py 2019-04-12 04:49:16	AP for horse = 0.8700
+train.py 2019-04-12 04:49:16	AP for bicycle = 0.8499
+train.py 2019-04-12 04:49:16	AP for aeroplane = 0.8536
+train.py 2019-04-12 04:49:16	AP for cow = 0.8288
+train.py 2019-04-12 04:49:16	AP for sofa = 0.7379
+train.py 2019-04-12 04:49:16	AP for bus = 0.8444
+train.py 2019-04-12 04:49:16	AP for dog = 0.8666
+train.py 2019-04-12 04:49:16	AP for cat = 0.8792
+train.py 2019-04-12 04:49:16	AP for person = 0.8422
+train.py 2019-04-12 04:49:16	AP for train = 0.8440
+train.py 2019-04-12 04:49:16	AP for diningtable = 0.7437
+train.py 2019-04-12 04:49:16	AP for bottle = 0.6098
+train.py 2019-04-12 04:49:16	AP for car = 0.8794
+train.py 2019-04-12 04:49:16	AP for pottedplant = 0.5161
+train.py 2019-04-12 04:49:16	AP for tvmonitor = 0.7879
+train.py 2019-04-12 04:49:16	AP for chair = 0.5451
+train.py 2019-04-12 04:49:16	AP for bird = 0.7883
+train.py 2019-04-12 04:49:16	AP for boat = 0.6389
+train.py 2019-04-12 04:49:16	AP for motorbike = 0.8385
+train.py 2019-04-12 04:49:16	mAP = 0.7795
+train.py 2019-04-12 04:49:18	Saved model:	weights/yolo.ckpt-49-0.7795
+train.py 2019-04-12 04:49:24	Learn rate:	0.000020	period:	50	step:	103412	train_loss:	11.8551
+train.py 2019-04-12 04:51:07	Learn rate:	0.000020	period:	50	step:	103618	train_loss:	11.9121
+train.py 2019-04-12 04:52:49	Learn rate:	0.000020	period:	50	step:	103824	train_loss:	11.9206
+train.py 2019-04-12 04:54:32	Learn rate:	0.000020	period:	50	step:	104030	train_loss:	12.0883
+train.py 2019-04-12 04:56:11	Learn rate:	0.000019	period:	50	step:	104236	train_loss:	12.4726
+train.py 2019-04-12 04:57:56	Learn rate:	0.000019	period:	50	step:	104442	train_loss:	12.3773
+train.py 2019-04-12 04:59:41	Learn rate:	0.000019	period:	50	step:	104648	train_loss:	11.6629
+train.py 2019-04-12 05:01:25	Learn rate:	0.000019	period:	50	step:	104854	train_loss:	11.9518
+train.py 2019-04-12 05:03:11	Learn rate:	0.000019	period:	50	step:	105060	train_loss:	11.4615
+train.py 2019-04-12 05:04:53	Learn rate:	0.000018	period:	50	step:	105266	train_loss:	12.0905
+train.py 2019-04-12 05:11:23	AP for sheep = 0.8222
+train.py 2019-04-12 05:11:23	AP for horse = 0.8938
+train.py 2019-04-12 05:11:23	AP for bicycle = 0.8599
+train.py 2019-04-12 05:11:23	AP for aeroplane = 0.8730
+train.py 2019-04-12 05:11:23	AP for cow = 0.8379
+train.py 2019-04-12 05:11:23	AP for sofa = 0.7383
+train.py 2019-04-12 05:11:23	AP for bus = 0.8442
+train.py 2019-04-12 05:11:23	AP for dog = 0.8420
+train.py 2019-04-12 05:11:23	AP for cat = 0.8767
+train.py 2019-04-12 05:11:23	AP for person = 0.8417
+train.py 2019-04-12 05:11:23	AP for train = 0.8483
+train.py 2019-04-12 05:11:23	AP for diningtable = 0.7541
+train.py 2019-04-12 05:11:23	AP for bottle = 0.6002
+train.py 2019-04-12 05:11:23	AP for car = 0.8842
+train.py 2019-04-12 05:11:23	AP for pottedplant = 0.5159
+train.py 2019-04-12 05:11:23	AP for tvmonitor = 0.7887
+train.py 2019-04-12 05:11:23	AP for chair = 0.5561
+train.py 2019-04-12 05:11:23	AP for bird = 0.7818
+train.py 2019-04-12 05:11:23	AP for boat = 0.6421
+train.py 2019-04-12 05:11:23	AP for motorbike = 0.8534
+train.py 2019-04-12 05:11:23	mAP = 0.7827
+train.py 2019-04-12 05:11:25	Saved model:	weights/yolo.ckpt-50-0.7827
+train.py 2019-04-12 05:11:28	Learn rate:	0.000018	period:	51	step:	105472	train_loss:	11.7206
+train.py 2019-04-12 05:13:11	Learn rate:	0.000018	period:	51	step:	105678	train_loss:	12.2532
+train.py 2019-04-12 05:14:54	Learn rate:	0.000018	period:	51	step:	105884	train_loss:	11.6597
+train.py 2019-04-12 05:16:35	Learn rate:	0.000017	period:	51	step:	106090	train_loss:	11.9096
+train.py 2019-04-12 05:18:19	Learn rate:	0.000017	period:	51	step:	106296	train_loss:	12.3280
+train.py 2019-04-12 05:20:07	Learn rate:	0.000017	period:	51	step:	106502	train_loss:	12.2361
+train.py 2019-04-12 05:21:46	Learn rate:	0.000017	period:	51	step:	106708	train_loss:	11.8208
+train.py 2019-04-12 05:23:27	Learn rate:	0.000017	period:	51	step:	106914	train_loss:	11.9974
+train.py 2019-04-12 05:25:03	Learn rate:	0.000016	period:	51	step:	107120	train_loss:	12.0782
+train.py 2019-04-12 05:26:45	Learn rate:	0.000016	period:	51	step:	107326	train_loss:	11.8222
+train.py 2019-04-12 05:28:25	Learn rate:	0.000016	period:	51	step:	107532	train_loss:	12.8797
+train.py 2019-04-12 05:33:39	AP for sheep = 0.8211
+train.py 2019-04-12 05:33:39	AP for horse = 0.8859
+train.py 2019-04-12 05:33:39	AP for bicycle = 0.8554
+train.py 2019-04-12 05:33:39	AP for aeroplane = 0.8285
+train.py 2019-04-12 05:33:39	AP for cow = 0.8232
+train.py 2019-04-12 05:33:39	AP for sofa = 0.7165
+train.py 2019-04-12 05:33:39	AP for bus = 0.8370
+train.py 2019-04-12 05:33:39	AP for dog = 0.8313
+train.py 2019-04-12 05:33:39	AP for cat = 0.8526
+train.py 2019-04-12 05:33:39	AP for person = 0.8361
+train.py 2019-04-12 05:33:39	AP for train = 0.8334
+train.py 2019-04-12 05:33:39	AP for diningtable = 0.7386
+train.py 2019-04-12 05:33:39	AP for bottle = 0.6189
+train.py 2019-04-12 05:33:39	AP for car = 0.8736
+train.py 2019-04-12 05:33:39	AP for pottedplant = 0.4575
+train.py 2019-04-12 05:33:39	AP for tvmonitor = 0.7805
+train.py 2019-04-12 05:33:39	AP for chair = 0.5634
+train.py 2019-04-12 05:33:39	AP for bird = 0.7669
+train.py 2019-04-12 05:33:39	AP for boat = 0.6151
+train.py 2019-04-12 05:33:39	AP for motorbike = 0.8266
+train.py 2019-04-12 05:33:39	mAP = 0.7681
+train.py 2019-04-12 05:33:42	Saved model:	weights/yolo.ckpt-51-0.7681
+train.py 2019-04-12 05:35:23	Learn rate:	0.000016	period:	52	step:	107738	train_loss:	11.8524
+train.py 2019-04-12 05:37:06	Learn rate:	0.000016	period:	52	step:	107944	train_loss:	11.7676
+train.py 2019-04-12 05:38:46	Learn rate:	0.000015	period:	52	step:	108150	train_loss:	11.5723
+train.py 2019-04-12 05:40:29	Learn rate:	0.000015	period:	52	step:	108356	train_loss:	11.5059
+train.py 2019-04-12 05:42:11	Learn rate:	0.000015	period:	52	step:	108562	train_loss:	12.1862
+train.py 2019-04-12 05:43:51	Learn rate:	0.000015	period:	52	step:	108768	train_loss:	11.9186
+train.py 2019-04-12 05:45:30	Learn rate:	0.000015	period:	52	step:	108974	train_loss:	11.6624
+train.py 2019-04-12 05:47:13	Learn rate:	0.000014	period:	52	step:	109180	train_loss:	12.2762
+train.py 2019-04-12 05:48:53	Learn rate:	0.000014	period:	52	step:	109386	train_loss:	11.6310
+train.py 2019-04-12 05:50:37	Learn rate:	0.000014	period:	52	step:	109592	train_loss:	12.2257
+train.py 2019-04-12 05:55:23	AP for sheep = 0.8429
+train.py 2019-04-12 05:55:23	AP for horse = 0.8791
+train.py 2019-04-12 05:55:23	AP for bicycle = 0.8674
+train.py 2019-04-12 05:55:23	AP for aeroplane = 0.8593
+train.py 2019-04-12 05:55:23	AP for cow = 0.8359
+train.py 2019-04-12 05:55:23	AP for sofa = 0.7398
+train.py 2019-04-12 05:55:23	AP for bus = 0.8601
+train.py 2019-04-12 05:55:23	AP for dog = 0.8681
+train.py 2019-04-12 05:55:23	AP for cat = 0.8808
+train.py 2019-04-12 05:55:23	AP for person = 0.8441
+train.py 2019-04-12 05:55:23	AP for train = 0.8562
+train.py 2019-04-12 05:55:23	AP for diningtable = 0.7551
+train.py 2019-04-12 05:55:23	AP for bottle = 0.6062
+train.py 2019-04-12 05:55:23	AP for car = 0.8817
+train.py 2019-04-12 05:55:23	AP for pottedplant = 0.5175
+train.py 2019-04-12 05:55:23	AP for tvmonitor = 0.7864
+train.py 2019-04-12 05:55:23	AP for chair = 0.5625
+train.py 2019-04-12 05:55:23	AP for bird = 0.7795
+train.py 2019-04-12 05:55:23	AP for boat = 0.6313
+train.py 2019-04-12 05:55:23	AP for motorbike = 0.8571
+train.py 2019-04-12 05:55:23	mAP = 0.7856
+train.py 2019-04-12 05:55:26	Saved model:	weights/yolo.ckpt-52-0.7856
+train.py 2019-04-12 05:57:05	Learn rate:	0.000014	period:	53	step:	109798	train_loss:	11.4422
+train.py 2019-04-12 05:58:49	Learn rate:	0.000014	period:	53	step:	110004	train_loss:	11.9112
+train.py 2019-04-12 06:00:33	Learn rate:	0.000013	period:	53	step:	110210	train_loss:	11.8793
+train.py 2019-04-12 06:02:12	Learn rate:	0.000013	period:	53	step:	110416	train_loss:	12.1254
+train.py 2019-04-12 06:03:55	Learn rate:	0.000013	period:	53	step:	110622	train_loss:	12.1580
+train.py 2019-04-12 06:05:37	Learn rate:	0.000013	period:	53	step:	110828	train_loss:	11.7916
+train.py 2019-04-12 06:07:19	Learn rate:	0.000013	period:	53	step:	111034	train_loss:	11.4857
+train.py 2019-04-12 06:09:00	Learn rate:	0.000013	period:	53	step:	111240	train_loss:	11.5492
+train.py 2019-04-12 06:10:47	Learn rate:	0.000012	period:	53	step:	111446	train_loss:	12.1179
+train.py 2019-04-12 06:12:30	Learn rate:	0.000012	period:	53	step:	111652	train_loss:	11.3796
+train.py 2019-04-12 06:17:26	AP for sheep = 0.8404
+train.py 2019-04-12 06:17:26	AP for horse = 0.8780
+train.py 2019-04-12 06:17:26	AP for bicycle = 0.8716
+train.py 2019-04-12 06:17:26	AP for aeroplane = 0.8458
+train.py 2019-04-12 06:17:26	AP for cow = 0.8215
+train.py 2019-04-12 06:17:26	AP for sofa = 0.7219
+train.py 2019-04-12 06:17:26	AP for bus = 0.8468
+train.py 2019-04-12 06:17:26	AP for dog = 0.8661
+train.py 2019-04-12 06:17:26	AP for cat = 0.8664
+train.py 2019-04-12 06:17:26	AP for person = 0.8416
+train.py 2019-04-12 06:17:26	AP for train = 0.8571
+train.py 2019-04-12 06:17:26	AP for diningtable = 0.7302
+train.py 2019-04-12 06:17:26	AP for bottle = 0.6121
+train.py 2019-04-12 06:17:26	AP for car = 0.8809
+train.py 2019-04-12 06:17:26	AP for pottedplant = 0.5076
+train.py 2019-04-12 06:17:26	AP for tvmonitor = 0.7837
+train.py 2019-04-12 06:17:26	AP for chair = 0.5724
+train.py 2019-04-12 06:17:26	AP for bird = 0.7900
+train.py 2019-04-12 06:17:26	AP for boat = 0.6342
+train.py 2019-04-12 06:17:26	AP for motorbike = 0.8298
+train.py 2019-04-12 06:17:26	mAP = 0.7799
+train.py 2019-04-12 06:17:29	Saved model:	weights/yolo.ckpt-53-0.7799
+train.py 2019-04-12 06:19:00	Learn rate:	0.000012	period:	54	step:	111858	train_loss:	11.5365
+train.py 2019-04-12 06:20:42	Learn rate:	0.000012	period:	54	step:	112064	train_loss:	11.6679
+train.py 2019-04-12 06:22:22	Learn rate:	0.000012	period:	54	step:	112270	train_loss:	11.9623
+train.py 2019-04-12 06:24:06	Learn rate:	0.000011	period:	54	step:	112476	train_loss:	11.3170
+train.py 2019-04-12 06:25:46	Learn rate:	0.000011	period:	54	step:	112682	train_loss:	12.2688
+train.py 2019-04-12 06:27:27	Learn rate:	0.000011	period:	54	step:	112888	train_loss:	11.7206
+train.py 2019-04-12 06:29:09	Learn rate:	0.000011	period:	54	step:	113094	train_loss:	11.8334
+train.py 2019-04-12 06:30:53	Learn rate:	0.000011	period:	54	step:	113300	train_loss:	11.3477
+train.py 2019-04-12 06:32:40	Learn rate:	0.000011	period:	54	step:	113506	train_loss:	11.9276
+train.py 2019-04-12 06:34:21	Learn rate:	0.000010	period:	54	step:	113712	train_loss:	11.7325
+train.py 2019-04-12 06:39:17	AP for sheep = 0.8360
+train.py 2019-04-12 06:39:17	AP for horse = 0.8938
+train.py 2019-04-12 06:39:17	AP for bicycle = 0.8747
+train.py 2019-04-12 06:39:17	AP for aeroplane = 0.8521
+train.py 2019-04-12 06:39:17	AP for cow = 0.8328
+train.py 2019-04-12 06:39:17	AP for sofa = 0.7361
+train.py 2019-04-12 06:39:17	AP for bus = 0.8431
+train.py 2019-04-12 06:39:17	AP for dog = 0.8643
+train.py 2019-04-12 06:39:17	AP for cat = 0.8810
+train.py 2019-04-12 06:39:17	AP for person = 0.8431
+train.py 2019-04-12 06:39:17	AP for train = 0.8516
+train.py 2019-04-12 06:39:17	AP for diningtable = 0.7333
+train.py 2019-04-12 06:39:17	AP for bottle = 0.5974
+train.py 2019-04-12 06:39:17	AP for car = 0.8797
+train.py 2019-04-12 06:39:17	AP for pottedplant = 0.5144
+train.py 2019-04-12 06:39:17	AP for tvmonitor = 0.7890
+train.py 2019-04-12 06:39:17	AP for chair = 0.5523
+train.py 2019-04-12 06:39:17	AP for bird = 0.7908
+train.py 2019-04-12 06:39:17	AP for boat = 0.6371
+train.py 2019-04-12 06:39:17	AP for motorbike = 0.8521
+train.py 2019-04-12 06:39:17	mAP = 0.7827
+train.py 2019-04-12 06:39:19	Saved model:	weights/yolo.ckpt-54-0.7827
+train.py 2019-04-12 06:40:49	Learn rate:	0.000010	period:	55	step:	113918	train_loss:	12.1580
+train.py 2019-04-12 06:42:30	Learn rate:	0.000010	period:	55	step:	114124	train_loss:	11.6373
+train.py 2019-04-12 06:44:14	Learn rate:	0.000010	period:	55	step:	114330	train_loss:	12.0017
+train.py 2019-04-12 06:45:57	Learn rate:	0.000010	period:	55	step:	114536	train_loss:	11.2758
+train.py 2019-04-12 06:47:40	Learn rate:	0.000010	period:	55	step:	114742	train_loss:	11.2857
+train.py 2019-04-12 06:49:24	Learn rate:	0.000009	period:	55	step:	114948	train_loss:	11.3994
+train.py 2019-04-12 06:51:07	Learn rate:	0.000009	period:	55	step:	115154	train_loss:	11.6383
+train.py 2019-04-12 06:52:51	Learn rate:	0.000009	period:	55	step:	115360	train_loss:	11.7400
+train.py 2019-04-12 06:54:34	Learn rate:	0.000009	period:	55	step:	115566	train_loss:	11.7504
+train.py 2019-04-12 06:56:15	Learn rate:	0.000009	period:	55	step:	115772	train_loss:	11.2628
+train.py 2019-04-12 07:01:11	AP for sheep = 0.8344
+train.py 2019-04-12 07:01:11	AP for horse = 0.8827
+train.py 2019-04-12 07:01:11	AP for bicycle = 0.8717
+train.py 2019-04-12 07:01:11	AP for aeroplane = 0.8610
+train.py 2019-04-12 07:01:11	AP for cow = 0.8485
+train.py 2019-04-12 07:01:11	AP for sofa = 0.7381
+train.py 2019-04-12 07:01:11	AP for bus = 0.8513
+train.py 2019-04-12 07:01:11	AP for dog = 0.8675
+train.py 2019-04-12 07:01:11	AP for cat = 0.8890
+train.py 2019-04-12 07:01:11	AP for person = 0.8412
+train.py 2019-04-12 07:01:11	AP for train = 0.8493
+train.py 2019-04-12 07:01:11	AP for diningtable = 0.7471
+train.py 2019-04-12 07:01:11	AP for bottle = 0.6058
+train.py 2019-04-12 07:01:11	AP for car = 0.8810
+train.py 2019-04-12 07:01:11	AP for pottedplant = 0.5145
+train.py 2019-04-12 07:01:11	AP for tvmonitor = 0.7951
+train.py 2019-04-12 07:01:11	AP for chair = 0.5594
+train.py 2019-04-12 07:01:11	AP for bird = 0.7841
+train.py 2019-04-12 07:01:11	AP for boat = 0.6367
+train.py 2019-04-12 07:01:11	AP for motorbike = 0.8452
+train.py 2019-04-12 07:01:11	mAP = 0.7852
+train.py 2019-04-12 07:01:14	Saved model:	weights/yolo.ckpt-55-0.7852
+train.py 2019-04-12 07:02:37	Learn rate:	0.000009	period:	56	step:	115978	train_loss:	11.8229
+train.py 2019-04-12 07:04:18	Learn rate:	0.000009	period:	56	step:	116184	train_loss:	11.7069
+train.py 2019-04-12 07:06:00	Learn rate:	0.000008	period:	56	step:	116390	train_loss:	12.0633
+train.py 2019-04-12 07:07:44	Learn rate:	0.000008	period:	56	step:	116596	train_loss:	11.5157
+train.py 2019-04-12 07:09:25	Learn rate:	0.000008	period:	56	step:	116802	train_loss:	12.4835
+train.py 2019-04-12 07:11:07	Learn rate:	0.000008	period:	56	step:	117008	train_loss:	12.0142
+train.py 2019-04-12 07:12:50	Learn rate:	0.000008	period:	56	step:	117214	train_loss:	11.8383
+train.py 2019-04-12 07:14:33	Learn rate:	0.000008	period:	56	step:	117420	train_loss:	11.2439
+train.py 2019-04-12 07:16:12	Learn rate:	0.000008	period:	56	step:	117626	train_loss:	11.4107
+train.py 2019-04-12 07:17:55	Learn rate:	0.000007	period:	56	step:	117832	train_loss:	12.0529
+train.py 2019-04-12 07:23:14	AP for sheep = 0.8345
+train.py 2019-04-12 07:23:14	AP for horse = 0.8901
+train.py 2019-04-12 07:23:14	AP for bicycle = 0.8465
+train.py 2019-04-12 07:23:14	AP for aeroplane = 0.8316
+train.py 2019-04-12 07:23:14	AP for cow = 0.8326
+train.py 2019-04-12 07:23:14	AP for sofa = 0.7166
+train.py 2019-04-12 07:23:14	AP for bus = 0.8362
+train.py 2019-04-12 07:23:14	AP for dog = 0.8446
+train.py 2019-04-12 07:23:14	AP for cat = 0.8794
+train.py 2019-04-12 07:23:14	AP for person = 0.8407
+train.py 2019-04-12 07:23:14	AP for train = 0.8350
+train.py 2019-04-12 07:23:14	AP for diningtable = 0.7061
+train.py 2019-04-12 07:23:14	AP for bottle = 0.5924
+train.py 2019-04-12 07:23:14	AP for car = 0.8766
+train.py 2019-04-12 07:23:14	AP for pottedplant = 0.4864
+train.py 2019-04-12 07:23:14	AP for tvmonitor = 0.7783
+train.py 2019-04-12 07:23:14	AP for chair = 0.5491
+train.py 2019-04-12 07:23:14	AP for bird = 0.7769
+train.py 2019-04-12 07:23:14	AP for boat = 0.6242
+train.py 2019-04-12 07:23:14	AP for motorbike = 0.8285
+train.py 2019-04-12 07:23:14	mAP = 0.7703
+train.py 2019-04-12 07:23:17	Saved model:	weights/yolo.ckpt-56-0.7703
+train.py 2019-04-12 07:24:33	Learn rate:	0.000007	period:	57	step:	118038	train_loss:	12.0687
+train.py 2019-04-12 07:26:16	Learn rate:	0.000007	period:	57	step:	118244	train_loss:	11.3399
+train.py 2019-04-12 07:28:00	Learn rate:	0.000007	period:	57	step:	118450	train_loss:	11.8067
+train.py 2019-04-12 07:29:44	Learn rate:	0.000007	period:	57	step:	118656	train_loss:	11.8416
+train.py 2019-04-12 07:31:23	Learn rate:	0.000007	period:	57	step:	118862	train_loss:	11.8942
+train.py 2019-04-12 07:33:13	Learn rate:	0.000007	period:	57	step:	119068	train_loss:	11.8555
+train.py 2019-04-12 07:34:55	Learn rate:	0.000006	period:	57	step:	119274	train_loss:	11.0068
+train.py 2019-04-12 07:36:38	Learn rate:	0.000006	period:	57	step:	119480	train_loss:	12.2104
+train.py 2019-04-12 07:38:21	Learn rate:	0.000006	period:	57	step:	119686	train_loss:	11.7192
+train.py 2019-04-12 07:40:05	Learn rate:	0.000006	period:	57	step:	119892	train_loss:	11.7283
+train.py 2019-04-12 07:45:19	AP for sheep = 0.8375
+train.py 2019-04-12 07:45:19	AP for horse = 0.8932
+train.py 2019-04-12 07:45:19	AP for bicycle = 0.8528
+train.py 2019-04-12 07:45:19	AP for aeroplane = 0.8604
+train.py 2019-04-12 07:45:19	AP for cow = 0.8457
+train.py 2019-04-12 07:45:19	AP for sofa = 0.7316
+train.py 2019-04-12 07:45:19	AP for bus = 0.8542
+train.py 2019-04-12 07:45:19	AP for dog = 0.8698
+train.py 2019-04-12 07:45:19	AP for cat = 0.8881
+train.py 2019-04-12 07:45:19	AP for person = 0.8479
+train.py 2019-04-12 07:45:19	AP for train = 0.8558
+train.py 2019-04-12 07:45:19	AP for diningtable = 0.7455
+train.py 2019-04-12 07:45:19	AP for bottle = 0.6140
+train.py 2019-04-12 07:45:19	AP for car = 0.8805
+train.py 2019-04-12 07:45:19	AP for pottedplant = 0.5096
+train.py 2019-04-12 07:45:19	AP for tvmonitor = 0.7854
+train.py 2019-04-12 07:45:19	AP for chair = 0.5650
+train.py 2019-04-12 07:45:19	AP for bird = 0.7960
+train.py 2019-04-12 07:45:19	AP for boat = 0.6427
+train.py 2019-04-12 07:45:19	AP for motorbike = 0.8366
+train.py 2019-04-12 07:45:19	mAP = 0.7856
+train.py 2019-04-12 07:45:22	Saved model:	weights/yolo.ckpt-57-0.7856
+train.py 2019-04-12 07:46:39	Learn rate:	0.000006	period:	58	step:	120098	train_loss:	11.4068
+train.py 2019-04-12 07:48:21	Learn rate:	0.000006	period:	58	step:	120304	train_loss:	12.0254
+train.py 2019-04-12 07:50:01	Learn rate:	0.000006	period:	58	step:	120510	train_loss:	11.9597
+train.py 2019-04-12 07:51:42	Learn rate:	0.000006	period:	58	step:	120716	train_loss:	11.9433
+train.py 2019-04-12 07:53:21	Learn rate:	0.000005	period:	58	step:	120922	train_loss:	11.2645
+train.py 2019-04-12 07:55:03	Learn rate:	0.000005	period:	58	step:	121128	train_loss:	11.1859
+train.py 2019-04-12 07:56:45	Learn rate:	0.000005	period:	58	step:	121334	train_loss:	11.3115
+train.py 2019-04-12 07:58:29	Learn rate:	0.000005	period:	58	step:	121540	train_loss:	11.3803
+train.py 2019-04-12 08:00:07	Learn rate:	0.000005	period:	58	step:	121746	train_loss:	11.6076
+train.py 2019-04-12 08:01:53	Learn rate:	0.000005	period:	58	step:	121952	train_loss:	11.7313
+train.py 2019-04-12 08:07:09	AP for sheep = 0.8410
+train.py 2019-04-12 08:07:09	AP for horse = 0.8862
+train.py 2019-04-12 08:07:09	AP for bicycle = 0.8629
+train.py 2019-04-12 08:07:09	AP for aeroplane = 0.8567
+train.py 2019-04-12 08:07:09	AP for cow = 0.8449
+train.py 2019-04-12 08:07:09	AP for sofa = 0.7229
+train.py 2019-04-12 08:07:09	AP for bus = 0.8488
+train.py 2019-04-12 08:07:09	AP for dog = 0.8589
+train.py 2019-04-12 08:07:09	AP for cat = 0.8846
+train.py 2019-04-12 08:07:09	AP for person = 0.8458
+train.py 2019-04-12 08:07:09	AP for train = 0.8537
+train.py 2019-04-12 08:07:09	AP for diningtable = 0.7365
+train.py 2019-04-12 08:07:09	AP for bottle = 0.6005
+train.py 2019-04-12 08:07:09	AP for car = 0.8834
+train.py 2019-04-12 08:07:09	AP for pottedplant = 0.5074
+train.py 2019-04-12 08:07:09	AP for tvmonitor = 0.7843
+train.py 2019-04-12 08:07:09	AP for chair = 0.5641
+train.py 2019-04-12 08:07:09	AP for bird = 0.7784
+train.py 2019-04-12 08:07:09	AP for boat = 0.6478
+train.py 2019-04-12 08:07:09	AP for motorbike = 0.8498
+train.py 2019-04-12 08:07:09	mAP = 0.7829
+train.py 2019-04-12 08:07:12	Saved model:	weights/yolo.ckpt-58-0.7829
+train.py 2019-04-12 08:08:24	Learn rate:	0.000005	period:	59	step:	122158	train_loss:	11.4053
+train.py 2019-04-12 08:10:09	Learn rate:	0.000005	period:	59	step:	122364	train_loss:	11.3739
+train.py 2019-04-12 08:11:51	Learn rate:	0.000005	period:	59	step:	122570	train_loss:	11.3942
+train.py 2019-04-12 08:13:31	Learn rate:	0.000004	period:	59	step:	122776	train_loss:	12.1863
+train.py 2019-04-12 08:15:11	Learn rate:	0.000004	period:	59	step:	122982	train_loss:	11.1139
+train.py 2019-04-12 08:16:49	Learn rate:	0.000004	period:	59	step:	123188	train_loss:	11.7885
+train.py 2019-04-12 08:18:32	Learn rate:	0.000004	period:	59	step:	123394	train_loss:	11.4938
+train.py 2019-04-12 08:20:14	Learn rate:	0.000004	period:	59	step:	123600	train_loss:	11.6514
+train.py 2019-04-12 08:21:58	Learn rate:	0.000004	period:	59	step:	123806	train_loss:	11.5641
+train.py 2019-04-12 08:23:39	Learn rate:	0.000004	period:	59	step:	124012	train_loss:	11.4472
+train.py 2019-04-12 08:28:54	AP for sheep = 0.8368
+train.py 2019-04-12 08:28:54	AP for horse = 0.8886
+train.py 2019-04-12 08:28:54	AP for bicycle = 0.8632
+train.py 2019-04-12 08:28:54	AP for aeroplane = 0.8550
+train.py 2019-04-12 08:28:54	AP for cow = 0.8383
+train.py 2019-04-12 08:28:54	AP for sofa = 0.7413
+train.py 2019-04-12 08:28:54	AP for bus = 0.8620
+train.py 2019-04-12 08:28:54	AP for dog = 0.8561
+train.py 2019-04-12 08:28:54	AP for cat = 0.8856
+train.py 2019-04-12 08:28:54	AP for person = 0.8488
+train.py 2019-04-12 08:28:54	AP for train = 0.8570
+train.py 2019-04-12 08:28:54	AP for diningtable = 0.7374
+train.py 2019-04-12 08:28:54	AP for bottle = 0.6100
+train.py 2019-04-12 08:28:54	AP for car = 0.8783
+train.py 2019-04-12 08:28:54	AP for pottedplant = 0.4991
+train.py 2019-04-12 08:28:54	AP for tvmonitor = 0.7846
+train.py 2019-04-12 08:28:54	AP for chair = 0.5743
+train.py 2019-04-12 08:28:54	AP for bird = 0.7814
+train.py 2019-04-12 08:28:54	AP for boat = 0.6523
+train.py 2019-04-12 08:28:54	AP for motorbike = 0.8493
+train.py 2019-04-12 08:28:54	mAP = 0.7850
+train.py 2019-04-12 08:28:56	Saved model:	weights/yolo.ckpt-59-0.7850
+train.py 2019-04-12 08:30:07	Learn rate:	0.000004	period:	60	step:	124218	train_loss:	11.3864
+train.py 2019-04-12 08:31:52	Learn rate:	0.000004	period:	60	step:	124424	train_loss:	11.7312
+train.py 2019-04-12 08:33:36	Learn rate:	0.000004	period:	60	step:	124630	train_loss:	12.0596
+train.py 2019-04-12 08:35:18	Learn rate:	0.000004	period:	60	step:	124836	train_loss:	11.3417
+train.py 2019-04-12 08:37:00	Learn rate:	0.000003	period:	60	step:	125042	train_loss:	11.3433
+train.py 2019-04-12 08:38:44	Learn rate:	0.000003	period:	60	step:	125248	train_loss:	11.2325
+train.py 2019-04-12 08:40:27	Learn rate:	0.000003	period:	60	step:	125454	train_loss:	11.7170
+train.py 2019-04-12 08:42:10	Learn rate:	0.000003	period:	60	step:	125660	train_loss:	11.3622
+train.py 2019-04-12 08:43:51	Learn rate:	0.000003	period:	60	step:	125866	train_loss:	11.5104
+train.py 2019-04-12 08:45:35	Learn rate:	0.000003	period:	60	step:	126072	train_loss:	11.5900
+train.py 2019-04-12 08:50:47	AP for sheep = 0.8388
+train.py 2019-04-12 08:50:47	AP for horse = 0.8968
+train.py 2019-04-12 08:50:47	AP for bicycle = 0.8763
+train.py 2019-04-12 08:50:47	AP for aeroplane = 0.8712
+train.py 2019-04-12 08:50:47	AP for cow = 0.8407
+train.py 2019-04-12 08:50:47	AP for sofa = 0.7480
+train.py 2019-04-12 08:50:47	AP for bus = 0.8578
+train.py 2019-04-12 08:50:47	AP for dog = 0.8698
+train.py 2019-04-12 08:50:47	AP for cat = 0.8962
+train.py 2019-04-12 08:50:47	AP for person = 0.8505
+train.py 2019-04-12 08:50:47	AP for train = 0.8522
+train.py 2019-04-12 08:50:47	AP for diningtable = 0.7453
+train.py 2019-04-12 08:50:47	AP for bottle = 0.6168
+train.py 2019-04-12 08:50:47	AP for car = 0.8851
+train.py 2019-04-12 08:50:47	AP for pottedplant = 0.5254
+train.py 2019-04-12 08:50:47	AP for tvmonitor = 0.7879
+train.py 2019-04-12 08:50:47	AP for chair = 0.5738
+train.py 2019-04-12 08:50:47	AP for bird = 0.7819
+train.py 2019-04-12 08:50:47	AP for boat = 0.6472
+train.py 2019-04-12 08:50:47	AP for motorbike = 0.8598
+train.py 2019-04-12 08:50:47	mAP = 0.7911
+train.py 2019-04-12 08:50:49	Saved model:	weights/yolo.ckpt-60-0.7911
+train.py 2019-04-12 08:51:52	Learn rate:	0.000003	period:	61	step:	126278	train_loss:	10.8780
+train.py 2019-04-12 08:53:34	Learn rate:	0.000003	period:	61	step:	126484	train_loss:	11.3012
+train.py 2019-04-12 08:55:15	Learn rate:	0.000003	period:	61	step:	126690	train_loss:	11.3072
+train.py 2019-04-12 08:57:03	Learn rate:	0.000003	period:	61	step:	126896	train_loss:	11.7765
+train.py 2019-04-12 08:58:47	Learn rate:	0.000003	period:	61	step:	127102	train_loss:	11.1251
+train.py 2019-04-12 09:00:29	Learn rate:	0.000003	period:	61	step:	127308	train_loss:	11.6927
+train.py 2019-04-12 09:02:10	Learn rate:	0.000002	period:	61	step:	127514	train_loss:	12.0401
+train.py 2019-04-12 09:03:54	Learn rate:	0.000002	period:	61	step:	127720	train_loss:	12.2363
+train.py 2019-04-12 09:05:42	Learn rate:	0.000002	period:	61	step:	127926	train_loss:	11.7090
+train.py 2019-04-12 09:07:26	Learn rate:	0.000002	period:	61	step:	128132	train_loss:	11.1150
+train.py 2019-04-12 09:12:48	AP for sheep = 0.8275
+train.py 2019-04-12 09:12:48	AP for horse = 0.8896
+train.py 2019-04-12 09:12:48	AP for bicycle = 0.8657
+train.py 2019-04-12 09:12:48	AP for aeroplane = 0.8686
+train.py 2019-04-12 09:12:48	AP for cow = 0.8455
+train.py 2019-04-12 09:12:48	AP for sofa = 0.7348
+train.py 2019-04-12 09:12:48	AP for bus = 0.8569
+train.py 2019-04-12 09:12:48	AP for dog = 0.8600
+train.py 2019-04-12 09:12:48	AP for cat = 0.8839
+train.py 2019-04-12 09:12:48	AP for person = 0.8488
+train.py 2019-04-12 09:12:48	AP for train = 0.8541
+train.py 2019-04-12 09:12:48	AP for diningtable = 0.7438
+train.py 2019-04-12 09:12:48	AP for bottle = 0.6159
+train.py 2019-04-12 09:12:48	AP for car = 0.8820
+train.py 2019-04-12 09:12:48	AP for pottedplant = 0.5180
+train.py 2019-04-12 09:12:48	AP for tvmonitor = 0.7763
+train.py 2019-04-12 09:12:48	AP for chair = 0.5713
+train.py 2019-04-12 09:12:48	AP for bird = 0.7918
+train.py 2019-04-12 09:12:48	AP for boat = 0.6412
+train.py 2019-04-12 09:12:48	AP for motorbike = 0.8499
+train.py 2019-04-12 09:12:48	mAP = 0.7863
+train.py 2019-04-12 09:12:50	Saved model:	weights/yolo.ckpt-61-0.7863
+train.py 2019-04-12 09:13:52	Learn rate:	0.000002	period:	62	step:	128338	train_loss:	11.3907
+train.py 2019-04-12 09:15:36	Learn rate:	0.000002	period:	62	step:	128544	train_loss:	11.5226
+train.py 2019-04-12 09:17:21	Learn rate:	0.000002	period:	62	step:	128750	train_loss:	11.4320
+train.py 2019-04-12 09:19:01	Learn rate:	0.000002	period:	62	step:	128956	train_loss:	11.0916
+train.py 2019-04-12 09:20:42	Learn rate:	0.000002	period:	62	step:	129162	train_loss:	11.4100
+train.py 2019-04-12 09:22:24	Learn rate:	0.000002	period:	62	step:	129368	train_loss:	11.4157
+train.py 2019-04-12 09:24:10	Learn rate:	0.000002	period:	62	step:	129574	train_loss:	11.4741
+train.py 2019-04-12 09:25:54	Learn rate:	0.000002	period:	62	step:	129780	train_loss:	11.4043
+train.py 2019-04-12 09:27:40	Learn rate:	0.000002	period:	62	step:	129986	train_loss:	11.3033
+train.py 2019-04-12 09:29:23	Learn rate:	0.000002	period:	62	step:	130192	train_loss:	12.2591
+train.py 2019-04-12 09:34:59	AP for sheep = 0.8272
+train.py 2019-04-12 09:34:59	AP for horse = 0.9020
+train.py 2019-04-12 09:34:59	AP for bicycle = 0.8705
+train.py 2019-04-12 09:34:59	AP for aeroplane = 0.8412
+train.py 2019-04-12 09:34:59	AP for cow = 0.8386
+train.py 2019-04-12 09:34:59	AP for sofa = 0.7247
+train.py 2019-04-12 09:34:59	AP for bus = 0.8474
+train.py 2019-04-12 09:34:59	AP for dog = 0.8594
+train.py 2019-04-12 09:34:59	AP for cat = 0.8722
+train.py 2019-04-12 09:34:59	AP for person = 0.8441
+train.py 2019-04-12 09:34:59	AP for train = 0.8533
+train.py 2019-04-12 09:34:59	AP for diningtable = 0.7355
+train.py 2019-04-12 09:34:59	AP for bottle = 0.6090
+train.py 2019-04-12 09:34:59	AP for car = 0.8813
+train.py 2019-04-12 09:34:59	AP for pottedplant = 0.4942
+train.py 2019-04-12 09:34:59	AP for tvmonitor = 0.7814
+train.py 2019-04-12 09:34:59	AP for chair = 0.5610
+train.py 2019-04-12 09:34:59	AP for bird = 0.7696
+train.py 2019-04-12 09:34:59	AP for boat = 0.6324
+train.py 2019-04-12 09:34:59	AP for motorbike = 0.8348
+train.py 2019-04-12 09:34:59	mAP = 0.7790
+train.py 2019-04-12 09:35:02	Saved model:	weights/yolo.ckpt-62-0.7790
+train.py 2019-04-12 09:35:57	Learn rate:	0.000002	period:	63	step:	130398	train_loss:	11.8340
+train.py 2019-04-12 09:37:34	Learn rate:	0.000002	period:	63	step:	130604	train_loss:	11.4342
+train.py 2019-04-12 09:39:16	Learn rate:	0.000002	period:	63	step:	130810	train_loss:	11.3696
+train.py 2019-04-12 09:41:01	Learn rate:	0.000002	period:	63	step:	131016	train_loss:	12.5597
+train.py 2019-04-12 09:42:44	Learn rate:	0.000002	period:	63	step:	131222	train_loss:	11.0256
+train.py 2019-04-12 09:44:30	Learn rate:	0.000001	period:	63	step:	131428	train_loss:	11.6734
+train.py 2019-04-12 09:46:11	Learn rate:	0.000001	period:	63	step:	131634	train_loss:	10.9158
+train.py 2019-04-12 09:47:51	Learn rate:	0.000001	period:	63	step:	131840	train_loss:	11.3001
+train.py 2019-04-12 09:49:36	Learn rate:	0.000001	period:	63	step:	132046	train_loss:	11.6563
+train.py 2019-04-12 09:51:19	Learn rate:	0.000001	period:	63	step:	132252	train_loss:	11.2762
+train.py 2019-04-12 09:56:50	AP for sheep = 0.8225
+train.py 2019-04-12 09:56:50	AP for horse = 0.8927
+train.py 2019-04-12 09:56:50	AP for bicycle = 0.8681
+train.py 2019-04-12 09:56:50	AP for aeroplane = 0.8483
+train.py 2019-04-12 09:56:50	AP for cow = 0.8378
+train.py 2019-04-12 09:56:50	AP for sofa = 0.7438
+train.py 2019-04-12 09:56:50	AP for bus = 0.8496
+train.py 2019-04-12 09:56:50	AP for dog = 0.8633
+train.py 2019-04-12 09:56:50	AP for cat = 0.8851
+train.py 2019-04-12 09:56:50	AP for person = 0.8467
+train.py 2019-04-12 09:56:50	AP for train = 0.8645
+train.py 2019-04-12 09:56:50	AP for diningtable = 0.7317
+train.py 2019-04-12 09:56:50	AP for bottle = 0.6103
+train.py 2019-04-12 09:56:50	AP for car = 0.8777
+train.py 2019-04-12 09:56:50	AP for pottedplant = 0.5054
+train.py 2019-04-12 09:56:50	AP for tvmonitor = 0.7844
+train.py 2019-04-12 09:56:50	AP for chair = 0.5634
+train.py 2019-04-12 09:56:50	AP for bird = 0.7793
+train.py 2019-04-12 09:56:50	AP for boat = 0.6426
+train.py 2019-04-12 09:56:50	AP for motorbike = 0.8470
+train.py 2019-04-12 09:56:50	mAP = 0.7832
+train.py 2019-04-12 09:56:52	Saved model:	weights/yolo.ckpt-63-0.7832
+train.py 2019-04-12 09:57:45	Learn rate:	0.000001	period:	64	step:	132458	train_loss:	11.5208
+train.py 2019-04-12 09:59:26	Learn rate:	0.000001	period:	64	step:	132664	train_loss:	11.6324
+train.py 2019-04-12 10:01:10	Learn rate:	0.000001	period:	64	step:	132870	train_loss:	12.1268
+train.py 2019-04-12 10:02:53	Learn rate:	0.000001	period:	64	step:	133076	train_loss:	11.3452
+train.py 2019-04-12 10:04:36	Learn rate:	0.000001	period:	64	step:	133282	train_loss:	11.2986
+train.py 2019-04-12 10:06:18	Learn rate:	0.000001	period:	64	step:	133488	train_loss:	11.1900
+train.py 2019-04-12 10:08:01	Learn rate:	0.000001	period:	64	step:	133694	train_loss:	11.8815
+train.py 2019-04-12 10:09:44	Learn rate:	0.000001	period:	64	step:	133900	train_loss:	12.0024
+train.py 2019-04-12 10:11:26	Learn rate:	0.000001	period:	64	step:	134106	train_loss:	11.0724
+train.py 2019-04-12 10:13:10	Learn rate:	0.000001	period:	64	step:	134312	train_loss:	11.0174
+train.py 2019-04-12 10:18:36	AP for sheep = 0.8400
+train.py 2019-04-12 10:18:36	AP for horse = 0.8959
+train.py 2019-04-12 10:18:36	AP for bicycle = 0.8687
+train.py 2019-04-12 10:18:36	AP for aeroplane = 0.8647
+train.py 2019-04-12 10:18:36	AP for cow = 0.8520
+train.py 2019-04-12 10:18:36	AP for sofa = 0.7411
+train.py 2019-04-12 10:18:36	AP for bus = 0.8410
+train.py 2019-04-12 10:18:36	AP for dog = 0.8659
+train.py 2019-04-12 10:18:36	AP for cat = 0.8867
+train.py 2019-04-12 10:18:36	AP for person = 0.8485
+train.py 2019-04-12 10:18:36	AP for train = 0.8474
+train.py 2019-04-12 10:18:36	AP for diningtable = 0.7467
+train.py 2019-04-12 10:18:36	AP for bottle = 0.6149
+train.py 2019-04-12 10:18:36	AP for car = 0.8867
+train.py 2019-04-12 10:18:36	AP for pottedplant = 0.5154
+train.py 2019-04-12 10:18:36	AP for tvmonitor = 0.7817
+train.py 2019-04-12 10:18:36	AP for chair = 0.5726
+train.py 2019-04-12 10:18:36	AP for bird = 0.7799
+train.py 2019-04-12 10:18:36	AP for boat = 0.6395
+train.py 2019-04-12 10:18:36	AP for motorbike = 0.8535
+train.py 2019-04-12 10:18:36	mAP = 0.7871
+train.py 2019-04-12 10:18:39	Saved model:	weights/yolo.ckpt-64-0.7871
+train.py 2019-04-12 10:19:28	Learn rate:	0.000001	period:	65	step:	134518	train_loss:	11.0324
+train.py 2019-04-12 10:21:14	Learn rate:	0.000001	period:	65	step:	134724	train_loss:	11.2755
+train.py 2019-04-12 10:22:56	Learn rate:	0.000001	period:	65	step:	134930	train_loss:	11.6397
+train.py 2019-04-12 10:24:38	Learn rate:	0.000001	period:	65	step:	135136	train_loss:	11.6426
+train.py 2019-04-12 10:26:24	Learn rate:	0.000001	period:	65	step:	135342	train_loss:	11.6062
+train.py 2019-04-12 10:28:11	Learn rate:	0.000001	period:	65	step:	135548	train_loss:	11.9285
+train.py 2019-04-12 10:29:49	Learn rate:	0.000001	period:	65	step:	135754	train_loss:	11.2637
+train.py 2019-04-12 10:31:32	Learn rate:	0.000001	period:	65	step:	135960	train_loss:	11.3482
+train.py 2019-04-12 10:33:15	Learn rate:	0.000001	period:	65	step:	136166	train_loss:	11.8372
+train.py 2019-04-12 10:34:57	Learn rate:	0.000001	period:	65	step:	136372	train_loss:	12.2224
+train.py 2019-04-12 10:40:23	AP for sheep = 0.8368
+train.py 2019-04-12 10:40:23	AP for horse = 0.8960
+train.py 2019-04-12 10:40:23	AP for bicycle = 0.8639
+train.py 2019-04-12 10:40:23	AP for aeroplane = 0.8647
+train.py 2019-04-12 10:40:23	AP for cow = 0.8467
+train.py 2019-04-12 10:40:23	AP for sofa = 0.7439
+train.py 2019-04-12 10:40:23	AP for bus = 0.8528
+train.py 2019-04-12 10:40:23	AP for dog = 0.8630
+train.py 2019-04-12 10:40:23	AP for cat = 0.8866
+train.py 2019-04-12 10:40:23	AP for person = 0.8510
+train.py 2019-04-12 10:40:23	AP for train = 0.8533
+train.py 2019-04-12 10:40:23	AP for diningtable = 0.7457
+train.py 2019-04-12 10:40:23	AP for bottle = 0.6148
+train.py 2019-04-12 10:40:23	AP for car = 0.8827
+train.py 2019-04-12 10:40:23	AP for pottedplant = 0.5193
+train.py 2019-04-12 10:40:23	AP for tvmonitor = 0.7827
+train.py 2019-04-12 10:40:23	AP for chair = 0.5698
+train.py 2019-04-12 10:40:23	AP for bird = 0.7724
+train.py 2019-04-12 10:40:23	AP for boat = 0.6378
+train.py 2019-04-12 10:40:23	AP for motorbike = 0.8490
+train.py 2019-04-12 10:40:23	mAP = 0.7866
+train.py 2019-04-12 10:40:26	Saved model:	weights/yolo.ckpt-65-0.7866
