@@ -21,8 +21,8 @@ SCORE_THRESHOLD = 0.01    # The threshold of the probability of the classes
 IOU_THRESHOLD = 0.45     # The threshold of the IOU when implement NMS
 
 # name and path
-DATASET_PATH = '/home/wz/doc/code/python_code/data/VOC'
-PROJECT_PATH = '/home/wz/doc/code/python_code/Stronger-yolo/v2'
+DATASET_PATH = '/home/xzh/doc/code/python_code/data/VOC'
+PROJECT_PATH = '/home/xzh/doc/code/python_code/Stronger-yolo/v2'
 ANNOT_DIR_PATH = 'data'
 WEIGHTS_DIR = 'weights'
 WEIGHTS_INIT = 'darknet2tf/saved_model/darknet53.ckpt'

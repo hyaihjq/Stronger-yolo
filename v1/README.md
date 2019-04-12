@@ -35,6 +35,7 @@ test score threshold: 0.01<br>
     |--stronger-yolo<br>
     |--|--v1<br>
     |--|--v2<br>
+    |--|--v3<br>
     |--data<br>
     |--|--VOC<br>
     |--|--|--2012_trainval<br>
