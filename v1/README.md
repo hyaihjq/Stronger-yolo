@@ -1,5 +1,6 @@
 ## Performance<br>
-test datasets: Pascal VOC 2007<br>
+train dataset: VOC 2012 + VOC 2007<br>
+test dataset: VOC 2007<br>
 test size: 544<br>
 test code: [mAP](https://github.com/Cartucho/mAP) (not use 07 metric)<br>
 test score threshold: 0.01<br>

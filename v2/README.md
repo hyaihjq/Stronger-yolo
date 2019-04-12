@@ -1,5 +1,6 @@
 ## Performance(Better performance than [Tencent's](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo) reimplementation)<br>
-test datasets: Pascal VOC 2007<br>
+train dataset: VOC 2012 + VOC 2007<br>
+test dataset: VOC 2007<br>
 test size: 544<br>
 test code: [Faster rcnn](https://github.com/rbgirshick/py-faster-rcnn/blob/master/lib/datasets/voc_eval.py) (not use 07 metric)<br>
 test score threshold: 0.01<br>

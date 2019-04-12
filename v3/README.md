@@ -1,4 +1,5 @@
 ## Performance<br>
+train dataset: VOC 2012 + VOC 2007<br>
 test size: 544<br>
 test code: [Faster rcnn](https://github.com/rbgirshick/py-faster-rcnn/blob/master/lib/datasets/voc_eval.py) (not use 07 metric)<br>
 test GPU: 12G 2080Ti<br>
