@@ -210,6 +210,11 @@ class Evaluator(object):
                      'postprocess (cpu)': 1.0 * self.__time_pos / num_images,
                      'nms (cpu)': 1.0 * self.__time_nms / num_images,
                      'detect a image (cpu + gpu)': 1.0 * self.__time_img / num_images}
+        self.__time_pre = 0
+        self.__time_inf = 0
+        self.__time_pos = 0
+        self.__time_nms = 0
+        self.__time_img = 0
         if year == 2007:
             return self.__APs_calc(), ave_times
         else:
