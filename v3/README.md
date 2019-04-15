@@ -9,7 +9,7 @@ test CPU: E5-2678 v3 @ 2.50GHz
    <tr><td>Network</td><td>VOC2007 Test(mAP)</td><td>Inference(GPU)</td><td>Inference(CPU)</td><td>Preprocess(CPU)</td><td>Postprocess(CPU)</td><td>NMS(CPU)</td><td>Params</td></tr>
    <tr><td>YOLOV3</td><td>83.3</td><td>30.0ms</td><td>255.8ms</td><td>5.7ms</td><td>6.9ms</td><td>10.0ms</td><td>248M</td></tr>
    <tr><td>YOLOV3-MobilenetV2</td><td>78.9</td><td>21.1ms</td><td>115.0ms</td><td>5.6ms</td><td>6.4ms</td><td>11.0ms</td><td>93.2M</td></tr>
-   <tr><td>YOLOV3-Lite</td><td>79.1</td><td>18.9ms</td><td>80.9ms</td><td>5.6ms</td><td>6.1ms</td><td>11.8ms</td><td>27.3M</td></tr>
+   <tr><td>YOLOV3-Lite</td><td>79.4</td><td>18.9ms</td><td>80.9ms</td><td>5.6ms</td><td>6.1ms</td><td>11.8ms</td><td>27.3M</td></tr>
 </table>
 
 ## To do

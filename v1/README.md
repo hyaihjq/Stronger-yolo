@@ -1,3 +1,4 @@
+# Initial with YOLOV3-608.weights
 ## Performance<br>
 train dataset: VOC 2012 + VOC 2007<br>
 test dataset: VOC 2007<br>
