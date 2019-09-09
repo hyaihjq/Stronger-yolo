@@ -9,3 +9,5 @@ test CPU: E5-2678 v3 @ 2.50GHz
    <tr><td>V2</td><td>YOLOV3</td><td>Darknet53</td><td>Darknet53_448.weights</td><td>83.3</td><td>30.0ms</td><td>255.8ms</td><td>248M</td></tr>
    <tr><td>V3</td><td>YOLOV3-Lite</td><td>MobilenetV2</td><td>MobilenetV2_1.0_224.ckpt</td><td>79.4</td><td>18.9ms</td><td>80.9ms</td><td>27.3M</td></tr>
 </table>
+
+There is also a [MNN Demo](https://github.com/wlguan/MNN-yolov3) for Verson V3. 
