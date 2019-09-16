@@ -14,7 +14,7 @@ test CPU: E5-2678 v3 @ 2.50GHz
 
 ## To do
 - [ ] Model compression<br>
-
+(See [MNN-yolov3](https://github.com/wlguan/MNN-yolov3) for model quantization 27M->7.7M with minor performance drop)<br>
 ## Usage
 1. clone YOLO_v3 repository
     ``` bash
