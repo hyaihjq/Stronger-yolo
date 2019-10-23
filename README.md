@@ -10,4 +10,5 @@ test CPU: E5-2678 v3 @ 2.50GHz
    <tr><td>V3</td><td>YOLOV3-Lite</td><td>MobilenetV2</td><td>MobilenetV2_1.0_224.ckpt</td><td>79.4</td><td>18.9ms</td><td>80.9ms</td><td>27.3M</td></tr>
 </table>
 
+Check [Strongeryolo-pytorch](https://github.com/wlguan/Stronger-yolo-pytorch) for **pytorch** version with channel-pruning.  
 There is also a [MNN Demo](https://github.com/wlguan/MNN-yolov3) for Verson V3. 
